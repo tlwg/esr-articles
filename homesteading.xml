@@ -20,7 +20,7 @@
     </address>
   </affiliation>
 </author>
-<pubdate role="cvs">$Date: 2004-06-21 05:19:15 $</pubdate>
+<pubdate role="cvs">$Date: 2004-06-21 16:55:45 $</pubdate>
 <releaseinfo>This is version 3.0</releaseinfo>
 <copyright>
   <year>2000</year>
@@ -166,16 +166,37 @@ as a `gift culture' in which participants compete for prestige
 by giving time, energy, and creativity away.  Finally, I examine the
 consequences of this analysis for conflict resolution in the culture,
 and develop some prescriptive implications.</para>
+<para>หลังจากที่ได้สังเกตเห็นความขัดแย้งกันเอง
+ระหว่างอุดมการณ์อย่างเป็นทางการที่กำหนดโดยสัญญาอนุญาตโอเพนซอร์สต่างๆ
+กับพฤติกรรมที่ปรากฏจริงของแฮกเกอร์ทั้งหลาย
+ผู้เขียนจึงได้ตรวจสอบขนบธรรมเนียมในทางปฏิบัติ
+ที่คอยกำหนดกฎเกณฑ์ความเป็นเจ้าของและอำนาจควบคุมของซอฟต์แวร์โอเพนซอร์สทั้งหลาย
+ผู้เขียนจะแสดงให้เห็นว่า
+ขนบธรรมเนียมเหล่านั้นบ่งบอกถึงทฤษฎีแห่งทรัพย์สินที่อยู่เบื้องหลัง
+ซึ่งละม้ายกับทฤษฎีกรรมสิทธิ์ที่ดินของล็อค จากนั้น
+ผู้เขียนจะเชื่อมโยงเรื่องดังกล่าวเข้ากับการวิเคราะห์วัฒนธรรมแฮกเกอร์
+ซึ่งเป็น `วัฒนธรรมแห่งการให้' (gift culture) ซึ่งสมาชิกจะแข่งขันเพื่อเกียรติยศ
+โดยอุทิศเวลา แรงกายแรงใจ และความคิดสร้างสรรค์ให้กับชุมชน
+และท้ายที่สุด ผู้เขียนจะตรวจสอบผลพวงของการวิเคราะห์นี้
+ต่อการยุติข้อขัดแย้งในชุมชน และพัฒนาเป็นจารีตโดยนัย</para>
 </abstract>
 </articleinfo>
 
-<sect1><title>An Introductory Contradiction</title>
+<!-- An Introductory Contradiction -->
+<sect1><title>ความขัดแย้งในตัวเองในเบื้องต้น</title>
 
 <para>Anyone who watches the busy, tremendously productive world of Internet
 open-source software for a while is bound to notice an interesting
 contradiction between what open-source hackers say they believe and
 the way they actually behave&mdash;between the official ideology of the
 open-source culture and its actual practice.</para>
+
+<para>ใครก็ตาม
+ที่เฝ้ามองโลกที่ไม่หยุดนิ่งและอุดมผลของซอฟต์แวร์โอเพนซอร์สในอินเทอร์เน็ตสักระยะหนึ่ง
+จะสังเกตได้ถึงความขัดแย้งในตัวเองที่น่าสนใจข้อหนึ่ง
+ระหว่างสิ่งที่แฮกเกอร์โอเพนซอร์สบอกว่าเชื่อ กับวิธีปฏิบัติที่เป็นจริง
+หรืออีกนัยหนึ่งคือ ระหว่างอุดมการณ์อย่างเป็นทางการของวัฒนธรรมโอเพนซอร์ส
+กับการปฏิบัติในความเป็นจริง</para>
 
 <para>Cultures are adaptive machines.  The open-source culture is a
 response to an identifiable set of drives and pressures.  As usual,
@@ -184,14 +205,28 @@ conscious ideology and as implicit, unconscious or semi-conscious
 knowledge.  And, as is not uncommon, the unconscious adaptations are
 partly at odds with the conscious ideology.</para>
 
+<para>วัฒนธรรมเป็นกลไกที่ปรับตัวได้ วัฒนธรรมโอเพนซอร์สเอง
+ก็เป็นการสนองตอบต่อแรงขับเคลื่อนและแรงกดดันที่บ่งบอกได้จำนวนหนึ่ง
+ซึ่งการปรับตัวของมันไปตามสภาวการณ์ต่างๆ ก็มีทั้งจากอุดมการณ์ในจิตสำนึก
+และจากการเรียนรู้ที่สั่งสมกันมาแบบไม่รู้ตัว หรือไม่มีการเอ่ยถึง
+และก็ไม่แปลกอะไร ที่การปรับตัวแบบเป็นไปเอง
+จะขัดกับอุดมการณ์ในจิตสำนึกไปบ้าง</para>
+
 <para>In this essay, I will dig around the roots of that contradiction, and
 use it to discover those drives and pressures.  I will deduce some
 interesting things about the hacker culture and its customs.  I will
 conclude by suggesting ways in which the culture's implicit knowledge
 can be leveraged better.</para>
 
+<para>ในบทความนี้ ผู้เขียนจะเจาะหาต้นตอของความขัดแย้งในตัวเองดังกล่าว
+เพื่อใช้ค้นหาแรงขับเคลื่อนและแรงกดดันเหล่านั้น
+ผู้เขียนจะอนุมานต่อถึงประเด็นที่น่าสนใจจำนวนหนึ่งเกี่ยวกับวัฒนธรรมแฮกเกอร์และขนบธรรมเนียมของมัน
+จากนั้นจะสรุปด้วยการแนะนำหนทางที่จะทำให้การเรียนรู้ที่ไม่มีใครเอ่ยถึงในวัฒนธรรมนี้ที่ว่านั้น
+มีประสิทธิผลยิ่งขึ้น</para>
+
 </sect1>
-<sect1><title>The Varieties of Hacker Ideology</title>
+<!-- The Varieties of Hacker Ideology -->
+<sect1><title>อุดมการณ์ต่างๆ ของแฮกเกอร์</title>
 
 <para>The ideology of the Internet open-source culture (what hackers
 say they believe) is a fairly complex topic in itself.  All members
@@ -202,9 +237,23 @@ collective effort.  This agreement effectively defines membership in
 the culture.  However, the reasons individuals and various subcultures
 give for this belief vary considerably.</para>
 
+<para>อุดมการณ์ของวัฒนธรรมโอเพนซอร์สบนอินเทอร์เน็ต (สิ่งที่แฮกเกอร์บอกว่าเชื่อ)
+เป็นเรื่องที่ค่อนข้างซับซ้อนในตัวเอง สมาชิกทุกคนเห็นพ้องต้องกันว่า โอเพนซอร์ส
+(กล่าวคือ ซอฟต์แวร์ที่แจกจ่ายได้อย่างเสรี
+และสามารถพัฒนาหรือปรับเปลี่ยนตามความต้องการที่เปลี่ยนไปได้) เป็นสิ่งที่ดี
+และควรค่าแก่การร่วมกันลงแรงอย่างแข็งขัน ความเห็นพ้องนี้นี่เอง
+ที่เป็นตัวบ่งชี้ความเป็นส่วนหนึ่งในวัฒนธรรมนี้ของแต่ละบุคคล อย่างไรก็ดี
+เหตุผลของแต่ละคนหรือแต่ละวัฒนธรรมย่อยที่สนับสนุนความเชื่อดังกล่าว
+กลับแตกต่างกันอย่างเห็นได้ชัด</para>
+
 <para>One degree of variation is zealotry; whether open source development
 is regarded merely as a convenient means to an end (good tools and fun
 toys and an interesting game to play) or as an end in itself.</para>
+
+<para>ความแตกต่างหนึ่งคือระดับความจริงจังที่จะยึดถือ
+ว่าการพัฒนาแบบโอเพนซอร์สเป็นเพียงหนทางที่สะดวกที่จะไปสู่เป้าหมาย
+(คือเป็นเครื่องมือที่ดี เป็นของเล่นที่สนุก และเป็นเกมที่น่าเล่น)
+หรือคือเป้าหมายในตัวของมันเอง</para>
 
 <para>A person of great zeal might say ``Free software is my life!  I
 exist to create useful, beautiful programs and information resources,
@@ -214,9 +263,19 @@ helping happen''.  A person of little zeal might say ``Yes, open
 source is okay sometimes.  I play with it and respect people who build
 it''.</para>
 
+<para>คนที่จริงจังมากอาจจะบอกว่า ``ซอฟต์แวร์เสรีคือชีวิตของฉัน!
+ฉันเกิดมาเพื่อสร้างโปรแกรมและทรัพยากรข้อมูลที่สวยงามใช้ประโยชน์ได้ และให้เปล่า''
+คนที่จริงจังปานกลางอาจจะพูดว่า
+``โอเพนซอร์สเป็นสิ่งที่ดีที่ฉันเต็มใจสละเวลาช่วยให้มันเกิด''
+ส่วนคนที่จริงจังน้อยอาจจะบอก ``อืมม์ โอเพนซอร์สบางทีก็ดีเหมือนกันนะ
+ฉันก็เล่นกับมันและเคารพผู้คนที่สร้างมันขึ้นมา''</para>
+
 <para>Another degree of variation is in hostility to commercial
 software and/or the companies perceived to dominate the commercial
 software market.</para>
+
+<para>ความแตกต่างอีกมุมหนึ่งคือระดับความเป็นปฏิปักษ์กับซอฟต์แวร์เชิงพาณิชย์
+และ/หรือ บริษัทที่เห็นได้ชัดว่าครอบครองตลาดซอฟต์แวร์เชิงพาณิชย์อยู่</para>
 
 <para>A very anticommercial person might say ``Commercial software is
 theft and hoarding.  I write free software to end this evil.''  A
@@ -230,11 +289,28 @@ industry since the first public version of this essay, one might also
 hear ``Commercial software is fine, as long as I get the source or it
 does what I want it to do.'')</para>
 
+<para>คนที่ต่อต้านการค้ามากๆ อาจจะบอกว่า
+``ซอฟต์แวร์พาณิชย์คือการปล้นและหมกเม็ด
+ฉันเขียนซอฟต์แวร์เสรีก็เพื่อจบความชั่วร้ายนี้'' คนที่ต่อต้านการค้าปานกลาง
+อาจจะพูดว่า ``ซอฟต์แวร์พาณิชย์โดยทั่วไปก็โอเค
+เพราะโปรแกรมเมอร์สมควรได้รับค่าตอบแทน แต่บริษัทที่แถซอฟต์แวร์ห่วยๆ ไปมา
+โดยทิ้งน้ำหนักตัวเองใส่ชาวบ้าน คือพวกชั่วร้าย'' ส่วนคนที่ไม่ต่อต้านการค้าเลย
+อาจจะบอก ``ซอฟต์แวร์พาณิชย์ก็โอเค
+แต่ฉันเขียนซอฟต์แวร์โอเพนซอร์สเพราะฉันชอบกว่า'' (ทุกวันนี้
+ท่ามกลางการเติบโตของอุตสาหกรรมภาคโอเพนซอร์สหลังจากปล่อยรุ่นแรกของบทความนี้สู่สาธารณะ
+ใครบางคนอาจจะเคยได้ยินด้วยว่า ``ซอฟต์แวร์พาณิชย์ก็ดีนะ ตราบใดที่ฉันยังได้ซอร์ส
+หรือมันยังทำงานตามที่ฉันต้องการ'')</para>
+
 <para>All nine of the attitudes implied by the cross-product of the
 categories mentioned earlier are represented in the open-source
 culture.  It is worthwhile to point out the distinctions because they
 imply different agendas, and different adaptive and cooperative
 behaviors.</para>
+
+<para>ในวัฒนธรรมโอเพนซอร์ส
+มีทัศนคติครบทั้งเก้าแบบที่เกิดจากการจับคู่ความเห็นในเรื่องทั้งสอง
+การชี้ความแตกต่างตรงนี้มีความหมาย เพราะมันหมายถึงวาระ
+พฤติกรรมการปรับตัวและการให้ความร่วมมือที่แตกต่างกันของแต่ละคน</para>
 
 <para>Historically, the most visible and best-organized part of the hacker
 culture has been both very zealous and very anticommercial.  The Free
@@ -243,6 +319,16 @@ a great deal of open-source development from the early 1980s forward,
 including tools like Emacs and GCC which are still basic to the Internet
 open-source world, and seem likely to remain so for the forseeable
 future.</para>
+
+<para>ตามนัยประวัติแล้ว
+ภาคที่เห็นได้ชัดและมีระเบียบแบบแผนมากที่สุดของวัฒนธรรมแฮกเกอร์ก็คือ
+กลุ่มที่จริงจังมากและต่อต้านการค้า มูลนิธิซอฟต์แวร์เสรี (Free Software
+Foundation&mdash;FSF) ที่ก่อตั้งโดย ริชาร์ด เอ็ม. สตอลแมน (Richard M.
+Stallman&mdash;RMS)
+ได้ให้แรงสนับสนุนอย่างมากต่อการพัฒนาแบบโอเพนซอร์สตั้งแต่ต้นทศวรรษ 1980
+เป็นต้นมา ซึ่งรวมถึงเครื่องมืออย่าง Emacs และ GCC
+ที่ยังคงเป็นพื้นฐานของโลกโอเพนซอร์สบนอินเทอร์เน็ต
+และมีทีท่าจะคงอยู่ต่อไปในอนาคต</para>
 
 <para>For many years the FSF was the single most important focus of
 open-source hacking, producing a huge number of tools still critical
@@ -253,6 +339,16 @@ deliberately giving it a confrontational weight (which the newer label
 `<ulink url="http://www.opensource.org">open source</ulink>' just as
 deliberately avoids).</para>
 
+<para>เป็นเวลาหลายปีที่ FSF
+ได้เป็นศูนย์รวมที่สำคัญที่สุดเพียงแห่งเดียวของการทำงานโอเพนซอร์ส
+ซึ่งได้ผลิตเครื่องมือจำนวนมากที่ยังคงเป็นส่วนที่สำคัญที่สุดของตัววัฒนธรรม
+นอกจากนี้ FSF
+ยังเป็นผู้สนับสนุนโอเพนซอร์สในรูปแบบสถาบันที่มองเห็นได้จากภายนอกวัฒนธรรมแฮกเกอร์เพียงแห่งเดียวเป็นเวลายาวนาน
+FSF ได้บัญญัติคำว่า `ซอฟต์แวร์เสรี' (free software) อย่างได้ผล โดยมีเจตนาลึกๆ
+ที่จะให้เกิดแรงปะทะ (ซึ่งฉลากใหม่
+`<ulink url="http://www.opensource.org">โอเพนซอร์ส'</ulink> (open source)
+มีเจตนาลึกเท่ากันที่จะหลีกเลี่ยง)</para>
+
 <para>Thus, perceptions of the hacker culture from both within and without
 it tended to identify the culture with the FSF's zealous attitude and
 perceived anticommercial aims.  RMS himself denies he is
@@ -262,6 +358,15 @@ explicit drive to ``Stamp Out Software Hoarding!'' became the closest
 thing to a hacker ideology, and RMS the closest thing to a leader of
 the hacker culture.</para>
 
+<para>ดังนั้น ภาพที่ปรากฏของวัฒนธรรมแฮกเกอร์ทั้งจากภายในและภายนอก FSF
+จึงมีแนวโน้มที่จะแสดงเอกลักษณ์ของตัวเองด้วยทัศนคติที่จริงจังและความมุ่งหวังที่จะต่อต้านการค้าของ
+FSF แม้ตัว RMS เองจะปฏิเสธว่าไม่ได้ต่อต้านการค้า
+แต่คนทั่วไปก็อ่านความเคลื่อนไหวต่างๆ ของเขาออกมาเช่นนั้น
+รวมทั้งสาวกที่เสียงดังที่สุดของเขาหลายคน การขับเคลื่อนที่ทรงพลังและชัดแจ้งของ
+FSF ที่จะ ``กระทืบการเก็บกักซอฟต์แวร์ให้จมดิน!''
+กลายเป็นตัวแทนที่ชัดที่สุดของอุดมการณ์แฮกเกอร์ และ RMS
+ก็กลายเป็นตัวแทนที่ชัดที่สุดของผู้นำของวัฒนธรรมแฮกเกอร์</para>
+
 <para>The FSF's license terms, the ``General Public License'' (GPL),
 expresses the FSF's attitudes.  It is very widely used in the
 open-source world.  North Carolina's <ulink
@@ -269,6 +374,15 @@ url="http://metalab.unc.edu/pub/Linux/welcome.html">Metalab</ulink>
 (formerly Sunsite) is the largest and most popular software archive in
 the Linux world.  In July 1997 about half the Sunsite software
 packages with explicit license terms used GPL.</para>
+
+<para>ข้อกำหนดในสัญญาอนุญาตของ FSF คือ ``General Public License'' (GPL) นั้น
+แสดงทัศนคติดังกล่าวของ FSF อย่างชัดแจ้ง
+และก็เป็นสัญญาอนุญาตที่ใช้กันกว้างขวางที่สุดในโลกโอเพนซอร์สด้วย <ulink
+url="http://metalab.unc.edu/pub/Linux/welcome.html">Metalab</ulink>
+(หรือ Sunsite ในอดีต) ของมหาวิทยาลัยนอร์ธแคโรไลนา
+เป็นแหล่งเก็บซอฟต์แวร์ที่ใหญ่ที่สุดและเป็นที่รู้จักกันมากที่สุดในโลกของลินุกซ์
+ในเดือนกรกฎาคม 1997 ประมาณครึ่งหนึ่งของแพกเกจซอฟต์แวร์ใน Sunsite
+ที่ระบุสัญญาอนุญาต เป็นซอฟต์แวร์ที่ใช้ GPL</para>
 
 <para>But the FSF was never the only game in town.  There was always a
 quieter, less confrontational and more market-friendly strain in the
@@ -278,6 +392,13 @@ efforts which predated the FSF.  These traditions included, most
 importantly, the intertwined technical cultures of Unix and the
 pre-commercial Internet.</para>
 
+<para>แต่ FSF ไม่ใช่ทั้งหมดของโอเพนซอร์ส ยังมีผู้ที่ส่งเสียงน้อยกว่า
+เผชิญหน้าน้อยกว่า และเป็นมิตรกับตลาดมากกว่าอยู่เสมอในแวดวงแฮกเกอร์
+นักปฏิบัติทั้งหลายไม่ได้เคร่งครัดกับอุดมการณ์เท่ากับธรรมเนียมทางวิศวกรรมที่พบในความพยายามแรกๆ
+ของโอเพนซอร์สซึ่งเกิดก่อน FSF เสียอีก ธรรมเนียมเหล่านี้ที่สำคัญที่สุดก็คือ
+วัฒนธรรมทางเทคนิคที่เกี่ยวพันกันของยูนิกซ์กับอินเทอร์เน็ตก่อนยุคพาณิชย์
+</para>
+
 <para>The typical pragmatist attitude is only moderately anticommercial, and
 its major grievance against the corporate world is not `hoarding' per
 se.  Rather it is that world's perverse refusal to adopt superior
@@ -285,6 +406,13 @@ approaches incorporating Unix and open standards and open-source
 software.  If the pragmatist hates anything, it is less likely to be
 `hoarders' in general than the current King Log of the software
 establishment; formerly IBM, now Microsoft.</para>
+
+<para>ทัศนคติโดยปกติของนักปฏิบัติจะต่อต้านการค้าแค่ปานกลาง
+และความสลดใจต่อโลกธุรกิจก็ไม่ใช่ที่การ `หมกเม็ด' โดยตรง
+แต่เป็นการที่โลกดันทุรังปฏิเสธวิถีทางที่ดีกว่าที่ประกอบด้วยยูนิกซ์ มาตรฐานเปิด
+และซอฟต์แวร์โอเพนซอร์ส ถ้าจะมีสิ่งที่นักปฏิบัติเกลียดชัง ก็ไม่น่าจะใช่
+`พวกหมกเม็ด' โดยทั่วไป แต่น่าจะเป็นราชาแห่งวงการซอฟต์แวร์อย่างไอบีเอ็มในอดีต
+และไมโครซอฟท์ในปัจจุบันมากกว่า</para>
 
 <para>To pragmatists the GPL is important as a tool, rather than as an
 end in itself.  Its main value is not as a weapon against `hoarding',
@@ -297,6 +425,16 @@ ideological discomfort.  At the same time, his open-source experience
 has taught him standards of technical quality that very little closed
 software can meet.</para>
 
+<para>สำหรับนักปฏิบัติแล้ว GPL มีความสำคัญในฐานะเครื่องมือ
+ไม่ใช่ในฐานะตัวของมันเอง และคุณค่าของมันก็ไม่ใช่ในฐานะอาวุธต่อต้าน `การหมกเม็ด'
+แต่เป็นเครื่องมือสำหรับกระตุ้นให้เกิดการแบ่งปันซอฟต์แวร์และการเติบโตของ
+<ulink url="http://www.tuxedo.org/~esr/writings/cathedral-bazaar">
+การพัฒนาแบบตลาดนัด</ulink> นักปฏิบัติจะให้คุณค่ากับเครื่องไม้เครื่องมือที่ดี
+มากกว่าเกลียดชังการพาณิชย์
+และอาจใช้ซอฟต์แวร์พาณิชย์คุณภาพสูงโดยไม่รู้สึกขัดกับอุดมการณ์ ในขณะเดียวกัน
+ประสบการณ์โอเพนซอร์สก็ได้สอนให้เขาได้รู้ถึงมาตรฐานของคุณภาพทางเทคนิคที่ซอฟต์แวร์ปิดน้อยตัวจะบรรลุได้
+</para>
+
 <para>For many years, the pragmatist point of view expressed itself
 within the hacker culture mainly as a stubborn current of refusal to
 completely buy into the GPL in particular or the FSF's agenda in
@@ -307,6 +445,14 @@ base.  These efforts, however, failed to build bazaar communities of
 significant size, and became seriously fragmented and
 ineffective.</para>
 
+<para>เป็นเวลาหลายปีที่มุมมองของนักปฏิบัติถูกแสดงออกมาในวัฒนธรรมแฮกเกอร์
+ด้วยกระแสต่อต้านการใช้ GPL หรือกิจกรรมต่างๆ ของ FSF โดยทั่วไป
+โดยในช่วงตลอดทศวรรษ 1980 และต้นทศวรรษ 1990 นั้น ทัศนคตินี้ดูจะประสานกันกับแฟนๆ
+Berkeley Unix และผู้ที่ใช้สัญญาอนุญาตแบบ BSD
+รวมไปถึงความพยายามยุคแรกที่จะสร้างยูนิกซ์โอเพนซอร์สจากซอร์สของ BSD
+แต่ในที่สุด ความพยายามเหล่านี้ก็ไม่สามารถสร้างชุมชนแบบตลาดนัดที่ใหญ่พอ
+แล้วก็แตกเป็นเสี่ยงๆ และไร้ประสิทธิผล</para>
+
 <para>Not until the Linux explosion of early 1993&ndash;1994 did
 pragmatism find a real power base.  Although Linus Torvalds never made
 a point of opposing RMS, he set an example by looking benignly on the
@@ -314,12 +460,27 @@ growth of a commercial Linux industry, by publicly endorsing the use
 of high-quality commercial software for specific tasks, and by gently
 deriding the more purist and fanatical elements in the culture.</para>
 
+<para>จนกระทั่งเกิดการบูมของลินุกซ์ในช่วงต้น 1993&ndash;1994
+แนวคิดนักปฏิบัติจึงได้กลับมาเรืองอำนาจ แม้ ลินุส ทอร์วาลด์
+จะไม่เคยแสดงความต่อต้าน RMS แต่เขาก็ได้ทำตัวให้เป็นตัวอย่าง
+ด้วยการมองการเติบโตของลินุกซ์เชิงพาณิชย์อย่างเป็นมิตร
+ด้วยการสนับสนุนการใช้ซอฟต์แวร์พาณิชย์คุณภาพสูงอย่างชัดแจ้งในงานเฉพาะ
+และด้วยการหยอกเอินพวกเคร่งและคลั่งลัทธิในแวดวงอย่างสุภาพ</para>
+
 <para>A side effect of the rapid growth of Linux was the induction of
 a large number of new hackers for which Linux was their primary
 loyalty and the FSF's agenda primarily of historical interest.  Though
 the newer wave of Linux hackers might describe the system as ``the
 choice of a GNU generation'', most tended to emulate Torvalds more
 than Stallman.</para>
+
+<para>ผลข้างเคียงของการเติบโตอย่างรวดเร็วของลินุกซ์ก็คือ
+การดึงดูดแฮกเกอร์หน้าใหม่จำนวนมากเข้ามาร่วม
+โดยที่ลินุกซ์คือสิ่งที่พวกเขาให้ความภักดี และวาระต่างๆ ของ FSF
+กลายเป็นเรื่องของอดีต
+และถึงแม้คลื่นลูกใหม่ของเหล่าแฮกเกอร์ลินุกซ์จะเรียกระบบของตัวเองว่า
+``คำตอบของยุค GNU'' (the choice of a GNU generation)
+แต่ส่วนมากมีแนวโน้มจะเลียนแบบทอร์วาลด์มากกว่าสตอลแมน</para>
 
 <para>Increasingly it was the anticommercial purists who found themselves in
 a minority.  How much things had changed would not become apparent
@@ -330,6 +491,15 @@ culture to exploit this unprecedented opportunity and to re-label its
 product from `free software' to `open source' was met with a level of
 instant approval that surprised everybody involved.</para>
 
+<para>ในที่สุด กลุ่มผู้เคร่งอุดมการณ์ที่ต่อต้านการค้าค่อยๆ
+พบว่าตัวเองกลายเป็นชนกลุ่มน้อยขึ้นเรื่อยๆ
+ความเปลี่ยนแปลงนี้เห็นได้ชัดเมื่อเน็ตสเคปประกาศในเดือนกุมภาพันธ์ 1998
+ว่าจะแจกจ่าย Navigator 5.0 ในรูปซอร์สโค้ด เรื่องนี้ได้กระตุ้นความสนใจ
+`ซอฟต์แวร์เสรี' ในภาคธุรกิจ การเรียกร้องที่ตามมา
+ให้วัฒนธรรมแฮกเกอร์ถือโอกาสสำคัญนี้เปลี่ยนฉลากผลิตภัณฑ์จาก `ซอฟต์แวร์เสรี'
+(free software) เป็น `โอเพนซอร์ส' (open source) ได้รับการตอบสนองอย่างรวดเร็ว
+จนต้องทำให้ทุกคนต้องประหลาดใจ</para>
+
 <para>In a reinforcing development, the pragmatist part of the culture was
 itself becoming polycentric by the mid-1990s.  Other semi-independent
 communities with their own self-consciousness and charismatic leaders
@@ -339,6 +509,16 @@ but still significant, were the traditions building up around John
 Osterhout's Tcl and Guido van Rossum's Python languages.  All three of
 these communities expressed their ideological independence by devising
 their own, non-GPL licensing schemes.</para>
+
+<para>ในการพัฒนาอีกด้านหนึ่งที่เสริมกัน
+กลุ่มนักปฏิบัติได้เกิดศูนย์รวมขึ้นหลายศูนย์ในช่วงกลางทศวรรษ 1990
+ชุมชนใหม่หลายแห่งที่มีแนวคิดและผู้นำเป็นของตนเองก็เริ่มแตกหน่อออกจากรากของยูนิกซ์/อินเทอร์เน็ต
+ในจำนวนนี้ แหล่งที่สำคัญที่สุดหลังจากลินุกซ์ได้แก่วัฒนธรรมชุมชน Perl ของ
+ลาร์รี วอลล์ (Larry Wall) อีกกลุ่มหนึ่งที่ถึงจะเล็กกว่าแต่ก็สำคัญ
+คือธรรมเนียมปฏิบัติที่เกิดรอบๆ ภาษา Tcl ของ John Osterhout และภาษา Python
+ของ Guido van Rossum
+ชุมชนทั้งสามได้แสดงอิสรภาพของอุดมการณ์ด้วยการสร้างสัญญาอนุญาตของตัวเอง
+โดยไม่ใช้ GPL</para>
 
 </sect1>
 <sect1><title>Promiscuous Theory, Puritan Practice</title>
