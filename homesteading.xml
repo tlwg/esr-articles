@@ -20,7 +20,7 @@
     </address>
   </affiliation>
 </author>
-<pubdate role="cvs">$Date: 2004-07-08 14:22:13 $</pubdate>
+<pubdate role="cvs">$Date: 2004-07-09 08:02:47 $</pubdate>
 <releaseinfo>This is version 3.0</releaseinfo>
 <copyright>
   <year>2000</year>
@@ -2063,7 +2063,7 @@ admit it.</para>
 
 <para>ท้ายที่สุดนี้ ผู้เขียนยังได้ลอบสังเกตเห็นว่า
 พฤติกรรมการถ่อมตัวของแฮ็กเกอร์ชั้นนำหลายคน ยังสะท้อนถึงความกลัวอย่างแท้จริง
-(ซึ่งไม่ใช่ว่าไร้เหตุผล) ต่อการกลายเป็นวัตถุของความนิยมตัวบุคคล
+(ซึ่งไม่ใช่ว่าไร้เหตุผล) ต่อการกลายเป็นวัตถุของการบูชาตัวบุคคล
 ทั้ง ไลนัส ทอร์วาลดส์ และ ลาร์รี วอลล์
 ได้แสดงพฤติกรรมการหลีกเลี่ยงเช่นนั้นเป็นตัวอย่างที่ชัดเจนมาแล้วมากมาย ครั้งหนึ่ง
 ในการเดินหาร้านอาหารเย็นกับ ลาร์รี วอลล์ ผู้เขียนหยอกว่า
@@ -4037,9 +4037,10 @@ quotes in this essay are excerpted from there.</para>
 ก็คัดลอกมาจากบทความดังกล่าว</para>
 
 </sect1>
-<sect1><title>Bibliography</title>
+<!-- Bibliography -->
+<sect1><title>บรรณานุกรม</title>
 
-<para><anchor id="miller"/><emphasis>[Miller]</emphasis>
+<para><anchor id="_miller"/><emphasis>[Miller]</emphasis>
 Miller, William Ian; <emphasis>Bloodtaking and Peacemaking: Feud, Law, and
 Society in Saga Iceland</emphasis>; University of Chicago Press 1990, ISBN
 0-226-52680-1.  A fascinating study of Icelandic folkmoot law, which
@@ -4047,7 +4048,16 @@ both illuminates the ancestry of the Lockean theory of property and
 describes the later stages of a historical process by which custom
 passed into customary law and thence to written law.</para>
 
-<para><anchor id="Mal"/><emphasis>[Mal]</emphasis>
+<para><anchor id="miller"/><emphasis>[Miller]</emphasis>
+Miller, William Ian; <emphasis>Bloodtaking and Peacemaking: Feud, Law, and
+Society in Saga Iceland</emphasis>; University of Chicago Press 1990, ISBN
+0-226-52680-1.  การศึกษาที่น่าตื่นตาตื่นใจเกี่ยวกับกฎชุมนุมชนของชาวไอซ์แลนด์
+ซึ่งทั้งให้ความกระจ่างเกี่ยวกับบรรพบุรุษของทฤษฎีทรัพย์สินของล็อค
+และบรรยายถึงช่วงหลังๆ ของกระบวนการทางประวัติศาสตร์
+ซึ่งจารีตประเพณีได้กลายมาเป็นกฎหมายจารีตประเพณี
+แล้วจึงเป็นกฎหมายลายลักษณ์อักษร</para>
+
+<para><anchor id="_Mal"/><emphasis>[Mal]</emphasis>
 Malaclypse the Younger; <emphasis>Principia Discordia, or How I Found
 Goddess and What I Did To Her When I Found Her</emphasis>; Loompanics, ISBN
 1-55950-040-9.  There is much enlightening silliness to be found in
@@ -4055,7 +4065,16 @@ Discordianism.  Amidst it, the `SNAFU principle' provides a rather
 trenchant analysis of why command hierarchies don't scale well.
 There's a browseable <ulink url="http://www.cs.cmu.edu/~tilt/principia/">HTML version</ulink>.</para>
 
-<para><anchor id="BCT"/><emphasis>[BCT]</emphasis>
+<para><anchor id="Mal"/><emphasis>[Mal]</emphasis>
+Malaclypse the Younger; <emphasis>Principia Discordia, or How I Found
+Goddess and What I Did To Her When I Found Her</emphasis>; Loompanics, ISBN
+1-55950-040-9.  มีความเปิ่นที่เร้าใจมากมายที่สามารถพบได้ใน Discordianism
+ในจำนวนนี้ `หลักการ SNAFU' ได้วิเคราะห์อย่างค่อนข้างตรงไปตรงมา
+ว่าทำไมระบบยศศักดิ์จึงไม่สามารถปรับตัวตามขนาดได้ดี มี
+<ulink url="http://www.cs.cmu.edu/~tilt/principia/">ฉบับ HTML</ulink>
+ด้วย</para>
+
+<para><anchor id="_BCT"/><emphasis>[BCT]</emphasis>
 J. Barkow, L. Cosmides, and J. Tooby (Eds.); <emphasis>The Adapted Mind:
 Evolutionary Psychology and the Generation of Culture.</emphasis> New York:
 Oxford University Press 1992.  An excellent introduction to evolutionary
@@ -4063,7 +4082,16 @@ psychology.  Some of the papers bear directly on the three cultural
 types I discuss (command/exchange/gift), suggesting that these patterns
 are wired into the human psyche fairly deep.</para>
 
-<para><anchor id="MHG"/><emphasis>[MHG]</emphasis>
+<para><anchor id="BCT"/><emphasis>[BCT]</emphasis>
+J. Barkow, L. Cosmides, and J. Tooby (Eds.); <emphasis>The Adapted Mind:
+Evolutionary Psychology and the Generation of Culture.</emphasis> New York:
+Oxford University Press 1992. 
+หนังสือปูพื้นอันยอดเยี่ยมเกี่ยวกับจิตวิทยาเชิงวิวัฒนาการ บทความบางเรื่องในนี้
+เกี่ยวข้องโดยตรงกับเรื่องของวัฒนธรรมสามชนิดที่ผู้เขียนได้กล่าวถึง
+(ยศศักดิ์/แลกเปลี่ยน/การให้) โดยได้ชี้แนะว่ารูปแบบเหล่านี้
+ผูกพันแนบแน่นในจิตใจมนุษย์อย่างลึกล้ำพอสมควร</para>
+
+<para><anchor id="_MHG"/><emphasis>[MHG]</emphasis>
 Goldhaber, Michael K.; <ulink
 url="http://www.firstmonday.dk/issues/issue2_4/goldhaber">The
 Attention Economy and the Net</ulink>.  I discovered this paper after my
@@ -4074,14 +4102,35 @@ things to say about the role of attention-seeking in organizing
 behavior.  The prestige or peer repute I have discussed can fruitfully
 be viewed as a particular case of attention in his sense.</para>
 
-<para><anchor id="HH"/><emphasis>[HH]</emphasis>
+<para><anchor id="MHG"/><emphasis>[MHG]</emphasis>
+Goldhaber, Michael K.; <ulink
+url="http://www.firstmonday.dk/issues/issue2_4/goldhaber">The
+Attention Economy and the Net</ulink>. 
+ผู้เขียนไปพบบทความนี้หลังจากที่ได้เขียนบทความของผู้เขียนเองรุ่นที่ 1.7 ไปแล้ว
+บทความนี้มีข้อผิดพลาดที่เห็นได้ชัดอยู่ (ในเรื่องการให้เหตุผลของ Goldhaber
+เกี่ยวกับความไร้ผลของการใช้เหตุผลเชิงเศรษฐศาสตร์กับเรื่องการให้ความสนใจ
+ซึ่งไม่มีการตรวจสอบอย่างละเอียดเท่าที่ควร) แต่ Goldhaber
+ก็ยังมีสิ่งขบขันและลุ่มลึกที่จะพูด
+เกี่ยวกับบทบาทของการเรียกร้องความสนใจต่อการจัดโครงสร้างของพฤติกรรม
+เกียรติยศหรือชื่อเสียงในหมู่ชนที่ผู้เขียนได้พูดถึง
+อาจมองอย่างแตกฉานได้ว่าเป็นเพียงกรณีเฉพาะกรณีหนึ่งของการให้ความสนใจในมุมมองของเขา
+</para>
+
+<para><anchor id="_HH"/><emphasis>[HH]</emphasis>
 I have summarized the history of the hacker culture in <ulink url="http://www.tuxedo.org/~esr/faqs/hacker-hist.html">A
 Brief History Of Hackerdom</ulink>.  The book
 that will explain it really well remains to be written, probably not
 by me.</para>
 
+<para><anchor id="HH"/><emphasis>[HH]</emphasis>
+ผู้เขียนได้สรุปประวัติศาสตร์ของวัฒนธรรมแฮ็กเกอร์ใน
+<ulink url="http://www.tuxedo.org/~esr/faqs/hacker-hist.html">A
+Brief History Of Hackerdom</ulink>.  หนังสือที่จะอธิบายได้ดีจริงๆ
+ยังต้องเขียนกันต่อไป อาจจะไม่ใช่โดยผู้เขียนเอง</para>
+
 </sect1>
-<sect1><title>Acknowledgements</title>
+<!-- Acknowledgements -->
+<sect1><title>กิตติกรรมประกาศ</title>
 
 <para>Robert Lanphier <email>robla@real.com</email> contributed much to the
 discussion of egoless behavior.  Eric Kidd <email>eric.kidd@pobox.com</email>
@@ -4096,6 +4145,24 @@ reputation by doing other hackers down. A.J. Venter
 ideal of knighthood.  Ian Lance Taylor <email>ian@airs.com</email> sent
 careful criticisms of the reputation-game model which motivated me
 to think through and explain my assumptions more clearly.</para>
+
+<para>Robert Lanphier <email>robla@real.com</email>
+ได้ร่วมสมทบมากมายในการอภิปรายเรื่องพฤติกรรมที่ไร้อัตตา
+Eric Kidd <email>eric.kidd@pobox.com</email>
+ได้ช่วยเน้นบทบาทของการให้ความสำคัญกับความอ่อนน้อมถ่อมตน
+ในการป้องกันการบูชาตัวบุคคล
+หัวข้อเกี่ยวกับผลต่อภาพรวมได้รับแรงบันดาลใจจากความเห็นของ
+Daniel Burn <email>daniel@tsathoggua.lab.usyd.edu.au</email> 
+Mike Whitaker <email>mrw@entropic.co.uk</email>
+ได้ให้แรงบันดาลใจต่อเนื้อหาหลักในหัวข้อกลไกการถ่ายทอดวัฒนธรรม
+Chris Phoenix <email>cphoenix@best.com</email>
+ได้ชี้ถึงความสำคัญของการที่แฮ็กเกอร์ไม่อาจได้ชื่อเสียงด้วยการถล่มแฮ็กเกอร์คนอื่น
+A.J. Venter <email>JAVenter@africon.co.za</email>
+ได้ชี้ให้เห็นความคล้ายคลึงกับอุดมคติของอัศวินในยุคกลาง
+Ian Lance Taylor <email>ian@airs.com</email>
+ได้วิจารณ์อย่างระมัดระวังเกี่ยวกับโมเดลเกมแห่งชื่อเสียง
+ซึ่งกระตุ้นให้ผู้เขียนต้องคิดทบทวน
+และอธิบายข้อสมมุติของผู้เขียนให้ชัดเจนยิ่งขึ้น</para>
 
 </sect1>
 <!-- %%END ENDNOTES%% -->
