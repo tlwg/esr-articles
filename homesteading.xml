@@ -20,7 +20,7 @@
     </address>
   </affiliation>
 </author>
-<pubdate role="cvs">$Date: 2004-07-03 16:19:53 $</pubdate>
+<pubdate role="cvs">$Date: 2004-07-08 14:22:13 $</pubdate>
 <releaseinfo>This is version 3.0</releaseinfo>
 <copyright>
   <year>2000</year>
@@ -2226,8 +2226,9 @@ with!</para>
 วัฒนธรรมแฮ็กเกอร์สามารถอยู่ร่วมกับซอฟต์แวร์ปิดได้แทบทุกเจ้า ตัวอย่างเช่น
 การมีอยู่ของ Adobe Photoshop ก็ไม่ได้ทำให้เขตแดนข้างเคียงของ GIMP
 (โปรแกรมเทียบเท่าที่เป็นโอเพนซอร์ส) ดูน่าสนใจน้อยลงไป
-แต่เมื่อไมโครซอฟท์ประสบความสำเร็จในการทำลาย <link linkend="HD">[HD]</link>
-โปรโตคอลเพื่อที่จะมีเพียงโปรแกรมเมอร์ของไมโครซอฟท์เท่านั้นที่สามารถเขียนซอฟต์แวร์สนับสนุนได้นั้น
+แต่เมื่อไมโครซอฟท์ประสบความสำเร็จในการทำลายตลาด <link linkend="HD">[HD]</link>
+โปรโตคอล
+เพื่อที่จะมีเพียงโปรแกรมเมอร์ของไมโครซอฟท์เท่านั้นที่สามารถเขียนซอฟต์แวร์สนับสนุนได้นั้น
 มันไม่ได้เป็นแค่การทำร้ายผู้บริโภคด้วยการขยายการครอบงำตลาด
 แต่ยังลดปริมาณและคุณภาพของ noosphere
 ที่เหลือสำหรับให้แฮ็กเกอร์ปักหลักและพัฒนาอีกด้วย จึงไม่น่าแปลก
@@ -3529,14 +3530,21 @@ follow?</para>
 </sect1>
 
 <!-- %%BEGIN ENDNOTES -->
-<sect1><title>Notes</title>
+<!-- Notes -->
+<sect1><title>เชิงอรรถ</title>
 
-<para><anchor id="N"/><emphasis>[N]</emphasis> The term `noosphere' is
+<para><anchor id="_N"/><emphasis>[N]</emphasis> The term `noosphere' is
 an obscure term of art in philosophy.  It is pronounced KNOW-uh-sfeer
 (two o-sounds, one long and stressed, one short and unstressed tending
 towards schwa). If one is being excruciatingly correct about one's
 orthography, the term is properly spelled with a diaeresis over the
 second `o' to mark it as a separate vowel.</para>
+
+<para><anchor id="N"/><emphasis>[N]</emphasis> คำว่า `noosphere'
+เป็นศัพท์ชั้นสูงของศิลปวิทยาการในสาขาปรัชญา คำนี้ออกเสียงว่า โน-โอ-สเฟียร์
+(เสียงโอสองพยางค์ พยางค์แรกยาวและเน้น พยางค์ที่สองสั้นและไม่เน้น คล้ายเสียง
+schwa) ถ้าคุณเคร่งครัดเรื่องการเขียนมากๆ คำนี้ก็อาจจะสะกดโดยใช้ diaresis
+บน `o' ตัวที่สอง เพื่อกำกับการแยกพยางค์</para>
 
 <para>In more detail; this term for ``the sphere of human thought''
 derives from the Greek `noos' meaning `mind', `intelligence', or `perception'.
@@ -3549,7 +3557,19 @@ paleontologist/philosopher Pierre Teilhard de Chardin
 evolution to a form of pure mind culminating in union with the Godhead
 that the term is now primarily associated.</para>
 
-<para><anchor id="DF"/><emphasis>[DF]</emphasis>
+<para>ในรายละเอียดแล้ว คำซึ่งแทน ``โลกแห่งความคิดของมนุษย์'' คำนี้
+มาจากรากศัพท์กรีก `noos' ซึ่งหมายถึง `ความคิด' (mind), `ความฉลาด'
+(intelligence), หรือ `โลกทัศน์' (perception) คิดขึ้นโดย E. LeRoy ใน
+<emphasis>Les origines humaines et l'evolution de l'intelligence</emphasis>
+(Paris 1928)
+และเผยแพร่ให้เป็นที่รู้จักโดยนักชีววิทยาและนักนิเวศวิทยารุ่นบุกเบิกชาวรัสเซีย
+ชื่อ Vladimir Ivanovich Vernadsky, (1863&ndash;1945)
+และจากนั้นก็โดยนักบรรพชีวินวิทยาและนักปรัชญาเยซูอิด ชื่อ Pierre Teilhard de
+Chardin (1881&ndash;1955) ซึ่งก็ด้วยทฤษฎีของ Teilhard de Chardin 
+เกี่ยวกับวิวัฒนาการในอนาคตของมนุษย์ไปสู่รูปแบบของการพัฒนาทางจิตใจขั้นสุดยอดร่วมกับพระผู้เป็นเจ้านี่เอง
+ที่ทำให้ศัพท์คำนี้มีความเชื่อมโยงอย่างมากในปัจจุบัน</para>
+
+<para><anchor id="_DF"/><emphasis>[DF]</emphasis>
 David Friedman, one of the most lucid and accessible thinkers in
 contemporary economics, has written an excellent 
 <ulink url="http://www.best.com/~ddfr/Academic/Course_Pages/L_and_E_LS_98/Why_Is_Law/Why_Is_Law_Chapter_11.html">outline</ulink>
@@ -3557,7 +3577,15 @@ of the
 history and logic of intellectual-property law.  I recommend it as a
 starting point to anyone interested in these issues.</para>
 
-<para><anchor id="BSD"/><emphasis>[BSD]</emphasis>
+<para><anchor id="DF"/><emphasis>[DF]</emphasis>
+David Friedman นักคิดที่แจ่มชัดและเข้าใจง่ายที่สุดคนหนึ่งในแวดวงเศรษฐศาสตร์ปัจจุบัน
+ได้เขียน
+<ulink url="http://www.best.com/~ddfr/Academic/Course_Pages/L_and_E_LS_98/Why_Is_Law/Why_Is_Law_Chapter_11.html">เค้าโครง</ulink>
+อันยอดเยี่ยมของประวัติศาสตร์และตรรกะของกฎหมายทรัพย์สินทางปัญญา
+ผู้เขียนขอแนะนำบทความนี้ สำหรับเป็นจุดเริ่มต้นของผู้ที่สนใจในหัวข้อดังกล่าว
+</para>
+
+<para><anchor id="_BSD"/><emphasis>[BSD]</emphasis>
 One interesting difference between the Linux and BSD worlds is that
 the Linux kernel (and associated OS core utilities) have never forked,
 but BSD's has, at least three times.  What makes this interesting is
@@ -3567,10 +3595,25 @@ the decentralized and amorphous Linux community takes no such
 measures.  It appears that the projects which open up development
 the most actually have the <emphasis>least</emphasis> tendency to fork!</para>
 
+<para><anchor id="BSD"/><emphasis>[BSD]</emphasis>
+ความแตกต่างหนึ่งที่น่าสนใจระหว่างโลกของลินุกซ์และ BSD ก็คือ เคอร์เนลลินุกซ์
+(และโปรแกรมอรรถประโยชน์ข้างเคียง) ไม่เคยมีการฟอร์ก แต่ BSD
+นั้นฟอร์กมาแล้วอย่างน้อยสามครั้ง สิ่งที่ทำให้ความแตกต่างนี้น่าสนใจก็คือว่า
+โครงสร้างทางสังคมของกลุ่ม BSD ทั้งหลายนั้น
+รวมศูนย์โดยมีเจตนาที่จะกำหนดสายอำนาจหน้าที่ที่ชัดเจน และเพื่อป้องกันการฟอร์ก
+ในขณะที่ชุมชนลินุกซ์ซึ่งกระจายอำนาจและรวมกันแบบหลวมๆ นั้น
+ไม่มีมาตรการเหล่านั้นเลย กลายเป็นว่า โครงการที่เปิดกว้างด้านการพัฒนาที่สุด
+ในความเป็นจริงกลับมีแนวโน้ม <emphasis>น้อยที่สุด</emphasis>
+ที่จะเกิดการฟอร์ก!</para>
+
 <para>Henry Spencer <email>henry@spsystems.net</email> suggests that, in general, the
 stability of a political system is inversely proportional to the
 height of the entry barriers to its political process.  His analysis
 is worth quoting here:</para>
+
+<para>Henry Spencer <email>henry@spsystems.net</email> ชี้แนะว่า โดยทั่วไปแล้ว
+เสถียรภาพของระบบการเมืองจะแปรผกผันกับความสูงของกำแพงที่ขวางกั้นกระบวนการทางการเมือง
+การวิเคราะห์ของเขาสมควรจะนำมากล่าวอ้างในที่นี้:</para>
 
 <blockquote>
 <para>One major strength of a relatively open democracy is that most potential 
@@ -3579,6 +3622,13 @@ working via the system rather by attacking it.  This strength is easily
 undermined if established parties act together to `raise the bar', making
 it more difficult for small dissatisfied groups to see <emphasis>some</emphasis> progress
 made toward their goals.</para>
+
+<para>จุดแข็งที่สำคัญจุดหนึ่งของประชาธิปไตยที่เปิดก็คือ กลุ่มต่างๆ
+ที่มีแนวโน้มที่จะปฏิวัติ จะพบว่าการดำเนินการเพื่อบรรลุจุดประสงค์โดยผ่านระบบนั้น
+ง่ายกว่าการโจมตีระบบ จุดแข็งนี้จะถูกทำลายลงอย่างง่ายดาย
+ถ้ามีกลุ่มบุคคลตั้งตัวกระทำการร่วมกันที่จะ `ก่อกำแพง' และทำให้กลุ่มเล็กๆ
+บางกลุ่มมองเห็นความคืบหน้า <emphasis>บางอย่าง</emphasis>
+ที่นำไปสู่เป้าหมายของพวกเขาได้ยากยิ่งขึ้น</para>
 
 <para>(A similar principle can be found in economics.  Open markets have the
 strongest competition, and generally the best and cheapest products.
@@ -3591,6 +3641,18 @@ with the strongest entry barriers are the ones that come under the
 strongest attack from revolutionaries, e.g. the Internet and the Justice
 Dept. vs. the Bell System.)</para>
 
+<para>(หลักการที่คล้ายกันนี้ พบได้ในเศรษฐศาสตร์เช่นกัน
+ตลาดเปิดจะมีการแข่งขันที่เข้มข้นที่สุด
+และโดยทั่วไปจะทำให้ได้สินค้าที่ดีและถูกที่สุดด้วย ด้วยเหตุนี้
+จึงเป็นความสนใจหลักของบริษัทที่ปักหลักได้แล้ว
+ที่จะพยายามทำให้การเข้าสู่ตลาดทำได้ยากยิ่งขึ้น เช่น
+ด้วยการโน้มน้าวรัฐบาลให้กำหนดการทดสอบ RFI กับคอมพิวเตอร์
+หรือด้วยการสร้างมาตรฐาน `ประชามติ' ที่ยุ่งยากซับซ้อน
+จนไม่สามารถทำให้เป็นจริงจากการเริ่มต้นใหม่ได้โดยปราศจากทรัพยากรมหาศาล
+ตลาดที่มีกำแพงขวางกั้นการเข้าสู่ตลาดที่แข็งที่สุด
+ก็จะต้องเผชิญกับการโจมตีที่รุนแรงที่สุดจากการปฏิวัติเช่นกัน ตัวอย่างเช่น
+กรณีอินเทอร์เน็ตและกระทรวงยุติธรรม กับ Bell System เป็นต้น)</para>
+
 <para>An open process with low entry barriers encourages participation rather
 than secession, because one can get results without the high overheads of
 secession.  The results may not be as impressive as what could be achieved
@@ -3600,9 +3662,21 @@ Franco's anti-Basque laws and offered the Basque provinces their own
 schools and limited local autonomy, most of the Basque Separatist movement
 evaporated almost overnight.  Only the hard-core Marxists insisted that it
 wasn't good enough.)</para>
+
+<para>กระบวนการเปิดที่มีกำแพงขวางกั้นการเข้าร่วมที่ต่ำ
+จะเชื้อเชิญให้ผู้คนเข้าร่วมมากกว่าแยกตัว
+เพราะสามารถได้ผลลัพธ์โดยไม่ต้องสิ้นเปลืองกับการแยกตัว
+ผลลัพธ์ที่ได้อาจไม่ประทับใจเท่ากับที่ได้จากการแยกตัว
+แต่ก็ได้มาด้วยต้นทุนที่ต่ำกว่า
+และคนส่วนใหญ่ก็จะถือว่านั่นเป็นการแลกเปลี่ยนที่ยอมรับได้
+(เมื่อรัฐบาลสเปนยกเลิกกฎหมายต่อต้านชาวบาสก์ของนายพลฟรังโก
+และสร้างโรงเรียนให้จังหวัดต่างๆ ของชาวบาสก์
+พร้อมทั้งให้มีการปกครองส่วนท้องถิ่นเป็นเอกเทศ ปรากฏว่า
+ความเคลื่อนไหวแบ่งแยกดินแดนของชาวบาสก์อันตรธานไปสิ้นแทบจะในชั่วข้ามคืน
+มีเพียงพวกมาร์กซิสต์หัวรุนแรงเท่านั้นที่ยังยืนยันว่านั่นยังไม่เพียงพอ)</para>
 </blockquote>
 
-<para><anchor id="rp"/><emphasis>[RP]</emphasis>
+<para><anchor id="_rp"/><emphasis>[RP]</emphasis>
 There are some subtleties about rogue patches.  One can divide them
 into `friendly' and `unfriendly' types.  A `friendly' patch is
 designed to be merged back into the project's main-line sources under
@@ -3615,12 +3689,35 @@ An unfriendly patch, on the other hand, represents a decision to
 compete with the original and is a serious matter.  Maintaining a whole
 raft of unfriendly patches tends to lead to forking.</para>
 
-<para><anchor id="lw"/><emphasis>[LW]</emphasis>
+<para><anchor id="rp"/><emphasis>[RP]</emphasis>
+มีรายละเอียดปลีกย่อยนิดหน่อยเกี่ยวกับแพตช์เถื่อน
+เราอาจแบ่งประเภทแพตช์เถื่อนออกเป็นแบบที่ `เป็นมิตร' และแบบที่ `ไม่เป็นมิตร'
+แพตช์ที่ `เป็นมิตร' นั้น มุ่งหมายที่จะรวมกลับเข้าไปในซอร์สสายหลักของโครงการ
+ภายใต้การควบคุมของผู้ดูแล (ไม่ว่าการรวมนั้นจะเกิดขึ้นหรือไม่ก็ตาม) ส่วนแพตช์ที่
+`ไม่เป็นมิตร' นั้น มุ่งที่จะดึงเอาโครงการไปในทิศทางที่ผู้ดูแลไม่เห็นด้วย
+บางโครงการ (โดยเฉพาะเคอร์เนลลินุกซ์เอง)
+ค่อนข้างจะปล่อยตามสบายกับแพตช์ที่เป็นมิตร
+หรือกระทั่งเชื้อเชิญให้แจกจ่ายแยกต่างหาก
+โดยถือเป็นส่วนหนึ่งของขั้นตอนการทดสอบแพตช์ ในทางกลับกัน
+แพตช์ที่ไม่เป็นมิตรเป็นการแสดงถึงการตัดสินใจที่จะแข่งกับฉบับดั้งเดิม
+และถือเป็นเรื่องที่ร้ายแรง การดูแลแพตช์ที่ไม่เป็นมิตรทั้งกระบุง
+มีแนวโน้มที่จะนำไปสู่การฟอร์กได้</para>
+
+<para><anchor id="_lw"/><emphasis>[LW]</emphasis>
 I am indebted to Michael Funk <email>mwfunk@uncc.campus.mci.net</email> for
 pointing out how instructive a contrast with hackers the pirate
 culture is. Linus Walleij has posted an analysis of their cultural
 dynamics that differs from mine (describing them as a scarcity
 culture) in <ulink url="http://www.df.lth.se/~triad/papers/Raymond_D00dz.html">A Comment on `Warez D00dz' Culture</ulink>.</para>
+
+<para><anchor id="lw"/><emphasis>[LW]</emphasis>
+ผู้เขียนเป็นหนี้ต่อ Michael Funk <email>mwfunk@uncc.campus.mci.net</email>
+ที่ชี้ให้เห็นว่า ความตรงข้ามกันระหว่างวัฒนธรรมแฮกเกอร์กับจารชนนั้น
+ช่วยให้คำอธิบายที่ดีอย่างไร Linus Walleij
+ได้โพสต์การวิเคราะห์พลวัตของวัฒนธรรมของพวกเขา ซึ่งต่างจากที่ผู้เขียนวิเคราะห์
+(ที่บรรยายวัฒนธรรมนั้นว่าเป็นวัฒนธรรมบนพื้นฐานของความขาดแคลน) ไว้ในบทความ
+<ulink url="http://www.df.lth.se/~triad/papers/Raymond_D00dz.html">A Comment
+on `Warez D00dz' Culture</ulink></para>
 
 <para>The contrast may not last.  Former cracker Andrej Brandt
 <email>andy@pilgrim.cs.net.pl</email> reports that he believes the
@@ -3631,7 +3728,16 @@ evidence for this view may be provided by a precedent-breaking July
 They have released their `Back Orifice 2000' for breaking Microsoft
 Windows security tools under the GPL.</para>
 
-<para><anchor id="HT"/><emphasis>[HT]</emphasis> 
+<para>ความต่างนี้อาจกำลังหมดไป Andrej Brandt
+<email>andy@pilgrim.cs.net.pl</email> อดีตนักเจาะระบบรายงานว่า
+เขาเชื่อว่าวัฒนธรรมนักเจาะระบบ หรือ warez d00dz กำลังเหี่ยวแห้งตายไป
+เมื่อคนเก่งๆ และนักเจาะชั้นนำได้ค่อยๆ ย้ายมาสู่โลกโอเพนซอร์ส
+อีกหลักฐานหนึ่งเกี่ยวกับเรื่องนี้ก็คือ ปฏิบัติการ กรกฎาคม 1999
+ซึ่งทำลายแบบอย่างเดิมๆ ทิ้ง โดยกลุ่มที่เรียกตัวเองว่า `Cult of the Dead Cow'
+พวกเขาได้ปล่อย `Back Orifice 2000' ที่ใช้ทำลายระบบความปลอดภัยของวินโดวส์
+ภายใต้สัญญาอนุญาต GPL</para>
+
+<para><anchor id="_HT"/><emphasis>[HT]</emphasis> 
 In evolutionary terms, the craftsman's urge itself may (like
 internalized ethics) be a result of the high risk and cost of
 deception.  Evolutionary psychologists have collected experimental
@@ -3642,6 +3748,20 @@ cheating.  Therefore, if one wishes to have a reputation for
 personality traits that confer advantage but are risky or costly, it
 may actually be better tactics to actually have these traits than to
 fake them.  (``Honesty is the best policy'')</para>
+
+<para><anchor id="HT"/><emphasis>[HT]</emphasis> 
+ในแง่ของวิวัฒนาการแล้ว แรงผลักดันของช่างฝีมือเอง
+(อย่างเดียวกับการเกิดคุณธรรมภายใน) อาจจะเป็นผลมาจากการที่การหลอกลวงนั้น
+มีความเสี่ยงสูงและสิ้นเปลือง
+นักจิตวิทยาเชิงวิวัฒนาการได้รวมรวมหลักฐานจากการทดลอง
+<link linkend="BCT">[BCT]</link>
+ว่ามนุษย์มีตรรกะของสมองที่สร้างมาเฉพาะเพื่อตรวจจับการหลอกลวงในสังคม
+และก็เข้าใจได้ไม่ยากเลย
+ว่าทำไมบรรพบุรุษของเราจึงควรถูกเลือกไว้เพราะความสามารถในการตรวจจับการโกงนี้
+ดังนั้น ถ้าใครอยากจะมีชื่อเสียงในด้านบุคลิกลักษณะที่นำมาซึ่งข้อได้เปรียบ
+แต่มีความเสี่ยงและต้นทุนสูง
+ก็เป็นการดีกว่าถ้าจะเลือกแนวทางของการมีความสามารถนั้นๆ จริงๆ
+แทนที่จะมีแบบปลอมๆ (``ความซื่อสัตย์คือกุศโลบายที่ดีที่สุด'')</para>
 
 <para>Evolutionary psychologists have suggested that this explains behavior
 like barroom fights.  Among younger adult male humans, having a
@@ -3654,10 +3774,25 @@ minimaxing to internalize toughness and risk serious injury in a
 fight to prove it.  Parallel observations have been made about less
 controversial traits like honesty.</para>
 
+<para>นักจิตวิทยาเชิงวิวัฒนาการได้ชี้แนะว่า
+หลักการนี้อธิบายพฤติกรรมเหมือนการต่อสู้ในบาร์ ในหมู่มนุษย์ผู้ชายที่โตเต็มวัยนั้น
+การมีชื่อเสียงในความแข็งแรงมีประโยชน์ทั้งในทางสังคมและทางเพศ
+(แม้ในบรรยากาศที่เต็มไปด้วยอิทธิพลของนักสิทธิสตรีอย่างทุกวันนี้)
+อย่างไรก็ดี ความแข็งแรงที่จอมปลอมกลับเป็นความเสี่ยงอย่างมาก
+ผลทางลบของการถูกเปิดโปงจะทำให้คนคนนั้นอยู่ในฐานะที่แย่ยิ่งกว่าการไม่เคยกล่าวอ้างอะไรเลย
+ต้นทุนของการหลอกลวงนั้นสูงเสียจนบางทีการปรับให้เป็นการสร้างความแข็งแรงภายใน
+แล้วเสี่ยงรับความบาดเจ็บสาหัสในการต่อสู้เพื่อพิสูจน์ให้เห็นเลยยังจะดีเสียกว่า
+มีการการสังเกตที่คล้ายกันนี้ต่อเรื่องที่เป็นที่กังขาน้อยกว่าอย่างความซื่อสัตย์ด้วย</para>
+
 <para>Though the primary meditation-like rewards of creative work should not
 be underestimated, the craftsman's urge is probably at least in part
 just such an internalization (where the base trait is `capacity for
 painstaking work' or something similar).</para>
+
+<para>แม้ไม่ควรดูถูกรางวัลในลักษณะที่คล้ายการฝึกสมาธิของงานสร้างสรรค์
+แต่ความปรารถนาของช่างฝีมืออย่างน้อยก็อาจมีลักษณะบางส่วนคล้ายกับการสร้างความแข็งแรงภายในดังกล่าว
+(โดยที่ลักษณะที่เป็นพื้นฐานก็คือ `ความอดทนต่องานยากลำบาก'
+หรืออะไรที่คล้ายกัน)</para>
 
 <para>Handicap theory may also be relevant.  The peacock's gaudy tail
 and the stag's massive rack of antlers are sexy to females because
@@ -3668,16 +3803,38 @@ display." Giving away source code, like owning a sports car, is very
 similar to such showy, wasteful finery - it's expense without obvious
 return, and makes the giver at least theoretically very sexy.</para>
 
-<para><anchor id="MH"/><emphasis>[MH]</emphasis> A concise summary of
+<para>ทฤษฎีการต่อแต้มก็อาจมีความเกี่ยวข้องด้วย หางอันฉูดฉาดของนกยูง
+และกิ่งก้านจำนวนมากของเขากวางตัวผู้นั้น แลดูเซ็กซี่ในสายตาของตัวเมีย
+เพราะมันสื่อสารออกมาถึงสุขภาพที่ดีของตัวผู้
+(ซึ่งหมายถึงความเหมาะสมที่จะเป็นพ่อพันธุ์ของลูกๆ ที่แข็งแรงด้วย)
+สิ่งที่มันพูดก็คือ:
+"ฉันแข็งแรงมากเสียจนสามารถจะเสียพลังงานไปมากมายสำหรับการโชว์อันฟุ่มเฟือยนี้"
+การให้ซอร์สโค้ดออกไปมากมาย ก็เหมือนกับการมีรถสปอร์ตสักคัน
+คือคล้ายกับอาภรณ์อันโอ่อ่าฟู่ฟ่าเหล่านั้น มันเป็นการให้ที่ไร้ผลตอบแทนที่ชัดเจน
+และอย่างน้อยก็ทำให้ผู้ให้ดูเซ็กซี่มากๆ ในทางทฤษฎี</para>
+
+<para><anchor id="_MH"/><emphasis>[MH]</emphasis> A concise summary of
 Maslow's hierarchy and related theories is available on the Web at
 <ulink
 url="http://www.valdosta.peachnet.edu/~whuitt/psy702/regsys/maslow.html">Maslow's
 Hierarchy of Needs</ulink></para>
 
-<para><anchor id="dc"/><emphasis>[DC]</emphasis> However, demanding
+<para><anchor id="MH"/><emphasis>[MH]</emphasis>
+มีการสรุปที่กระชับเกี่ยวกับลำดับชั้นของมาสโลว์และทฤษฎีที่เกี่ยวข้องบนเว็บที่
+<ulink
+url="http://www.valdosta.peachnet.edu/~whuitt/psy702/regsys/maslow.html">Maslow's
+Hierarchy of Needs</ulink></para>
+
+<para><anchor id="_dc"/><emphasis>[DC]</emphasis> However, demanding
 humility from leaders may be a more general characteristic of gift or
 abundance cultures.  David Christie <email>dc@netscape.com</email> reports on
 a trip through the outer islands of Fiji:</para>
+
+<para><anchor id="dc"/><emphasis>[DC]</emphasis> อย่างไรก็ดี
+ความต้องการความอ่อนน้อมถ่อมตนของผู้นำ
+อาจเป็นลักษณะของวัฒนธรรมการให้หรือวัฒนธรรมเหลือเฟือที่มีโดยทั่วไปมากกว่านั้น
+David Christie <email>dc@netscape.com</email>
+รายงานการเดินทางไปยังเกาะรอบนอกของฟิจิไว้ว่า:</para>
 
 <blockquote>
 <para>In Fijian village chiefs, we observed the same sort of
@@ -3692,9 +3849,23 @@ are born to it, not chosen by their peers.''  He goes on to emphasize
 that he believes the characteristic style of Fijian chiefs springs
 from the difficulty of compelling cooperation: a chief has ``no big
 carrot or big stick''.</para>
+
+<para>``ในตัวหัวหน้าหมู่บ้านทั้งหลายในฟิจินั้น
+เราสังเกตได้ถึงสไตล์ความเป็นผู้นำที่ลดตัวลงต่ำ
+ชนิดเดียวกับที่คุณบรรยายผู้นำโครงการโอเพนซอร์ส [...]
+แม้จะได้รับความเคารพอย่างมาก และแน่นอนว่าย่อมมีอำนาจแท้จริงทุกอย่างที่มีในฟิจิ
+แต่พวกหัวหน้าที่เราได้พบต่างแสดงความอ่อนน้อมอย่างจริงใจ
+และมักจะยอมรับในภาระหน้าที่ของตนราวกับนักบุญ เรื่องนี้ยิ่งน่าสนใจเข้าไปอีก
+เมื่อการเป็นหัวหน้าเป็นบทบาทที่สืบทอดโดยสายเลือด ไม่ได้มาจากการเลือกตั้ง
+หรือจากการประกวดประขันคะแนนนิยมแต่อย่างใด
+พวกเขาถูกฝึกฝนด้วยวิถีทางบางอย่างของตัววัฒนธรรมเอง
+ถึงแม้พวกเขาจะเกิดมาเพื่อเป็นผู้นำโดยตรง ไม่ได้มาจากการเลือกของผองชน''
+เขาเน้นต่อไปว่า เขาเชื่อว่าคุณลักษณะของผู้นำชาวฟิจินี้
+เกิดจากความยากลำบากของการบังคับขอความร่วมมือ กล่าวคือ หัวหน้าไม่มี
+``บำเหน็จรางวัลชิ้นใหญ่หรือคทาอาญาสิทธิ์''</para>
 </blockquote>
 
-<para><anchor id="no"/><emphasis>[NO]</emphasis>
+<para><anchor id="_no"/><emphasis>[NO]</emphasis>
 As a matter of observable fact, people who found successful projects
 gather more prestige than people who do arguably equal amounts of work
 debugging and assisting with successful projects.  An earlier version
@@ -3703,6 +3874,16 @@ effort, or is it a second-order effect of the unconscious territorial
 model we have adduced here?''  Several respondents suggested persuasive
 and essentially equivalent theories.  The following analysis by 
 Ryan Waldron <email>rew@erebor.com</email> puts the case well:</para>
+
+<para><anchor id="no"/><emphasis>[NO]</emphasis>
+จากการสังเกตแล้ว ผู้ที่สามารถก่อตั้งโครงการที่ประสบความสำเร็จ
+จะได้รับเกียรติยศมากกว่าผู้ที่อาจจะทำงานในปริมาณที่เทียบเท่ากันในการแก้บั๊กหรือช่วยพัฒนาโครงการที่ประสบความสำเร็จ
+บทความนี้ฉบับเผยแพร่รุ่นก่อนได้ตั้งคำถามไว้ว่า
+``เรื่องนี้ถือเป็นการให้คุณค่าของความพยายามอย่างสมเหตุสมผลแล้ว
+หรือว่าเป็นผลทางอ้อมของหลักการประกาศถิ่นอย่างไม่เจตนาที่เราได้เสนอไป ณ
+ที่นี้?'' มีผู้แสดงความเห็นหลายท่านได้เสนอแนะทฤษฎีที่น่าเชื่อถือ
+และมีใจความหลักเหมือนกัน การวิเคราะห์โดย 
+Ryan Waldron <email>rew@erebor.com</email> ต่อไปนี้ เป็นตัวอย่างที่ดี:</para>
 
 <blockquote>
 <para>In the context of the Lockean land theory, one who establishes a new and
@@ -3713,10 +3894,22 @@ contributions to a project has become so diffuse that it is hard for
 significant reputation to accrete to a late participant, regardless of the
 quality of his work.</para>
 
+<para>ในบริบทของทฤษฎีที่ดินของล็อคแล้ว
+ผู้ที่ก่อตั้งโครงการใหม่ที่ประสบความสำเร็จนั้น
+ถือว่าได้ค้นพบหรือบุกเบิกดินแดนใหม่ ซึ่งผู้อื่นสามารถเข้าไปปักหลักได้
+สำหรับโครงการที่ประสบความสำเร็จทั้งหลาย จะมีรูปแบบผลตอบแทนที่ค่อยๆ ลดลง
+ซึ่งทำให้เมื่อเวลาผ่านไประยะหนึ่ง เครดิตของการร่วมพัฒนาโครงการก็จะถูกเจือจาง
+จนยากที่ผู้มาทีหลังจะไต่เต้าจนได้ชื่อเสียงได้
+ไม่ว่างานของเขาจะยอดเยี่ยมเพียงใดก็ตาม</para>
+
 <para>For instance, how good a job would I have to do making
 modifications to the perl code to have even a fraction of the
 recognition for my participation that Larry, Tom, Randall, and others
 have achieved?</para>
+
+<para>ตัวอย่างเช่น ผมจะต้องทำงานดีขนาดไหน ในการแก้โค้ดของ perl
+เพื่อให้คนอื่นมองเห็นแม้เศษเสี้ยวของความมีส่วนร่วมของผม อย่างที่ Larry, Tom,
+Randall และคนอื่นๆ ได้รับมาแล้ว?</para>
 
 <para>However, if a new project is founded [by someone else] tomorrow, and I
 am an early and frequent participant in it, my ability to share in the
@@ -3728,6 +3921,17 @@ profit, but early participants profit more.  Therefore, at some point
 I will be more interested in a new and successful IPO than I will be
 in participating in the continual increase of an existing body of
 corporate stock.</para>
+
+<para>อย่างไรก็ดี ถ้าพรุ่งนี้มีโครงการใหม่ตั้งขึ้นมา [โดยคนอื่น] 
+แล้วผมก็เป็นผู้เข้าร่วมคนแรกๆ และบ่อยๆ
+โอกาสที่ผมจะมีส่วนร่วมในชื่อเสียงที่มากับโครงการที่ประสบความสำเร็จนั้น
+ย่อมเพิ่มขึ้นอย่างมาก ในฐานะที่ผมเข้าร่วมแต่เนิ่นๆ (โดยสมมุติว่า
+คุณภาพของงานที่เข้าร่วมนั้น พอๆ กัน) ผมคิดว่า
+เรื่องนี้คล้ายกันกับกรณีผู้ร่วมลงทุนกับไมโครซอฟท์ตอนต้นๆ
+เมื่อเทียบกับผู้ที่เข้าร่วมในภายหลัง ทุกคนอาจได้กำไรทั้งนั้น
+แต่คนที่เข้าร่วมก่อนย่อมได้มากกว่า ดังนั้น ผมจึงสนใจในระดับหนึ่งที่จะเข้าร่วม
+IPO ที่ใหม่และประสบความสำเร็จ
+มากกว่าจะเข้าร่วมในการเพิ่มทุนของหุ้นบริษัทที่มีอยู่แล้ว</para>
 </blockquote>
 
 <para>Ryan Waldron's analogy can be extended.  The project founder has
@@ -3740,6 +3944,15 @@ the fact that the assistants may be putting in more work in real
 terms.  This is easily seen as analogous to the relationship between
 risk and rewards in an exchange economy.</para>
 
+<para>การเปรียบเปรยของ Ryan Waldron สามารถขยายต่อไปได้อีก
+ผู้ก่อตั้งโครงการจำเป็นต้องเร่ขายความคิด
+ซึ่งอาจได้รับการยอมรับหรือนำไปใช้หรือไม่ก็ได้ ดังนั้น
+เขาจึงต้องพบกับบางสิ่งที่คล้ายกับความเสี่ยงของ IPO (ที่จะเสื่อมเสียชื่อเสียง)
+มากกว่าคนอื่นๆ ที่เข้าช่วยโครงการที่ได้สั่งสมความเชื่อถือจากหมู่ชนมาแล้ว
+รางวัลสำหรับผู้ก่อตั้งจึงคงที่ แม้ว่าโดยแท้จริงแล้ว
+ผู้ร่วมพัฒนาจะทำงานเพิ่มเข้าไปมากกว่า
+เรื่องนี้เห็นได้ชัดว่าคล้ายกันกับเรื่องความสัมพันธ์ระหว่างความเสี่ยงกับรางวัลในเศรษฐศาสตร์แบบแลกเปลี่ยน</para>
+
 <para>Other respondents have observed that our nervous system is tuned
 to perceive differences, not steady state. The revolutionary change
 evidenced by the creation of a new project is therefore much more
@@ -3749,14 +3962,29 @@ the net effect of improvements by thousands of other contributors have
 done more to contribute to the success of the OS than one man's work
 ever could.</para>
 
-<para><anchor id="HD"/><emphasis>[HD]</emphasis> The phrase
+<para>ผู้ร่วมแสดงความเห็นท่านอื่นๆ ยังได้สังเกตว่า ระบบประสาทของเรา
+ถูกปรับมาเพื่อให้สัมผัสกับความแตกต่าง ไม่ใช่กับสถานะคงที่
+การเปลี่ยนแปลงแบบปฏิวัติวงการโดยมีโครงการใหม่เป็นหลักฐาน
+จึงสังเกตได้ง่ายกว่าผลสะสมของการพัฒนาที่ต่อเนื่องอย่างคงที่ ดังนั้น
+ไลนัสจึงได้รับความเคารพในฐานะบิดาแห่งลินุกซ์
+แม้ว่าผลสุทธิของการพัฒนาจากผู้เข้าร่วมอื่นๆ เรือนพัน
+จะมีส่วนช่วยในความสำเร็จของ OS นี้เกินกว่าที่งานของคนคนหนึ่งจะทำได้ก็ตาม</para>
+
+<para><anchor id="_HD"/><emphasis>[HD]</emphasis> The phrase
 ``de-commoditizing'' is a reference to the <ulink
 url="http://www.opensource.org/halloween/">Halloween Documents</ulink>
 in which Microsoft used ``de-commoditize'' quite frankly to refer to
 their most effective long-term strategy for maintaining an
 exploitative monopoly lock on customers.</para>
 
-<para><anchor id="KN"/><emphasis>[HD]</emphasis> A respondent points
+<para><anchor id="HD"/><emphasis>[HD]</emphasis> คำว่า ``ทำลายตลาด''
+(de-commoditize) นี้ อ้างไปถึง <ulink
+url="http://www.opensource.org/halloween/">เอกสารวันฮัลโลวีน</ulink>
+ซึ่งไมโครซอฟท์ได้ใช้คำว่า ``ทำลายตลาด'' อย่างตรงไปตรงมา
+ในการเรียกนโยบายระยะยาวที่ทรงประสิทธิภาพที่สุดในการผูกมัดลูกค้าไว้
+โดยอาศัยการผูกขาดอย่างแกมโกง</para>
+
+<para><anchor id="_KN"/><emphasis>[HD]</emphasis> A respondent points
 out that the valus surrounding the ``You're not a hacker until other
 hackers call you a hacker'' norm parallel ideals professed (if not
 always achieved) by other meritocratic brotherhoods within social
@@ -3775,11 +4003,38 @@ similar values and behavioral norms should evolve around any skill
 that both requires great dedication and confers a kind of
 power.</para>
 
-<para><anchor id="GNU"/><emphasis>[GNU]</emphasis>
+<para><anchor id="KN"/><emphasis>[KN]</emphasis>
+ผู้ร่วมแสดงความเห็นท่านหนึ่งชี้ว่า คุณค่าที่อยู่รอบๆ บรรทัดฐานที่ว่า
+``คุณจะไม่เป็นแฮ็กเกอร์จนกว่าแฮ็กเกอร์คนอื่นจะเรียกคุณว่าแฮ็กเกอร์'' นี้
+คล้ายกันกับอุดมคติที่กล่าวอ้าง (ถ้าไม่ใช่บรรลุ)
+โดยสังคมอื่นที่เชื่อมั่นในความสำเร็จด้วยตนเอง
+ในกลุ่มผู้นำทางสังคมซึ่งร่ำรวยพอที่จะหนีพ้นเศรษฐกิจแบบขาดแคลนที่รายล้อม
+ตัวอย่างเช่น ในอุดมคติของยุโรปสมัยกลางเกี่ยวกับความเป็นอัศวินนั้น
+อัศวินผู้ใฝ่ฝันจะถูกคาดหวังให้ต่อสู้เพื่อความถูกต้อง
+ให้แสวงหาเกียรติศักดิ์ศรีแทนที่จะได้มาเฉยๆ
+ให้ยืนหยัดเคียงข้างผู้ที่อ่อนแอและถูกกดขี่ และให้แสวงหาความท้าทายอย่างสม่ำเสมอ
+ที่จะทดสอบความเก่งกล้าของตนอย่างถึงที่สุด
+สิ่งที่ผู้ใฝ่ฝันจะเป็นอัศวินจะได้รับเป็นการตอบแทน คือสามารถเรียกตัวเอง
+(และโดยผู้อื่น) ว่าเป็นหนึ่งในสุดยอดผู้กล้า
+แต่ต้องหลังจากที่ความสามารถและคุณค่าของเขาได้รับการยอมรับและรับรองจากอัศวินคนอื่นแล้วเท่านั้น
+ในอุดมคติของอัศวินที่ได้รับการสรรเสริญจากเรื่องกษัตริย์อาเธอร์และ Chansons de
+Geste นั้น เราจะพบการคละเคล้าของอุดมการณ์ การท้าทายตัวเองอย่างต่อเนื่อง
+และการแสวงหาสถานภาพ คล้ายกับสิ่งที่อยู่ในตัวแฮ็กเกอร์ทั้งหลายในทุกวันนี้
+จึงดูเป็นไปได้ ที่คุณค่าและบรรทัดฐานการปฏิบัติที่คล้ายกัน
+จะพัฒนาเกี่ยวเนื่องกับความสามารถที่ทั้งต้องการการอุทิศตนอย่างใหญ่หลวง
+และเกี่ยวข้องกับอำนาจบางอย่าง</para>
+
+<para><anchor id="_GNU"/><emphasis>[GNU]</emphasis>
 The Free Software Foundation's main website carries 
 <ulink url="http://www.gnu.org/philosophy/motivation.html">an
 article</ulink> that summarizes the results of many of these studies.  The
 quotes in this essay are excerpted from there.</para>
+
+<para><anchor id="GNU"/><emphasis>[GNU]</emphasis>
+เว็บไซต์หลักของมูลนิธิซอฟต์แวร์เสรีได้เสนอ
+<ulink url="http://www.gnu.org/philosophy/motivation.html">บทความหนึ่ง</ulink>
+ซึ่งสรุปผลของการศึกษาเหล่านี้จำนวนมาก คำพูดทั้งหลายเกี่ยวกับเรื่องนี้ในบทความนี้
+ก็คัดลอกมาจากบทความดังกล่าว</para>
 
 </sect1>
 <sect1><title>Bibliography</title>
