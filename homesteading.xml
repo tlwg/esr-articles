@@ -20,7 +20,7 @@
     </address>
   </affiliation>
 </author>
-<pubdate role="cvs">$Date: 2004-06-29 08:50:09 $</pubdate>
+<pubdate role="cvs">$Date: 2004-06-30 16:53:07 $</pubdate>
 <releaseinfo>This is version 3.0</releaseinfo>
 <copyright>
   <year>2000</year>
@@ -2642,22 +2642,32 @@ and resolving conflicts.</para>
 </para>
 
 </sect1>
-<sect1><title>Causes of Conflict</title>
+<!-- Causes of Conflict -->
+<sect1><title>สาเหตุของข้อขัดแย้ง</title>
 
 <para>In conflicts over open-source software we can identify four
 major issues:</para>
 
+<para>ในบรรดาข้อขัดแย้งในซอฟต์แวร์โอเพนซอร์ส เราสามารถระบุเรื่องหลักๆ
+ได้สี่เรื่อง:</para>
+
 <itemizedlist>
 <listitem><para> Who gets to make binding decisions about a
 project?</para></listitem>
+<listitem><para> ใครคือผู้ตัดสินใจเกี่ยวกับพันธกรณีของโครงการ?</para></listitem>
 
 <listitem><para> Who gets credit or blame for what?</para></listitem>
+<listitem><para> ใครได้เครดิตหรือคำตำหนิเรื่องอะไร?</para></listitem>
 
 <listitem><para> How to reduce duplication of effort and prevent rogue
        versions from complicating bug tracking?</para></listitem>
+<listitem><para> จะลดการทำงานซ้ำซ้อน
+       และป้องกันเวอร์ชันเถื่อนไม่ให้มารบกวนการติดตามบั๊กได้อย่างไร?
+       </para></listitem>
 
 <listitem><para> What is the Right Thing, technically
 speaking?</para></listitem>
+<listitem><para> อะไรคือสิ่งที่ถูกต้องในทางเทคนิค?</para></listitem>
 </itemizedlist>
 
 <para>If we take a second look at the ``What is the Right Thing'' issue,
@@ -2666,16 +2676,32 @@ an objective way to decide it accepted by all parties or there isn't.
 If there is, game over and everybody wins.  If there isn't, it reduces
 to ``Who decides?''.</para>
 
+<para>อย่างไรก็ดี ถ้าเรากลับไปพิจารณาเรื่อง ``อะไรคือสิ่งที่ถูกต้อง'' อีกครั้ง
+เรื่องนี้ก็อาจจะหายไป เพราะสำหรับคำถามเช่นนี้
+จะมีวิธีตัดสินที่เป็นกลางและเป็นที่ยอมรับของทุกฝ่าย หรือไม่ก็ไม่มีเลย
+ซึ่งถ้ามี เรื่องก็จบ ทุกคนได้ประโยชน์ แต่ถ้าไม่มี เรื่องก็กลายมาเป็น
+``ใครคือผู้ตัดสิน?'' นั่นเอง</para>
+
 <para>Accordingly, the three problems a conflict-resolution theory has to
 resolve about a project are (a) where the buck stops on design
 decisions, (b) how to decide which contributors are credited and how,
 and (c) how to keep a project group and product from fissioning into
 multiple branches.</para>
 
+<para>เมื่อเป็นเช่นนี้ ปัญหาสามข้อที่ทฤษฎีการยุติข้อขัดแย้งต้องแก้ในโครงการก็คือ
+(ก) ความรับผิดชอบในการตัดสินใจเรื่องการออกแบบตกอยู่ที่ใคร
+(ข) จะตัดสินอย่างไรว่าผู้ร่วมสมทบคนไหนได้เครดิตอย่างไร และ
+(ค) จะป้องกันกลุ่มโครงการไม่ให้เกิดการแยกตัวออกไปหลายแขนงอย่างไร</para>
+
 <para>The role of ownership customs in resolving issues (a) and (c) is
 clear.  Custom affirms that the owners of the project make the binding
 decisions.  We have previously observed that custom also exerts heavy
 pressure against dilution of ownership by forking.</para>
+
+<para>บทบาทของจารีตประเพณีเรื่องการถือครองในการยุติกรณี (ก) และ (ค) นั้นชัดเจน
+เพราะจารีตประเพณีให้การรับรองเจ้าของโครงการให้เป็นผู้ตัดสินใจเกี่ยวกับพันธกรณี
+เราได้สังเกตมาก่อนแล้วว่า
+จารีตประเพณียังได้ให้แรงกดดันต้านการสลายตัวจากการฟอร์กอีกด้วย</para>
 
 <para>It's instructive to notice that these customs make sense even if one
 forgets the reputation game and examines them from within a pure
@@ -2683,6 +2709,11 @@ forgets the reputation game and examines them from within a pure
 customs have less to do with the dilution of reputation incentives
 than with protecting a craftsman's right to execute his vision in his
 chosen way.</para>
+
+<para>เรายังเรียนรู้ได้อีกจากการสังเกตว่าจารีตประเพณีเหล่านี้ยังใช้ได้
+แม้จะละเลยผลของเกมแห่งชื่อเสียงแล้วตรวจสอบจากมุมมองแบบ `ช่างฝีมือ' ล้วนๆ
+เกี่ยวกับวัฒนธรรมแฮ็กเกอร์ ในมุมมองนี้
+จารีตประเพณีให้แรงจูงใจต่อการแยกตัวน้อยกว่าการปกป้องสิทธิของช่างฝีมือที่จะทำตามวิสัยทัศน์ของตนในวิธีที่ตนเลือก</para>
 
 <para>The craftsmanship model is not, however, sufficient to explain
 hacker customs about issue (b), who gets credit for what&mdash;because a
@@ -2692,8 +2723,17 @@ theory one step further and examine conflicts and the operation of
 property rights <emphasis>within</emphasis> projects as well as
 <emphasis>between</emphasis> them.</para>
 
+<para>อย่างไรก็ดี
+คำอธิบายแบบช่างฝีมือก็ยังไม่เพียงพอที่จะอธิบายวัฒนธรรมแฮ็กเกอร์เกี่ยวกับข้อ (ข)
+ใครได้เครดิตในเรื่องไหน เพราะช่างฝีมือบริสุทธิ์ผู้ไม่สนใจเกมแห่งชื่อเสียง
+จะไม่มีแรงกระตุ้นให้มาสนใจเรื่องเครดิต การวิเคราะห์เรื่องนี้
+จึงต้องคิดต่อจากทฤษฎีของล็อคไปอีกขั้น แล้วตรวจสอบข้อขัดแย้ง
+กับการทำงานของสิทธิในทรัพย์สิน <emphasis>ภายใน</emphasis> โครงการ และ
+<emphasis>ระหว่าง</emphasis> โครงการต่างๆ</para>
+
 </sect1>
-<sect1><title>Project Structures and Ownership</title>
+<!-- Project Structures and Ownership -->
+<sect1><title>โครงสร้างของโครงการและการถือครอง</title>
 
 <para>The trivial case is that in which the project has a single
 owner/maintainer.  In that case there is no possible conflict.  The
@@ -2705,6 +2745,15 @@ interests are expressed by a cultural norm that an owner/maintainer
 should publicly hand title to someone if he or she can no longer
 maintain the project.</para>
 
+<para>กรณีที่เล็กน้อยก็คือกรณีที่โครงการมีเจ้าของเพียงคนเดียว ในกรณีดังกล่าว
+ย่อมไม่มีข้อขัดแย้ง เจ้าของโครงการเป็นผู้ตัดสินใจและรับทั้งผิดและชอบทุกอย่าง
+ข้อขัดแย้งที่เป็นไปได้เพียงอย่างเดียวคือเรื่องการสืบทอดโครงการ
+คือคำถามว่าใครจะเป็นเจ้าของคนใหม่ ถ้าเจ้าของคนเดิมหายตัวไป หรือเลิกสนใจทำ
+นอกจากนี้ ชุมชนยังมีความสนใจตามข้อ (ค) เรื่องการป้องกันการฟอร์ก ความสนใจเหล่านี้
+แสดงออกมาในรูปบรรทัดฐานของวัฒนธรรมที่ว่า
+เจ้าของหรือผู้ดูแลโครงการควรส่งทอดกรรมสิทธิ์ให้กับผู้อื่นอย่างเปิดเผย
+เมื่อไม่สามารถดูแลโครงการต่ออีกแล้ว</para>
+
 <para>The simplest non-trivial case is when a project has multiple
 co-maintainers working under a single `benevolent dictator' who owns
 the project.  Custom favors this mode for group projects; it has been
@@ -2712,16 +2761,36 @@ shown to work on projects as large as the Linux kernel or Emacs, and
 solves the ``who decides'' problem in a way that is not obviously worse
 than any of the alternatives.</para>
 
+<para>กรณีสำคัญที่ง่ายที่สุดคือ เมื่อโครงการมีผู้ร่วมดูแลหลายคนทำงานภายใต้
+`เผด็จการใจดี' คนเดียว ซึ่งเป็นเจ้าของโครงการ
+จารีตประเพณีนิยมใช้รูปแบบนี้กับโครงการกลุ่ม
+และก็ปรากฏว่าสามารถทำงานได้ดีกับโครงการใหญ่ๆ ขนาดเคอร์เนลลินุกซ์ หรือ Emacs
+และสามารถแก้ปัญหา ``ใครเป็นผู้ตัดสิน'' ได้ด้วยหนทางที่ไม่ได้ด้อยกว่าวิธีอื่นเลย
+</para>
+
 <para>Typically, a benevolent-dictator organization evolves from an
 owner-maintainer organization as the founder attracts contributors.
 Even if the owner stays dictator, it introduces a new level of possible
 disputes over who gets credited for what parts of the project.</para>
+
+<para>โดยปกติแล้ว โครงสร้างแบบเผด็จการใจดีนี้ จะพัฒนามาจากแบบเจ้าของเป็นผู้ดูแล
+หลังจากที่ผู้ก่อตั้งได้ผู้ร่วมสมทบมากขึ้น
+แม้เจ้าของโครงการจะยังคงเป็นเผด็จการอยู่
+แต่โครงสร้างแบบนี้ก็ได้เพิ่มระดับใหม่ของกรณีพิพาทที่อาจเกิดขึ้นได้
+ว่าใครจะได้เครดิตสำหรับส่วนไหนของโครงการ</para>
 
 <para>In this situation, custom places an obligation on the owner/dictator
 to credit contributors fairly (through, for example, appropriate
 mentions in README or history files).  In terms of the Lockean property
 model, this means that by contributing to a project you earn
 part of its reputation return (positive or negative).</para>
+
+<para>ภายใต้เงื่อนไขเช่นนี้ จารีตประเพณีได้มอบหน้าที่แก่เจ้าของ/เผด็จการ
+ที่จะให้เครดิตต่อผู้ร่วมสมทบอย่างยุติธรรม (เช่น ด้วยการอ้างถึงในไฟล์ README
+หรือไฟล์ประวัติโครงการอย่างเหมาะสม) ตามแบบจำลองทรัพย์สินของล็อคแล้ว
+การให้เครดิตดังกล่าวก็หมายความว่า
+การร่วมสมทบในโครงการจะทำให้คุณได้ส่วนแบ่งของชื่อเสียงที่มีต่อโครงการด้วย
+(ไม่ว่าแง่บวกหรือแง่ลบ)</para>
 
 <para>Pursuing this logic, we see that a `benevolent dictator' does not in
 fact own his entire project absolutely.  Though he has the right
@@ -2731,6 +2800,14 @@ sharecropping on a farm is almost irresistible, except that a
 contributor's name stays in the credits and continues to `earn' to
 some degree even after that contributor is no longer active.</para>
 
+<para>ตามตรรกะนี้ เราจะเห็นว่า `เผด็จการใจดี' แท้ที่จริงแล้ว
+ก็ไม่ได้เป็นเจ้าของโครงการทั้งหมดอย่างเบ็ดเสร็จ
+แม้เขาจะมีสิทธิ์ที่จะตัดสินใจเกี่ยวกับพันธกรณี แต่ผลก็คือ
+เขาก็ให้ส่วนแบ่งในชื่อเสียงออกไปเพื่อแลกกับงานของผู้อื่นเหมือนกัน
+จึงทำให้อดนึกถึงการเปรียบเทียบกับการลงแขกเกี่ยวข้าวไม่ได้ เว้นก็แต่ว่า
+ชื่อของผู้ร่วมสมทบจะคงอยู่ในเครดิต และยังคงได้รับอยู่ในระดับหนึ่ง
+แม้หลังจากที่ผู้ร่วมสมทบคนนั้นไม่ได้ร่วมทำงานอีกต่อไปแล้ว</para>
+
 <para>As benevolent-dictator projects add more participants, they tend to
 develop two tiers of contributors; ordinary contributors and
 co-developers.  A typical path to becoming a co-developer is taking
@@ -2738,6 +2815,14 @@ responsibility for a major subsystem of the project.  Another is to
 take the role of `lord high fixer', characterizing and fixing many
 bugs.  In this way or others, co-developers are the contributors who 
 make a substantial and continuing investment of time in the project.</para>
+
+<para>เมื่อโครงการที่นำโดยเผด็จการใจดีมีผู้เข้าร่วมมากขึ้น
+ก็มีแนวโน้มจะสร้างชั้นของผู้สมทบขึ้นสองชั้น คือผู้ร่วมสมทบปกติ กับนักพัฒนาร่วม
+หนทางปกติที่จะนำไปสู่การเป็นนักพัฒนาร่วม ก็คือการรับผิดชอบในองค์ประกอบใหญ่ๆ
+ของโครงการ และอีกทางหนึ่งคือ การรับบท `เซียนนักซ่อม'
+คือเป็นผู้ชี้สาเหตุและแก้บั๊กจำนวนมาก ด้วยวิธีนี้หรือวิธีใดก็ตาม
+นักพัฒนาร่วมก็คือ
+ผู้ร่วมสมทบที่ได้อุทิศเวลาจำนวนมากอย่างต่อเนื่องให้กับโครงการนั่นเอง</para>
 
 <para>The subsystem-owner role is particularly important for our analysis
 and deserves further examination.  Hackers like to say that `authority
@@ -2750,6 +2835,17 @@ enclosed properties on the Lockean model within a project, and has
 exactly the same conflict-prevention role as other property
 boundaries.</para>
 
+<para>บทบาทของการเป็นเจ้าขององค์ประกอบย่อย
+มีความสำคัญโดยเฉพาะต่อการวิเคราะห์ของเรา และสมควรจะพิจารณาต่อ
+แฮ็กเกอร์มักจะชอบพูดว่า `อำนาจมาตามความรับผิดชอบ' โดยทั่วไปแล้ว 
+นักพัฒนาร่วมที่รับผิดชอบดูแลองค์ประกอบที่ได้รับมอบหมาย
+ก็จะต้องควบคุมทั้งการทำงานภายในองค์ประกอบนั้น
+และการเชื่อมต่อกับส่วนที่เหลือของโครงการ
+ซึ่งเป็นเรื่องที่มีเพียงหัวหน้าโครงการเท่านั้นที่จะวิจารณ์แก้ไขได้
+(ในฐานะสถาปนิก) เรายังสังเกตอีกว่า
+กฎนี้มีผลในการสร้างทรัพย์สินตามแบบจำลองของล็อคซ้อนภายในโครงการ
+และมีบทบาทในการป้องกันข้อขัดแย้งเหมือนกับขอบเขตของทรัพย์สินอื่นทุกประการ</para>
+
 <para>By custom, the `dictator' or project leader in a project with
 co-developers is expected to consult with those co-developers on key
 decisions.  This is especially so if the decision concerns a subsystem
@@ -2758,12 +2854,26 @@ responsibility for).  A wise leader, recognizing the function of the
 project's internal property boundaries, will not lightly interfere
 with or reverse decisions made by subsystem owners.</para>
 
+<para>โดยจารีตประเพณีแล้ว `เผด็จการ'
+หรือหัวหน้าโครงการในโครงการที่มีนักพัฒนาร่วม
+จะถูกคาดหวังให้ปรึกษานักพัฒนาร่วมก่อนตัดสินใจครั้งสำคัญๆ เสมอ
+โดยเฉพาะถ้าการตัดสินใจนั้นเกี่ยวข้องกับองค์ประกอบที่นักพัฒนาร่วม `เป็นเจ้าของ'
+(คือใช้เวลาและรับผิดชอบดูแล) อยู่
+หัวหน้าที่ฉลาดและเข้าใจหน้าที่ของเขตแดนทรัพย์สินภายในของโครงการ
+จะไม่ก้าวก่ายหรือล้มเลิกการตัดสินใจที่กระทำโดยเจ้าขององค์ประกอบแม้แต่น้อย</para>
+
 <para>Some very large projects discard the `benevolent dictator' model
 entirely. One way to do this is turn the co-developers into a voting
 committee (as with Apache).  Another is rotating dictatorship, in
 which control is occasionally passed from one member to another within
 a circle of senior co-developers; the Perl developers organize
 themselves this way.</para>
+
+<para>โครงการที่ใหญ่มากบางโครงการไม่สนใจรูปแบบ `เผด็จการใจดี' โดยสิ้นเชิง
+วิธีหนึ่งก็คือ เปลี่ยนนักพัฒนาร่วมทั้งหลายให้เป็นคณะกรรมการลงคะแนนเสียง
+(เช่นใน Apache) อีกวิธีหนึ่งคือหมุนเวียนกันเป็นเผด็จการ
+ซึ่งอำนาจควบคุมจะถูกส่งต่อจากสมาชิกคนหนึ่งไปยังอีกคนหนึ่งภายในวงนักพัฒนาร่วมอาวุโส
+นักพัฒนา Perl จัดโครงสร้างด้วยวิธีนี้</para>
 
 <para>Such complicated arrangements are widely considered unstable and
 difficult.  Clearly this perceived difficulty is largely a function of
@@ -2778,8 +2888,21 @@ control or ownership of reputation returns.  It's hard to see where
 the internal boundaries are, and thus hard to avoid conflict unless
 the group enjoys an exceptionally high level of harmony and trust.</para>
 
+<para>การจัดการที่ซับซ้อนเช่นนี้ ถือกันทั่วไปว่าไม่มีเสถียรภาพ และจัดการยาก
+ความยุ่งยากที่เห็นได้ชัดเจนก็คือ เรื่องของความวุ่นวายที่รู้จักกันในนามของ
+`การออกแบบโดยคณะกรรมการ' และความวุ่นวายของคณะกรรมการเอง
+ปัญหาเหล่านี้เป็นที่เข้าใจกันดีในวัฒนธรรมแฮ็กเกอร์ อย่างไรก็ดี ผู้เขียนคิดว่า
+ความไม่สบายใจที่แฮ็กเกอร์รู้สึกต่อการใช้คณะกรรมการหรือการหมุนเวียนเก้าอี้ก็คือ
+มันเข้ากันได้ยากกับรูปแบบของล็อคในจิตใต้สำนึกที่แฮ็กเกอร์ใช้ในการให้เหตุผลต่อกรณีที่ง่ายกว่า
+จึงเป็นปัญหาในองค์กรที่ซับซ้อนเหล่านี้ที่จะรับรองการถือครอง
+ไม่ว่าในแง่ของการมีอำนาจควบคุมหรือการได้รับชื่อเสียง
+เป็นการยากที่จะเห็นการแบ่งเขตภายใน ซึ่งทำให้ยากที่จะหลีกเลี่ยงข้อขัดแย้ง
+นอกเสียจากว่า
+กลุ่มจะอยู่ในสภาพที่กลมเกลียวกันและเชื่อใจกันในระดับสูงเป็นพิเศษ</para>
+
 </sect1>
-<sect1><title>Conflict and Conflict Resolution</title>
+<!-- Conflict and Conflict Resolution -->
+<sect1><title>ข้อขัดแย้งและวิธียุติข้อขัดแย้ง</title>
 
 <para>We've seen that within projects, an increasing complexity of roles is
 expressed by a distribution of design authority and partial property
@@ -2787,10 +2910,20 @@ rights.  While this is an efficient way to distribute incentives, it
 also dilutes the authority of the project leader&mdash;most importantly,
 it dilutes the leader's authority to squash potential conflicts.</para>
 
+<para>เราได้เห็นแล้วว่าในโครงการต่างๆ นั้น ความซับซ้อนที่เพิ่มขึ้นของบทบาทต่างๆ
+ถูกแสดงออกมาด้วยการกระจายอำนาจการออกแบบและสิทธิในทรัพย์สินบางส่วน
+ในขณะที่การกระจายนี้ถือเป็นการกระจายแรงจูงใจที่ได้ผล
+แต่ก็เป็นการลดทอนอำนาจของหัวหน้าโครงการไปด้วย และที่สำคัญที่สุด
+คือลดทอนอำนาจของหัวหน้าที่จะขจัดข้อขัดแย้งที่อาจเกิดขึ้น</para>
+
 <para>While technical arguments over design might seem the most obvious risk
 for internecine conflict, they are seldom a serious cause of strife.
 These are usually relatively easily resolved by the territorial rule
 that authority follows responsibility.</para>
+
+<para>ในขณะที่การถกเถียงในทางเทคนิคเกี่ยวกับการออกแบบอาจดูเป็นความเสี่ยงที่ชัดเจนต่อความขัดแย้งภายใน
+แต่ก็มีน้อยมากที่จะกลายเป็นสาเหตุที่ร้ายแรงของความไม่ลงรอยกัน
+เรื่องนี้มักจะยุติโดยง่ายด้วยกฎของเขตแดนที่ว่าอำนาจมาตามความรับผิดชอบ</para>
 
 <para>Another way of resolving conflicts is by seniority&mdash;if two
 contributors or groups of contributors have a dispute, and the dispute
@@ -2798,6 +2931,13 @@ cannot be resolved objectively, and neither owns the territory of the
 dispute, the side that has put the most work into the project as a
 whole (that is, the side with the most property rights in the whole
 project) wins.</para>
+
+<para>อีกทางหนึ่งของการยุติข้อขัดแย้งคืออาศัยความมีอาวุโส
+ถ้าผู้ร่วมสมทบสองคนหรือสองกลุ่มทะเลาะกัน
+และการทะเลาะนั้นไม่อาจยุติอย่างเป็นกลางได้
+และไม่มีฝ่ายใดเป็นเจ้าของเขตแดนที่กำลังทะเลาะกันเลย
+ฝ่ายที่ได้ช่วยงานในโครงการโดยรวมมามากที่สุด (กล่าวคือ
+ฝ่ายที่มีสิทธิในทรัพย์สินในโครงการโดยรวมมากที่สุด) ควรเป็นฝ่ายชนะ</para>
 
 <para>(Equivalently, the side with the least invested loses.  Interestingly
 this happens to be the same heuristic that many relational database
@@ -2807,9 +2947,20 @@ is selected as the deadlock victim and is terminated.  This usually
 selects the longest running transaction, or the more senior, as the
 victor.)</para>
 
+<para>(พูดอีกอย่างก็คือ ฝ่ายที่ได้ลงแรงมาน้อยที่สุดจะพ่ายแพ้
+ซึ่งน่าสนใจที่กฎนี้บังเอิญเป็นเคล็ดเดียวกับที่ระบบฐานข้อมูลเชิงสัมพันธ์หลายระบบใช้ในการแก้ไขการติดตาย
+เมื่อสายงานสองสายติดตายกันในการใช้ทรัพยากร
+ฝ่ายที่มีการลงทุนในรายการเปลี่ยนแปลงปัจจุบันน้อยที่สุดจะถูกเลือกเป็นผู้ต้องหาที่ทำให้เกิดการติดตาย
+และจะถูกจบ วิธีนี้จึงเลือกรายการเปลี่ยนแปลงที่ทำงานมานานที่สุด
+หรือมีอาวุโสที่สุด ให้เป็นผู้ชนะเสมอ)</para>
+
 <para>These rules generally suffice to resolve most project disputes.  When
 they do not, fiat of the project leader usually suffices.  Disputes
 that survive both these filters are rare.</para>
+
+<para>กฎเหล่านี้โดยทั่วไปก็เพียงพอต่อการยุติกรณีพิพาทเกือบทั้งหมดในโครงการ
+เมื่อไรที่มันยุติไม่ได้ ประกาศิตของหัวหน้าโครงการก็มักจะเพียงพอ
+หาได้ยากที่จะมีกรณีพิพาทที่สามารถผ่านด่านเหล่านี้มาได้</para>
 
 <para>Conflicts do not, as a rule, become serious unless these two criteria
 ("authority follows responsibility" and "seniority wins") point in
@@ -2821,11 +2972,26 @@ painful, protracted, only resolved when all parties became exhausted
 enough to hand control to an outside person, and I devoutly hope I am
 never anywhere near anything of the kind again.</para>
 
+<para>ตามหลักแล้ว ข้อขัดแย้งจะไม่ร้ายแรงขึ้นมานอกเสียจากเกณฑ์ทั้งสอง
+("อำนาจมาตามความรับผิดชอบ" และ "ผู้มีอาวุโสชนะ") จะชี้ไปคนละทาง
+<emphasis>และ</emphasis> อำนาจของหัวหน้าโครงการมีน้อยหรือไม่มี
+กรณีที่ชัดเจนที่สุดที่เงื่อนไขนี้อาจเกิดได้ ก็คือการทะเลาะเรื่องการสืบทอด
+หลังจากที่หัวหน้าโครงการหายตัวไป ผู้เขียนเคยอยู่ในเหตุการณ์แบบนี้ครั้งหนึ่ง
+เป็นเหตุการณ์ที่น่าเกลียด เจ็บปวด ยืดเยื้อ
+และยุติได้ก็ต่อเมื่อทุกฝ่ายเหนื่อยหน่ายจนต้องส่งการควบคุมไปให้กับคนนอก
+และผู้เขียนหวังเป็นอย่างยิ่งว่าตัวเองจะไม่กรายใกล้กับเรื่องแบบนี้อีกเลย</para>
+
 <para>Ultimately, all of these conflict-resolution mechanisms rest on the
 entire hacker community's willingness to enforce them.  The only available
 enforcement mechanisms are flaming and shunning&mdash;public condemnation
 of those who break custom, and refusal to cooperate with them after
 they have done so.</para>
+
+<para>ที่สุดแล้ว กลไกการยุติข้อขัดแย้งเหล่านี้
+ก็อาศัยความพยายามของชุมชนแฮ็กเกอร์ทั้งหมดที่จะบังคับใช้
+กลไกบังคับที่มีอยู่มีเพียงการด่าและหมางเมิน
+ซึ่งเป็นการประนามของสาธารณชนต่อผู้ที่ฝ่าฝืนจารีตประเพณี
+และการปฏิเสธที่จะร่วมสังฆกรรมหลังการฝ่าฝืนเท่านั้น</para>
 
 </sect1>
 <sect1><title>Acculturation Mechanisms and the Link to Academia</title>

@@ -1,4 +1,11 @@
-2004-06-28  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+2004-06-30  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* homesteading.xml:
+	New translated sections: 
+	"Causes of Conflict", "Project Structures and Ownership",
+	"Conflict and Conflict Resolution".
+
+2004-06-29  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* homesteading.xml:
 	New translated sections: "The Joy of Hacking", "The Many Faces of
