@@ -20,8 +20,8 @@
     </address>
   </affiliation>
 </author>
-<pubdate role="cvs">$Date: 2004-07-09 08:02:47 $</pubdate>
-<releaseinfo>This is version 3.0</releaseinfo>
+<pubdate role="cvs">$Date: 2004-07-14 13:42:53 $</pubdate>
+<releaseinfo>นี่คือรุ่นที่ 3.0</releaseinfo>
 <copyright>
   <year>2000</year>
   <holder role="mailto:esr@thyrsus.com">Eric S. Raymond</holder> 
@@ -37,30 +37,37 @@
   <para>Permission is granted to copy, distribute and/or modify
   this document under the terms of the Open Publication License,
   version 2.0.</para>
+
+  <para>อนุญาตให้ทำซ้ำ เผยแพร่ และ/หรือ แก้ไขเอกสารนี้ ภายใต้เงื่อนไขของ
+  Open Publication License รุ่น 2.0.</para>
 </legalnotice>
 
 <revhistory>
    <revision>
       <revnumber>1.22</revnumber>
-      <date>24 August 2000</date>
+      <date>24 สิงหาคม 2000</date>
       <authorinitials>esr</authorinitials>
        <revremark>
 	  Handicap theory, peacocks, and stags.  Parallels with knighthood.
+
+          ทฤษฎีการต่อแต้ม, นกยูง และกวาง. ความคล้ายคลึงกับความเป็นอัศวิน.
        </revremark>
    </revision>
 
    <revision>
       <revnumber>1.22</revnumber>
-      <date>24 August 2000</date>
+      <date>24 สิงหาคม 2000</date>
       <authorinitials>esr</authorinitials>
        <revremark>
 	  DocBook 4.1 conversion.
+
+          แปลงเป็น DocBook 4.1.
        </revremark>
    </revision>
 
    <revision>
       <revnumber>1.21</revnumber>
-      <date>31 Aug 1999</date>
+      <date>31 สิงหาคม 1999</date>
       <authorinitials>esr</authorinitials>
        <revremark>
 	  Major revision for the O'Reilly book. Incorporated some
@@ -75,31 +82,48 @@
 	  inspired the new section ``How Fine A Gift?''  Other new
 	  material on the connection to the Maslovian hierarcy of
 	  values, and the taboo against attacks on competence.
+
+          แก้ไขครั้งใหญ่เพื่อตีพิมพ์ในหนังสือของ O'Reilly.
+          เพิ่มแนวคิดเกี่ยวกับต้นทุนของการฟอร์กและแพตช์เถื่อนจาก
+	  Michael Chastain.  Thomas Gagne (tgagne@ix.netcom.com)
+          ตั้งข้อสังเกตเรื่องความคล้ายระหว่าง "ผู้มีอาวุโสชนะ"
+          กับเคล็ดของระบบฐานข้อมูล. การอุปมาอุปมัยกับการเมืองของ Henry Spencer.
+	  Ryan Waldron and El Howard (elhoward@hotmail.com)
+          สมทบความคิดเกี่ยวกับคุณค่าของนวัตกรรม. Thomas Bryan
+	  (tbryan@arlut.utexas.edu) อธิบายความเอือมระอาของแฮ็กเกอร์ต่อนโยบาย
+          ``เขมือบแล้วขยาย''. Darcy Horrocks ให้แรงบันดาลใจต่อหัวข้อใหม่
+          ``ของขวัญนั้นดีแค่ไหน?''
+          เนื้อหาใหม่เรื่องความเชื่อมโยงกับลำดับชั้นของคุณค่าของมาสโลว์
+          และข้อห้ามเรื่องการโจมตีความสามารถ.
        </revremark>
    </revision>
 
    <revision>
       <revnumber>1.14</revnumber>
-      <date>21 November 1998</date>
+      <date>21 พฤศจิกายน 1998</date>
       <authorinitials>esr</authorinitials>
        <revremark>
 	  Minor editorial and stale-link fixes.
+
+          แก้ไขเล็กน้อย และแก้ลิงก์ที่เสีย.
        </revremark>
    </revision>
 
    <revision>
       <revnumber>1.10</revnumber>
-      <date>11 July 1998</date>
+      <date>11 กรกฎาคม 1998</date>
       <authorinitials>esr</authorinitials>
        <revremark>
           Remove Fare Rideau's reference to `fame' at his
           suggestion.
+
+          ลบการอ้างถึงคำว่า `fame' ของ Fare Rideau ตามที่เขาแนะนำ.
        </revremark>
    </revision>
 
    <revision>
       <revnumber>1.9</revnumber>
-      <date>26 May 1998</date>
+      <date>26 พฤษภาคม 1998</date>
       <authorinitials>esr</authorinitials>
        <revremark>
 	  Incorporated Far&eacute; Rideau's noosphere/ergosphere
@@ -108,34 +132,48 @@
 	  (thanks to Ross J. Reedstrom, Eran Tromer, Allan McInnes,
 	  Mike Whitaker, and others). More about humility, (`egoless
 	  behavior') from Jerry Fass and Marsh Ray.
+
+          เพิ่มการแยกความแตกต่างระหว่าง noosphere/ergosphere ของ
+          Far&eacute; Rideau. เพิ่มการแก้ต่างของ RMS ว่าเขาไม่ได้ต่อต้านการค้า.
+          หัวข้อใหม่เรื่องการถ่ายทอดวัฒนธรรมและภาคการศึกษา (ขอบคุณ
+          Ross J. Reedstrom, Eran Tromer, Allan McInnes, Mike Whitaker
+          และคนอื่นๆ). เพิ่มเติมเกี่ยวกับความอ่อนน้อมถ่อมตน
+          (`พฤติกรรมที่ไร้อัตตา') จาก Jerry Fass และ Marsh Ray.
        </revremark>
    </revision>
 
    <revision>
       <revnumber>1.8</revnumber>
-      <date>27 April 1998</date>
+      <date>27 เมษายน 1998</date>
       <authorinitials>esr</authorinitials>
        <revremark>
           Added Goldhaber to the bibliography.  This is the
 	  version that will go in the Linux Expo proceedings.
+
+          เพิ่ม Goldhaber ในบรรณานุกรม. ฉบับนี้เป็นฉบับที่จะตีพิมพ์ใน
+          proceedings ของงาน Linux Expo.
        </revremark>
    </revision>
 
    <revision>
       <revnumber>1.7</revnumber>
-      <date>16 April 1998</date>
+      <date>16 เมษายน 1998</date>
       <authorinitials>esr</authorinitials>
        <revremark>
 	  New section on `Global implications' discusses
 	  historical tends in the colonization of the noosphere, and
 	  examines the `category-killer' phenomenon.  Added another
 	  research question.
+
+          หัวข้อใหม่เรื่อง `นัยในภาพรวม' ถกเรื่องแนวโน้มการตั้งถิ่นฐานใน
+          noosphere ที่ผ่านมา และตรวจสอบเรื่องปรากฏการณ์ `ผู้พิชิต'.
+          เพิ่มคำถามเพื่อการค้นคว้าเพิ่มเติมอีกข้อ.
        </revremark>
    </revision>
 
    <revision>
       <revnumber>1.3</revnumber>
-      <date>12 April 1998</date>
+      <date>12 เมษายน 1998</date>
       <authorinitials>esr</authorinitials>
        <revremark>
           Typo fixes and responses to first round of public
@@ -147,15 +185,25 @@
 	  on avoiding personality cults.  As a result of all these
 	  changes, the section on `The Problem of Ego' grew and
 	  fissioned.
+
+          แก้ไขคำสะกดผิด และตอบคำวิจารณ์จากสาธารณชนรอบแรก.
+          บรรณานุกรมสี่รายการแรก. ข้อสังเกตจากผู้ไม่ประสงค์จะเอ่ยนาม
+          เกี่ยวกับการทำงานของแรงกระตุ้นจากชื่อเสียง แม้ตัวช่างฝีมือจะไม่รู้ตัว.
+          เพิ่มการเปรียบเทียบกับ warez d00dz ที่น่าศึกษา, เนื้อหาเรื่องเงื่อนไข
+          `ซอฟต์แวร์ควรบอกเอง', และข้อสังเกตเกี่ยวกับการเลี่ยงความนิยมตัวบุคคล.
+          ผลของการเปลี่ยนแปลงทั้งหมดนี้ ทำให้หัวข้อ `ปัญหาของอัตตา' ยาวขึ้น
+          และถูกแบ่งเป็นหัวข้อย่อย.
        </revremark>
    </revision>
 
    <revision>
       <revnumber>1.2</revnumber>
-      <date>10 April 1998</date>
+      <date>10 เมษายน 1998</date>
       <authorinitials>esr</authorinitials>
        <revremark>
           First published on the Web.
+
+          เผยแพร่บนเว็บเป็นครั้งแรก.
        </revremark>
    </revision>
 </revhistory>
