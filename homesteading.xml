@@ -20,11 +20,17 @@
     </address>
   </affiliation>
 </author>
-<pubdate role="cvs">$Date: 2004-06-30 16:53:07 $</pubdate>
+<pubdate role="cvs">$Date: 2004-07-03 16:19:53 $</pubdate>
 <releaseinfo>This is version 3.0</releaseinfo>
 <copyright>
   <year>2000</year>
   <holder role="mailto:esr@thyrsus.com">Eric S. Raymond</holder> 
+</copyright>
+<copyright>
+  <year>2004</year>
+  <holder role="mailto:thep@linux.thai.net">
+    Theppitak Karoonboonyanan (Thai translation)
+  </holder> 
 </copyright>
 <legalnotice>
   <title>Copyright</title>
@@ -2994,7 +3000,8 @@ they have done so.</para>
 และการปฏิเสธที่จะร่วมสังฆกรรมหลังการฝ่าฝืนเท่านั้น</para>
 
 </sect1>
-<sect1><title>Acculturation Mechanisms and the Link to Academia</title>
+<!-- Acculturation Mechanisms and the Link to Academia -->
+<sect1><title>กลไกการถ่ายทอดวัฒนธรรมและความเชื่อมโยงกับวงการการศึกษา</title>
 
 <para>An early version of this essay posed the following research question:
 how does the community inform and instruct its members as to its
@@ -3002,9 +3009,19 @@ customs?  Are the customs self-evident or self-organizing at a
 semi-conscious level?  Are they taught by example?  Are they taught by
 explicit instruction?</para>
 
+<para>รุ่นแรกๆ ของบทความนี้ได้ตั้งคำถามสำหรับค้นคว้าเพิ่มเติมว่า
+ชุมชนได้บอกกล่าวและชี้แนะสมาชิกเกี่ยวกับจารีตประเพณีอย่างไร?
+จารีตประเพณีปรากฏชัดเจนในตัวหรือว่าก่อรูปเองในระดับที่ไม่ได้เจตนาเต็มที่?
+หรือว่าใช้การสอนด้วยการทำให้ดูเป็นตัวอย่าง? หรือว่าใช้คำชี้แนะอย่างโจ่งแจ้ง?
+</para>
+
 <para>Teaching by explicit instruction is clearly rare, if only
 because few explicit descriptions of the culture's norms have existed
 for instructional use up to now.</para>
+
+<para>แน่นอนว่าการชี้แนะอย่างโจ่งแจ้งนั้นไม่ค่อยมีให้เห็น
+เพราะมีคำบรรยายอย่างชัดเจนของบรรทัดฐานของวัฒนธรรมไว้ใช้ชี้แนะน้อยเกินไปนั่นเอง
+</para>
 
 <para>Many norms are taught by example.  To cite one very simple case, there
 is a norm that every software distribution should have a file called
@@ -3012,6 +3029,14 @@ README or READ.ME that contains first-look instructions for browsing
 the distribution.  This convention has been well established since at
 least the early 1980s; it has even, occasionally, been written down.
 But one normally derives it from looking at many distributions.</para>
+
+<para>บรรทัดฐานหลายอย่างจะถูกสอนด้วยตัวอย่าง
+ยกตัวอย่างกรณีที่ง่ายมากกรณีหนึ่งคือ
+เป็นธรรมเนียมที่ชุดแจกจ่ายซอฟต์แวร์ทุกชุดจะต้องมีไฟล์ชื่อ README หรือ READ.ME
+ที่ให้คำชี้แนะเบื้องต้นสำหรับการสำรวจส่วนต่างๆ ของชุดซอฟต์แวร์
+ธรรมเนียมนี้ฝังรากเป็นอย่างดีมาตั้งแต่ต้นทศวรรษ 1980 เป็นอย่างน้อย
+และมีการเขียนบัญญัติไว้เป็นบางโอกาสด้วย
+แต่นักพัฒนาโดยทั่วไปจะทำตามแบบอย่างที่เห็นในชุดซอฟต์แวร์ทั้งหลายมากกว่า</para>
 
 <para>On the other hand, some hacker customs are self-organizing once one has
 acquired a basic (perhaps unconscious) understanding of the reputation
@@ -3021,6 +3046,15 @@ self-evident rather than transmitted.  This phenomenon invites
 closer analysis&mdash;and perhaps we can find its explanation in the
 process by which hackers acquire knowledge about the culture.</para>
 
+<para>ในทางตรงกันข้าม จารีตประเพณีบางอย่างของแฮ็กเกอร์
+ก็ก่อร่างขึ้นเองเมื่อแต่ละคนได้เกิดความเข้าใจพื้นฐาน (และอาจจะโดยไม่รู้ตัว)
+เกี่ยวกับเกมแห่งชื่อเสียง แฮ็กเกอร์ส่วนใหญ่ไม่จำเป็นต้องมีใครสอนเลย
+ถึงเรื่องข้อห้ามสามข้อที่ผู้เขียนได้แสดงมาก่อนแล้วในบทความนี้ หรืออย่างน้อย
+ถ้าถูกถามก็จะตอบว่ามันชัดเจนในตัวเองอยู่แล้ว มากกว่าจะได้รับการถ่ายทอดจากคนอื่น
+ปรากฏการณ์นี้ชวนให้วิเคราะห์เจาะลึกลงไปอีก
+และบางทีเราอาจพบคำอธิบายจากกระบวนการที่แฮ็กเกอร์ได้เรียนรู้เกี่ยวกับจารีตประเพณีก็เป็นได้
+</para>
+
 <para>Many cultures use hidden clues (more precisely `mysteries' in the
 religio/mystical sense) as an acculturation mechanism.  These are
 secrets that are not revealed to outsiders, but are expected to be
@@ -3028,9 +3062,21 @@ discovered or deduced by the aspiring newbie.  To be accepted inside,
 one must demonstrate that one both understands the mystery and has
 learned it in a culturally sanctioned way.</para>
 
+<para>หลายวัฒนธรรมใช้เคล็ดลับที่ปกปิด (หรือที่ถูกต้องกว่า คือ `ความลึกลับ'
+ในแง่ความเชื่อและศาสนา) เป็นกลไกถ่ายทอดวัฒนธรรม
+เคล็ดลับเหล่านี้เป็นความลับที่ไม่เปิดเผยต่อคนนอก
+แต่คาดหวังให้ผู้เริ่มต้นที่ศรัทธาได้ค้นพบหรืออนุมานเอาเอง
+และเพื่อที่จะได้รับการยอมรับเข้าในกลุ่ม บุคคลจะต้องแสดงให้เห็น
+ว่าตนนั้นทั้งเข้าใจความลึกลับนั้น
+และได้เรียนรู้มันด้วยวิธีที่ถูกต้องตามครรลองของวัฒนธรรม
+</para>
+
 <para>The hacker culture makes unusually conscious and extensive use of such
 clues or tests.  We can see this process operating at at least three
 levels:</para>
+
+<para>วัฒนธรรมแฮ็กเกอร์ใช้เคล็ดลับหรือการทดสอบประเภทนี้อย่างหนักและจงใจอย่างไม่ธรรมดา
+เราสามารถเห็นกระบวนการนี้ทำงานในสามระดับเป็นอย่างน้อย:</para>
 
 <itemizedlist> 
 <listitem><para>
@@ -3039,6 +3085,12 @@ newsgroup called alt.sysadmin.recovery that has a very explicit such
 secret; you cannot post without knowing it, and knowing it is
 considered evidence you are fit to post.  The regulars have a strong
 taboo against revealing this secret.</para></listitem>
+<listitem><para>
+ความลึกลับบางชนิดที่คล้ายรหัสผ่าน ตัวอย่างหนึ่งก็คือ มีกลุ่มข่าว Usenet ชื่อ
+alt.sysadmin.recovery ที่มีความลับชนิดนี้อย่างชัดเจน
+คุณจะไม่สามารถโพสต์ได้ถ้าไม่รู้ความลับนั้น และการรู้ความลับนั้น
+ก็ถือเป็นหลักฐานแสดงว่าคุณมีความเหมาะสมพอที่จะโพสต์
+ขาประจำจะมีกฎเหล็กห้ามเปิดเผยความลับนี้อย่างเด็ดขาด</para></listitem>
 
 <listitem><para>
 The requirement of initiation into certain technical mysteries. One
@@ -3048,6 +3100,14 @@ languages).  This requirement functions in the large in the way hidden
 clues do in the small, as a filter for qualities (such as capability
 for abstract thinking, persistence, and mental flexibility) that are
 necessary to function in the culture.</para></listitem>
+<listitem><para>
+เงื่อนไขพื้นฐานของการเริ่มต้นเข้าสู่ความลึกลับทางเทคนิค
+บุคคลต้องซึมซับความรู้ทางเทคนิคพอประมาณ ก่อนที่จะสามารถให้ของขวัญที่มีค่าได้
+(ตัวอย่างเช่น ต้องรู้ภาษาคอมพิวเตอร์หลักๆ อย่างน้อยหนึ่งภาษา)
+เงื่อนไขนี้ทำหน้าที่ต่อสังคมใหญ่ในลักษณะเดียวกับที่เคล็ดลับทำกับสังคมเล็ก
+โดยเป็นตัวกลั่นกรองคุณภาพต่างๆ (เช่น ความสามารถในการคิดเชิงนามธรรม ความมุ่งมั่น
+และความยืดหยุ่นทางอารมณ์) ที่มีความสำคัญต่อการทำงานภายในวัฒนธรรม
+</para></listitem>
 
 <listitem><para>
 Social-context mysteries.  One becomes involved in the culture through
@@ -3058,11 +3118,25 @@ function. (Concretely, a common way one does this is by reading the
 project's web pages and/or email archives.) It is through these project
 groups that newbies experience the behavioral example of experienced
 hackers.</para></listitem>
+<listitem><para>
+ความลึกลับเกี่ยวกับบริบทของสังคม
+บุคคลจะเข้ามามีส่วนร่วมในวัฒนธรรมด้วยการผูกพันตัวเองกับโครงการบางโครงการ
+แต่ละโครงการก็คือบริบททางสังคมสดๆ ของแฮ็กเกอร์
+ที่ผู้ที่จะมาร่วมสมทบจะต้องติดตามวิเคราะห์และทำความเข้าใจในแง่สังคมพอๆ
+กับในแง่เทคนิคเพื่อที่จะเริ่มทำตัวให้เป็นประโยชน์ได้ (พูดให้เป็นรูปธรรมก็คือ
+ทางหนึ่งที่จะเรียนรู้ ก็ด้วยการอ่านหน้าเว็บ และ/หรือ บันทึกเมลของโครงการ)
+ด้วยกลุ่มโครงการเหล่านี้นี่เอง
+ที่ผู้เริ่มต้นจะเรียนรู้ตัวอย่างพฤติกรรมของแฮ็กเกอร์ที่มีประสบการณ์
+</para></listitem>
 </itemizedlist>
 
 <para>In the process of acquiring these mysteries, the would-be hacker
 picks up contextual knowledge that (after a while) does make the
 three taboos and other customs seem `self-evident'.</para>
+
+<para>ในกระบวนการเรียนรู้ความลึกลับเหล่านี้
+ผู้ที่จะเป็นแฮ็กเกอร์จะเก็บเกี่ยวความรู้ที่ (หลังจากเรียนรู้มาระยะหนึ่ง)
+ทำให้ข้อห้ามสามข้อและจารีตประเพณีอื่นๆ ดู `ชัดเจนในตัวเอง'</para>
 
 <para>One might, incidentally, argue that the structure of the hacker gift
 culture itself is its own central mystery.  One is not considered
@@ -3074,6 +3148,18 @@ the hacker culture evinces no desire to have its internal logic and
 folkways kept secret&mdash;or, at least, nobody has ever flamed me
 for revealing them!</para>
 
+<para>อย่างไรก็ดี บางคนอาจแย้งว่า
+ตัวโครงสร้างของวัฒนธรรมการให้ของแฮ็กเกอร์เองนั่นแหละ
+ที่เป็นความลึกลับที่สำคัญที่สุด คุณจะไม่ถูกนับว่าได้เข้าร่วมวัฒนธรรม
+(พูดให้เป็นรูปธรรมก็คือ จะไม่มีใครเรียกคุณว่าแฮ็กเกอร์)
+จนกว่าคุณจะแสดงให้เห็นถึงความเข้าใจอย่างถึงกึ๋น เกี่ยวกับเกมแห่งชื่อเสียง
+พร้อมทั้งนัยเกี่ยวกับจารีตประเพณี ข้อห้าม และการปฏิบัติ
+แต่ประเด็นนี้ไม่ได้เป็นเรื่องใหญ่อะไร
+ทุกวัฒนธรรมต่างก็ต้องการความเข้าใจเช่นว่าจากผู้ที่จะเข้าร่วมอยู่แล้ว
+นอกจากนี้ วัฒนธรรมแฮ็กเกอร์ก็ยังไม่แสดงความปรารถนาที่จะเก็บความคิดและครรลองของมันไว้เป็นความลับแต่อย่างใด
+หรืออย่างน้อยที่สุด ก็ยังไม่มีใครด่าผู้เขียนที่ได้เปิดเผยเรื่องเหล่านี้เลย!
+</para>
+
 <para>Respondents to this essay too numerous to list have pointed out that
 hacker ownership customs seem intimately related to (and may derive
 directly from) the practices of the academic world, especially the
@@ -3082,11 +3168,24 @@ problems in mining a territory of potentially productive ideas, and
 exhibits very similar adaptive solutions to those problems in the ways
 it uses peer review and reputation.</para>
 
+<para>ผู้แสดงความเห็นต่อบทความนี้จำนวนมากจนสาธยายไม่หมด ได้ชี้ว่า
+จารีตประเพณีเรื่องการถือครองของแฮ็กเกอร์ดูจะเกี่ยวข้องอย่างใกล้ชิดกับ
+(และอาจได้โดยตรงมาจาก) ธรรมเนียมปฏิบัติของวงการการศึกษา
+โดยเฉพาะแวดวงวิจัยทางวิทยาศาสตร์
+แวดวงวิจัยนี้มีปัญหาที่คล้ายกันในการวินิจฉัยความคิดต่างๆ ที่อาจให้ผลิตผลสูง
+และได้แสดงคำตอบแบบยืดหยุ่นที่คล้ายกันต่อปัญหาที่ว่า
+ด้วยวิธีที่ใช้การประเมินผลโดยหมู่ชนและชื่อเสียง</para>
+
 <para>Since many hackers have had formative exposure to academia (it's
 common to learn how to hack while in college) the extent to which
 academia shares adaptive patterns with the hacker culture is of more
 than casual interest in understanding how these customs are
 applied.</para>
+
+<para>เนื่องจากแฮ็กเกอร์หลายคนผ่านการบ่มเพาะมาจากโลกการศึกษา
+(เป็นเรื่องปกติที่จะฝึกแฮ็กตั้งแต่ขณะเรียนในโรงเรียน)
+ระดับที่การศึกษามีรูปแบบร่วมกันกับวัฒนธรรมแฮ็กเกอร์จึงน่าสนใจไม่น้อย
+ในการทำความเข้าใจการประยุกต์จารีตประเพณีเหล่านี้</para>
 
 <para>Obvious parallels with the hacker `gift culture' as I have
 characterized it abound in academia.  Once a researcher achieves
@@ -3101,14 +3200,34 @@ because scientific research, like the hacker culture, relies heavily
 on the idea of `standing upon the shoulders of giants', and not having
 to rediscover basic principles over and over again.</para>
 
+<para>ความคล้ายคลึงกันที่ชัดเจนกับ `วัฒนธรรมการให้'
+ของแฮ็กเกอร์เท่าที่ผู้เขียนสังเกตได้ มีอยู่มากมายในวงการการศึกษา
+เมื่อนักวิจัยได้ตำแหน่งงานแล้ว ก็ไม่จำเป็นต้องกังวลเรื่องความอยู่รอดอีก
+(อันที่จริงแล้ว แนวคิดเรื่องตำแหน่งงานนี้
+อาจสืบย้อนกลับไปในวัฒนธรรมการให้ระยะแรกๆ ที่ ``นักปรัชญาธรรมชาติ'' ทั้งหลาย
+โดยมากก็เป็นพวกผู้ดีมีฐานะที่มีเวลาพอที่จะอุทิศให้กับงานวิจัยได้)
+เมื่อไม่มีห่วงเรื่องความอยู่รอด การสร้างชื่อเสียงจึงกลายเป็นเป้าหมายขับดัน
+ซึ่งกระตุ้นให้เกิดการแบ่งปันความคิดใหม่ๆ และงานวิจัย
+ผ่านวารสารวิชาการและสื่ออื่นๆ เรื่องนี้น่าเชื่อถืออย่างเป็นกลางได้
+เพราะงานวิจัยทางวิทยาศาสตร์ซึ่งเหมือนกับวัฒนธรรมแฮ็กเกอร์นั้น อาศัยแนวคิด
+`ยืนบนไหล่ยักษ์' และไม่ต้องค้นคว้าเรื่องพื้นฐานซ้ำแล้วซ้ำเล่าเป็นหลักนั่นเอง
+</para>
+
 <para>Some have gone so far as to suggest that hacker customs are merely a
 reflection of the research community's folkways and have actually (in
 most cases) been acquired there by individual hackers.  This probably
 overstates the case, if only because hacker custom seems to be readily
 acquired by intelligent high-schoolers!</para>
 
+<para>บางท่านไปไกลถึงขนาดชี้แนะว่า
+จารีตประเพณีของแฮ็กเกอร์เป็นแค่ภาพสะท้อนหนึ่งของครรลองของแวดวงวิจัยเท่านั้น
+และ (โดยส่วนใหญ่) ได้ถูกนำไปใช้โดยแฮ็กเกอร์แต่ละคน
+ความเห็นนี้อาจจะเกินเลยไปหน่อย เพราะเด็กมัธยมเก่งๆ
+หลายคนก็ดูเหมือนจะรับเอาจารีตประเพณีของแฮ็กเกอร์ไปใช้เรียบร้อยแล้ว!</para>
+
 </sect1>
-<sect1><title>Gift Outcompetes Exchange</title>
+<!-- Gift Outcompetes Exchange -->
+<sect1><title>การให้ดีกว่าการแลกเปลี่ยน</title>
 
 <para>There is a more interesting possibility here.  I suspect
 academia and the hacker culture share adaptive patterns not because
@@ -3121,6 +3240,17 @@ a similar way, the reputation-game gift culture is the globally
 optimal way to cooperate for generating (and checking!) high-quality
 creative work.</para>
 
+<para>ตรงจุดนี้มีเรื่องเป็นไปได้ที่น่าสนใจกว่านั้นอยู่ ผู้เขียนตั้งข้อสงสัยว่า
+การที่วงการการศึกษากับวัฒนธรรมแฮ็กเกอร์มีรูปแบบร่วมกัน
+ไม่น่าจะเป็นเพราะมีความเกี่ยวพันกันโดยกำเนิด
+แต่น่าจะเป็นเพราะทั้งสองวงการต่างพัฒนาโครงสร้างทางสังคมที่เหมาะสมที่สุดสำหรับสิ่งที่มุ่งจะทำ
+ภายใต้กฎแห่งธรรมชาติ และการเชื่อมโยงอย่างแนบแน่นกับสัญชาตญาณของมนุษย์
+คำตัดสินของประวัติศาสตร์ดูเหมือนจะบอกว่า
+ทุนนิยมแบบตลาดเสรีเป็นวิธีที่ดีที่สุดในการร่วมมือเพื่อให้เกิดประสิทธิภาพทางเศรษฐกิจ
+และบางที ด้วยวิธีที่คล้ายกัน
+วัฒนธรรมการให้ที่อาศัยเกมแห่งชื่อเสียงก็อาจเป็นวิธีที่ดีที่สุดในการร่วมมือเพื่อสร้าง
+(และตรวจสอบ!) งานสร้างสรรค์ที่มีคุณภาพสูงเช่นกัน</para>
+
 <para>Support for this theory becomes from a large body of
 psychological studies on the interaction between art and reward <link
 linkend="GNU">[GNU]</link>.  These studies have received less
@@ -3131,6 +3261,14 @@ their results do suggest that some kinds of scarcity-economics rewards
 actually decrease the productivity of creative workers such as
 programmers.</para>
 
+<para>สิ่งที่สนับสนุนแนวคิดนี้ มาจากการศึกษาทางจิตวิทยาจำนวนมาก
+เกี่ยวกับการส่งผลระหว่างงานศิลปะกับรางวัล <link linkend="GNU">[GNU]</link>
+การศึกษาเหล่านี้ได้รับความสนใจน้อยกว่าที่ควร
+ส่วนหนึ่งอาจเป็นเพราะผู้เผยแพร่ได้แสดงเจตนาที่จะตีความเกินจริง
+จนกลายเป็นการโจมตีต่อตลาดเสรีและทรัพย์สินทางปัญญา อย่างไรก็ดี
+ผลการศึกษาเหล่านี้ได้บ่งชี้ว่า การให้รางวัลตามแบบเศรษฐศาสตร์ที่ขาดแคลนนั้น
+แท้ที่จริงแล้วได้ลดผลิตภาพของคนทำงานสร้างสรรค์อย่างโปรแกรมเมอร์ลง</para>
+
 <para>Psychologist Theresa Amabile of Brandeis University, cautiously
 summarizing the results of a 1984 study of motivation and reward,
 observed ``It may be that commissioned work will, in general, be less
@@ -3138,6 +3276,16 @@ creative than work that is done out of pure interest.''.  Amabile goes
 on to observe that ``The more complex the activity, the more it's hurt
 by extrinsic reward.''  Interestingly, the studies suggest that
 flat salaries don't demotivate, but piecework rates and bonuses do.</para>
+
+<para>Theresa Amabile นักจิตวิทยาของมหาวิทยาลัย Brandeis
+ได้สรุปไว้อย่างรัดกุมเกี่ยวกับผลของการศึกษาในปี 1984 เรื่องแรงกระตุ้นกับรางวัล
+โดยตั้งข้อสังเกตว่า
+``เป็นไปได้ที่งานที่ให้ส่วนแบ่งค่าตอบแทนโดยทั่วไปจะสร้างสรรค์น้อยกว่างานที่มาจากความสนใจล้วนๆ''
+Amabile สังเกตต่อไปว่า ``ยิ่งกิจกรรมซับซ้อนเท่าใด
+ก็จะถูกบั่นทอนด้วยรางวัลภายนอกได้มากเท่านั้น''
+ซึ่งน่าสนใจว่าการศึกษานี้บ่งชี้ว่าการจ่ายเงินเดือนระดับเดียว
+ไม่ได้ลดแรงกระตุ้นลงเลย
+แต่การจ่ายเป็นรายชิ้นและโบนัสสามารถลดแรงกระตุ้นได้</para>
 
 <para>Thus, it may be economically smart to give performance bonuses to
 people who flip burgers or dug ditches, but it's probably smarter to
@@ -3148,12 +3296,27 @@ suggest that the only time it is a good idea to reward performance
 in programming is when the programmer is so motivated that he
 or she would have worked without the reward!</para>
 
+<para>ดังนั้น จึงอาจเป็นความฉลาดทางเศรษฐกิจที่จะให้โบนัสตอบแทนประสิทธิภาพกับพนักงานปิ้งเบอร์เกอร์หรือขุดท้องร่อง
+แต่อาจฉลาดกว่าถ้าจะแยกเงินเดือนออกจากประสิทธิภาพในแผนกเขียนโปรแกรม
+แล้วให้พนักงานเลือกโครงการเอง
+(เป็นแนวโน้มสองอย่างที่โลกโอเพนซอร์สได้ข้อสรุปตามเหตุผล) อันที่จริงแล้ว
+ผลการศึกษาเหล่านี้ยังบอกด้วยว่า
+เวลาเดียวที่สมควรจะให้รางวัลประสิทธิภาพดีในงานเขียนโปรแกรม
+ก็คือตอนที่โปรแกรมเมอร์มีความกระตือรือร้นมากเสียจนสามารถทำงานได้โดยไม่ต้องมีรางวัล!
+</para>
+
 <para>Other researchers in the field are willing to point a finger
 straight at the issues of autonomy and creative control that so
 preoccupy hackers. ``To the extent one's experience of being
 self-determined is limited,'' said Richard Ryan, associate
 psychology professor at the University of Rochester, ``one's
 creativity will be reduced as well.''</para>
+
+<para>นักวิจัยคนอื่นในสาขาเดียวกันพร้อมจะชี้ตรงไปที่ประเด็นที่เกาะกุมจิตใจของแฮ็กเกอร์มากๆ
+เกี่ยวกับความเป็นเอกเทศและการควบคุมความคิดสร้างสรรค์
+``ยิ่งแฮ็กเกอร์รู้สึกว่าสามารถตัดสินใจด้วยตัวเองได้จำกัดเท่าไร'' Richard Ryan
+ผู้ช่วยศาสตราจารย์สาขาจิตวิทยาของมหาวิทยาลัยโรเชสเตอร์กล่าว
+``ความคิดสร้างสรรค์ของเขาก็จะลดลงมากเท่านั้น''</para>
 
 <para>In general, presenting any task as a means rather than an end in
 itself seems to demotivate.  Even winning a competition with others or
@@ -3162,11 +3325,24 @@ experienced as work for reward (which may explain why hackers are
 culturally prohibited from explicitly seeking or claiming that
 esteem).</para>
 
+<para>โดยทั่วไปแล้ว การทำให้เห็นว่างานใดก็ตามเป็นเพียงหนทาง
+แทนที่จะเป็นเป้าหมายในตัวเอง จะทำให้ขาดแรงกระตุ้น
+แม้แต่การชนะการแข่งขันกับผู้อื่น หรือการได้ความเคารพจากผู้อื่น
+ก็สามารถลดแรงกระตุ้นในทำนองเดียวกันนี้ได้
+ถ้ามีความรู้สึกว่าชัยชนะเป็นการทำงานเพื่อรางวัล (ซึ่งอาจใช้อธิบายได้ว่า
+ทำไมวัฒนธรรมจึงห้ามแฮ็กเกอร์แสวงหาหรือกล่าวตู่ความเคารพจากคนอื่น)</para>
+
 <para>To complicate the management problem further, controlling verbal
 feedback seems to be just as demotivating as piecework payment.  Ryan
 found that corporate employees who were told, ``Good, you're doing as
 you <emphasis>should</emphasis>'' were ``significantly less intrinsically
 motivated than those who received feedback informationally.''</para>
+
+<para>ความซับซ้อนในงานบริหารยังไม่จบแค่นั้น การควบคุมการตอบกลับด้วยคำพูด
+ก็ดูจะทำลายแรงกระตุ้นพอๆ กับการจ่ายค่าตอบแทนเป็นชิ้นงาน Ryan พบว่า
+พนักงานบริษัทที่หัวหน้าบอกว่า ``ดีแล้ว คุณทำในสิ่งที่
+<emphasis>สมควร</emphasis> แล้ว'' นั้น
+``ให้แรงจูงใจภายในน้อยกว่าคนที่ได้รับคำตอบที่มีข้อมูลมากนัก''</para>
 
 <para>It may still be intelligent to offer incentives, but they have to come
 without attachments to avoid gumming up the works.  There is a critical
@@ -3175,6 +3351,13 @@ reward because I recognize the value of your work'', and ``You're
 getting this reward because you've lived up to my standards.'' The
 first does not demotivate; the second does.</para>
 
+<para>การให้แรงจูงใจก็ยังเป็นสิ่งที่ฉลาด
+แต่จะต้องไม่มีอะไรพ่วงท้ายอันจะทำให้มันไม่ได้ผล มีความแตกต่างอย่างมาก
+(Ryan ตั้งข้อสังเกต) ระหว่างการพูดว่า ``ผมให้รางวัลนี้แก่คุณ
+เพราะผมเห็นคุณค่าในงานของคุณ'' กับ ``คุณได้รับรางวัลนี้
+เพราะคุณสามารถทำได้ตามมาตรฐานที่ตั้งไว้'' อย่างแรกนั้นไม่ทำลายแรงกระตุ้น
+แต่อย่างหลังนั้นทำลายแน่นอน</para>
+
 <para>In these psychological observations we can ground a case that an
 open-source development group will be substantially more productive
 (especially over the long term, in which creativity becomes more
@@ -3182,12 +3365,23 @@ critical as a productivity multiplier) than an equivalently sized and
 skilled group of closed-source programmers (de)motivated by scarcity
 rewards.</para>
 
+<para>ด้วยการสังเกตการณ์ทางจิตวิทยาเหล่านี้
+เราสามารถระบุกรณีที่กลุ่มพัฒนาโอเพนซอร์สจะมีผลิตผลมากกว่า (โดยเฉพาะในระยะยาว
+ซึ่งความคิดสร้างสรรค์จะมีความสำคัญมากขึ้นๆ ในฐานะปัจจัยเพิ่มผลิตผล)
+กลุ่มโปรแกรมเมอร์ซอร์สปิดที่มีขนาดและความเชี่ยวชาญเท่าๆ กัน ที่ได้รับ
+(การบั่นทอน) แรงกระตุ้นจากรางวัลภายใต้ข้อสมมุติของความขาดแคลน</para>
+
 <para>This suggests from a slightly different angle one of the
 speculations in <citetitle>The Cathedral And The Bazaar</citetitle>;
 that, ultimately, the industrial/factory mode of software production
 was doomed to be outcompeted from the moment capitalism began to
 create enough of a wealth surplus that many programmers could live in
 a post-scarcity gift culture.</para>
+
+<para>ข้อสังเกตนี้มองจากมุมมองที่ต่างกันเล็กน้อยจากการคาดเดาใน 
+<citetitle>The Cathedral And The Bazaar</citetitle> ชี้ว่า ในที่สุดแล้ว
+วิธีการสร้างซอฟต์แวร์แบบโรงงานอุตสาหกรรมนั้น ถูกกำหนดไว้แล้วให้พ่ายแพ้
+โดยเริ่มตั้งแต่จุดที่ทุนนิยมเริ่มสร้างความมั่งคั่งมากพอที่โปรแกรมเมอร์จะสามารถอยู่ได้ในวัฒนธรรมการให้ในยุคหลังความขาดแคลน</para>
 
 <para>Indeed, it seems the prescription for highest software
 productivity is almost a Zen paradox; if you want the most efficient
@@ -3198,8 +3392,18 @@ crazily indulgent and doomed&mdash;but it is <emphasis>exactly</emphasis>
 the recipe with which the open-source culture is now clobbering its
 competition.</para>
 
+<para>อันที่จริงแล้ว ดูเหมือนว่าสูตรแห่งผลิตภาพสูงสุดของการสร้างซอฟต์แวร์นี้
+แทบจะเป็นปริศนาเซ็นทีเดียว ถ้าคุณต้องการจะทำการผลิตอย่างมีประสิทธิภาพสูงสุด
+คุณต้องเลิกพยายามที่จะ <emphasis>ทำ</emphasis> ให้โปรแกรมเมอร์ทำการผลิต
+จัดการกับความพออยู่พอกินของพวกเขา ให้พวกเขาได้ใช้สมองเต็มที่
+แล้วก็ลืมเรื่องเส้นตายไปเสีย สำหรับผู้จัดการปกติ
+เรื่องนี้ดูจะเป็นความเคยตัวที่บ้าบอ และจะต้องล่มจมในที่สุด แต่ก็
+<emphasis>เป็น</emphasis>
+สูตรที่วัฒนธรรมโอเพนซอร์สกำลังใช้เพื่อเอาชนะการแข่งขันอยู่ทุกวันนี้</para>
+
 </sect1>
-<sect1><title>Conclusion: From Custom to Customary Law</title>
+<!-- Conclusion: From Custom to Customary Law -->
+<sect1><title>ข้อสรุป: จากจารีตประเพณีสู่กฎจารีต</title>
 
 <para>We have examined the customs which regulate the ownership and control
 of open-source software.  We have seen how they imply an underlying
@@ -3209,12 +3413,27 @@ as a `gift culture' in which participants compete for prestige
 by giving time, energy, and creativity away.  We have examined the
 implications of this analysis for conflict resolution in the culture.</para>
 
+<para>เราได้ตรวจสอบจารีตประเพณีต่างๆ
+ที่คอยกำหนดกฎเกณฑ์การถือครองและการควบคุมโครงการซอฟต์แวร์โอเพนซอร์สมาแล้ว
+เราได้เห็นว่าจารีตประเพณีเหล่านี้แฝงนัยของทฤษฎีทรัพย์สินเบื้องหลังที่คล้ายกับทฤษฎีของล็อคว่าด้วยกรรมสิทธิ์ที่ดิน
+เราได้เชื่อมโยงเรื่องนี้ไปสู่การวิเคราะห์วัฒนธรรมแฮ็กเกอร์ว่าเป็น
+`วัฒนธรรมการให้' ที่ผู้เข้าร่วมจะแข่งขันเพื่อเกียรติยศ ด้วยการอุทิศเวลา
+แรงกายแรงใจ และความคิดสร้างสรรค์ให้
+เราได้ตรวจสอบนัยของการวิเคราะห์นี้ต่อการยุติข้อขัดแย้งในวัฒนธรรมด้วย</para>
+
 <para>The next logical question to ask is "Why does this matter?"  Hackers
 developed these customs without conscious analysis and (up to now)
 have followed them without conscious analysis.  It's not immediately
 clear that conscious analysis has gained us anything practical&mdash;unless,
 perhaps, we can move from description to prescription and deduce ways
 to improve the functioning of these customs.</para>
+
+<para>คำถามที่ตามมาก็คือ "ทำไมเรื่องนี้จึงสำคัญ?"
+แฮ็กเกอร์ได้พัฒนาจารีตประเพณีเหล่านี้โดยปราศจากการวิเคราะห์โดยเจตนา
+และ (จวบจนปัจจุบัน) ได้ประพฤติตามโดยปราศจากการวิเคราะห์โดยเจตนาเช่นกัน
+จึงยังไม่เป็นที่กระจ่างทันทีทันใดว่าการวิเคราะห์โดยเจตนาได้ให้ประโยชน์อะไรในทางปฏิบัติ
+นอกจากเราจะสามารถเคลื่อนจากการสาธยายมาเป็นบทบัญญัติ
+และสรุปหนทางที่จะเพิ่มบทบาทหน้าที่ของจารีตประเพณีเหล่านี้</para>
 
 <para>We have found a close logical analogy for hacker customs in the theory
 of land tenure under the Anglo-American common-law tradition.
@@ -3224,12 +3443,28 @@ dispute-resolution systems by moving from a system of unarticulated,
 semi-conscious custom to a body of explicit customary law memorized by
 tribal wisemen&mdash;and eventually, written down.</para>
 
+<para>เราได้เห็นอุปมาอุปมัยที่ใกล้เคียงของจารีตประเพณีของแฮ็กเกอร์ในทฤษฎีกรรมสิทธิ์ที่ดิน
+ภายใต้ธรรมเนียมกฎหมายจารีตประเพณีของแองโกล-อเมริกันมาแล้ว ตามประวัติศาสตร์แล้ว
+<link linkend="miller">[Miller]</link>
+วัฒนธรรมชนเผ่าของชาวยุโรปที่ได้สร้างธรรมเนียมนี้ขึ้นมา
+ได้พัฒนาระบบตัดสินข้อพิพาทต่อไปอีก
+ด้วยการเคลื่อนจากระบบของจารีตประเพณีที่ไม่มีการบอกกล่าว ไม่บังคับโดยเจตนา
+มาเป็นกฎจารีตที่ชัดเจนที่ท่องจำโดยนักปราชญ์ของชนเผ่า
+และจดบันทึกเป็นลายลักษณ์อักษรในที่สุด</para>
+
 <para>Perhaps, as our population rises and acculturation of all new members
 becomes more difficult, it is time for the hacker culture to do
 something analogous&mdash;to develop written codes of good practice for
 resolving the various sorts of disputes that can arise in connection
 with open-source projects, and a tradition of arbitration in which
 senior members of the community may be asked to mediate disputes.</para>
+
+<para>จากการที่ประชากรของวัฒนธรรมเราเพิ่มมากขึ้น
+และการถ่ายทอดวัฒนธรรมให้กับสมาชิกใหม่ก็ยากขึ้น บางทีอาจถึงเวลาแล้ว
+ที่วัฒนธรรมแฮ็กเกอร์จะทำสิ่งที่คล้ายกัน
+คือการร่างบทบัญญัติของวิธีปฏิบัติที่ดี สำหรับการติดสินข้อพิพาทชนิดต่างๆ 
+ที่อาจมีขึ้นโดยเกี่ยวข้องกับโครงการโอเพนซอร์ส และประเพณีของการไกล่เกลี่ย
+ซึ่งสมาชิกอาวุโสของชุมชนอาจถูกขอร้องให้เป็นคนกลางไกล่เกลี่ยข้อพิพาท</para>
 
 <para>The analysis in this essay suggests the outlines of what such a code
 might look like, making explicit that which was previously implicit.
@@ -3240,6 +3475,15 @@ are likely to change over time.  Finally, for enforcement of such
 codes to work, they would have to reflect a broad consensus of the
 hacker tribe.</para>
 
+<para>การวิเคราะห์ในบทความนี้ได้แนะแนวทางต่อเค้าโครงของบทบัญญัติดังกล่าว
+และได้ตีแผ่สิ่งที่เคยแฝงตัวอยู่ให้ปรากฏชัดเจน เราไม่สามารถจะเขียนบทบัญญัติใดๆ
+จากการวิเคราะห์ที่ผ่านมา
+แต่จะต้องอาศัยความสมัครใจของผู้ก่อตั้งหรือเจ้าของโครงการต่างๆ
+ที่จะนำไปใช้เอง และทั้งหมดก็ไม่ใช่เป็นกฎตายตัว
+เพราะแรงกดดันต่อวัฒนธรรมก็มีแนวโน้มจะเปลี่ยนไปตามกาลเวลา
+และท้ายที่สุด เพื่อที่จะให้การบังคับใช้ของบทบัญญัติดังกล่าวมีผล
+ก็จำเป็นต้องสะท้อนประชามติในวงกว้างของชนเผ่าแฮ็กเกอร์ด้วย</para>
+
 <!-- %%BEGIN STANDALONE%% -->
 <para>I have begun work on such a code, tentatively titled the "Malvern
 Protocol" after the little town where I live.  If the general analysis
@@ -3249,10 +3493,19 @@ Parties interested in critiquing and developing this code, or just
 offering feedback on whether they think it's a good idea or not, are
 invited to <ulink url="mailto:esr@thyrsus.com">contact me by
 email</ulink>.</para>
+<para>ผู้เขียนได้เริ่มร่างบทบัญญัติดังกลาวแล้ว โดยอาจจะใช้ชื่อว่า
+"ระเบียบพิธีมาลเวิร์น" (Malvern Protocol) ตามชื่อเมืองเล็กๆ ที่ผู้เขียนอาศัยอยู่
+ถ้าการวิเคราะห์ทั่วไปในบทความนี้ได้รับการยอมรับมากพอ
+ผู้เขียนอาจปล่อยระเบียบวิธีมาลเวิร์นสู่สาธารณะ
+เพื่อเป็นบทบัญญัติตุ๊กตาสำหรับการตัดสินข้อพิพาท
+ผู้ที่สนใจที่จะวิจารณ์และร่วมปรับปรุงบทบัญญัตินี้
+หรือเพียงให้ข้อเสนอแนะว่าควรทำหรือไม่ ก็ขอเชิญ
+<ulink url="mailto:esr@thyrsus.com">ติดต่อผู้เขียนทางอี-เมล</ulink> ได้</para>
 <!-- %%END STANDALONE%% -->
 
 </sect1>
-<sect1><title>Questions for Further Research</title>
+<!-- Questions for Further Research -->
+<sect1><title>คำถามเพื่อการค้นคว้าเพิ่มเติม</title>
 
 <para>The culture's (and my own) understanding of large projects that don't
 follow a benevolent-dictator model is weak.  Most such projects fail.
@@ -3262,6 +3515,16 @@ a vague sense abroad that each such project is <emphasis>sui generis</emphasis>
 and stands or falls on the group dynamic of its particular members,
 but is this true or are there replicable strategies that a group can
 follow?</para>
+
+<para>ความเข้าใจของตัววัฒนธรรม (และของผู้เขียนเอง)
+เกี่ยวกับโครงการขนาดใหญ่ที่ไม่ได้ใช้การจัดการแบบเผด็จการใจดี ยังไม่ค่อยชัดเจนนัก
+โครงการส่วนใหญ่จะล้มเหลว แต่ก็มีโครงการจำนวนหนึ่งประสบความสำเร็จอย่างงดงาม
+และกลายเป็นโครงการที่สำคัญ (Perl, Apache, KDE) ยังไม่มีใครเข้าใจอย่างแท้จริง
+ว่าความแตกต่างอยู่ที่ไหน มีเพียงความรู้สึกเลือนๆ โดยทั่วไปว่า
+โครงการเหล่านี้ต่าง <emphasis>มีเอกลักษณ์เฉพาะตัว</emphasis>
+ซึ่งจะตั้งอยู่หรือล้มไปก็แล้วแต่ความเปลี่ยนแปลงในกลุ่มของสมาชิกแต่ละคน
+แต่เรื่องนี้เป็นความจริงหรือ?
+หรือว่ายังมีกุศโลบายแบบอย่างที่กลุ่มอื่นสามารถดำเนินตามได้อีก?</para>
 
 </sect1>
 
