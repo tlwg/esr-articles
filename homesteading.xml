@@ -20,7 +20,7 @@
     </address>
   </affiliation>
 </author>
-<pubdate role="cvs">$Date: 2004-06-22 15:34:33 $</pubdate>
+<pubdate role="cvs">$Date: 2004-06-23 16:18:41 $</pubdate>
 <releaseinfo>This is version 3.0</releaseinfo>
 <copyright>
   <year>2000</year>
@@ -169,11 +169,11 @@ and develop some prescriptive implications.</para>
 <para>หลังจากที่ได้สังเกตเห็นความขัดแย้งกันเอง
 ระหว่างอุดมการณ์อย่างเป็นทางการที่กำหนดโดยสัญญาอนุญาตโอเพนซอร์สต่างๆ
 กับพฤติกรรมที่ปรากฏจริงของแฮกเกอร์ทั้งหลาย
-ผู้เขียนจึงได้ตรวจสอบขนบธรรมเนียมในทางปฏิบัติ
+ผู้เขียนจึงได้ตรวจสอบจารีตประเพณีในทางปฏิบัติ
 ที่คอยกำหนดกฎเกณฑ์กรรมสิทธิ์และอำนาจควบคุมของซอฟต์แวร์โอเพนซอร์สทั้งหลาย
 ผู้เขียนจะแสดงให้เห็นว่า
-ขนบธรรมเนียมเหล่านั้นบ่งบอกถึงทฤษฎีแห่งทรัพย์สินที่อยู่เบื้องหลัง
-ซึ่งละม้ายกับทฤษฎีกรรมสิทธิ์ที่ดินของล็อค จากนั้น
+จารีตประเพณีเหล่านั้นบ่งบอกถึงทฤษฎีแห่งทรัพย์สินที่อยู่เบื้องหลัง
+ซึ่งละม้ายกับทฤษฎีสิทธิถือครองที่ดินของล็อค จากนั้น
 ผู้เขียนจะเชื่อมโยงเรื่องดังกล่าวเข้ากับการวิเคราะห์วัฒนธรรมแฮกเกอร์
 ซึ่งเป็น `วัฒนธรรมแห่งการให้' (gift culture) ซึ่งสมาชิกจะแข่งขันเพื่อเกียรติยศ
 โดยอุทิศเวลา แรงกายแรงใจ และความคิดสร้างสรรค์ให้กับชุมชน
@@ -220,7 +220,7 @@ can be leveraged better.</para>
 
 <para>ในบทความนี้ ผู้เขียนจะเจาะหาต้นตอของความขัดแย้งในตัวเองดังกล่าว
 เพื่อใช้ค้นหาแรงขับเคลื่อนและแรงกดดันเหล่านั้น
-ผู้เขียนจะอนุมานต่อถึงประเด็นที่น่าสนใจจำนวนหนึ่งเกี่ยวกับวัฒนธรรมแฮกเกอร์และขนบธรรมเนียมของมัน
+ผู้เขียนจะอนุมานต่อถึงประเด็นที่น่าสนใจจำนวนหนึ่งเกี่ยวกับวัฒนธรรมแฮกเกอร์และจารีตประเพณีของมัน
 จากนั้นจะสรุปด้วยการแนะนำหนทางที่จะทำให้การเรียนรู้ที่แฝงอยู่ในวัฒนธรรมนี้ที่ว่านั้น
 มีประสิทธิผลยิ่งขึ้น</para>
 
@@ -617,8 +617,8 @@ it can be modified, and (especially) who has the right to
 redistribute modified versions back to the community.</para>
 
 <para>ในความเป็นจริง (ซึ่งขัดแย้งในตัวเองกับทฤษฎีสาธารณะที่ใครแฮกอะไรก็ได้)
-วัฒนธรรมโอเพนซอร์สมีขนบธรรมเนียมที่ละเอียดยิบย่อยแต่กลับไม่ค่อยยอมรับกันว่ามี
-ว่าด้วยเรื่องของกรรมสิทธิ์อยู่ ขนบธรรมเนียมนี้
+วัฒนธรรมโอเพนซอร์สมีจารีตประเพณีที่ละเอียดยิบย่อยแต่กลับไม่ค่อยยอมรับกันว่ามี
+ว่าด้วยเรื่องของกรรมสิทธิ์อยู่ จารีตประเพณีนี้
 คอยกำหนดกฎเกณฑ์ว่าใครสามารถแก้ไขซอฟต์แวร์ได้บ้าง
 มีเงื่อนไขใดบ้างที่จะสามารถแก้ไขซอฟต์แวร์ได้ และโดยเฉพาะอย่างยิ่ง
 ใครที่มีสิทธิ์ที่จะแจกจ่ายซอฟต์แวร์ที่แก้ไขแล้วกลับไปให้กับชุมชน</para>
@@ -663,7 +663,7 @@ function but what they reveal about the underlying social dynamics and
 incentive structures of the open-source community.</para>
 
 <para>ในส่วนที่เหลือของบทความนี้ เราจะมาตรวจสอบข้อห้ามเหล่านี้
-และขนบธรรมเนียมเรื่องกรรมสิทธิ์กันในรายละเอียด
+และจารีตประเพณีเรื่องกรรมสิทธิ์กันในรายละเอียด
 เราจะไม่เพียงศึกษาว่ามันทำงานอย่างไร
 แต่จะศึกษาด้วยว่ามันได้เปิดเผยอะไรบ้างเกี่ยวกับพลวัตทางสังคมเบื้องหลัง
 และโครงสร้างของแรงจูงใจต่างๆ ในชุมชนโอเพนซอร์ส</para>
@@ -724,8 +724,8 @@ ownership becomes an issue.</para>
 
 <para>เรื่องของการแจกจ่ายการแก้ไข <emphasis>สู่สาธารณะ</emphasis>
 เป็นเรื่องพื้นฐานที่สร้างได้ง่าย
-ขนบธรรมเนียมเชื้อเชิญผู้คนให้แก้ไขซอฟต์แวร์เพื่อใช้ส่วนตัวเมื่อจำเป็น
-ขนบธรรมเนียมไม่ว่าอะไรใครที่แจกจ่ายซอฟต์แวร์ที่แก้ไขแล้วในกลุ่มผู้ใช้หรือนักพัฒนากลุ่มเล็กๆ
+จารีตประเพณีเชื้อเชิญผู้คนให้แก้ไขซอฟต์แวร์เพื่อใช้ส่วนตัวเมื่อจำเป็น
+จารีตประเพณีไม่ว่าอะไรใครที่แจกจ่ายซอฟต์แวร์ที่แก้ไขแล้วในกลุ่มผู้ใช้หรือนักพัฒนากลุ่มเล็กๆ
 แต่เมื่อใดก็ตาม ที่การแก้ไขนั้นถูกประกาศสู่ชุมชนโอเพนซอร์สโดยทั่วไป
 โดยชนกับต้นฉบับ นั่นแหละที่เรื่องกรรมสิทธิ์จะเป็นเรื่องขึ้นมา</para>
 
@@ -738,7 +738,7 @@ the maintainer is still active, custom does not even permit a
 <para>โดยทั่วไปแล้ว มีสามทางที่จะได้กรรมสิทธิ์ในโครงการโอเพนซอร์ส ทางที่หนึ่ง
 ซึ่งชัดเจนที่สุด คือตั้งโครงการเอง
 เมื่อโครงการใดมีผู้ดูแลเพียงคนเดียวตั้งแต่แรกเริ่ม
-และผู้ดูแลนั้นก็ยังคงทำงานอยู่ ขนบธรรมเนียมก็จะไม่แม้แต่จะยอมให้มี
+และผู้ดูแลนั้นก็ยังคงทำงานอยู่ จารีตประเพณีก็จะไม่แม้แต่จะยอมให้มี
 <emphasis>คำถาม</emphasis> ว่าใครเป็นเจ้าของโครงการ</para>
 
 <para>The second way is to have ownership of the project handed to you by
@@ -839,9 +839,9 @@ that most hackers have followed them without being fully aware of
 doing so.  Indeed, this may be the first conscious and reasonably
 complete summary ever to have been written down.</para>
 
-<para>ผู้เขียนได้สังเกตเห็นขนบธรรมเนียมเหล่านี้ในสถานการณ์จริงมากว่า 20 ปี
+<para>ผู้เขียนได้สังเกตเห็นจารีตประเพณีเหล่านี้ในสถานการณ์จริงมากว่า 20 ปี
 ย้อนไปจนถึงประวัติศาสตร์ของซอฟต์แวร์โอเพนซอร์สในยุคเก่าก่อน FSF
-เป็นขนบธรรมเนียมที่มีลักษณะที่น่าสนใจมากๆ หลายประการ ประการหนึ่งคือ
+เป็นจารีตประเพณีที่มีลักษณะที่น่าสนใจมากๆ หลายประการ ประการหนึ่งคือ
 แฮกเกอร์ส่วนใหญ่ประพฤติตามนี้โดยไม่รู้ตัว และความจริงแล้ว
 นี่อาจเป็นการสรุปอย่างสมบูรณ์และอย่างรู้ตัวเป็นครั้งแรกที่เคยจดบันทึก</para>
 
@@ -851,7 +851,7 @@ evolution of literally hundreds of open-source projects, and I can
 still count the number of significant violations I have observed or
 heard about on my fingers.</para>
 
-<para>ลักษณะอีกอย่างหนึ่งสำหรับขนบธรรมเนียมแฝงนี้ก็คือ
+<para>ลักษณะอีกอย่างหนึ่งสำหรับจารีตประเพณีแฝงนี้ก็คือ
 ทุกคนเชื่อฟังมันอย่างสม่ำเสมอในระดับที่น่าสังเกต (หรือกระทั่งน่าพิศวง)
 ผู้เขียนได้สังเกตวิวัฒนาการของโครงการโอเพนซอร์สมาหลายร้อยโครงการ
 และสามารถนับจำนวนครั้งของการฝ่าฝืนอย่างร้ายแรงที่สังเกตเห็นหรือเคยได้ยินได้ด้วยนิ้วมือของผู้เขียน
@@ -864,7 +864,7 @@ public notice, and more care about preserving the credits and change
 histories of projects in ways that (among other things) establish
 the legitimacy of the present owners.</para>
 
-<para>ยังมีลักษณะที่น่าสนใจประการที่สาม คือขนบธรรมเนียมเหล่านี้
+<para>ยังมีลักษณะที่น่าสนใจประการที่สาม คือจารีตประเพณีเหล่านี้
 มีการพัฒนาตามกาลเวลา และพัฒนาในทิศทางที่แน่นอน ทิศทางที่ว่านี้
 เป็นไปเพื่อเอื้อให้เกิดความโปร่งใสในสาธารณะมากยิ่งขึ้น
 เกิดความสังวรณ์ในสาธารณะมากขึ้น
@@ -875,7 +875,7 @@ the legitimacy of the present owners.</para>
 products of some kind of implicit agenda or generative pattern in the
 open-source culture that is utterly fundamental to the way it operates.</para>
 
-<para>ลักษณะเหล่านี้บ่งบอกว่า ขนบธรรมเนียมเหล่านี้มิได้เกิดขึ้นโดยบังเอิญ
+<para>ลักษณะเหล่านี้บ่งบอกว่า จารีตประเพณีเหล่านี้มิได้เกิดขึ้นโดยบังเอิญ
 แต่เป็นผลของแผนการณ์แฝง หรือแบบแผนที่เกิดซ้ำแล้วซ้ำเล่าในวัฒนธรรมโอเพนซอร์ส
 โดยเป็นสิ่งพื้นฐานที่สุดต่อแนวทางการทำงาน</para>
 
@@ -892,7 +892,8 @@ d00dz for contrast later in this essay.</para>
 เราจะกลับมาพูดถึงพวก d00dz เพื่อเปรียบเทียบในภายหลังในบทความนี้</para>
 
 </sect1>
-<sect1><title>Locke and Land Title</title>
+<!-- Locke and Land Title -->
+<sect1><title>ล็อคกับกรรมสิทธิ์ที่ดิน</title>
 
 <para>To understand this generative pattern, it helps to notice a historical
 analogy for these customs that is far outside the domain of hackers'
@@ -900,17 +901,38 @@ usual concerns.  As students of legal history and political philosophy
 may recognize, the theory of property they imply is virtually
 identical to the Anglo-American common-law theory of land tenure!</para>
 
+<para>เพื่อที่จะเข้าใจแบบแผนที่กล่าวมา
+การสังเกตอุปมาอุปไมยในประวัติของจารีตประเพณีนี้
+กับสิ่งที่อยู่นอกเหนือขอบเขตของสิ่งที่แฮกเกอร์สนใจ อาจจะช่วยได้
+นักศึกษาประวัติศาสตร์กฎหมายและปรัชญาการเมืองคงจะนึกออก
+ว่าทฤษฎีทรัพย์สินที่แฝงอยู่ในแบบแผนดังกล่าวนั้น
+เหมือนกันทุกประการกับทฤษฎีกฎหมายจารีตประเพณีของแองโกล-อเมริกัน
+ว่าด้วยสิทธิถือครองที่ดิน!</para>
+
 <para>In this theory, there are three ways to acquire ownership of land:</para>
+
+<para>ตามทฤษฏีดังกล่าว มีสามทางที่จะได้มาซึ่งกรรมสิทธิ์ในที่ดิน:</para>
 
 <para>On a frontier, where land exists that has never had an owner, one
 can acquire ownership by <emphasis>homesteading</emphasis>, mixing one's labor
 with the unowned land, fencing it, and defending one's title.</para>
+
+<para>ตามพื้นที่บริเวณชายขอบ ซึ่งมีที่ดินอยู่แต่ไม่เคยมีเจ้าของ
+ใครก็ตามสามารถเข้าครอบครองได้ด้วยการ <emphasis>ปักหลัก</emphasis>
+โดยออกแรงหักร้างถางพง กั้นรั้ว แล้วก็ร้องขอโฉนดของตน</para>
 
 <para>The usual means of transfer in settled areas is <emphasis>transfer of
 title</emphasis>&mdash;that is, receiving the deed from the previous owner.
 In this theory, the concept of `chain of title' is important.
 The ideal proof of ownership is a chain of deeds and transfers
 extending back to when the land was originally homesteaded.</para>
+
+<para>วิธีปกติในการถ่ายโอนที่ดินที่จับจองแล้ว ก็คือการ
+<emphasis>ถ่ายโอนกรรมสิทธิ์</emphasis> กล่าวคือ รับโฉนดต่อจากเจ้าของเดิม
+ตามทฤษฎีนี้ แนวคิดเรื่อง `ลำดับการถ่ายโอนกรรมสิทธิ์' จึงสำคัญ
+สิ่งที่จะพิสูจน์สิทธิครอบครองที่ดินอย่างแท้จริง
+ก็คือลำดับของโฉนดและการถ่ายโอนย้อนหลังกลับไปจนถึงตอนที่ที่ดินถูกปักหลักเป็นครั้งแรก
+</para>
 
 <para>Finally, the common-law theory recognizes that land title may be
 lost or abandoned (for example, if the owner dies without heirs, or
@@ -919,12 +941,28 @@ gone).  A piece of land that has become derelict in this way may be
 claimed by <emphasis>adverse possession</emphasis>&mdash;one moves in,
 improves it, and defends title as if homesteading.</para>
 
+<para>และท้ายที่สุด ทฤษฎีกฎหมายจารีตประเพณียอมรับว่า
+โฉนดที่ดินอาจสูญหายหรือถูกทิ้งร้าง (ตัวอย่างเช่น
+เมื่อเจ้าของตายลงโดยไร้ทายาท
+หรือหลักฐานที่ใช้พิสูจน์ลำดับการถ่ายโอนกรรมสิทธิ์ย้อนไปจนถึงที่ดินว่างเปล่าสูญหายไป)
+ผืนดินที่ถูกทอดทิ้งในลักษณะนี้ อาจมีการอ้างการถือครองโดย
+<emphasis>การครอบครองปรปักษ์ (adverse possession)</emphasis> กล่าวคือ
+ใครก็สามารถย้ายเข้าครอบครอง ปรับปรุงที่ดิน และร้องขอโฉนดได้
+เหมือนกับการเริ่มปักหลักใหม่</para>
+
 <para>This theory, like hacker customs, evolved organically in a context
 where central authority was weak or nonexistent.  It developed over a
 period of a thousand years from Norse and Germanic tribal law.
 Because it was systematized and rationalized in the early modern era
 by the English political philosopher John Locke, it is sometimes
 referred to as the Lockean theory of property.</para>
+
+<para>เช่นเดียวกับจารีตประเพณีของแฮกเกอร์
+ทฤษฎีนี้ก็มีวิวัฒนาการตามธรรมชาติในบริบทที่การควบคุมจากส่วนกลางมีน้อยมากหรือไม่มีเลย
+มันมีการพัฒนามาตลอดช่วงพันปีจากกฎชนเผ่านอร์สและเยอรมัน
+แต่เนื่องจากทฤษฎีนี้ได้รับการจัดระบบและให้เหตุผลโดยนักปรัชญาการเมือง
+จอห์น ล็อค (John Locke) บางครั้งจึงเรียกทฤษฎีนี้ว่า ทฤษฎีทรัพย์สินของล็อค
+(Lockean theory of property)</para>
 
 <para>Logically similar theories have tended to evolve wherever
 property has high economic or survival value and no single authority
@@ -936,6 +974,16 @@ in the traditions of the !Kung San bushmen of the Kgalagadi (formerly
 there <emphasis>is</emphasis> ownership of waterholes and springs
 under a theory recognizably akin to Locke's.</para>
 
+<para>ทฤษฎีที่มีตรรกะคล้ายๆ กันนี้
+มีแนวโน้มที่จะพัฒนาขึ้นในทุกที่ที่ทรัพย์สินมีคุณค่าทางเศรษฐกิจหรือต่อความอยู่รอด
+โดยที่ไม่มีอำนาจใดที่แข็งแกร่งพอจะบังคับการจัดสรรทรัพย์สินที่ขาดแคลนแบบรวมศูนย์ได้
+เรื่องนี้เกิดแม้แต่กับวัฒนธรรมนักล่าสัตว์หาอาหาร
+ที่บางครั้งเชื่อกันแบบอุดมคติว่าไม่มีแนวคิดของ `ทรัพย์สมบัติ' ด้วย
+ตัวอย่างเช่น ตามประเพณีของคนป่าเผ่า !Kung San แห่งทะเลทราย Kgalagadi
+(เดิมคือ `Karahari') แล้ว จะไม่มีกรรมสิทธิ์ในบริเวณพื้นที่ล่าสัตว์ แต่
+<emphasis>มี</emphasis> การถือครองบ่อน้ำและน้ำพุ
+ภายใต้หลักการที่เทียบเคียงได้กับทฤษฎีของล็อค</para>
+
 <para>The !Kung San example is instructive, because it shows that Lockean
 property customs arise only where the expected return from the
 resource exceeds the expected cost of defending it.  Hunting grounds
@@ -944,12 +992,29 @@ unpredictable and variable, and (although highly prized) not a
 necessity for day-to-day survival.  Waterholes, on the other hand, are
 vital to survival and small enough to defend.</para>
 
+<para>ตัวอย่างของเผ่า !Kung San นับว่าให้บทเรียนบางอย่าง เพราะมันแสดงให้เห็นว่า
+จารีตประเพณีทรัพย์สินของล็อคจะเกิดขึ้นก็ต่อเมื่อ
+ผลตอบแทนที่คาดหวังจากทรัพยากรมีค่ามากกว่าต้นทุนที่ใช้ในการปกป้อง
+บริเวณพื้นที่ล่าสัตว์ไม่ได้กลายเป็นทรัพย์สินก็เพราะผลตอบแทนจากการล่านั้นคาดเดาได้ยากมาก
+และความแปรปรวนก็สูง และ (ถึงแม้จะให้ผลตอบแทนสูง)
+ก็ไม่ได้จำเป็นต่อการอยู่รอดแบบวันต่อวัน
+ในขณะที่บ่อน้ำมีความจำเป็นอย่างยิ่งต่อการอยู่รอด
+และเล็กพอที่จะปกป้องกรรมสิทธิ์ได้</para>
+
 <para>The `noosphere' of this essay's title is the territory of ideas, the
 space of all possible thoughts <link linkend="N">[N]</link>.  What we see
 implied in hacker ownership customs is a Lockean theory of property
 rights in one subset of the noosphere, the space of all programs.
 Hence `homesteading the noosphere', which is what every founder of a
 new open-source project does.</para>
+
+<para>คำว่า `noosphere' ในชื่อบทความนี้ หมายถึงอาณาเขตของความคิด
+เป็นพื้นที่ของความนึกคิดที่เป็นไปได้ทั้งหมด <link linkend="N">[N]</link>
+สิ่งที่เราเห็นได้ว่าแฝงอยู่ในจารีตประเพณีกรรมสิทธิ์ของแฮกเกอร์
+ก็คือทฤษฎีทรัพย์สินของล็อคในชนิดย่อยชนิดหนึ่งของ noosphere
+กล่าวคือพื้นที่ที่เป็นของโปรแกรมทั้งหลายนั่นเอง
+ดังนั้น จึงเป็นที่มาของ `homesteading the noosphere' ซึ่งทุกๆ
+คนที่ตั้งโครงการโอเพนซอร์สต่างกระทำ</para>
 
 <para>Far&eacute; Rideau <email>fare@tunes.org</email> correctly
 points out that hackers do not exactly operate in the territory of
@@ -963,6 +1028,18 @@ projects.  (With an apologetic nod to the astrophysicists out there,
 it would be etymologically correct to call this dual space the
 `ergosphere' or `sphere of work'.)</para>
 
+<para>Far&eacute; Rideau <email>fare@tunes.org</email> ชี้ให้เห็นอย่างถูกต้อง
+ว่าแฮกเกอร์ทั้งหลายไม่ได้ทำงานในอาณาเขตของความคิดล้วนๆ เขายืนยันว่า
+สิ่งที่แฮกเกอร์เป็นเจ้าของคือ <emphasis>โครงการพัฒนาโปรแกรม</emphasis>
+ซึ่งเป็นศูนย์รวมของแรงงานทางวัตถุ (การพัฒนา, การบริการ ฯลฯ)
+โดยมีสิ่งอื่นเชื่อมโยงด้วยอย่างชื่อเสียง ความน่าเชื่อถือ ฯลฯ
+เขาจึงยืนยันว่า พื้นที่ที่ครอบครองโดยโครงการของแฮกเกอร์นั้น
+<emphasis>ไม่ใช่</emphasis> noosphere แต่เป็นคู่ของทั้งสองอย่าง
+คือเป็นโครงการพัฒนาโปรแกรมที่ทำการสำรวจ noosphere ต่างหาก
+(ต้องขออภัยต่อนักดาราฟิสิกส์ทั้งหลายที่จะกล่าวว่า
+คำที่น่าจะถูกต้องตามรากศัพท์ที่ใช้เรียกพื้นที่ควบคู่นี้ น่าจะเป็นคำว่า
+`ergosphere' หรือ `sphere of work')</para>
+
 <para>In practice, the distinction between noosphere and ergosphere is
 not important for the purposes of our present argument.  It is dubious whether
 the `noosphere' in the pure sense on which Far&eacute; insists can be said
@@ -975,6 +1052,18 @@ This question leads to issues in the theory of intellectual property
 which are beyond the scope of this essay (but see <link linkend="DF">
 [DF]</link>).</para>
 
+<para>ในทางปฏิบัติแล้ว ความแตกต่างระหว่าง noosphere กับ ergosphere
+ไม่ได้มีความสำคัญต่อจุดมุ่งหมายของสิ่งที่เรากำลังอภิปราย และน่าสงสัยว่า
+`noosphere' ในความหมายบริสุทธิ์ที่ Far&eacute; ยืนยันนั้น
+พูดได้เต็มปากหรือไม่ว่ามีอยู่จริงในทางที่มีความหมาย
+คนที่จะเชื่ออาจจะต้องเป็นนักปรัชญาในแนวของพลาโตกระมัง และความแตกต่างระหว่าง
+noosphere กับ ergosphere จะมีความสำคัญ <emphasis>ในทางปฏิบัติ</emphasis>
+ก็ต่อเมื่อคุณต้องการจะยืนยันว่าความคิดทั้งหลาย (ที่เป็นองค์ประกอบของ noosphere)
+ไม่สามารถครอบครองได้ แต่การทำให้เป็นรูปธรรมในรูปโครงการนั้น สามารถครอบครองได้
+คำถามนี้นำไปสู่ประเด็นเรื่องทฤษฎีของทรัพย์สินทางปัญญา
+ซึ่งอยู่นอกเหนือขอบเขตของบทความนี้ (แต่กรุณาอ่าน <link linkend="DF">[DF]</link>)
+</para>
+
 <para>To avoid confusion, however, it is important to note that
 neither the noosphere nor the ergosphere is the same as the totality
 of virtual locations in electronic media that is sometimes (to the
@@ -984,6 +1073,15 @@ the material substratum&mdash;essentially, he who owns the media and
 machines on which a part of `cyberspace' is hosted owns that piece of
 cyberspace as a result.</para>
 
+<para>อย่างไรก็ตาม เพื่อไม่ให้เกิดความสับสน จำเป็นต้องตั้งข้อสังเกตว่า ไม่ว่า
+noosphere หรือ ergosphere
+ก็ไม่ใช่สิ่งเดียวกับองค์รวมของสถานที่เสมือนในสื่ออิเล็กทรอนิกส์ที่บางครั้ง
+(ท่ามกลางความไม่ชอบของแฮกเกอร์ส่วนใหญ่) เรียกกันว่า `ไซเบอร์สเปซ'
+(cyberspace) ทรัพย์สินในโลกที่ว่านั้นอยู่ภายใต้กฎเกณฑ์อีกอย่างหนึ่ง
+ที่ใกล้เคียงกับโลกของวัตถุมากกว่า กล่าวคือ
+ใครที่เป็นเจ้าของสื่อหรือเครื่องที่ส่วนของ `ไซเบอร์สเปซ' หนึ่งๆ พักอาศัยอยู่
+ก็เป็นเจ้าของไซเบอร์สเปซชิ้นนั้นทันที</para>
+
 <para>The Lockean logic of custom suggests strongly that open-source
 hackers observe the customs they do in order to defend some kind of
 expected return from their effort.  The return must be more
@@ -991,6 +1089,14 @@ significant than the effort of homesteading projects, the cost of
 maintaining version histories that document `chain of title', and the
 time cost of making public notifications and waiting before taking
 adverse possession of an orphaned project.</para>
+
+<para>ตรรกะของล็อคเกี่ยวกับจารีตประเพณีชี้ให้เห็นอย่างชัดเจนว่า
+แฮกเกอร์โอเพนซอร์สได้สังเกตจารีตประเพณีที่ตนปฏิบัติ
+เพื่อที่จะปกป้องผลตอบแทนบางอย่างจากความพยายามของตน ผลตอบแทนที่ว่านั้น
+ต้องมีความหมายมากกว่าความพยายามที่ใช้ในการปักหลักโครงการ
+มากกว่าต้นทุนของการดูแลประวัติของรุ่นต่างๆ ที่บันทึก `ลำดับการถ่ายโอนกรรมสิทธิ์'
+และมากกว่าต้นทุนของการแจ้งแก่สาธารณชนและรอคอยก่อนจะถือครองโครงการที่ไร้ผู้ดูแล
+</para>
 
 <para>Furthermore, the `yield' from open source must be something more than
 simply the use of the software, something else that would be
@@ -1000,12 +1106,31 @@ resemble land tenure at all.  In fact, this alternate world (where use
 is the only yield, and forking is unproblematic) is the one implied by
 existing open-source licenses.</para>
 
+<para>นอกจากนี้ `ผลที่ได้'
+จากโอเพนซอร์สจะต้องเป็นอะไรที่มากกว่าแค่ประโยชน์ใช้สอยของซอฟต์แวร์
+แต่เป็นสิ่งอื่นที่จะถูกทำลายหรือเจือจางลงด้วยการฟอร์ก
+ถ้าประโยชน์ใช้สอยเป็นประเด็นสำคัญเพียงอย่างเดียวแล้วล่ะก็
+จะไม่มีจารีตที่ห้ามการฟอร์ก
+และกรรมสิทธิ์ในโอเพนซอร์สก็จะไม่คล้ายกับสิทธิถือครองที่ดินแต่อย่างใดเลย
+ในความเป็นจริงแล้ว โลกอีกใบที่ว่านี้
+(ที่ซึ่งประโยชน์ใช้สอยเป็นสิ่งที่ได้เพียงอย่างเดียว
+และการฟอร์กก็ไม่เป็นปัญหาแต่อย่างใด)
+เป็นโลกที่สัญญาอนุญาตโอเพนซอร์สทั้งหลายที่มีอยู่ต่างบุ้ยใบ้ให้มีด้วยซ้ำ</para>
+
 <para>We can eliminate some candidate kinds of yield right away.  Because
 you can't coerce effectively over a network connection, seeking power
 is right out.  Likewise, the open-source culture doesn't have anything
 much resembling money or an internal scarcity economy, so hackers
 cannot be pursuing anything very closely analogous to material wealth
 (e.g. the accumulation of scarcity tokens).</para>
+
+<para>เราสามารถตัดตัวเลือกบางตัวของชนิดของผลตอบแทนออกไปก่อน
+เนื่องจากคุณไม่สามารถรวมตัวกันได้อย่างแท้จริงผ่านการติดต่อในระบบเครือข่าย
+การแสวงหาอำนาจย่อมไม่ใช่คำตอบแน่นอน ในทำนองเดียวกัน
+วัฒนธรรมโอเพนซอร์สก็ไม่มีอะไรที่คล้ายกับเงินตรา
+หรือมีระบบเศรษฐศาสตร์ที่ขาดแคลนอะไร ดังนั้น
+แฮกเกอร์ก็ไม่สามารถทำเพื่อสิ่งที่ใกล้เคียงกับความมั่งคั่งทางวัตถุใดๆ (เช่น
+การสะสมแต้มความจน) ได้เช่นกัน</para>
 
 <para>There is one way that open-source activity can help people become
 wealthier, however&mdash;a way that provides a valuable clue to what
@@ -1014,23 +1139,46 @@ hacker culture can spill over into the real world in economically
 significant ways.  It can get you a better job offer, or a consulting
 contract, or a book deal.</para>
 
+<para>แม้กระนั้น
+ก็ยังมีหนทางหนึ่งที่กิจกรรมโอเพนซอร์สสามารถช่วยทำให้บุคคลมั่งคั่งขึ้นได้
+ซึ่งเป็นหนทางที่ให้แนวคิดที่มีคุณค่าเกี่ยวกับแรงบันดาลใจเบื้องหลัง ในบางโอกาส
+ชื่อเสียงที่บุคคลได้รับจากวัฒนธรรมแฮกเกอร์สามารถกระจายออกไปในโลกแห่งความเป็นจริงในทางที่มีผลทางเศรษฐกิจได้
+มันสามารถทำให้คุณได้งานดีๆ หรือได้รับการทำสัญญาเป็นที่ปรึกษา
+หรือได้เขียนตำราก็ได้</para>
+
 <para>This kind of side effect, however, is at best rare and marginal for
 most hackers; far too much so to make it convincing as a sole
 explanation, even if we ignore the repeated protestations by hackers that
 they're doing what they do not for money but out of idealism or love.</para>
+
+<para>อย่างไรก็ดี ผลข้างเคียงชนิดนี้มีน้อยมาก
+และแทบจะไม่มีเลยสำหรับแฮกเกอร์ส่วนใหญ่ จนไม่อาจจะเชื่อได้ว่าเป็นคำอธิบายทั้งหมด
+ถึงแม้เราจะไม่สนใจคำประท้วงหลายต่อหลายครั้งของแฮกเกอร์
+ว่าพวกเขาไม่ได้ทำเพื่อเงิน แต่มาจากอุดมคติหรือความรักก็ตาม</para>
 
 <para>However, the way such economic side effects are mediated is worth
 examination.  Next we'll see that an understanding of the dynamics of
 reputation within the open-source culture <emphasis>itself</emphasis> has
 considerable explanatory power.</para>
 
+<para>แม้กระนั้น หนทางที่ผลข้างเคียงทางเศรษฐกิจที่ว่าจะมีผลก็น่าตรวจสอบ
+ต่อจากนี้ เราจะพบว่า ความเข้าใจในพลวัตของชื่อเสียงภายในวัฒนธรรมโอเพนซอร์ส
+<emphasis>โดยตัวของมันเอง</emphasis> ก็สามารถอธิบายอะไรๆ ได้ดีทีเดียว</para>
+
 </sect1>
-<sect1><title>The Hacker Milieu as Gift Culture</title>
+<!-- The Hacker Milieu as Gift Culture -->
+<sect1><title>แวดวงแฮกเกอร์ในฐานะวัฒนธรรมการให้</title>
 
 <para>To understand the role of reputation in the open-source culture, it is
 helpful to move from history further into anthropology and economics,
 and examine the difference between <emphasis>exchange cultures</emphasis> and
 <emphasis>gift cultures</emphasis>.</para>
+
+<para>เพื่อที่จะเข้าใจบทบาทของชื่อเสียงในวัฒนธรรมโอเพนซอร์ส
+การย้ายจากเรื่องประวัติศาสตร์ออกไปสู่มานุษยวิทยาและเศรษฐศาสตร์
+แล้วตรวจสอบความแตกต่างระหว่าง <emphasis>วัฒนธรรมการแลกเปลี่ยน (exchange
+culture)</emphasis> กับ <emphasis>วัฒนธรรมการให้ (gift culture)</emphasis>
+อาจจะช่วยได้ดี</para>
 
 <para>Human beings have an innate drive to compete for social status; it's
 wired in by our evolutionary history.  For the 90% of hominid history
@@ -1041,9 +1189,22 @@ cooperate with them) got the healthiest mates and access to the best
 food.  This drive for status expresses itself in different ways,
 depending largely on the degree of scarcity of survival goods.</para>
 
+<para>มนุษย์มีแรงขับโดยกำเนิดที่จะช่วงชิงสถานภาพทางสังคม
+แรงขับนี้เกาะเกี่ยวแนบแน่นกับประวัติศาสตร์วิวัฒนาการของเรา
+90% ของประวัติศาสตร์เผ่าพันธุ์มนุษย์ก่อนยุคเกษตรกรรมนั้น
+บรรพบุรุษของเราอาศัยอยู่เป็นกลุ่มนักล่าสัตว์หาอาหารเร่ร่อน
+ผู้ที่อยู่ในสถานภาพสูงๆ (คือคนที่มีความสามารถในการสร้างพันธมิตร
+และโน้มน้าวผู้อื่นให้ร่วมมือ) จะได้คู่ที่แข็งแรงที่สุด
+และได้ครอบครองอาหารที่ดีที่สุด แรงขับเพื่อสถานภาพนี้ แสดงตัวออกมาในหลายรูปแบบ
+ขึ้นอยู่กับระดับความขาดแคลนของสิ่งยังชีพเป็นสำคัญ</para>
+
 <para>Most ways humans have of organizing are adaptations to scarcity
 and want.  Each way carries with it different ways of gaining social
 status.</para>
+
+<para>วิธีที่มนุษย์รวมกลุ่มกันเกือบทั้งหมด
+เป็นการปรับตัวตามความขาดแคลนและตามความต้องการ
+แต่ละวิธีก็จะมีวิธีการได้มาซึ่งสถานภาพทางสังคมที่ต่างกัน</para>
 
 <para>The simplest way is the <emphasis>command hierarchy</emphasis>.
 In command hierarchies, scarce goods are allocated by one central
@@ -1055,6 +1216,14 @@ parasites on a larger economy of a different type.  In command
 hierarchies, social status is primarily determined by access to
 coercive power.</para>
 
+<para>วิธีที่ง่ายที่สุดคือ <emphasis>ระบบยศศักดิ์</emphasis>
+ในระบบยศศักดิ์นี้ สิ่งที่ขาดแคลนจะถูกจัดสรรโดยอำนาจศูนย์กลาง
+โดยมีการสนับสนุนด้วยกำลัง ระบบยศศักดิ์
+เป็นวิธีที่ปรับตัวตามขนาดได้แย่มากๆ <link linkend="Mal">[Mal]</link>
+จะเกิดความป่าเถื่อนและไร้ประสิทธิภาพเมื่อขนาดของกลุ่มโตขึ้น ด้วยเหตุนี้
+ระบบยศศักดิ์ในกลุ่มที่ใหญ่กว่าครอบครัวใหญ่มักจะกลายเป็นภาระของเศรษฐกิจในระดับที่ใหญ่กว่าที่ต่างชนิดกันเสมอ
+ในระบบยศศักดิ์ สถานภาพทางสังคมจะกำหนดโดยการเข้าถึงอำนาจเป็นปฐม</para>
+
 <para>Our society is predominantly an <emphasis>exchange
 economy</emphasis>.  This is a sophisticated adaptation to scarcity
 that, unlike the command model, scales quite well.  Allocation of
@@ -1065,6 +1234,15 @@ exchange economy, social status is primarily determined by having
 control of things (not necessarily material things) to use or
 trade.</para>
 
+<para>สังคมของเราเป็น <emphasis>เศรษฐกิจแลกเปลี่ยน (exchange economy)</emphasis>
+เป็นส่วนใหญ่ ระบบนี้เป็นการปรับตัวอย่างซับซ้อนต่อภาวะขาดแคลน
+ซึ่งปรับตัวตามขนาดได้ดี ต่างจากแบบยศศักดิ์
+การจัดสรรสิ่งขาดแคลนจะกระทำในลักษณะกระจายอำนาจ ผ่านการค้าขายแลกเปลี่ยน
+และความร่วมมือโดยสมัครใจ (และอันที่จริง ผลโดยรวมของความต้องการแข่งขัน
+จะออกมาในรูปพฤติกรรมการสร้างความร่วมมือนั่นเอง) ในเศรษฐกิจแลกเปลี่ยน
+สถานภาพทางสังคมจะกำหนดโดยการมีอำนาจควบคุมสิ่งต่างๆ
+(ซึ่งไม่จำเป็นต้องเป็นวัตถุ) เพื่อใช้สอยหรือแลกเปลี่ยนเป็นปฐม</para>
+
 <para>Most people have implicit mental models for both of the above, and how
 they interact with each other.  Government, the military, and
 organized crime (for example) are command hierarchies parasitic on the
@@ -1072,6 +1250,13 @@ broader exchange economy we call `the free market'.  There's a third
 model, however, that is radically different from either and not
 generally recognized except by anthropologists; the <emphasis>gift
 culture</emphasis>.</para>
+
+<para>ผู้คนส่วนใหญ่มีมโนภาพของทั้งสองแบบที่กล่าวข้างต้นแฝงอยู่
+รวมทั้งปฏิกิริยาที่มีต่อกัน ตัวอย่างเช่น รัฐ กองทหาร และอาชญากรรมที่มีการจัดตั้ง
+ก็คือระบบยศศักดิ์ที่เกาะกินเศรษฐกิจแลกเปลี่ยนในวงกว้างที่เรียกกันว่า
+`ตลาดเสรี' อย่างไรก็ดี ยังมีรูปแบบที่สาม ที่แตกต่างโดยสิ้นเชิงจากทั้งสองแบบ
+และมักไม่ได้มีการยอมรับกันนอกจากนักมานุษยวิทยา คือ
+<emphasis>วัฒนธรรมการให้ (gift culture)</emphasis></para>
 
 <para>Gift cultures are adaptations not to scarcity but to abundance.  
 They arise in populations that do not have significant
@@ -1081,15 +1266,32 @@ ecozones with mild climates and abundant food.  We can also
 observe them in certain strata of our own society, especially
 in show business and among the very wealthy.</para>
 
+<para>วัฒนธรรมการให้ไม่ใช่การปรับตัวตามความขาดแคลน แต่ตามความเหลือเฟือ
+วัฒนธรรมนี้จะเกิดกับประชากรที่ไม่ได้มีปัญหาความขาดแคลนทางวัตถุเกี่ยวกับสิ่งยังชีพมากมายอะไร
+เราสามารถสังเกตเห็นวัฒนธรรมการให้จริงได้ในวัฒนธรรมอะบอริจินที่อาศัยในเขตที่สภาพอากาศเบาสบายและมีอาหารบริบูรณ์
+และเรายังสามารถสังเกตเห็นวัฒนธรรมนี้ได้ในบางชนชั้นของสังคมเรา
+โดยเฉพาะในธุรกิจการแสดงและในหมู่คนร่ำรวย</para>
+
 <para>Abundance makes command relationships difficult to sustain
 and exchange relationships an almost pointless game.  In gift
 cultures, social status is determined not by what you control
 but by <emphasis>what you give away</emphasis>.</para>
 
+<para>ความเหลือเฟือทำให้ความสัมพันธ์แบบยศศักดิ์ดำรงอยู่ได้ยาก
+และการแลกเปลี่ยนกลายเป็นเกมที่แทบจะไร้ความหมาย ในวัฒนธรรมการให้นี้
+สถานภาพทางสังคมไม่ได้กำหนดโดยสิ่งที่คุณควบคุม แต่โดย
+<emphasis>สิ่งที่คุณให้ไป</emphasis></para>
+
 <para>Thus the Kwakiutl chieftain's potlach party.  Thus the
 multi-millionaire's elaborate and usually public acts of philanthropy.
 And thus the hacker's long hours of effort to produce high-quality
 open-source code.</para>
+
+<para>ดังนั้น จึงเป็นที่มาของงานฉลอง potlatch ของหัวหน้าเผ่าชาว Kwakiutl
+เป็นที่มาของการแสดงออกอย่างถี่ถ้วนและมักปรากฏต่อสาธารณชนของเหล่าเศรษฐี
+ถึงความรักที่มีต่อมวลมนุษย์
+และเป็นที่มาของความพยายามอันยาวนานของแฮกเกอร์ที่จะสร้างโค้ดโอเพนซอร์สคุณภาพสูง
+</para>
 
 <para>For examined in this way, it is quite clear that the society of
 open-source hackers is in fact a gift culture.  Within it, there is no
@@ -1097,6 +1299,14 @@ serious shortage of the `survival necessities'&mdash;disk space, network
 bandwidth, computing power.  Software is freely shared.  This
 abundance creates a situation in which the only available measure of
 competitive success is reputation among one's peers.</para>
+
+<para>ด้วยการตรวจสอบดังนี้ จึงเห็นได้ชัดว่า
+สังคมของแฮกเกอร์โอเพนซอร์สแท้ที่จริงก็คือวัฒนธรรมการให้นั่นเอง ภายในสังคมนี้
+ไม่มีความขาดแคลน `สิ่งจำเป็นสำหรับยังชีพ' กล่าวคือ เนื้อที่ดิสก์
+ความเร็วของเครือข่าย และพลังของหน่วยประมวลผล อย่างรุนแรงอะไร
+มีการแบ่งปันซอฟต์แวร์อย่างเสรี ความเหลือเฟือนี้
+ทำให้เกิดสภาวการณ์ที่มาตรวัดความสำเร็จในการแข่งขันมีอยู่เพียงอย่างเดียว
+คือชื่อเสียงในหมู่ชน</para>
 
 <para>This observation is not in itself entirely sufficient to explain
 the observed features of hacker culture, however.  The crackers and
@@ -1109,6 +1319,17 @@ sourceless executables that crack software than tips that give away
 how they did it.  (For an inside perspective on this behavior, see
 <link linkend="lw" >[LW]</link>).</para>
 
+<para>อย่างไรก็ดี ลำพังการสังเกตนี้เพียงอย่างเดียว
+ยังไม่เพียงพอที่จะอธิบายลักษณะของวัฒนธรรมแฮกเกอร์ นักเจาะระบบและ warez d00dz
+ก็มีวัฒนธรรมการให้ที่งอกงามในสื่อ (อิเล็กทรอนิกส์) เดียวกันกับของแฮกเกอร์
+แต่พฤติกรรมของกลุ่มนี้จะแตกต่างอย่างมาก
+บุคลิกกลุ่มในวัฒนธรรมนั้นจะรุนแรงและปิดตัวกว่าในกลุ่มแฮกเกอร์มาก
+พวกเขาจะเก็บความลับไว้กับตัวมากกว่าจะแบ่งปัน
+เราจะพบกลุ่มนักเจาะระบบที่แจกจ่ายโปรแกรมไร้ซอร์สที่เจาะซอฟต์แวร์อื่น
+มากกว่าที่จะบอกเคล็ดลับว่าทำได้อย่างไร
+(หากสนใจรายละเอียดเบื้องลึกของพฤติกรรมนี้ อ่าน
+<link linkend="lw" >[LW]</link>)</para>
+
 <para>What this shows, in case it wasn't obvious, is that there is
 more than one way to run a gift culture.  History and values matter.
 I have summarized the history of the hacker culture in <citetitle>A
@@ -1117,6 +1338,15 @@ the ways in which it shaped present behavior are not mysterious.
 Hackers have defined their culture by a set of choices about the
 <emphasis>form</emphasis> that their competition will take.  It is
 that form that we will examine in the remainder of this essay.</para>
+
+<para>ในกรณีที่คุณยังไม่ประจักษ์ การเปรียบเทียบนี้แสดงให้เห็นว่า
+มีมากกว่าหนึ่งวิธีที่จะดำเนินวัฒนธรรมการให้ ประวัติศาสตร์และคุณค่าเป็นสิ่งสำคัญ
+ผู้เขียนได้สรุปประวัติของวัฒนธรรมแฮกเกอร์ไว้ใน <citetitle>A Brief History of
+Hackerdom</citetitle><link linkend="HH">[HH]</link>
+วิธีที่วัฒนธรรมนี้ก่อร่างขึ้นมาได้ไม่ใช่สิ่งลึกลับอะไร
+เหล่าแฮกเกอร์ได้กำหนดวัฒนธรรมของตนเองด้วยทางเลือกจำนวนหนึ่งเกี่ยวกับ
+<emphasis>รูปแบบ</emphasis> ที่พวกเขาจะแข่งขันกัน และรูปแบบที่ว่านี้แหละ
+ที่เราจะตรวจสอบกันต่อไปในส่วนที่เหลือของบทความนี้</para>
 
 </sect1>
 <sect1><title>The Joy of Hacking</title>
