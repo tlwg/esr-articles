@@ -1,4 +1,11 @@
-2004-06-21  Theppitak Karoonboonyanan <thep@linux.thai.net>
+2004-06-22  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* homesteading.xml:
+	New translations: "Promiscuous Theory, Puritan Practice",
+	"Ownership and Open Source". Fix some translations in previous
+	sections.
+
+2004-06-21  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* +afterword.xml +cathedral-bazaar.xml +hacker-history.xml
 	+hacker-revenge.xml +homesteading.xml +magic-cauldron.xml

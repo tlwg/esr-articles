@@ -20,7 +20,7 @@
     </address>
   </affiliation>
 </author>
-<pubdate role="cvs">$Date: 2004-06-21 16:55:45 $</pubdate>
+<pubdate role="cvs">$Date: 2004-06-22 15:34:33 $</pubdate>
 <releaseinfo>This is version 3.0</releaseinfo>
 <copyright>
   <year>2000</year>
@@ -170,7 +170,7 @@ and develop some prescriptive implications.</para>
 ระหว่างอุดมการณ์อย่างเป็นทางการที่กำหนดโดยสัญญาอนุญาตโอเพนซอร์สต่างๆ
 กับพฤติกรรมที่ปรากฏจริงของแฮกเกอร์ทั้งหลาย
 ผู้เขียนจึงได้ตรวจสอบขนบธรรมเนียมในทางปฏิบัติ
-ที่คอยกำหนดกฎเกณฑ์ความเป็นเจ้าของและอำนาจควบคุมของซอฟต์แวร์โอเพนซอร์สทั้งหลาย
+ที่คอยกำหนดกฎเกณฑ์กรรมสิทธิ์และอำนาจควบคุมของซอฟต์แวร์โอเพนซอร์สทั้งหลาย
 ผู้เขียนจะแสดงให้เห็นว่า
 ขนบธรรมเนียมเหล่านั้นบ่งบอกถึงทฤษฎีแห่งทรัพย์สินที่อยู่เบื้องหลัง
 ซึ่งละม้ายกับทฤษฎีกรรมสิทธิ์ที่ดินของล็อค จากนั้น
@@ -221,7 +221,7 @@ can be leveraged better.</para>
 <para>ในบทความนี้ ผู้เขียนจะเจาะหาต้นตอของความขัดแย้งในตัวเองดังกล่าว
 เพื่อใช้ค้นหาแรงขับเคลื่อนและแรงกดดันเหล่านั้น
 ผู้เขียนจะอนุมานต่อถึงประเด็นที่น่าสนใจจำนวนหนึ่งเกี่ยวกับวัฒนธรรมแฮกเกอร์และขนบธรรมเนียมของมัน
-จากนั้นจะสรุปด้วยการแนะนำหนทางที่จะทำให้การเรียนรู้ที่ไม่มีใครเอ่ยถึงในวัฒนธรรมนี้ที่ว่านั้น
+จากนั้นจะสรุปด้วยการแนะนำหนทางที่จะทำให้การเรียนรู้ที่แฝงอยู่ในวัฒนธรรมนี้ที่ว่านั้น
 มีประสิทธิผลยิ่งขึ้น</para>
 
 </sect1>
@@ -521,7 +521,8 @@ their own, non-GPL licensing schemes.</para>
 โดยไม่ใช้ GPL</para>
 
 </sect1>
-<sect1><title>Promiscuous Theory, Puritan Practice</title>
+<!-- Promiscuous Theory, Puritan Practice -->
+<sect1><title>ทฤษฎีสำส่อน ปฏิบัติเคร่งครัด</title>
 
 <para>Through all these changes, nevertheless, there remained a broad
 consensus theory of what `free software' or `open source' is.  The
@@ -529,12 +530,26 @@ clearest expression of this common theory can be found in the various
 open-source licenses, all of which have crucial common
 elements. </para>
 
+<para>แม้กระนั้น ท่ามกลางความเปลี่ยนแปลงเหล่านี้
+ก็ยังคงมีทฤษฎีสาธารณะแบบกว้างๆ ที่อธิบายความหมายของ `ซอฟต์แวร์เสรี' หรือ
+`โอเพนซอร์ส' การแสดงออกที่ชัดเจนที่สุดของทฤษฏีสามัญนี้
+สามารถพบได้ในสัญญาอนุญาตโอเพนซอร์สทั้งหลาย ซึ่งต่างก็มีองค์ประกอบที่สำคัญๆ
+ร่วมกัน</para>
+
 <para>In 1997 these common elements were distilled into the Debian Free
 Software Guidelines, which became the <ulink
 url="http://www.opensource.org">Open Source Definition</ulink>.  Under
 the guidelines defined by the OSD, an open-source license must protect an
 unconditional right of any party to modify (and redistribute modified
 versions of) open-source software.</para>
+
+<para>ในปี 1997 องค์ประกอบร่วมเหล่านี้ ได้ถูกกลั่นกรองออกมาเป็น
+`แนวทางซอฟต์แวร์เสรีเดเบียน' (Debian Free Software Guidelines)
+ซึ่งต่อมาได้กลายเป็น
+<ulink url="http://www.opensource.org">นิยามโอเพนซอร์ส</ulink> (Open Source
+Definition&mdash;OSD) ด้วยแนวทางที่กำหนดโดย OSD นี้ สัญญาอนุญาตโอเพนซอร์สใดๆ
+จะต้องปกป้องสิทธิ์อย่างไร้เงื่อนไขของฝ่ายใดก็ตามที่จะแก้ไขและแจกจ่ายซอฟต์แวร์โอเพนซอร์ส
+</para>
 
 <para>Thus, the implicit theory of the OSD (and OSD-conformant
 licenses such as the GPL, the BSD license, and Perl's Artistic
@@ -544,6 +559,12 @@ as, say the Free Software Foundations's gcc C compiler), duplicating
 the sources, running off with them in different evolutionary
 directions, but all claiming to be <emphasis>the</emphasis>
 product.</para>
+
+<para>ด้วยเหตุนี้ ทฤษฎีที่แฝงอยู่ใน OSD (และสัญญาอนุญาตที่สอดคล้องกับ OSD
+ทั้งหลาย เช่น GPL, สัญญาอนุญาต BSD, และสัญญาอนุญาต Artistic ของ Perl) ก็คือ
+ใครจะแฮกอะไรก็ได้ ไม่มีการห้ามกลุ่มบุคคลต่างๆ มิให้นำเอาผลิตภัณฑ์โอเพนซอร์ส
+(ตัวอย่างเช่น คอมไพเลอร์ภาษาซี gcc ของมูลนิธิซอฟต์แวร์เสรี)
+มาทำซ้ำแล้วพัฒนาต่อไปอีกทางโดยที่ยังใช้ชื่อผลิตภัณฑ์เดิม</para>
 
 <para>This kind of divergence is called a <emphasis>fork</emphasis>.
 The most important characteristic of a fork is that it spawns
@@ -556,6 +577,17 @@ from each other's development efforts completely enough that they are
 neither technically nor sociologically a waste, and are not perceived
 as forks.)</para>
 
+<para>การแยกเส้นทางแบบนี้เรียกว่า <emphasis>การฟอร์ก</emphasis> (fork)
+ลักษณะสำคัญของการฟอร์กก็คือ เกิดโครงการเดิมเพิ่มอีกชุดมาแข่งกัน
+โดยที่ไม่สามารถแลกเปลี่ยนโค้ดกันได้อีก
+อันทำให้ชุมชนนักพัฒนาที่มีศักยภาพต้องแตกแยก (มีปรากฏการณ์บางอย่างที่ดูเผินๆ
+อาจจะคล้ายการฟอร์ก แต่ไม่ใช่ เช่น
+การเกิดอย่างมโหฬารของดิสทริบิวชันลินุกซ์ที่แตกต่างกัน การฟอร์กเทียมๆ เหล่านี้
+อาจทำให้เกิดโครงการแยกกันก็จริง แต่ทั้งหมดก็ยังคงใช้โค้ดเกือบทั้งหมดร่วมกัน
+และยังคงได้รับประโยชน์จากการพัฒนาของกลุ่มอื่นอย่างเต็มที่
+จนไม่นับว่าเป็นความสูญเปล่า ไม่ว่าจะเป็นทางเทคนิคหรือทางสังคม
+จึงไม่ถือเป็นการฟอร์ก)</para>
+
 <para>The open-source licenses do nothing to restrain forking, let
 alone pseudo-forking; in fact, one could argue that they implicitly
 encourage both.  In practice, however, pseudo-forking is common but
@@ -567,6 +599,16 @@ of the BSD splinter groups, that the splitters felt they were going
 against a fairly powerful community norm <link
 linkend="BSD">[BSD]</link>.</para>
 
+<para>สัญญาอนุญาตโอเพนซอร์สไม่ได้ทำอะไรเพื่อห้ามปรามการฟอร์กเลย
+ยิ่งเรื่องการฟอร์กเทียมๆ ยิ่งไม่ต้องพูดถึง และอันที่จริง ใครบางคนอาจแย้งว่า
+มันเชื้อเชิญให้ทำทั้งสองอย่างด้วยซ้ำ อย่างไรก็ตาม ในทางปฏิบัติแล้ว
+การฟอร์กเทียมเป็นเรื่องปกติ แต่การฟอร์กจริงแทบจะไม่เกิดขึ้นเลย
+การแตกกลุ่มในโครงการใหญ่ๆ ไม่ค่อยจะมีให้เห็น แต่ถ้ามี ก็จะมีการเปลี่ยนชื่อ
+และต้องผ่านการกลั่นกรองจากสาธารณะด้วย เห็นได้ชัดว่า กรณีอย่างการแยก GNU
+Emacs/XEmacs หรือการแยก gcc/egcs หรือการแตกเป็นเสี่ยงๆ ของกลุ่ม BSD นั้น
+กลุ่มผู้แยกตัวต่างรู้สึกว่าต้องต่อสู้กับจารีตอันแข็งแกร่งของประชาคมอยู่ไม่น้อย
+<link linkend="BSD">[BSD]</link></para>
+
 <para>In fact (and in contradiction to the anyone-can-hack-anything
 consensus theory) the open-source culture has an elaborate but
 largely unadmitted set of ownership customs. These customs
@@ -574,8 +616,18 @@ regulate who can modify software, the circumstances under which
 it can be modified, and (especially) who has the right to
 redistribute modified versions back to the community.</para>
 
+<para>ในความเป็นจริง (ซึ่งขัดแย้งในตัวเองกับทฤษฎีสาธารณะที่ใครแฮกอะไรก็ได้)
+วัฒนธรรมโอเพนซอร์สมีขนบธรรมเนียมที่ละเอียดยิบย่อยแต่กลับไม่ค่อยยอมรับกันว่ามี
+ว่าด้วยเรื่องของกรรมสิทธิ์อยู่ ขนบธรรมเนียมนี้
+คอยกำหนดกฎเกณฑ์ว่าใครสามารถแก้ไขซอฟต์แวร์ได้บ้าง
+มีเงื่อนไขใดบ้างที่จะสามารถแก้ไขซอฟต์แวร์ได้ และโดยเฉพาะอย่างยิ่ง
+ใครที่มีสิทธิ์ที่จะแจกจ่ายซอฟต์แวร์ที่แก้ไขแล้วกลับไปให้กับชุมชน</para>
+
 <para>The taboos of a culture throw its norms into sharp relief.  Therefore,
 it will be useful later on if we summarize some important ones here:</para>
+
+<para>ข้อห้ามของวัฒนธรรมช่วยเน้นจารีตให้ปรากฏเด่นชัดยิ่งขึ้น ดังนั้น
+น่าจะเป็นการดีถ้าเรามาสรุปข้อห้ามที่สำคัญไว้ ณ ที่นี้:</para>
 
 <itemizedlist>
 <listitem><para> 
@@ -583,13 +635,26 @@ There is strong social pressure against forking projects.  It does
 not happen except under plea of dire necessity, with much public
 self-justification, and requires a renaming.</para></listitem>
 <listitem><para>
+มีแรงกดดันอย่างรุนแรงจากสังคมที่คอยต้านการฟอร์กโครงการทั้งหลาย
+จะไม่มีการฟอร์กนอกจากจะมีการวิงวอนด้วยความจำเป็นอันสาหัส
+ทั้งยังต้องผ่านการกลั่นกรองจากสาธารณะ และมักจะต้องเปลี่ยนชื่อด้วย
+</para></listitem>
+<listitem><para>
 Distributing changes to a project without the cooperation of the
 moderators is frowned upon, except in special cases like essentially
 trivial porting fixes.</para></listitem>
 <listitem><para>
+การแจกจ่ายการแก้ไขในโครงการโดยปราศจากความร่วมมือจากผู้ดูแลมักไม่ได้รับการยอมรับ
+ยกเว้นในกรณีพิเศษจริงๆ เช่นการแก้ปัญหาเรื่องการข้ามแพล็ตฟอร์มเล็กๆ น้อยๆ
+</para></listitem>
+<listitem><para>
 Removing a person's name from a project history, credits, or maintainer
 list is absolutely <emphasis>not done</emphasis> without the person's explicit
 consent.</para></listitem>
+<listitem><para>
+จะไม่มีการลบชื่อบุคคลออกจากประวัติโครงการ จากกิติกรรมประกาศ
+หรือจากรายชื่อผู้ดูแล <emphasis>อย่างเด็ดขาด</emphasis>
+ยกเว้นด้วยความยินยอมของบุคคลนั้น</para></listitem>
 </itemizedlist>
 
 <para>In the remainder of this essay, we shall examine these taboos and
@@ -597,22 +662,42 @@ ownership customs in detail.  We shall inquire not only into how they
 function but what they reveal about the underlying social dynamics and
 incentive structures of the open-source community.</para>
 
+<para>ในส่วนที่เหลือของบทความนี้ เราจะมาตรวจสอบข้อห้ามเหล่านี้
+และขนบธรรมเนียมเรื่องกรรมสิทธิ์กันในรายละเอียด
+เราจะไม่เพียงศึกษาว่ามันทำงานอย่างไร
+แต่จะศึกษาด้วยว่ามันได้เปิดเผยอะไรบ้างเกี่ยวกับพลวัตทางสังคมเบื้องหลัง
+และโครงสร้างของแรงจูงใจต่างๆ ในชุมชนโอเพนซอร์ส</para>
+
 </sect1>
-<sect1><title>Ownership and Open Source</title>
+<!-- Ownership and Open Source -->
+<sect1><title>กรรมสิทธิ์กับโอเพนซอร์ส</title>
 
 <para>What does `ownership' mean when property is infinitely reduplicable, 
 highly malleable, and the surrounding culture has neither coercive
 power relationships nor material scarcity economics?</para>
+
+<para>ความหมายของ `กรรมสิทธิ์' คืออะไร ในเมื่อทรัพย์สินสามารถทำซ้ำได้ไม่จำกัด
+แปรเปลี่ยนรูปได้สารพัด แถมวัฒนธรรมแวดล้อมก็ไม่มีความเกี่ยวข้องกับพลังอำนาจ
+หรือเศรษฐศาสตร์ที่ขาดแคลนด้านวัตถุใดๆ เลย?</para>
 
 <para>Actually, in the case of the open-source culture this is an easy
 question to answer.  The owner of a software project is the person
 who has the exclusive right, recognized by the community at large,
 to <emphasis>distribute modified versions</emphasis>.</para>
 
+<para>อันที่จริง ในกรณีของวัฒนธรรมโอเพนซอร์ส คำถามนี้ตอบง่ายมาก
+เจ้าของโครงการซอฟต์แวร์ก็คือบุคคลที่มีเอกสิทธิ์โดยการยอมรับของชุมชนในวงกว้าง
+ที่จะ <emphasis>แจกจ่ายซอฟต์แวร์ที่แก้ไขแล้ว</emphasis></para>
+
 <para>(In discussing `ownership' in this section I will use the singular, as
 though all projects are owned by some one person.  It should be
 understood, however, that projects may be owned by groups.  We shall
 examine the internal dynamics of such groups later on.)</para>
+
+<para>(ในการอภิปรายเรื่อง `กรรมสิทธิ์' ในหัวข้อนี้ ผู้เขียนจะใช้คำเอกพจน์
+เหมือนกับว่าทุกโครงการมีเจ้าของเพียงคนเดียว
+แต่ขอให้เข้าใจด้วยว่าโครงการอาจมีเจ้าของเป็นกลุ่มก็ได้
+เราจะมาตรวจสอบพลวัตภายในของกลุ่มดังกล่าวในภายหลัง)</para>
 
 <para>According to the standard open-source licenses, all parties are
 equals in the evolutionary game.  But in practice there is a very
@@ -622,6 +707,13 @@ maintainers, and `rogue' patches by third parties.  Rogue patches are
 unusual, and generally not trusted <link
 linkend="rp">[RP]</link>.</para>
 
+<para>ตามสัญญาอนุญาตโอเพนซอร์สมาตรฐานแล้ว ทุกฝ่ายเท่าเทียมกันในเกมแห่งวิวัฒนาการ
+แต่ในทางปฏิบัติ จะมีความแตกต่างที่ยอมรับกันเป็นอย่างดี ระหว่างแพตช์ที่
+`เป็นทางการ' ที่ตรวจสอบและรวมเข้าแล้วในซอฟต์แวร์ที่วิวัฒน์ไปข้างหน้า
+โดยผู้ดูแลที่สาธารณชนยอมรับ กับแพตช์ `เถื่อน' ของบุคคลที่สาม
+แพตช์เถื่อนเป็นของแปลกปลอม และมักไม่ค่อยได้รับความเชื่อถือ <link
+linkend="rp">[RP]</link></para>
+
 <para>That <emphasis>public</emphasis> redistribution is the
 fundamental issue is easy to establish.  Custom encourages people to
 patch software for personal use when necessary. Custom is indifferent
@@ -630,11 +722,24 @@ development group.  It is only when modifications are posted to the
 open-source community in general, to compete with the original, that
 ownership becomes an issue.</para>
 
+<para>เรื่องของการแจกจ่ายการแก้ไข <emphasis>สู่สาธารณะ</emphasis>
+เป็นเรื่องพื้นฐานที่สร้างได้ง่าย
+ขนบธรรมเนียมเชื้อเชิญผู้คนให้แก้ไขซอฟต์แวร์เพื่อใช้ส่วนตัวเมื่อจำเป็น
+ขนบธรรมเนียมไม่ว่าอะไรใครที่แจกจ่ายซอฟต์แวร์ที่แก้ไขแล้วในกลุ่มผู้ใช้หรือนักพัฒนากลุ่มเล็กๆ
+แต่เมื่อใดก็ตาม ที่การแก้ไขนั้นถูกประกาศสู่ชุมชนโอเพนซอร์สโดยทั่วไป
+โดยชนกับต้นฉบับ นั่นแหละที่เรื่องกรรมสิทธิ์จะเป็นเรื่องขึ้นมา</para>
+
 <para>There are, in general, three ways to acquire ownership of an
 open-source project.  One, the most obvious, is to found the project.
 When a project has had only one maintainer since its inception and
 the maintainer is still active, custom does not even permit a
 <emphasis>question</emphasis> as to who owns the project.</para>
+
+<para>โดยทั่วไปแล้ว มีสามทางที่จะได้กรรมสิทธิ์ในโครงการโอเพนซอร์ส ทางที่หนึ่ง
+ซึ่งชัดเจนที่สุด คือตั้งโครงการเอง
+เมื่อโครงการใดมีผู้ดูแลเพียงคนเดียวตั้งแต่แรกเริ่ม
+และผู้ดูแลนั้นก็ยังคงทำงานอยู่ ขนบธรรมเนียมก็จะไม่แม้แต่จะยอมให้มี
+<emphasis>คำถาม</emphasis> ว่าใครเป็นเจ้าของโครงการ</para>
 
 <para>The second way is to have ownership of the project handed to you by
 the previous owner (this is sometimes known as `passing the baton').
@@ -643,11 +748,24 @@ to pass projects to competent successors when they are no longer
 willing or able to invest needed time in development or maintenance
 work.</para>
 
+<para>ทางที่สองคือ ให้มีการถ่ายโอนกรรมสิทธิ์นั้นให้กับคุณจากเจ้าของคนเดิม
+(การถ่ายโอนนี้ บางทีก็รู้จักกันในนาม `การส่งไม้' (passing the baton))
+ประชาคมจะเข้าใจดีว่า
+เป็นหน้าที่จองเจ้าของโครงการที่จะส่งต่อโครงการให้กับผู้สืบทอดที่มีความสามารถ
+เมื่อเขาไม่ต้องการหรือไม่สามารถอุทิศเวลาให้กับงานพัฒนาหรือดูแลโครงการได้อีก
+</para>
+
 <para>It is significant that in the case of major projects, such transfers
 of control are generally announced with some fanfare.  While it is
 unheard of for the open-source community at large to actually
 interfere in the owner's choice of succession, customary practice
 clearly incorporates a premise that public legitimacy is important.</para>
+
+<para>เป็นเรื่องสำคัญในกรณีของโครงการใหญ่ๆ
+ที่ต้องมีการประกาศการถ่ายโอนการควบคุมดังกล่าวอย่างเป็นทางการ
+และถึงแม้จะไม่เคยปรากฏว่ามีชุมชนโอเพนซอร์สไหนไปก้าวก่ายการตัดสินใจของเจ้าของโครงการ
+แต่ตามธรรมเนียมปฏิบัติแล้ว
+ก็จะถือเอาความเหมาะสมตามความเห็นของสาธารณชนเป็นสำคัญ</para>
 
 <para>For minor projects, it is generally sufficient for a change history
 included with the project distribution to note the change of
@@ -656,6 +774,12 @@ in fact voluntarily transferred control, he or she may reassert
 control with community backing by objecting publicly within a
 reasonable period of time.</para>
 
+<para>สำหรับโครงการเล็กๆ
+การบันทึกการเปลี่ยนกรรมสิทธิ์ลงในประวัติการเปลี่ยนแปลงของโครงการที่แนบไปพร้อมกับการแจกจ่ายก็ถือว่าเพียงพอ
+โดยถือว่า ถ้าเจ้าของคนก่อนไม่ได้เต็มใจถ่ายโอนการควบคุมให้
+เขาก็สามารถร้องขออำนาจคืนด้วยการสนับสนุนของชุมชน
+โดยประท้วงในที่สาธารณะภายในเวลาอันควรได้</para>
+
 <para>The third way to acquire ownership of a project is to observe that it
 needs work and the owner has disappeared or lost interest.  If you
 want to do this, it is your responsibility to make the effort to find
@@ -663,6 +787,13 @@ the owner.  If you don't succeed, then you may announce in a relevant
 place (such as a Usenet newsgroup dedicated to the application area)
 that the project appears to be orphaned, and that you are considering
 taking responsibility for it.</para>
+
+<para>ทางที่สามที่จะได้มาซึ่งกรรมสิทธิ์ในโครงการ
+คือการสังเกตพบว่าโครงการมีสิ่งที่ควรทำต่อ แต่เจ้าของได้หายตัวไป หรือเลิกสนใจ
+ถ้าคุณต้องการทำงานชิ้นนั้น ก็เป็นความรับผิดชอบของคุณที่จะพยายามหาตัวเจ้าของให้พบ
+ถ้าคุณหาไม่พบ ก็อาจจะประกาศในที่ที่เกี่ยวข้อง (เช่น ในกลุ่มข่าว Usenet
+ที่ตั้งขึ้นเพื่อโปรแกรมประเภทนั้น) ว่าโครงการนั้นไร้ผู้ดูแล
+และคุณกำลังพิจารณารับภาระดูแลต่อ</para>
 
 <para>Custom demands that you allow some time to pass before following
 up with an announcement that you have declared yourself the new owner.
@@ -676,12 +807,30 @@ visible effort you make to allow the previous owner or other claimants
 to respond, the better your claim if no response is
 forthcoming.</para>
 
+<para>ตามธรรมเนียมแล้ว คุณควรเว้นช่วงเวลาสักพัก ก่อนที่จะตอบการประกาศของคุณ
+ว่าคุณจะประกาศตัวเป็นเจ้าของคนใหม่ โดยในช่วงนี้
+ถ้ามีใครบางคนประกาศว่าเขากำลังทำงานกับโครงการนี้อยู่ ก็ถือว่าเขาได้ไป
+ถ้ายังไม่มีใครตอบ การประกาศต่อสาธารณะมากกว่าหนึ่งครั้งก็ถือว่าเป็นมารยาทที่ดี
+คุณจะยิ่งได้คะแนนมารยาทมากขึ้นถ้าคุณประกาศในฟอรัมที่เกี่ยวข้องหลายแห่ง (เช่น
+กลุ่มข่าวที่เกี่ยวข้องและเมลลิงลิสต์)
+และจะได้มากขึ้นอีกถ้าคุณแสดงความอดทนที่จะรอคำตอบ โดยทั่วไปแล้ว
+ยิ่งคุณแสดงความพยายามให้เห็นมากเท่าไร
+ในการให้โอกาสเจ้าของคนเดิมหรือผู้อื่นที่อาจอ้างสิทธิ์ที่จะให้คำตอบ
+การอ้างกรรมสิทธิ์ของคุณเมื่อไร้คำตอบ ก็จะดูดีมากขึ้นเท่านั้น</para>
+
 <para>If you have gone through this process in sight of the project's user
 community, and there are no objections, then you may claim ownership
 of the orphaned project and so note in its history file.  This,
 however, is less secure than being passed the baton, and you cannot
 expect to be considered fully legitimate until you have made
 substantial improvements in the sight of the user community.</para>
+
+<para>ถ้าคุณได้ผ่านขั้นตอนทั้งหมดนี้ท่ามกลางสายตาของชุมชนผู้ใช้ของโครงการมาแล้ว
+ก็จะไม่มีการคัดค้านอะไรอีก คุณก็สามารถอ้างกรรมสิทธิ์ในโครงการไร้ผู้ดูแลนี้
+และสามารถบันทึกการถ่ายโอนลงในประวัติโครงการได้ อย่างไรก็ตาม
+วิธีนี้ก็ยังปลอดภัยน้อยกว่าการรับไม้โดยตรง
+และคุณก็ยังไม่อาจคาดหวังว่าจะมีความชอบธรรมเต็มที่
+จนกว่าคุณจะได้ลงมือปรับปรุงจนเห็นได้ชัดในสายตาของชุมชนผู้ใช้</para>
 
 <para>I have observed these customs in action for 20 years, going back
 to the pre-FSF ancient history of open-source software.  They have
@@ -690,11 +839,23 @@ that most hackers have followed them without being fully aware of
 doing so.  Indeed, this may be the first conscious and reasonably
 complete summary ever to have been written down.</para>
 
+<para>ผู้เขียนได้สังเกตเห็นขนบธรรมเนียมเหล่านี้ในสถานการณ์จริงมากว่า 20 ปี
+ย้อนไปจนถึงประวัติศาสตร์ของซอฟต์แวร์โอเพนซอร์สในยุคเก่าก่อน FSF
+เป็นขนบธรรมเนียมที่มีลักษณะที่น่าสนใจมากๆ หลายประการ ประการหนึ่งคือ
+แฮกเกอร์ส่วนใหญ่ประพฤติตามนี้โดยไม่รู้ตัว และความจริงแล้ว
+นี่อาจเป็นการสรุปอย่างสมบูรณ์และอย่างรู้ตัวเป็นครั้งแรกที่เคยจดบันทึก</para>
+
 <para>Another is that, for unconscious customs, they have been followed with
 remarkable (even astonishing) consistency.  I have observed the
 evolution of literally hundreds of open-source projects, and I can
 still count the number of significant violations I have observed or
 heard about on my fingers.</para>
+
+<para>ลักษณะอีกอย่างหนึ่งสำหรับขนบธรรมเนียมแฝงนี้ก็คือ
+ทุกคนเชื่อฟังมันอย่างสม่ำเสมอในระดับที่น่าสังเกต (หรือกระทั่งน่าพิศวง)
+ผู้เขียนได้สังเกตวิวัฒนาการของโครงการโอเพนซอร์สมาหลายร้อยโครงการ
+และสามารถนับจำนวนครั้งของการฝ่าฝืนอย่างร้ายแรงที่สังเกตเห็นหรือเคยได้ยินได้ด้วยนิ้วมือของผู้เขียน
+</para>
 
 <para>Yet a third interesting feature is that as these customs have evolved
 over time, they have done so in a consistent direction.  That
@@ -703,15 +864,32 @@ public notice, and more care about preserving the credits and change
 histories of projects in ways that (among other things) establish
 the legitimacy of the present owners.</para>
 
+<para>ยังมีลักษณะที่น่าสนใจประการที่สาม คือขนบธรรมเนียมเหล่านี้
+มีการพัฒนาตามกาลเวลา และพัฒนาในทิศทางที่แน่นอน ทิศทางที่ว่านี้
+เป็นไปเพื่อเอื้อให้เกิดความโปร่งใสในสาธารณะมากยิ่งขึ้น
+เกิดความสังวรณ์ในสาธารณะมากขึ้น
+และเกิดความเอาใจใส่มากขึ้นในการระวังรักษาการนับผลงานและประวัติโครงการในทางที่
+(นอกเหนือจากสิ่งอื่น) สถาปนาความชอบธรรมแก่เจ้าของปัจจุบันของโครงการ</para>
+
 <para>These features suggest that the customs are not accidental, but are
 products of some kind of implicit agenda or generative pattern in the
 open-source culture that is utterly fundamental to the way it operates.</para>
+
+<para>ลักษณะเหล่านี้บ่งบอกว่า ขนบธรรมเนียมเหล่านี้มิได้เกิดขึ้นโดยบังเอิญ
+แต่เป็นผลของแผนการณ์แฝง หรือแบบแผนที่เกิดซ้ำแล้วซ้ำเล่าในวัฒนธรรมโอเพนซอร์ส
+โดยเป็นสิ่งพื้นฐานที่สุดต่อแนวทางการทำงาน</para>
 
 <para>An early respondent pointed out that contrasting the Internet hacker
 culture with the cracker/pirate culture (the ``warez d00dz'' centered
 around game-cracking and pirate bulletin-board systems) illuminates
 the generative patterns of both rather well.  We'll return to the
 d00dz for contrast later in this essay.</para>
+
+<para>มีผู้ให้ความเห็นคนแรกๆ ต่อบทความนี้ ชี้ว่าการเปรียบเทียบกับด้านตรงข้าม
+ระหว่างวัฒนธรรมแฮกเกอร์ในอินเทอร์เน็ตกับวัฒนธรรมนักเจาะ/ขโมย (cracker/pirate)
+(พวก ``warez d00dz'' ที่มุ่งเจาะเกมและขโมยข้อมูลจากระบบ bulletin board)
+จะช่วยทำให้เห็นภาพของแบบแผนที่เกิดซ้ำแล้วซ้ำเล่าในวัฒนธรรมทั้งสองได้เป็นอย่างดี
+เราจะกลับมาพูดถึงพวก d00dz เพื่อเปรียบเทียบในภายหลังในบทความนี้</para>
 
 </sect1>
 <sect1><title>Locke and Land Title</title>
