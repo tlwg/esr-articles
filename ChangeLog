@@ -1,0 +1,7 @@
+2004-06-21  Theppitak Karoonboonyanan <thep@linux.thai.net>
+
+	* +afterword.xml +cathedral-bazaar.xml +hacker-history.xml
+	+hacker-revenge.xml +homesteading.xml +magic-cauldron.xml
+	+Makefile:
+	First create the project.
+
