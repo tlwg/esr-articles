@@ -20,11 +20,23 @@
     </address>
   </affiliation>
 </author>
-<pubdate role="cvs">$Date: 2004-06-21 05:19:15 $</pubdate>
+<pubdate role="cvs">$Date: 2006-11-19 09:07:28 $</pubdate>
 <releaseinfo>This is version 3.0</releaseinfo>
 <copyright>
   <year>2000</year>
   <holder role="mailto:esr@thyrsus.com">Eric S. Raymond</holder> 
+</copyright>
+<copyright>
+  <year>2002</year>
+  <holder role="markpeak@gmail.com">
+    Isriya Paireepairit (Initial Thai translation)
+  </holder> 
+</copyright>
+<copyright>
+  <year>2006</year>
+  <holder role="mailto:thep@linux.thai.net">
+    Theppitak Karoonboonyanan (Thai translation)
+  </holder> 
 </copyright>
 <legalnotice>
   <title>Copyright</title>
@@ -34,6 +46,14 @@
 </legalnotice>
 
 <revhistory>
+   <revision>
+      <revnumber>1.57.thai1</revnumber>
+      <date>19 พฤศจิกายน 2006</date>
+      <authorinitials>tkr</authorinitials>
+       <revremark>
+         Merge and edit Isriya's Thai translation of section 1 and 2.
+       </revremark>
+   </revision>
    <revision>
       <revnumber>1.57</revnumber>
       <date>11 September 2000</date>
@@ -192,6 +212,11 @@ magic out of part-time hacking by several thousand developers
 scattered all over the planet, connected only by the tenuous strands
 of the Internet?</para>
 
+<para>ลินุกซ์คือความมหัศจรรย์ เมื่อ 5 ปีที่แล้ว (ปี 1991) 
+ใครจะไปคิดว่าระบบปฏิบัติการชั้นยอดของโลก จะถูกสร้างขึ้นจากการแฮ็กเล่นๆ 
+ในเวลาว่างของนักพัฒนานับพันจากทั่วโลกที่เชื่อมต่อกันด้วยเส้นใยบางๆ 
+อย่างอินเทอร์เน็ตเท่านั้น</para>
+
 <para>Certainly not I. By the time Linux swam onto my radar screen in early
 1993, I had already been involved in Unix and open-source development
 for ten years.  I was one of the first GNU contributors in the
@@ -199,6 +224,13 @@ mid-1980s.  I had released a good deal of open-source software onto
 the net, developing or co-developing several programs (nethack, Emacs's
 VC and GUD modes, xlife, and others) that are still in wide use today.
 I thought I knew how it was done.</para>
+
+<para>ผมคนหนึ่งล่ะ ที่ไม่เชื่อ ผมรู้จักลินุกซ์ประมาณต้นปี 1993 
+ตอนนั้นผมได้เข้ามาเกี่ยวข้องกับโลกของยูนิกซ์ และการพัฒนาแบบโอเพนซอร์สมา 10 
+ปีแล้ว ผมยังเป็นหนึ่งในผู้สมทบงานให้ GNU คนแรกๆ ในช่วงยุค 80 ตอนกลาง 
+ผมได้สร้างและร่วมสร้างซอฟต์แวร์โอเพนซอร์สขึ้นมาจำนวนหนึ่ง อย่าง nethack, Emacs 
+ในส่วนของ VC และ GUD, xlife ซึ่งยังคงใช้กันอยู่แพร่หลายในทุกวันนี้ 
+ผมคิดว่าผมรู้จักมันดีว่ามันถูกสร้างขึ้นมาได้อย่างไร</para>
 
 <para>Linux overturned much of what I thought I knew.  I had been preaching
 the Unix gospel of small tools, rapid prototyping and evolutionary
@@ -210,6 +242,15 @@ needed to be built like cathedrals, carefully crafted by individual
 wizards or small bands of mages working in splendid isolation, with no
 beta to be released before its time.</para>
 
+<para>แต่ลินุกซ์นั้นได้พลิกสิ่งที่ผมเคยเรียนรู้มาอย่างมากมาย 
+ผมเคยพร่ำสอนเกี่ยวกับบัญญัติยูนิกซ์ เรื่องการเขียนโปรแกรมขนาดเล็ก 
+การสร้างต้นแบบอย่างเร็ว และการเขียนโปรแกรมแบบวิวัฒนาการมาหลายปี
+แต่ผมยังคงเชื่อว่าส่วนที่สำคัญกว่านั้น (เช่น ระบบปฏิบัติการ 
+และโปรแกรมขนาดใหญ่อย่าง Emacs) ควรจะถูกสร้างเหมือนสร้างวิหาร (cathedral) 
+ซึ่งต้องประดิษฐ์ขึ้นอย่างบรรจงโดยเหล่าผู้เชี่ยวชาญเฉพาะทาง 
+และทำงานกันในที่เฉพาะส่วนตัว ไม่มีตัวทดสอบ (beta) 
+ออกมาให้ลองก่อนเวอร์ชันจริง</para>
+
 <para>Linus Torvalds's style of development&mdash;release early and
 often, delegate everything you can, be open to the point of
 promiscuity&mdash;came as a surprise.  No quiet, reverent
@@ -219,6 +260,15 @@ resemble a great babbling bazaar of differing agendas and approaches
 from <emphasis>anyone</emphasis>) out of which a coherent and stable
 system could seemingly emerge only by a succession of miracles.</para>
 
+<para>วิธีการพัฒนาของไลนัส ทอร์วัลด์ คือ `ออกให้บ่อยๆ ออกถี่ๆ 
+มอบหมายงานทุกส่วนให้ผู้อื่นเท่าที่จะทำได้ และเปิดกว้างถึงขั้นสำส่อน' 
+เป็นเรื่องแปลกประหลาด มันไม่ใช่การสร้างวิหารที่สง่างาม แต่ชุมชนของลินุกซ์นั้น 
+เหมือนกับตลาดนัด (bazaar) ที่เอะอะมะเทิ่งอย่างใหญ่โต 
+ซึ่งแต่ละคนมีเป้าหมายและวิธีการที่แตกต่าง หลากหลาย ดังจะเห็นได้จากไซต์ FTP 
+ของลินุกซ์ ที่ใครก็สามารถส่งผลงานของตัวเองเข้ามาได้ 
+การจะเกิดระบบปฏิบัติการที่เสถียรและทำงานเป็นเนื้อเดียวจากสภาพดังกล่าว  
+จึงดูเหมือนต้องเป็นผลจากปาฏิหาริย์เท่านั้น</para>
+
 <para>The fact that this bazaar style seemed to work, and work well,
 came as a distinct shock.  As I learned my way around, I worked hard
 not just at individual projects, but also at trying to understand why
@@ -226,10 +276,22 @@ the Linux world not only didn't fly apart in confusion but seemed to
 go from strength to strength at a speed barely imaginable to
 cathedral-builders.</para>
 
+<para>ความจริงที่ว่าการพัฒนาแบบตลาดนัดนี้ใช้งานได้ และได้ผลดีด้วยนั้น 
+ทำให้พวกเราประหลาดใจ ขณะที่ผมพยายามเรียนรู้ด้วยวิธีของผมนั้น 
+ผมไม่เพียงทุ่มเทให้กับโครงการต่างๆ แต่ผมยังพยายามหาสาเหตุ 
+ว่าทำไมโลกของลินุกซ์จึงไม่เพียงไม่แตกเป็นเสี่ยงๆ ด้วยความโกลาหล 
+แต่ยังกลับแข็งแกร่งและมั่นคงขึ้นเรื่อยๆ 
+ในอัตราเร็วที่นักพัฒนาแบบสร้างวิหารแทบไม่สามารถจินตนาการถึงได้</para>
+
 <para>By mid-1996 I thought I was beginning to understand.  Chance
 handed me a perfect way to test my theory, in the form of an
 open-source project that I could consciously try to run in the bazaar
 style.  So I did&mdash;and it was a significant success.</para>
+
+<para>กลางปี 1996 ผมคิดว่าผมเริ่มเข้าใจแล้ว 
+ผมมีโอกาสอันยอดเยี่ยมที่จะทดสอบทฤษฎีของผมว่าถูกหรือไม่ 
+ในรูปแบบของโครงการโอเพนซอร์ส ซึ่งผมสามารถลองทำในแบบตลาดนัดอย่างเจตนาได้ 
+ผมจึงลองทำดู และมันก็ประสบความสำเร็จดีทีเดียว</para>
 
 <para>This is the story of that project.  I'll use it to propose some
 aphorisms about effective open-source development.  Not all of these
@@ -238,6 +300,14 @@ Linux world gives them particular point.  If I'm correct, they'll help
 you understand exactly what it is that makes the Linux community such
 a fountain of good software&mdash;and, perhaps, they will help you become
 more productive yourself.</para>
+
+<para>เรื่องราวต่อไปนี้เป็นเรื่องเกี่ยวกับโครงการนั้น 
+ผมจะใช้ตัวอย่างนี้เสนอคติสำหรับการพัฒนาแบบโอเพนซอร์สที่ได้ผล 
+มันไม่ใช่สิ่งที่ผมเพิ่งเรียนรู้เป็นครั้งแรกจากโลกของลินุกซ์ไปเสียทั้งหมด 
+แต่เราจะเห็นวิธีการที่โลกของลินุกซ์เน้นมันอย่างเจาะจง ถ้าทฤษฎีของผมถูกต้อง 
+มันจะช่วยให้คุณเข้าใจมากขึ้น 
+ว่าทำไมสังคมลินุกซ์จึงกลายเป็นบ่อเกิดของซอฟต์แวร์ดีๆ
+และอาจช่วยทำให้คุณพัฒนาผลิตภาพของคุณเองให้มากขึ้นได้ด้วย</para>
 
 </sect1>
 <sect1><title>The Mail Must Get Through</title>
@@ -252,11 +322,27 @@ supports almost three thousand users on thirty lines.  The job allowed
 me 24-hour-a-day access to the net through CCIL's 56K line&mdash;in fact,
 the job practically demanded it!</para>
 
+<para>ตั้งแต่ปี 1993 ผมได้ทำงานด้านเทคนิคให้กับผู้ให้บริการอินเทอร์เน็ตฟรีเล็กๆ 
+ที่ชื่อว่า Chester Country InterLink (CCIL) ซึ่งอยู่ใน West Chester 
+รัฐเพนซิลวาเนีย ผมร่วมก่อตั้ง CCIL 
+และได้เขียนซอฟต์แวร์กระดานข่าวที่รองรับหลายผู้ใช้ของเราขึ้น 
+ซึ่งคุณสามารถลองได้โดยเทลเน็ตไปยัง 
+<ulink url="telnet://locke.ccil.org">locke.ccil.org</ulink> 
+ในปัจจุบัน มันรองรับผู้ใช้สามพันคนด้วยสามสิบคู่สาย 
+งานนี้ทำให้ผมสามารถเข้าสู่อินเทอร์เน็ตได้ตลอด 24 ชั่วโมง ผ่านเครือข่ายความเร็ว 
+56K ของ CCIL ซึ่งจะว่าไปแล้ว ก็จำเป็นต้องใช้ในงานแบบนี้อยู่แล้ว</para>
+
 <para>I had gotten quite used to instant Internet email.  I found having to
 periodically telnet over to locke to check my mail annoying.  What I
 wanted was for my mail to be delivered on snark (my home system) so
 that I would be notified when it arrived and could handle it using all
 my local tools.</para>
+
+<para>ผมได้คุ้นเคยกับการส่งอีเมลอย่างรวดเร็ว ผมพบว่าการเทลเน็ตไปยัง locke 
+เป็นระยะๆ เพื่อเช็กอีเมลนั้น เป็นเรื่องน่ารำคาญ 
+ผมต้องการให้อีเมลของผมถูกส่งไปยัง snark (ชื่อเครื่องที่บ้านผม) 
+เพื่อที่ผมจะได้รับการแจ้งเตือนเมื่ออีเมลมาถึง 
+และสามารถจัดการเมลด้วยโปรแกรมบนเครื่องของผมเอง</para>
 
 <para>The Internet's native mail forwarding protocol, SMTP (Simple Mail
 Transfer Protocol), wouldn't suit, because it works best when machines
@@ -269,11 +355,26 @@ Office Protocol).  POP is now widely supported by most common mail
 clients, but at the time, it wasn't built in to the mail reader I was
 using.</para>
 
+<para>โพรโทคอลหลักสำหรับส่งจดหมายบนอินเทอร์เน็ต ซึ่งก็คือ SMTP (Simple Mail 
+Tranfer Protocal) นั้น ไม่ตรงกับความต้องการ 
+เพราะมันจะทำงานได้ดีต่อเมื่อเครื่องของเราต่ออินเทอร์เน็ตอยู่ตลอดเวลา 
+ซึ่งเครื่องของผมไม่ได้ต่ออยู่ตลอด และไม่มีหมายเลขไอพีที่แน่นอนด้วย 
+สิ่งที่ผมต้องการคือโปรแกรมที่ติดต่อออกไปผ่านการเชื่อมต่อที่ไม่ต่อเนื่อง 
+และดึงจดหมายมาส่งบนเครื่อง ผมรู้ว่ามีโปรแกรมประเภทนี้อยู่ 
+และส่วนมากมักจะใช้โพรโทคอลแบบง่ายๆ ที่ชื่อ POP (Post Office Protocal) 
+ซึ่งโปรแกรมอีเมลทุกวันนี้จำนวนมากรู้จักและสนับสนุน แต่ว่าตอนนั้น 
+มันไม่มีอยู่ในโปรแกรมเมลที่ผมใช้อยู่</para>
+
 <para>I needed a POP3 client.  So I went out on the Internet and found
 one.  Actually, I found three or four.  I used one of them for a
 while, but it was missing what seemed an obvious feature, the ability
 to hack the addresses on fetched mail so replies would work
 properly.</para>
+
+<para>ผมต้องการโปรแกรมอ่าน POP3 ดังนั้นผมจึงค้นหาในอินเทอร์เน็ต 
+และพบโปรแกรมหนึ่ง ซึ่งอันที่จริง ผมพบอยู่ 3-4 ตัว ผมลองใช้โปรแกรมหนึ่งดูสักพัก 
+แต่มันขาดความสามารถที่เด่นๆ อย่างการเข้าไปแก้ที่อยู่ของเมลที่ดึงมา 
+เพื่อที่จะตอบจดหมายกลับได้ถูกต้อง</para>
 
 <para>The problem was this: suppose someone named `joe' on locke sent
 me mail.  If I fetched the mail to snark and then tried to reply to
@@ -281,12 +382,24 @@ it, my mailer would cheerfully try to ship it to a nonexistent `joe'
 on snark.  Hand-editing reply addresses to tack on
 <email>@ccil.org</email> quickly got to be a serious pain.</para>
 
+<para>ปัญหามีดังนี้ สมมติว่าใครบางคนชื่อ joe ที่อยู่ที่ locke ส่งเมลมาหาผม 
+ถ้าผมดึงเมลมายัง snark และตอบเมลฉบับนี้ 
+โปรแกรมเมลของผมจะพยายามส่งไปยังผู้ใช้ที่ชื่อ joe บน snark ซึ่งไม่มีอยู่ 
+และการแก้ที่อยู่เองให้เป็น <email>@ccil.org</email> นั้น 
+ก็ไม่ใช่เรื่องที่น่าสนุกนัก</para>
+
 <para>This was clearly something the computer ought to be doing for me.  But
 none of the existing POP clients knew how!  And this brings us to the
 first lesson:</para>
 
+<para>สิ่งนี้เป็นสิ่งที่คอมพิวเตอร์ควรจะทำให้ผม แต่ว่าไม่มีโปรแกรมอ่าน POP 
+ตัวไหนเลยที่ทำได้ และนี่ก็ทำให้เราได้รู้จักกับบทเรียนข้อแรก:</para>
+
 <blockquote><para>1. Every good work of software starts by scratching
        a developer's personal itch.</para></blockquote>
+
+<blockquote><para>1. ซอฟต์แวร์ดีๆ นั้น 
+       เริ่มมาจากการสนองความต้องการส่วนตัวของผู้พัฒนา</para></blockquote>
 
 <para>Perhaps this should have been obvious (it's long been proverbial that
 ``Necessity is the mother of invention'') but too often software
@@ -295,19 +408,42 @@ neither need nor love.  But not in the Linux world&mdash;which may
 explain why the average quality of software originated in the Linux
 community is so high.</para>
 
+<para>เรื่องนี้คงชัดเจนอยู่แล้ว (มีสุภาษิตมานานแล้วว่า ``ความจำเป็น 
+เป็นบ่อเกิดของการคิดค้น'') 
+แต่ก็มีนักพัฒนาจำนวนมากที่ใช้เวลาแต่ละวันไปกับการปั่นงานแลกเงิน 
+เพื่อสร้างโปรแกรมที่เขาไม่ได้ต้องการ หรือไม่ได้รักที่จะทำ 
+แต่ว่าไม่เป็นเช่นนั้นในโลกของลินุกซ์ 
+ซึ่งอาจอธิบายได้ว่าทำไมคุณภาพเฉลี่ยของงานที่สร้างโดยชุมชนลินุกซ์จึงสูงกว่าปกติ
+</para>
+
 <para>So, did I immediately launch into a furious whirl of coding up a
 brand-new POP3 client to compete with the existing ones?  Not on your
 life!  I looked carefully at the POP utilities I had in hand, asking
 myself ``Which one is closest to what I want?''  Because:</para>
 
+<para>แล้วผมก็เลยตัดสินใจเข้าไปสู่วังวนของการสร้างโปรแกรม POP3 ตัวใหม่ 
+เพื่อที่จะแข่งกับตัวเดิมๆ ทันทีเลยงั้นหรือ? ไม่มีวันหรอก! 
+ผมได้สำรวจเครื่องมือจัดการ POP ที่ผมมีอยู่ในมือ และถามตัวเองว่า 
+``โปรแกรมไหนที่ใกล้เคียงกับสิ่งที่ผมต้องการมากที่สุด?'' เพราะว่า:</para>
+
 <blockquote><para>2. Good programmers know what to write.  Great ones
        know what to rewrite (and reuse).</para></blockquote>
+
+<blockquote><para>2. โปรแกรมเมอร์ที่ดีย่อมรู้ว่าจะเขียนอะไร 
+       แต่โปรแกรมเมอร์ที่ยอดเยี่ยมจะรู้ว่าเมื่อไรต้องเขียนใหม่ 
+       และเมื่อไรใช้ของเก่าได้</para></blockquote>
 
 <para>While I don't claim to be a great programmer, I try to imitate one.
 An important trait of the great ones is constructive laziness.  They
 know that you get an A not for effort but for results, and that it's
 almost always easier to start from a good partial solution than from
 nothing at all.</para>
+
+<para>ผมไม่ได้บอกว่าตัวเองเป็นโปรแกรมเมอร์ที่ยอดเยี่ยม ผมแค่พยายามเลียนแบบดู 
+คุณสมบัติที่สำคัญของโปรแกรมเมอร์ที่ยอดเยี่ยมก็คือ ความขี้เกียจอย่างสร้างสรรค์ 
+พวกเขารู้ว่าการที่คุณได้ A ไม่ใช่เพราะความพยายาม แต่เพราะผลลัพธ์ของมัน 
+และมันก็ง่ายกว่าที่จะเริ่มต้นจากบางส่วนที่มีอยู่แล้ว 
+แทนที่จะเริ่มใหม่ทั้งหมด</para>
 
 <para><ulink url="http://www.tuxedo.org/~esr/faqs/linus">Linus
 Torvalds</ulink>, for example, didn't actually try to write Linux from
@@ -317,8 +453,19 @@ Minix code went away or was completely rewritten&mdash;but while it was
 there, it provided scaffolding for the infant that would eventually
 become Linux.</para>
 
+<para><ulink url="http://www.tuxedo.org/~esr/faqs/linus">ไลนัส 
+ทอร์วัลด์</ulink> เป็นตัวอย่างที่ดี เขาไม่ได้สร้างลินุกซ์ขึ้นมาใหม่ทั้งหมด 
+เขาเริ่มจากใช้โค้ดและความคิดบางส่วนจากมินิกซ์ 
+ซึ่งเป็นยูนิกซ์ขนาดเล็กสำหรับเครื่องพีซี 
+ถึงแม้ว่าโค้ดของมินิกซ์ในลินุกซ์นั้นจะถูกแทนที่ด้วยโค้ดใหม่ๆ ไปหมดแล้ว 
+แต่ว่าตอนที่ยังอยู่ 
+มันได้เป็นพื้นฐานให้กับทารกที่จะกลายมาเป็นลินุกซ์ในภายหลัง</para>
+
 <para>In the same spirit, I went looking for an existing POP utility that
 was reasonably well coded, to use as a development base.</para>
+
+<para>ด้วยความคิดเดียวกัน ผมได้พยายามหาโปรแกรม POP ที่มีอยู่แล้ว 
+ที่โค้ดของมันได้ถูกเขียนมาอย่างดี เพื่อใช้เป็นจุดเริ่มต้นในการพัฒนา</para>
 
 <para>The source-sharing tradition of the Unix world has always been
 friendly to code reuse (this is why the GNU project chose Unix as a
@@ -329,12 +476,26 @@ spending time looking for some else's almost-good-enough is more
 likely to give you good results in the Linux world than anywhere
 else.</para>
 
+<para>ธรรมเนียมการแบ่งปันซอร์สโค้ดในโลกของยูนิกซ์เป็นมิตรต่อการใช้โค้ดซ้ำเสมอ 
+(นี่เป็นเหตุผลว่าทำไม GNU ถึงได้เลือกยูนิกซ์เป็นระบบปฏิบัติการหลัก 
+แม้จะสงวนท่าทีชัดเจนว่าไม่ใช่ยูนิกซ์) 
+โลกของลินุกซ์ได้นำเอาธรรมเนียมนี้มาใช้อย่างเต็มพิกัด เรามีโปรแกรมโอเพนซอร์สดีๆ 
+จำนวนมหาศาล ดังนั้นการใช้เวลาเสาะหาโปรแกรมดีๆ ที่เกือบใช้การได้ของใครซักคน 
+จะทำให้คุณได้ผลลัพธ์ดีๆ ในโลกของลินุกซ์มากกว่าที่อื่น</para>
+
 <para>And it did for me.  With those I'd found earlier, my second
 search made up a total of nine candidates&mdash;fetchpop, PopTart,
 get-mail, gwpop, pimp, pop-perl, popc, popmail and upop.  The one I
 first settled on was `fetchpop' by Seung-Hong Oh.  I put my
 header-rewrite feature in it, and made various other improvements
 which the author accepted into his 1.9 release.</para>
+
+<para>แล้วมันก็ได้ผลสำหรับผม จากการค้นหาที่ผมพบครั้งก่อน 
+การค้นหาครั้งที่สองเจอโปรแกรมที่เข้าท่าอยู่ 9 ตัว คือ fetchpop, PopTart, 
+get-mail, gwpop, pimp, pop-perl, popc, popmail และ upop 
+ตัวแรกที่ผมเลือกคือ fetchpop ซึ่งสร้างโดย Seung-Hong Oh 
+ผมได้เขียนความสามารถการเปลี่ยนหัวจดหมายเข้าไป และเพิ่มความสามารถต่างๆ 
+ซึ่งผู้สร้างได้รับมันเข้าไปใช้ในเวอร์ชัน 1.9</para>
 
 <para>A few weeks later, though, I stumbled across the code for
 popclient by Carl Harris, and found I had a problem.  Though fetchpop
@@ -346,8 +507,19 @@ and solid, but his program lacked several important and rather
 tricky-to-implement fetchpop features (including those I'd coded
 myself).</para>
 
+<para>ไม่กี่สัปดาห์ต่อมา ผมเข้าไปอ่านโค้ดของ popclient ซึ่งสร้างโดย Carl Harris 
+และพบปัญหา ถึงแม้ fetchpop จะมีแนวคิดดีๆ อย่างการทำงานในโหมดดีมอนเบื้องหลัง 
+แต่มันสามารถทำงานกับ POP3 เท่านั้น และโค้ดของมันก็ไม่ค่อยดีเท่าที่ควร เพราะ 
+Seung-Hong ตอนนั้นเป็นโปรแกรมเมอร์ที่เก่ง แต่ยังขาดประสบการณ์อยู่ 
+และความสามารถของเขาทั้งคู่ถูกแสดงออกในโค้ด ผมพบว่าโค้ดของ Carl ดีกว่า 
+ค่อนข้างเป็นมืออาชีพและแน่นหนา แต่โปรแกรมของเขายังขาดความสามารถสำคัญ 
+และค่อนข้างทำยาก ซึ่งมีใน fetchpop รวมถึงสิ่งที่ผมเขียนเองด้วย</para>
+
 <para>Stay or switch?  If I switched, I'd be throwing away the coding I'd
 already done in exchange for a better development base.</para>
+
+<para>จะเปลี่ยนไหม? ถ้าผมเลือกจะเปลี่ยน ผมต้องทิ้งสิ่งที่ผมสร้างขึ้นมา 
+เพื่อแลกกับโปรแกรมใหม่ที่ดีกว่าในการพัฒนาต่อ</para>
 
 <para>A practical motive to switch was the presence of multiple-protocol
 support.  POP3 is the most commonly used of the post-office server
@@ -357,12 +529,28 @@ of perhaps adding <ulink url="http://www.imap.org">IMAP</ulink>
 (Internet Message Access Protocol, the most recently designed and most
 powerful post-office protocol) just for fun.</para>
 
+<para>แรงจูงใจในทางปฏิบัติที่จะเปลี่ยน 
+คือการได้ความสามารถในการสนับสนุนหลายโพรโทคอล โพรโทคอล POP3 นั้น 
+ใช้กันมากในเครื่องแม่ข่ายตู้ไปรษณีย์เมล แต่ยังมีโพรโทคอลชนิดอื่นอีก fetchpop 
+และโปรแกรมบางตัวนั้นไม่สนับสนุน POP2, RPOP หรือ APOP 
+และผมยังมีเค้าความคิดที่จะเพิ่ม <ulink url="http://www.imap.org">IMAP</ulink> 
+(Internet Message Access Protocal) ซึ่งเป็นโพรโทคอลที่ออกแบบมาใหม่ล่าสุด 
+และมีประสิทธิภาพมากที่สุดเข้าไปอีกด้วย เพื่อความสนุกสนาน</para>
+
 <para>But I had a more theoretical reason to think switching might be as
 good an idea as well, something I learned long before Linux.</para>
+
+<para>แต่ผมมีเหตุผลทางทฤษฎีที่คิดว่าการเปลี่ยนอาจจะดีก็ได้ 
+ซึ่งเป็นสิ่งที่ผมเรียนรู้มานานก่อนจะพบกับลินุกซ์</para>
 
 <blockquote><para>3. ``Plan to throw one away; you will, anyhow.''
        (Fred Brooks, <citetitle>The Mythical Man-Month</citetitle>,
        Chapter 11)</para></blockquote>
+
+<blockquote><para>3. ``เตรียมพร้อมที่จะทิ้งสิ่งเดิมไป คุณได้ทิ้งแน่ 
+       ไม่ว่าจะอย่างไร'' (จาก Fred Brooks ใน 
+       <citetitle>The Mythical Man-Month</citetitle>, บทที่ 11)
+       </para></blockquote>
 
 <para>Or, to put it another way, you often don't really understand the
 problem until after the first time you implement a solution.  The
@@ -370,8 +558,16 @@ second time, maybe you know enough to do it right.  So if you want to
 get it right, be ready to start over <emphasis>at least</emphasis>
 once <link linkend="JB">[JB]</link>.</para>
 
+<para>หรือพูดอีกอย่างหนึ่ง คุณมักจะไม่ได้เข้าใจปัญหาอย่างแท้จริง 
+จนกว่าคุณจะเริ่มลงมือทำครั้งแรก เมื่อลงมือครั้งที่สอง 
+คุณอาจจะรู้แล้วว่าต้องทำอย่างไร ดังนั้นถ้าคุณต้องการจะทำให้ถูกต้องจริงๆ 
+ก็ควรเตรียมพร้อมที่จะเริ่มต้นใหม่ <link linkend="JB">[JB]</link></para>
+
 <para>Well (I told myself) the changes to fetchpop had been my first try.
 So I switched.</para>
+
+<para>ผมบอกตัวเองว่าสิ่งที่ผมเพิ่มไปใน fetchpop เป็นความพยายามครั้งแรกของผม 
+ดังนั้นผมเปลี่ยน</para>
 
 <para>After I sent my first set of popclient patches to Carl Harris on 25
 June 1996, I found out that he had basically lost interest in
@@ -379,29 +575,58 @@ popclient some time before.  The code was a bit dusty, with minor bugs
 hanging out.  I had many changes to make, and we quickly agreed that
 the logical thing for me to do was take over the program.</para>
 
+<para>หลังจากผมส่งแพตช์แรกไปให้กับ Carl Harris ในวันที่ 25 มิถุนายน 1996 
+ผมพบว่าเขาเริ่มจะหมดความสนใจในตัวโปรแกรมก่อนหน้านั้นแล้ว 
+โค้ดนั้นไม่ค่อยเรียบร้อย และมีบั้กประปราย ผมมีเรื่องที่อยากแก้หลายจุด 
+และเราก็ตกลงกันได้อย่างรวดเร็ว ว่าผมควรจะรับโปรแกรมนี้ไปดูแลต่อ</para>
+
 <para>Without my actually noticing, the project had escalated.  No longer
 was I just contemplating minor patches to an existing POP client.
 I took on maintaining an entire one, and there were ideas bubbling in
 my head that I knew would probably lead to major changes.</para>
 
+<para>ผมไม่ได้สังเกตเลยว่า งานมันเริ่มจะใหญ่ขึ้นเรื่อยๆ 
+ผมไม่ได้คิดถึงแค่แพตช์เล็กแพตช์น้อยสำหรับโปรแกรม POP เดิมอีกต่อไป 
+ผมกำลังดูแลโปรแกรมทั้งตัว และผมก็เกิดความคิดในสมองมากมาย 
+ซึ่งผมรู้ดีว่าจะนำไปสู่การเปลี่ยนแปลงขนานใหญ่</para>
+
 <para>In a software culture that encourages code-sharing, this is a natural
 way for a project to evolve.  I was acting out this principle:</para>
+
+<para>ในวัฒนธรรมซอฟต์แวร์ที่เน้นการแบ่งปันโค้ด 
+นี่เป็นวิถีทางตามธรรมชาติสำหรับโครงการต่างๆ ที่จะก้าวหน้าต่อไป 
+ผมกำลังทำตามหลักการนี้:</para>
 
 <blockquote><para>4. If you have the right attitude, interesting
 	problems will find you.</para></blockquote>
 
+<blockquote><para>4. ถ้าคุณมีทัศนคติที่เหมาะสม ปัญหาที่น่าสนใจจะเข้ามาเจอคุณเอง
+	</para></blockquote>
+
 <para>But Carl Harris's attitude was even more important.  He
 understood that</para>
+
+<para>แต่ทัศนคติของ Carl Harris นั้นสำคัญกว่า เขาเข้าใจดีว่า</para>
 
 <blockquote><para>5. When you lose interest in a program, your last
        duty to it is to hand it off to a competent
        successor.</para></blockquote>
+
+<blockquote><para>5. เมื่อคุณหมดความสนใจในโปรแกรมเดิมแล้ว 
+       หน้าที่สุดท้ายของคุณคือ ส่งต่อให้กับผู้สืบทอดที่มีฝีมือ
+       </para></blockquote>
 
 <para>Without ever having to discuss it, Carl and I knew we had a common
 goal of having the best solution out there.  The only question for
 either of us was whether I could establish that I was a safe pair of
 hands.  Once I did that, he acted with grace and dispatch.  I hope I
 will do as well when it comes my turn.</para>
+
+<para>และเราไม่ต้องถกเถียงกันเลย ผมและ Carl 
+รู้ว่าเรามีเป้าหมายร่วมกันที่จะหาคำตอบที่ดีที่สุดที่มีอยู่ 
+คำถามเดียวที่เกิดขึ้นกับแต่ละฝ่ายคือ ผมจะสามารถยืนยันได้ไหม 
+ว่าผมจะเป็นผู้ดูแลที่วางใจได้ เมื่อผมทำได้ เขาก็จากไปอย่างนุ่มนวล ผมหวังว่า
+ผมจะทำเช่นนั้นเหมือนกัน ถ้าถึงตาที่ผมต้องส่งต่อให้คนอื่น</para>
 
 </sect1>
 <sect1><title>The Importance of Having Users</title>
