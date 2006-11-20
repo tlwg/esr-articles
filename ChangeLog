@@ -1,3 +1,10 @@
+2006-11-20  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* cathedral-bazaar.xml:
+	Adapt Thai translation of section 3 and 4 from Isriya and merge in.
+	Adjust translations of "bazaar" and "Release early".
+	Translate titles for the translated sections.
+
 2006-11-19  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* cathedral-bazaar.xml:

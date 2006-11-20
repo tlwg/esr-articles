@@ -20,7 +20,7 @@
     </address>
   </affiliation>
 </author>
-<pubdate role="cvs">$Date: 2006-11-19 09:07:28 $</pubdate>
+<pubdate role="cvs">$Date: 2006-11-20 01:37:48 $</pubdate>
 <releaseinfo>This is version 3.0</releaseinfo>
 <copyright>
   <year>2000</year>
@@ -204,7 +204,8 @@ of this insight for the future of software.</para>
 </abstract>
 </articleinfo>
 
-<sect1 id="catbmain"><title>The Cathedral and the Bazaar</title>
+<!-- The Cathedral and the Bazaar -->
+<sect1 id="catbmain"><title>วิหารกับตลาดสด</title>
 
 <para>Linux is subversive.  Who would have thought even five years ago
 (1991) that a world-class operating system could coalesce as if by
@@ -260,10 +261,10 @@ resemble a great babbling bazaar of differing agendas and approaches
 from <emphasis>anyone</emphasis>) out of which a coherent and stable
 system could seemingly emerge only by a succession of miracles.</para>
 
-<para>วิธีการพัฒนาของไลนัส ทอร์วัลด์ คือ `ออกให้บ่อยๆ ออกถี่ๆ 
+<para>วิธีการพัฒนาของไลนัส ทอร์วัลด์ คือ `ออกเนิ่นๆ ออกถี่ๆ 
 มอบหมายงานทุกส่วนให้ผู้อื่นเท่าที่จะทำได้ และเปิดกว้างถึงขั้นสำส่อน' 
 เป็นเรื่องแปลกประหลาด มันไม่ใช่การสร้างวิหารที่สง่างาม แต่ชุมชนของลินุกซ์นั้น 
-เหมือนกับตลาดนัด (bazaar) ที่เอะอะมะเทิ่งอย่างใหญ่โต 
+เหมือนกับตลาดสด (bazaar) ที่เอะอะมะเทิ่งอย่างใหญ่โต 
 ซึ่งแต่ละคนมีเป้าหมายและวิธีการที่แตกต่าง หลากหลาย ดังจะเห็นได้จากไซต์ FTP 
 ของลินุกซ์ ที่ใครก็สามารถส่งผลงานของตัวเองเข้ามาได้ 
 การจะเกิดระบบปฏิบัติการที่เสถียรและทำงานเป็นเนื้อเดียวจากสภาพดังกล่าว  
@@ -276,7 +277,7 @@ the Linux world not only didn't fly apart in confusion but seemed to
 go from strength to strength at a speed barely imaginable to
 cathedral-builders.</para>
 
-<para>ความจริงที่ว่าการพัฒนาแบบตลาดนัดนี้ใช้งานได้ และได้ผลดีด้วยนั้น 
+<para>ความจริงที่ว่าการพัฒนาแบบตลาดสดนี้ใช้งานได้ และได้ผลดีด้วยนั้น 
 ทำให้พวกเราประหลาดใจ ขณะที่ผมพยายามเรียนรู้ด้วยวิธีของผมนั้น 
 ผมไม่เพียงทุ่มเทให้กับโครงการต่างๆ แต่ผมยังพยายามหาสาเหตุ 
 ว่าทำไมโลกของลินุกซ์จึงไม่เพียงไม่แตกเป็นเสี่ยงๆ ด้วยความโกลาหล 
@@ -290,7 +291,7 @@ style.  So I did&mdash;and it was a significant success.</para>
 
 <para>กลางปี 1996 ผมคิดว่าผมเริ่มเข้าใจแล้ว 
 ผมมีโอกาสอันยอดเยี่ยมที่จะทดสอบทฤษฎีของผมว่าถูกหรือไม่ 
-ในรูปแบบของโครงการโอเพนซอร์ส ซึ่งผมสามารถลองทำในแบบตลาดนัดอย่างเจตนาได้ 
+ในรูปแบบของโครงการโอเพนซอร์ส ซึ่งผมสามารถลองทำในแบบตลาดสดอย่างเจตนาได้ 
 ผมจึงลองทำดู และมันก็ประสบความสำเร็จดีทีเดียว</para>
 
 <para>This is the story of that project.  I'll use it to propose some
@@ -310,7 +311,8 @@ more productive yourself.</para>
 และอาจช่วยทำให้คุณพัฒนาผลิตภาพของคุณเองให้มากขึ้นได้ด้วย</para>
 
 </sect1>
-<sect1><title>The Mail Must Get Through</title>
+<!-- The Mail Must Get Through -->
+<sect1><title>ต้องส่งเมลให้ได้</title>
 
 <para>Since 1993 I'd been running the technical side of a small
 free-access Internet service provider called Chester County InterLink
@@ -629,13 +631,20 @@ will do as well when it comes my turn.</para>
 ผมจะทำเช่นนั้นเหมือนกัน ถ้าถึงตาที่ผมต้องส่งต่อให้คนอื่น</para>
 
 </sect1>
-<sect1><title>The Importance of Having Users</title>
+<!-- The Importance of Having Users -->
+<sect1><title>ความสำคัญของผู้ใช้</title>
 
 <para>And so I inherited popclient.  Just as importantly, I inherited
 popclient's user base.  Users are wonderful things to have, and
 not just because they demonstrate that you're serving a need, that 
 you've done something right.  Properly cultivated, they can 
 become co-developers.</para>
+
+<para>และแล้วผมก็รับช่วง popclient ต่อ ที่สำคัญไม่แพ้กันก็คือ 
+ผมก็รับช่วงฐานผู้ใช้ของ popclient ต่ออีกด้วย
+การมีผู้ใช้งานโปรแกรมของเราเป็นสิ่งที่ยอดมาก ไม่ใช่แค่เพราะพวกเขาแสดงให้เห็นว่า 
+คุณกำลังสนองความต้องการที่มีอยู่จริง ว่าคุณกำลังทำสิ่งที่ควร แต่ถ้าเตรียมการดีๆ 
+เขาก็อาจมาเป็นผู้ร่วมพัฒนากับคุณได้</para>
 
 <para>Another strength of the Unix tradition, one that Linux pushes to
 a happy extreme, is that a lot of users are hackers too.  Because
@@ -645,14 +654,31 @@ time.  Given a bit of encouragement, your users will diagnose
 problems, suggest fixes, and help improve the code far more quickly
 than you could unaided.</para>
 
+<para>จุดแข็งอีกอย่างหนึ่งของธรรมเนียมยูนิกซ์ ซึ่งลินุกซ์ผลักดันไปถึงจุดสุดยอด 
+คือผู้ใช้ส่วนมากมักเป็นแฮ็กเกอร์ด้วย และเนื่องจากผู้ใช้สามารถเข้าถึงซอร์สโค้ดได้
+พวกเขาจึงกลายเป็นแฮ็กเกอร์ที่ <emphasis>ลงมือจริง</emphasis> 
+สิ่งนี้ช่วยย่นระยะเวลาในการจัดการกับบั๊กลงได้อย่างมากมาย 
+เพียงแค่คุณกระตุ้นพวกเขาเล็กน้อย เหล่าผู้ใช้จะช่วยกันหาสาเหตุของปัญหา 
+และแนะนำวิธีแก้ไข แถมช่วยพัฒนาโค้ดได้เร็วกว่าคุณทำเองคนเดียวเสียอีก</para>
+
 <blockquote><para>6. Treating your users as co-developers is your
        least-hassle route to rapid code improvement and effective
        debugging.</para></blockquote>
+
+<blockquote><para>6. การปฏิบัติต่อผู้ใช้เยี่ยงผู้ร่วมงาน 
+       เป็นหนทางที่สะดวกที่สุด ที่จะนำไปสู่การพัฒนาโค้ดอย่างรวดเร็ว 
+       และการแก้บั๊กอย่างได้ผล</para></blockquote>
 
 <para>The power of this effect is easy to underestimate.  In fact, pretty
 well all of us in the open-source world drastically underestimated
 how well it would scale up with number of users and against system
 complexity, until Linus Torvalds showed us differently.</para>
+
+<para>เรามักจะประเมินผลของวิธีการแบบนี้ต่ำไป ความจริงแล้ว 
+พวกเราส่วนใหญ่ในโลกโอเพนซอร์สประเมินพลาดไปอย่างแรง 
+ว่าผลของมันขยายตามจำนวนผู้ใช้ โดยเอาชนะความซับซ้อนของระบบได้ดีเพียงใด 
+จนกระทั่ง ไลนัส ทอร์วัลด์ ได้แสดงให้เราเห็น 
+ว่ามันไม่ได้เป็นอย่างที่เราคิด</para>
 
 <para>In fact, I think Linus's cleverest and most consequential hack
 was not the construction of the Linux kernel itself, but rather his
@@ -663,6 +689,14 @@ credit for things other people actually do.''  Lazy like a fox.  Or,
 as Robert Heinlein famously wrote of one of his characters, too lazy
 to fail.</para>
 
+<para>ความจริงแล้ว ผมคิดว่าผลงานที่ชาญฉลาดที่สุด และเกิดผลมากที่สุดของไลนัส 
+ไม่ใช่การสร้างเคอร์เนลลินุกซ์ แต่เป็นการสร้างรูปแบบการพัฒนาลินุกซ์ต่างหาก 
+ครั้งหนึ่งเมื่อเจอหน้าเขา ผมแสดงความเห็นนี้ของผมให้เขาฟัง เขายิ้ม และพูดเบาๆ 
+อย่างที่เขาเคยพูดอยู่เสมอว่า ``ผมเป็นแค่คนขี้เกียจสุดๆ คนหนึ่ง 
+ที่อยากได้ชื่อจากผลงานของคนอื่น'' ขี้เกียจอย่างหมาจิ้งจอก หรืออย่างที่ Robert 
+Heinlein นักเขียนชื่อดังได้บรรยายตัวละครของเขาตัวหนึ่งไว้ว่า 
+``ขี้เกียจที่จะล้มเหลว''</para>
+
 <para>In retrospect, one precedent for the methods and success of
 Linux can be seen in the development of the GNU Emacs Lisp library and
 Lisp code archives.  In contrast to the cathedral-building style of
@@ -672,6 +706,14 @@ were often rewritten three or four times before reaching a stable
 final form.  And loosely-coupled collaborations enabled by the
 Internet, <foreignphrase>a la</foreignphrase> Linux, were
 frequent.</para>
+
+<para>ถ้าเรามองย้อนกลับไป วิธีการและความสำเร็จของลินุกซ์ เคยเกิดขึ้นมาก่อนแล้ว 
+ในการพัฒนาไลบรารี Lisp พร้อมทั้งคลังโค้ด Lisp ของโครงการ GNU Emacs 
+ซึ่งวิธีนี้ตรงข้ามกับการพัฒนาส่วนหลักที่เขียนด้วยภาษาซีของ Emacs 
+และโปรแกรมส่วนมากของ GNU ซึ่งสร้างด้วยวิธีแบบวิหาร การพัฒนาโค้ดส่วน Lisp 
+นั้นเป็นไปอย่างไหลลื่น และริเริ่มโดยผู้ใช้อย่างมาก 
+แนวคิดและตัวต้นแบบมักจะถูกแก้ไขและเขียนใหม่ 3-4 ครั้ง ก่อนจะเสถียรพอ 
+แถมการพัฒนาร่วมกันนั้นก็ทำผ่านอินเทอร์เน็ต เช่นเดียวกับลินุกซ์</para>
 
 <para>Indeed, my own most successful single hack previous to fetchmail
 was probably Emacs VC (version control) mode, a Linux-like
@@ -685,6 +727,17 @@ And the development of VC succeeded because, unlike Emacs itself,
 Emacs Lisp code could go through release/test/improve generations very
 quickly.</para>
 
+<para>อันที่จริง ก่อนผมจะทำ fetchmail 
+ผลงานที่ผมคิดว่าประสบความสำเร็จที่สุดของผมนั้น คงเป็นโหมด VC (Version Control)
+ของ Emacs โดยเป็นการทำงานร่วมกันผ่านเมลแบบลินุกซ์กับคนอื่นอีก 3 คน 
+ซึ่งในนั้น มีเพียงคนเดียว (คือ ริชาร์ด สตอลล์แมน ผู้สร้าง Emacs และผู้ก่อตั้ง 
+<ulink url="http://www.fsf.org">มูลนิธิซอฟต์แวร์เสรี</ulink>) ที่ผมเคยได้พบหน้า 
+จนถึงทุกวันนี้ โหมด VC เป็น ส่วนติดต่อ (front end) ของ SCCS, RCS และ CVS ของ 
+Emacs ที่มีสามารถดำเนินการกับระบบควบคุมเวอร์ชันได้ใน ``สัมผัสเดียว'' 
+พัฒนามาจากโหมด sccs.el เล็กๆ เถื่อนๆ ที่ใครบางคนเขียนไว้ การพัฒนาของ VC 
+ประสบความสำเร็จเพราะ Lisp ได้ผ่านขั้นตอนต่างๆ ของวัฏจักรซอฟต์แวร์ 
+(ออก/ทดสอบ/พัฒนา) อย่างรวดเร็ว ไม่เหมือนตัว Emacs เอง</para>
+
 <para>The Emacs story is not unique.  There have been other software
 products with a two-level architecture and a two-tier user community
 that combined a cathedral-mode core and a bazaar-mode toolbox.  One
@@ -694,14 +747,30 @@ report that the action, the ferment, the innovation mostly takes place
 in the open part of the tool where a large and varied community can
 tinker with it.</para>
 
+<para>เรื่องทำนองนี้ไม่ได้เกิดแค่กับ Emacs แต่ยังมีผลิตภัณฑ์ซอฟต์แวร์อื่น 
+ที่มีโครงสร้างโปรแกรมแบ่งเป็นสองระดับ และมีชุมชนผู้ใช้สองระดับ 
+ซึ่งประกอบด้วยแกนที่พัฒนาในแบบวิหาร และเครื่องมือประกอบที่พัฒนาในแบบตลาดสด 
+ตัวอย่างหนึ่งคือ MATLAB 
+เครื่องมือเชิงพาณิชย์สำหรับวิเคราะห์ข้อมูลและแสดงเป็นภาพ ผู้ใช้ MATLAB 
+และผลิตภัณฑ์อื่นทำนองนี้ ต่างรายงานเหมือนๆ กัน ว่าความเคลื่อนไหว ความตื่นตัว 
+และนวัตกรรม มักเกิดในส่วนที่เปิด 
+ซึ่งชุมชนที่ใหญ่โตและหลากหลายสามารถเข้าไปทำอะไรเองได้</para>
+
 </sect1>
-<sect1><title> Release Early, Release Often</title>
+<!-- Release Early, Release Often -->
+<sect1><title>ออกเนิ่นๆ ออกถี่ๆ</title>
 
 <para>Early and frequent releases are a critical part of the Linux
 development model.  Most developers (including me) used to believe
 this was bad policy for larger than trivial projects, because early
 versions are almost by definition buggy versions and you don't want to
 wear out the patience of your users.</para>
+
+<para>การออกโปรแกรมแต่เนิ่นๆ และออกมาบ่อยๆ 
+เป็นส่วนสำคัญของรูปแบบการพัฒนาลินุกซ์ นักพัฒนาส่วนมาก (รวมทั้งผมด้วย) 
+เคยเชื่อว่า การทำอย่างนี้เป็นวิธีที่ไม่เข้าท่าเลยสำหรับโครงการใหญ่ๆ 
+เพราะรุ่นที่ออกเร็ว จะหมายถึงรุ่นที่อุดมไปด้วยบั๊ก 
+และคุณไม่ต้องการที่จะทนฟังเสียงบ่นจากผู้ใช้งาน</para>
 
 <para>This belief reinforced the general commitment to a
 cathedral-building style of development.  If the overriding objective
@@ -713,6 +782,15 @@ active Lisp archives outside the FSF's control, where you could go to
 find new and development code versions independently of Emacs's
 release cycle <link linkend="QR">[QR]</link>.</para>
 
+<para>ความเชื่อนี้ ถือเป็นการสนับสนุนการพัฒนาแบบสร้างวิหาร 
+ถ้าจุดประสงค์หลักคือการให้ผู้ใช้พบบั๊กให้น้อยที่สุด 
+ทำไมเราไม่ออกรุ่นจริงทุกหกเดือน (หรือนานกว่านั้นก็ได้) 
+และทำงานอย่างหนักเพื่อจะตรวจสอบและแก้ไขบั๊กในทุกรุ่นที่ออก การพัฒนาแกนของ Emacs 
+ที่เขียนด้วยภาษาซี ก็ทำด้วยวิธีนี้เอง แต่ในทางตรงข้าม ไลบรารี Lisp 
+กลับใช้วิธีอื่น เพราะมีคลังของ Lisp อยู่นอกการควบคุมของ FSF 
+และเราสามารถจะไปเอา Lisp รุ่นใหม่ๆ และรุ่นที่กำลังพัฒนาอยู่มาใช้ได้ 
+โดยไม่ขึ้นกับวงจรการออกรุ่นของ Emacs <link linkend="QR">[QR]</link></para>
+
 <para>The most important of these, the Ohio State Emacs Lisp archive,
 anticipated the spirit and many of the features of today's big Linux
 archives.  But few of us really thought very hard about what we were
@@ -722,6 +800,16 @@ made one serious attempt around 1992 to get a lot of the Ohio code
 formally merged into the official Emacs Lisp library.  I ran into
 political trouble and was largely unsuccessful.</para>
 
+<para>ในบรรดาคลังเหล่านี้ แหล่งที่สำคัญที่สุด ก็คือคลัง Lisp ของรัฐโอไฮโอ 
+ซึ่งประมาณกันว่าเป็นศูนย์รวม และเป็นที่มาของความสามารถต่างๆ 
+ของคลังซอฟต์แวร์ลินุกซ์ใหญ่ๆ ในปัจจุบัน 
+แต่มีพวกเราน้อยคนที่จะคิดลงไปลึกซึ้งเกี่ยวกับสิ่งที่เราได้ทำไป 
+หรือเกี่ยวกับการมีอยู่ของคลังดังกล่าว 
+ว่าเป็นเครื่องบ่งชี้ถึงปัญหาของรูปแบบการพัฒนาในแบบวิหารของ FSF 
+ในปี 1992 ผมเคยพยายามผนวกโค้ดจากโอไฮโอหลายชิ้น เข้าในโค้ดหลักของไลบรารี Lisp 
+ของ Emacs อย่างเป็นทางการ แต่ก็ติดปัญหาการเมืองใน FSF 
+และก็ล้มเหลวในที่สุด</para>
+
 <para>But by a year later, as Linux became widely visible, it was clear that
 something different and much healthier was going on there.  Linus's
 open development policy was the very opposite of cathedral-building.
@@ -729,11 +817,23 @@ Linux's Internet archives were burgeoning, multiple distributions were
 being floated.  And all of this was driven by an unheard-of frequency
 of core system releases.</para>
 
+<para>แต่หนึ่งปีหลังจากนั้น เมื่อลินุกซ์เริ่มจะเป็นที่รู้จัก ก็เป็นที่ชัดเจน 
+ว่ารูปแบบการพัฒนาที่แตกต่างและมีประสิทธิภาพกว่าได้เกิดขึ้นที่นั่น 
+นโยบายการพัฒนาอย่างเปิดกว้างของไลนัสตรงข้ามกับแบบวิหารอย่างสิ้นเชิง 
+คลังซอฟต์แวร์ของลินุกซ์ในอินเทอร์เน็ตผุดขึ้นอย่างรวดเร็ว ผู้จัดจำหน่ายต่างๆ 
+ก็เริ่มเกิดขึ้นมา สิ่งเหล่านี้เกิดขึ้นได้เพราะความถี่ของการออกของระบบแกน 
+ชนิดที่เราไม่เคยได้ยินมาก่อน</para>
+
 <para>Linus was treating his users as co-developers in the most effective
 possible way:</para>
 
+<para>ไลนัส ปฏิบัติกับผู้ใช้ของเขาเหมือนกับผู้ร่วมงาน 
+ด้วยวิธีที่มีประสิทธิภาพที่สุด:</para>
+
 <blockquote><para>7. Release early.  Release often.  And listen to
 your customers.</para></blockquote>
+
+<blockquote><para>7. ออกเนิ่นๆ ออกถี่ๆ และฟังเสียงผู้ใช้</para></blockquote>
 
 <para>Linus's innovation wasn't so much in doing quick-turnaround releases
 incorporating lots of user feedback (something like this had been
@@ -744,9 +844,22 @@ release a new kernel more than once a <emphasis>day!</emphasis> Because he
 cultivated his base of co-developers and leveraged the Internet for
 collaboration harder than anyone else, this worked.</para>
 
+<para>นวัตกรรมของไลนัสไม่ได้อยู่ที่เรื่องการออกรุ่นที่เปลี่ยนแปลงปุบปับ 
+โดยรวบรวมสิ่งที่ผู้ใช้ตอบกลับมาเป็นจำนวนมาก 
+(ซึ่งเป็นสิ่งที่เคยเกิดในธรรมเนียมของโลกยูนิกซ์นานมาแล้ว) 
+แต่อยู่ที่การขยายขอบเขตขึ้นไปถึงระดับความเข้มข้นที่พอเหมาะกับความซับซ้อนของสิ่งที่เขาพัฒนา 
+ในช่วงแรกนั้น (ราวปี 1991) ไม่ใช่เรื่องแปลกเลยสำหรับเขา 
+ที่จะออกเคอร์เนลใหม่มากกว่าหนึ่งครั้ง <emphasis>ต่อวัน!</emphasis>
+เขาทำได้เนื่องจากเขามีผู้ร่วมงานที่เขาสร้างขึ้นจำนวนมาก 
+และใช้อินเทอร์เน็ตในการร่วมมือทำงานมากกว่าใครๆ</para>
+
 <para>But <emphasis>how</emphasis> did it work?  And was it something
 I could duplicate, or did it rely on some unique genius of Linus
 Torvalds?</para>
+
+<para>แต่ว่ามันทำงานได้<emphasis>อย่างไร?</emphasis> 
+มันเป็นสิ่งที่ผมจะลองทำตามได้ไหม? หรือว่านี่เป็นพรสวรรค์เฉพาะตัวของไลนัส 
+ทอร์วัลด์เท่านั้น?</para>
 
 <para>I didn't think so.  Granted, Linus is a damn fine hacker. How
 many of us could engineer an entire production-quality operating
@@ -760,10 +873,26 @@ the minimum-effort path from point A to point B.  Indeed, the whole
 design of Linux breathes this quality and mirrors Linus's essentially
 conservative and simplifying design approach.</para>
 
+<para>ผมไม่คิดอย่างนั้น ผมยอมรับว่าไลนัสเป็นแฮ็กเกอร์ที่เก่งมาก 
+มีพวกเราสักกี่คนที่จะสามารถควบคุมการสร้างเคอร์เนลของระบบปฏิบัติการระดับคุณภาพโดยเริ่มจากศูนย์ได้อย่างนี้? 
+แต่ลินุกซ์ไม่ได้เป็นตัวแทนของการก้าวกระโดดทางความคิดที่ยิ่งใหญ่อะไรเลย 
+ไลนัสเองก็ไม่ได้เป็น (หรืออย่างน้อยก็ยังไม่ได้เป็น) อัจฉริยะในการออกแบบในแบบที่ 
+ริชาร์ด สตอลล์แมน หรือ เจมส์ กอสลิง (ผู้สร้าง NeWS และจาวา) เป็นเลย 
+แต่ไลนัสเป็นอัจฉริยะในการควบคุมการพัฒนา โดยมีสัมผัสพิเศษในการหลีกเลียงบั๊ก 
+และทางตันของการพัฒนา 
+และฉลาดในการหาเส้นทางที่เปลืองแรงน้อยที่สุดจากจุดหนึ่งไปอีกจุดหนึ่ง 
+อันที่จริง การออกแบบของลินุกซ์อาศัยคุณสมบัตินี้ของไลนัส 
+และสะท้อนถึงวิธีออกแบบที่อนุรักษนิยมและเรียบง่ายของไลนัสเอง</para>
+
 <para>So, if rapid releases and leveraging the Internet medium to the hilt
 were not accidents but integral parts of Linus's engineering-genius
 insight into the minimum-effort path, what was he maximizing?  What
 was he cranking out of the machinery?</para>
+
+<para>ดังนั้น ถ้าการออกบ่อยๆ 
+และการใช้อินเทอร์เน็ตให้เป็นประโยชน์ไม่ใช่สิ่งที่เกิดขึ้นโดยบังเอิญ 
+แต่เป็นพรสวรรค์ของไลนัสในการหาวิธีที่ง่ายและสั้นที่สุดในการพัฒนาล่ะก็ 
+เขากำลังมุ่งเพิ่มปัจจัยอะไร? เขาทำให้รูปแบบนี้ทำงานได้อย่างไร?</para>
 
 <para>Put that way, the question answers itself.  Linus was keeping
 his hacker/users constantly stimulated and rewarded&mdash;stimulated by
@@ -771,18 +900,35 @@ the prospect of having an ego-satisfying piece of the action, rewarded
 by the sight of constant (even <emphasis>daily</emphasis>) improvement
 in their work.</para>
 
+<para>คำถามนี้มีคำตอบในตัวมันเองอยู่แล้ว 
+ไลนัสได้พยายามกระตุ้นและให้รางวัลแก่กลุ่มแฮ็กเกอร์หรือผู้ใช้ของเขาอย่างสม่ำเสมอ 
+กระตุ้นโดยสร้างโอกาสของความภาคภูมิใจในตัวเองต่อการกระทำต่างๆ 
+ให้รางวัลตอบแทนโดยการทำให้เห็นพัฒนาการของผลงานของพวกเขาเองอย่างสม่ำเสมอ 
+(ถึงขนาดออกเป็น <emphasis>รายวัน</emphasis>)</para>
+
 <para>Linus was directly aiming to maximize the number of person-hours
 thrown at debugging and development, even at the possible cost of
 instability in the code and user-base burnout if any serious bug
 proved intractable.  Linus was behaving as though he believed
 something like this:</para>
 
+<para>ไลนัสมุ่งเพิ่มปริมาณคน-ชั่วโมงของเหล่านักพัฒนาในการตรวจสอบบั๊ก 
+และพัฒนาโปรแกรม แม้จะเสี่ยงต่อการเกิดปัญหาด้านเสถียรภาพของโค้ด 
+และจำนวนผู้ใช้จะลดลงไปเมื่อเกิดบั๊กร้ายแรงที่แก้ลำบาก ไลนัสได้แสดงตัวว่า 
+เขาเองเชื่อในสิ่งต่อไปนี้:</para>
+
 <blockquote><para>8. Given a large enough beta-tester and co-developer
        base, almost every problem will be characterized quickly and
        the fix obvious to someone.</para></blockquote>
 
+<blockquote><para>8. ถ้ามีผู้ทดสอบและผู้พัฒนามากพอ ปัญหาแทบทุกอย่างจะมีคนรู้ 
+       และต้องมีใครสักคนในนั้นที่แก้ปัญหาได้เองแหละ</para></blockquote>
+
 <para>Or, less formally, ``Given enough eyeballs, all bugs are
 shallow.''  I dub this: ``Linus's Law''.</para>
+
+<para>หรือพูดง่ายๆ คือ ``ช่วยกันดูเยอะๆ บั๊กทุกตัวจะง่ายลงเอง'' (Given enough 
+eyeballs, all bugs are shallow) ผมขอตั้งคำพูดนี้เป็น ``กฎของไลนัส''</para>
 
 <para>My original formulation was that every problem ``will be
 transparent to somebody''.  Linus demurred that the person who
@@ -795,6 +941,15 @@ next section, when we examine the practice of debugging in more
 detail.  But the key point is that both parts of the process (finding
 and fixing) tend to happen rapidly.</para>
 
+<para>จริงๆ แล้วสูตรของผมตอนแรกคือ ปัญหาทุกปัญหา ``จะมีใครบางคนมองออก'' 
+ไลนัสได้ค้านว่า ผู้ที่เข้าใจและสามารถแก้ไขปัญหาได้ 
+ไม่จำเป็นต้องเป็นคนเดียวกับคนแรกที่พบมัน ``มีใครคนหนึ่งเจอปัญหา'' เขากล่าว 
+``เดี๋ยวก็มี <emphasis>ใครอีกคน</emphasis> ที่เข้าใจตัวปัญหา 
+และผมคิดว่าการค้นพบปัญหานั้นท้าทายมากกว่า'' การแก้คำพูดตรงนี้ถือว่าสำคัญ 
+ซึ่งเราจะเห็นต่อไปในหัวข้อถัดไป เมื่อเราสำรวจวิธีการดีบั๊กในรายละเอียด 
+แต่สิ่งที่สำคัญคือ ทั้งสองขั้นตอนของกระบวนการ (การค้นพบและแก้ไขปัญหา) 
+มีแนวโน้มที่จะเกิดขึ้นอย่างรวดเร็ว</para>
+
 <para>In Linus's Law, I think, lies the core difference underlying the
 cathedral-builder and bazaar styles.  In the cathedral-builder view of
 programming, bugs and development problems are tricky, insidious, deep
@@ -803,12 +958,26 @@ confidence that you've winkled them all out.  Thus the long release
 intervals, and the inevitable disappointment when long-awaited
 releases are not perfect.</para>
 
+<para>ผมคิดว่า ความแตกต่างของการพัฒนาแบบวิหารและตลาดสด 
+ก็อยู่ในกฎของไลนัสนี่แหละ ในมุมมองของนักพัฒนาแบบสร้างวิหาร 
+บั๊กและปัญหาในการพัฒนานั้นยาก มีเงื่อนงำ ลึกลับซับซ้อน 
+ต้องใช้เวลานานนับเดือนในการตรวจสอบโดยทีมงานเล็กๆ 
+เพื่อจะสร้างความมั่นใจว่าได้กำจัดบั๊กไปหมดแล้ว ดังนั้น 
+จึงทำให้ระยะเวลาการออกรุ่นยาวนาน และมักจะเกิดความผิดหวัง 
+เมื่อโปรแกรมรุ่นใหม่ที่รอคอยมาอย่างยาวนาน ทำงานไม่สมบูรณ์</para>
+
 <para>In the bazaar view, on the other hand, you assume that bugs are
 generally shallow phenomena&mdash;or, at least, that they turn shallow
 pretty quickly when exposed to a thousand eager co-developers pounding on
 every single new release.  Accordingly you release often in order to
 get more corrections, and as a beneficial side effect you have less to
 lose if an occasional botch gets out the door.</para>
+
+<para>ในทางกลับกัน ในมุมมองแบบตลาดสด คุณจะถือว่าบั๊กเป็นเรื่องง่ายๆ 
+หรืออย่างน้อยก็จะกลายเป็นเรื่องง่ายๆ อย่างรวดเร็ว 
+เมื่อนักพัฒนาที่กระตือรือร้นนับพันช่วยกันกำจัดมันในโปรแกรมที่ออกมาทุกรุ่น 
+ดังนั้นคุณจึงปล่อยโปรแกรมบ่อยๆ เพื่อที่บั๊กจะถูกกำจัดมากขึ้น 
+และผลข้างเคียงที่ดีก็คือ คุณจะลดโอกาสเสียหายถ้ามีปัญหาหลุดออกไปจริงๆ</para>
 
 <para>And that's it.  That's enough.  If ``Linus's Law'' is false,
 then any system as complex as the Linux kernel, being hacked over by
@@ -817,6 +986,13 @@ collapsed under the weight of unforseen bad interactions and
 undiscovered ``deep'' bugs.  If it's true, on the other hand, it is
 sufficient to explain Linux's relative lack of bugginess and its
 continuous uptimes spanning months or even years.</para>
+
+<para>เท่านั้นแหละ เพียงพอแล้ว ถ้า ``กฎของไลนัส'' ผิดล่ะก็ ระบบที่ซับซ้อนมากๆ 
+ขนาดเคอร์เนลลินุกซ์ ซึ่งถูกแฮ็กโดยคนจำนวนมากพอๆ กัน 
+คงจะล้มเพราะการประสานงานที่ไม่ดี และเพราะบั๊ก ``ลึกลับ'' ที่ตรวจไม่พบ 
+ในทางกลับกัน ถ้ามันถูกต้อง นี่ก็เพียงพอที่จะอธิบายได้ 
+ว่าทำไมลินุกซ์จึงมีบั๊กน้อย และไม่ล่มเมื่อเปิดทิ้งไว้เป็นเดือนๆ 
+หรือแม้แต่เป็นปีๆ</para>
 
 <para>Maybe it shouldn't have been such a surprise, at that.
 Sociologists years ago discovered that the averaged opinion of a mass
@@ -828,6 +1004,16 @@ debugging an operating system&mdash;that the Delphi effect can tame
 development complexity even at the complexity level of an OS
 kernel. <link linkend="CV">[CV]</link></para>
 
+<para>สิ่งเหล่านี้อาจไม่น่าตื่นเต้นเท่าไรนัก หลายปีก่อน นักสังคมวิทยาพบว่า 
+ความเห็นโดยเฉลี่ยของกลุ่มผู้เชี่ยวชาญที่มีระดับพอๆ กัน 
+(หรือคนที่ไม่รู้อะไรเลยที่ระดับพอๆ กันก็ได้) จะน่าเชื่อถือในการทำนายมากกว่า 
+ความเห็นของใครสักคนที่ถูกสุ่มมา พวกเขาเรียกสิ่งนี้ว่า 
+<firstterm>ปรากฏการณ์เดลไฟ</firstterm> ซึ่งปรากฏว่า ไลนัสได้แสดงให้เห็นว่า 
+ปรากฏการณ์นี้ใช้ได้กับการดีบั๊กระบบปฏิบัติการด้วย กล่าวคือ 
+ปรากฏการณ์เดลไฟสามารถจัดการกับคามซับซ้อนของการพัฒนา 
+แม้กับระดับความซับซ้อนขนาดเคอร์เนลของระบบปฏิบัติการ 
+<link linkend="CV">[CV]</link></para>
+
 <para>One special feature of the Linux situation that clearly helps
 along the Delphi effect is the fact that the contributors for any
 given project are self-selected.  An early respondent pointed out that
@@ -838,6 +1024,15 @@ actually produce an apparently reasonable fix.  Anyone who passes all
 these filters is highly likely to have something useful to
 contribute.</para>
 
+<para>สิ่งพิเศษอย่างหนึ่งในเงื่อนไขของลินุกซ์ 
+ที่ช่วยเสริมปรากฏการณ์เดลไฟเข้าไปอีก 
+คือผู้ร่วมสมทบงานของแต่ละโครงการได้ผ่านการกลั่นกรองตัวเองมาแล้ว 
+ผู้เข้าร่วมในช่วงแรกๆ ชี้ว่า การสมทบงานที่ได้รับ ไม่ได้มาแบบสุ่มเสี่ยง 
+แต่มาจากผู้คนที่สนใจเพียงพอที่จะใช้ซอฟต์แวร์ เรียนรู้วิธีการทำงาน 
+พยายามหาทางแก้ปัญหาที่พบ และลงมือสร้างแพตช์ที่เข้าท่า 
+ใครก็ตามที่ผ่านการกลั่นกรองเหล่านี้มาได้ ก็มีแนวโน้มจะมีสิ่งดีๆ 
+ที่จะร่วมสมทบ</para>
+
 <para>Linus's Law can be rephrased as ``Debugging is parallelizable''.
 Although debugging requires debuggers to communicate with some
 coordinating developer, it doesn't require significant coordination
@@ -845,11 +1040,23 @@ between debuggers.  Thus it doesn't fall prey to the same quadratic
 complexity and management costs that make adding developers
 problematic.</para>
 
+<para>กฎของไลนัสสามารถกล่าวได้อีกแบบว่า ``การแก้บั๊กสามารถทำขนานกันได้'' 
+(Debugging is parallelizable) 
+ถึงแม้การแก้บั๊กจะจำเป็นต้องให้ผู้ตรวจบั๊กสื่อสารกับนักพัฒนาที่เป็นผู้ประสานงาน 
+แต่บรรดาผู้ตรวจบั๊กด้วยกันเอง แทบไม่จำเป็นต้องประสานงานกันเลย ดังนั้น 
+จึงไม่เพิ่มความซับซ้อนและค่าใช้จ่ายในการจัดการเป็นทวีคูณเหมือนการเพิ่มนักพัฒนา
+</para>
+
 <para>In practice, the theoretical loss of efficiency due to duplication of
 work by debuggers almost never seems to be an issue in the Linux
 world.  One effect of a ``release early and often'' policy is to
 minimize such duplication by propagating fed-back fixes quickly
 <link linkend="JH">[JH]</link>.</para>
+
+<para>ในทางปฏิบัติ การสูญเสียประสิทธิภาพจากการทำงานซ้ำซ้อนของผู้ตรวจบั๊กนั้น 
+แทบไม่เกิดกับโลกของลินุกซ์เลย ผลของนโยบาย ``ออกเนิ่นๆ ถี่ๆ'' 
+ก็คือการลดความซ้ำซ้อนดังกล่าว โดยส่งทอดการแก้ไขต่างๆ 
+ที่ตอบกลับมาออกไปสู่ชุมชนอย่างรวดเร็ว <link linkend="JH">[JH]</link></para>
 
 <para>Brooks (the author of <citetitle>The Mythical
 Man-Month</citetitle>) even made an off-hand observation related to
@@ -858,6 +1065,12 @@ typically 40 percent or more of the cost of developing
 it. Surprisingly this cost is strongly affected by the number of
 users. <emphasis>More users find more bugs</emphasis>.'' [emphasis
 added].</para>
+
+<para>บรูกส์ (ผู้แต่ง <citetitle>The Mythical Man-Month</citetitle>) 
+ได้ตั้งข้อสังเกตที่อาจจะเกี่ยวข้องกับเรื่องนี้ไว้ว่า 
+``ต้นทุนในการดูแลรักษาโปรแกรมที่มีผู้ใช้แพร่หลาย มักจะมีค่าประมาณร้อยละ 40 
+ของต้นทุนในการพัฒนา น่าสนใจตรงที่ต้นทุนนี้แปรผันกับจำนวนผู้ใช้ 
+<emphasis>ยิ่งมีผู้ใช้มากก็เจอบั๊กมาก</emphasis>'' [เน้นข้อความเพิ่ม]</para>
 
 <para>More users find more bugs because adding more users adds more
 different ways of stressing the program.  This effect is amplified
@@ -868,11 +1081,24 @@ and analytical toolkit, a different angle on the problem.  The
 In the specific context of debugging, the variation also tends to
 reduce duplication of effort.</para>
 
+<para>มีผู้ใช้มากจะค้นพบบั๊กมากขึ้น เพราะเมื่อผู้ใช้เพิ่มขึ้น 
+โอกาสที่จะทรมานโปรแกรมในรูปแบบต่างๆ กันก็เพิ่มขึ้น
+และผลจะเพิ่มขึ้นอีกเมื่อผู้ใช้เป็นผู้ร่วมพัฒนาด้วย 
+เพราะแต่ละคนจะมีวิธีตรวจบั๊กด้วยเครื่องมือวิเคราะห์ที่ต่างกัน 
+และด้วยแง่มุมที่ต่างกัน ``ปรากฏการณ์เดลไฟ'' 
+ดูจะให้ผลดีก็เพราะความหลากหลายของผู้ใช้นี่เอง ในแง่ของการค้นหาบั๊กแล้ว 
+ความหลากหลายจะช่วยลดความซ้ำซ้อนลงไปได้</para>
+
 <para>So adding more beta-testers may not reduce the complexity of the
 current ``deepest'' bug from the <emphasis>developer's</emphasis>
 point of view, but it increases the probability that someone's toolkit
 will be matched to the problem in such a way that the bug is shallow
 <emphasis>to that person</emphasis>.</para>
+
+<para>ดังนั้น ในมุมมองของ<emphasis>นักพัฒนา</emphasis> 
+การเพิ่มจำนวนผู้ทดสอบอาจจะไม่ช่วยลดความซับซ้อนของบั๊กยากๆ ลง 
+แต่มันจะช่วยเพิ่มโอกาสที่เครื่องมือของใครสักคนจะตรงกับตัวปัญหา 
+จนทำให้บั๊กดูง่าย<emphasis>สำหรับคนคนนั้น</emphasis></para>
 
 <para>Linus coppers his bets, too.  In case there
 <emphasis>are</emphasis> serious bugs, Linux kernel version are
@@ -882,6 +1108,14 @@ edge and risk bugs in order to get new features.  This tactic is not
 yet systematically imitated by most Linux hackers, but perhaps it should be;
 the fact that either choice is available makes both more
 attractive. <link linkend="HBS">[HBS]</link> </para>
+
+<para>ไลนัสสนับสนุนความคิดนี้แน่นอน ในกรณีที่เกิดบั๊กร้ายแรง 
+เลขรุ่นของเคอร์เนลลินุกซ์จะถูกกำหนดในลักษณะที่ผู้ใช้สามารถเลือกได้ 
+ว่าจะใช้รุ่นเก่าที่ ``เสถียร'' หรือจะเสี่ยงใช้รุ่นใหม่ที่เสี่ยงต่อบั๊ก 
+เพื่อจะได้ใช้ความสามารถใหม่ๆ 
+วิธีการนี้แฮ็กเกอร์ลินุกซ์ส่วนมากยังไม่ได้ทำตามอย่างเป็นระบบ แต่ก็ควรจะทำ 
+การมีทางเลือกทำให้ทั้งสองทางดูน่าสนใจขึ้น 
+<link linkend="HBS">[HBS]</link></para>
 
 </sect1>
 <sect1><title>How Many Eyeballs Tame Complexity</title>
