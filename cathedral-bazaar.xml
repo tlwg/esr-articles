@@ -20,7 +20,7 @@
     </address>
   </affiliation>
 </author>
-<pubdate role="cvs">$Date: 2006-11-20 02:46:07 $</pubdate>
+<pubdate role="cvs">$Date: 2006-11-20 15:23:47 $</pubdate>
 <releaseinfo>This is version 3.0</releaseinfo>
 <copyright>
   <year>2000</year>
@@ -1119,7 +1119,8 @@ attractive. <link linkend="HBS">[HBS]</link> </para>
 <link linkend="HBS">[HBS]</link></para>
 
 </sect1>
-<sect1><title>How Many Eyeballs Tame Complexity</title>
+<!-- How Many Eyeballs Tame Complexity -->
+<sect1><title>ลูกตาเยอะขนาดไหนที่จะจัดการความซับซ้อนได้</title>
 
 <para>It's one thing to observe in the large that the bazaar style
 greatly accelerates debugging and code evolution.  It's another to
@@ -1130,6 +1131,15 @@ who read it and re-examined their own behavior) we'll take a
 hard look at the actual mechanisms.  Non-technically inclined 
 readers can safely skip to the next section.</para>
 
+<para>การสังเกตในภาพรวม 
+ว่ารูปแบบตลาดสดช่วยเร่งอัตราการแก้บั๊กและการวิวัฒนาการของโค้ด ก็เป็นส่วนหนึ่ง 
+แต่ในอีกส่วนหนึ่ง เราก็ต้องเข้าใจด้วย 
+ว่ามันทำงานอย่างไรและด้วยเหตุผลใดในระดับย่อยของพฤติกรรมประจำวันของนักพัฒนาและนักทดสอบ 
+ในหัวข้อนี้ (ซึ่งเขียนขึ้นหลังจากบทความฉบับแรกสามปี 
+โดยใช้ข้อมูลเชิงลึกจากนักพัฒนาที่ได้อ่านบทความและสำรวจพฤติกรรมของตน) 
+เราจะพิจารณาโดยละเอียดเกี่ยวกับกลไกที่เกิดขึ้นจริง 
+ผู้อ่านที่ไม่มีพื้นฐานทางเทคนิคอาจข้ามหัวข้อนี้ไปได้</para>
+
 <para>One key to understanding is to realize exactly why it is that
 the kind of bug report non&ndash;source-aware users normally turn in
 tends not to be very useful.  Non&ndash;source-aware users tend to report
@@ -1137,11 +1147,23 @@ only surface symptoms; they take their environment for granted, so
 they (a) omit critical background data, and (b) seldom include a
 reliable recipe for reproducing the bug.</para>
 
+<para>ประเด็นสำคัญที่จะเข้าใจเรื่องนี้ คือการตระหนัก 
+ว่าทำไมรายงานบั๊กจากผู้ใช้ที่ไม่สนใจซอร์สมักจะไม่ค่อยมีประโยชน์นัก 
+ผู้ใช้ที่ไม่สนใจซอร์สมักจะรายงานแค่อาการผิวเผิน โดยถือว่าสภาพแวดล้อมของเขาปกติ 
+ดังนั้นเขาจึง (ก) ละเลยข้อมูลประกอบที่สำคัญ 
+(ข) ไม่ค่อยจะบอกวิธีการที่แน่นอนในการทำให้เกิดบั๊กซ้ำ</para>
+
 <para>The underlying problem here is a mismatch between the tester's
 and the developer's mental models of the program; the tester, on the
 outside looking in, and the developer on the inside looking out.
 In closed-source development they're both stuck in these roles, and 
 tend to talk past each other and find each other deeply frustrating.</para>
+
+<para>ปัญหาของเรื่องนี้ 
+ก็คือความไม่เข้ากันของมโนภาพเกี่ยวกับโปรแกรมของผู้ทดสอบและของผู้พัฒนา 
+ผู้ทดสอบมองจากข้างนอกเข้ามาข้างใน แต่ผู้พัฒนามองจากข้างในออกข้างนอก 
+ในการพัฒนาแบบซอร์สปิด ทั้งสองฝ่ายจะติดแหง็กอยู่กับบทบาททั้งสองนี้ 
+และดูจะคุยกันไม่เข้าใจ รู้สึกว่าอีกฝ่ายน่ารำคาญ</para>
 
 <para>Open-source development breaks this bind, making it far easier
 for tester and developer to develop a shared representation grounded
@@ -1151,6 +1173,12 @@ between the kind of bug report that just reports externally-visible
 symptoms and the kind that hooks directly to the developer's
 source-code&ndash;based mental representation of the program.</para>
 
+<para>การพัฒนาแบบโอเพนซอร์สทำลายพันธะดังกล่าวเสีย 
+ทำให้ง่ายต่อผู้ทดสอบและผู้พัฒนาที่จะมองภาพร่วมกัน บนพื้นฐานของซอร์สโค้ดจริง 
+และสื่อสารเข้าใจกัน ในทางปฏิบัติแล้ว มีความแตกต่างอย่างมากสำหรับนักพัฒนา 
+ระหว่างรายงานบั๊กที่รายงานแค่อาการภายนอก 
+กับที่พุ่งตรงไปยังเค้าโครงที่มีพื้นฐานจากซอร์สโค้ดของโปรแกรมเอง</para>
+
 <para>Most bugs, most of the time, are easily nailed given even an
 incomplete but suggestive characterization of their error conditions
 at source-code level.  When someone among your beta-testers can point
@@ -1159,11 +1187,22 @@ conditions X, Y, and Z, this variable rolls over", a quick look at the
 offending code often suffices to pin down the exact mode of failure
 and generate a fix.</para>
 
+<para>แทบทุกครั้ง 
+บั๊กจะแก้ง่ายถ้าบรรยายอาการของเงื่อนไขข้อผิดพลาดได้ในระดับซอร์สโค้ด 
+แม้จะไม่สมบูรณ์ก็ตาม เมื่อผู้ทดสอบบางคนของคุณสามารถชี้ได้ว่า 
+"มีปัญหาเรื่องค่าล้นที่บรรทัด nnn" หรือแม้เพียงแค่ "ภายใต้เงื่อนไข X, Y และ Z 
+ตัวแปรนี้จะตีกลับ" แค่มองที่โค้ดที่มีปัญหาอย่างคร่าวๆ 
+ก็มักเพียงพอที่จะบ่งชี้ชนิดของข้อผิดพลาด และแก้ไขได้ทันที</para>
+
 <para>Thus, source-code awareness by both parties greatly enhances
 both good communication and the synergy between what a beta-tester
 reports and what the core developer(s) know.  In turn, this means that
 the core developers' time tends to be well conserved, even with many
 collaborators.</para>
+
+<para>ดังนั้น การใช้ซอร์สโค้ดทั้งสองฝ่ายจึงช่วยเพิ่มทั้งการสื่อสาร 
+และการเสริมแรงกันระหว่างสิ่งที่ผู้ทดสอบรายงานกับสิ่งที่ผู้พัฒนาหลักรู้ ผลก็คือ 
+มีแนวโน้มจะช่วยประหยัดเวลานักพัฒนาหลักได้ดี แม้จะต้องประสานงานหลายฝ่าย</para>
 
 <para>Another characteristic of the open-source method that conserves
 developer time is the communication structure of typical open-source
@@ -1173,12 +1212,26 @@ core developer is common, and one to three is typical) and the project
 halo of beta-testers and available contributors (which often numbers
 in the hundreds).</para>
 
+<para>คุณลักษณ์อีกประการหนึ่งของวิธีการโอเพนซอร์สที่ช่วยประหยัดเวลานักพัฒนา 
+ก็คือโครงสร้างของการสื่อสารของโครงการโอเพนซอร์สทั่วไป ในย่อหน้าก่อน ผมใช้คำว่า 
+"นักพัฒนาหลัก" ซึ่งสะท้อนถึงความแตกต่างระหว่างแกนของโครงการ 
+(ซึ่งมักจะเป็นกลุ่มเล็กๆ การมีนักพัฒนาหลักแค่คนเดียวถือเป็นเรื่องปกติ 
+และหนึ่งถึงสามคนถือว่าธรรมดา) กับนักทดสอบและผู้ร่วมสมทบที่รายล้อม 
+(ซึ่งมักมีจำนวนหลักร้อย)</para>
+
 <para>The fundamental problem that traditional software-development 
 organization addresses is Brook's Law: ``Adding more programmers to a
 late project makes it later.''  More generally, Brooks's Law predicts
 that the complexity and communication costs of a project rise with the
 square of the number of developers, while work done only rises
 linearly.</para>
+
+<para>ปัญหาพื้นฐานที่องค์กรพัฒนาซอฟต์แวร์แบบดั้งเดิมพยายามแก้ ก็คือกฎของบรูกส์: 
+``การเพิ่มโปรแกรมเมอร์ในโครงการที่ล่าช้า จะทำให้เพิ่มความล้าช้าขึ้นไปอีก'' 
+หรือกล่าวในรูปทั่วไป กฎของบรูกส์ทำนายว่า 
+ความซับซ้อนและต้นทุนการสื่อสารของโครงการ 
+จะเพิ่มในอัตรากำลังสองของจำนวนนักพัฒนา 
+ในขณะที่งานที่ได้จะเพิ่มในแบบเชิงเส้น</para>
 
 <para>Brooks's Law is founded on experience that bugs tend strongly to
 cluster at the interfaces between code written by different people,
@@ -1188,6 +1241,14 @@ problems scale with the number of communications paths between
 developers, which scales as the square of the humber of developers
 (more precisely, according to the formula N*(N - 1)/2 where N is the
 number of developers).</para>
+
+<para>กฎของบรูกส์สร้างขึ้นบนพื้นฐานของประสบการณ์ที่ว่า บั๊กต่างๆ 
+มีแนวโน้มที่จะหนีไม่พ้นเรื่องการเชื่อมต่อระหว่างโค้ดที่เขียนโดยคนกลุ่มต่างๆ 
+และค่าใช้จ่ายในการสื่อสาร/ประสานงานกันในโครงการ 
+ก็มีแนวโน้มจะเพิ่มตามจำนวนการเชื่อมโยงระหว่างมนุษย์ ดังนั้น 
+ขนาดของปัญหาจึงโตตามจำนวนช่องทางสื่อสารระหว่างนักพัฒนา 
+ซึ่งแปรผันตรงกับกำลังสองของจำนวนนักพัฒนา (หรือพูดให้ละเอียดกว่านั้น 
+คือเป็นไปตามสูตร N*(N - 1)/2 เมื่อ N คือจำนวนนักพัฒนา)</para>
 
 <para>The Brooks's Law analysis (and the resulting fear of large
 numbers in development groups) rests on a hidden assummption: that the
@@ -1199,6 +1260,16 @@ changes and bug reports stream through the core group, and only
 <emphasis>within</emphasis> that small core group do we pay the full
 Brooksian overhead. <link linkend="SU">[SU]</link> </para>
 
+<para>การวิเคราะห์ตามกฎของบรูกส์ (และความกลัวจำนวนนักพัฒนามากๆ 
+ในทีมพัฒนาที่เป็นผลตามมา) ตั้งอยู่บนข้อสมมุติที่ซ่อนอยู่ 
+คือโครงสร้างการสื่อสารของโครงการ จะต้องเป็นกราฟสมบูรณ์ (complete graph) เสมอไป 
+กล่าวคือ ทุกคนจะพูดกับคนอื่นๆ ทุกคน แต่ในโครงการโอเพนซอร์ส 
+นักพัฒนารอบนอกต่างทำงานกับสิ่งที่กลายเป็นงานย่อยที่แบ่งทำขนานกันได้ 
+และมีปฏิสัมพันธ์กันเองน้อยมาก 
+การแก้ไขโค้ดและรายงานบั๊กต่างส่งเข้าสู่ทีมพัฒนาหลัก และค่าใช้จ่ายตามกฎของบรูกส์ 
+ก็จะเกิดกับเฉพาะ <emphasis>ภายใน</emphasis> กลุ่มนักพัฒนาหลักกลุ่มเล็กๆ 
+นี้เท่านั้น <link linkend="SU">[SU]</link></para>
+
 <para>There are are still more reasons that source-code&ndash;level bug
 reporting tends to be very efficient.  They center around the fact
 that a single error can often have multiple possible symptoms,
@@ -1208,6 +1279,16 @@ complex and subtle bugs (such as dynamic-memory-management errors or
 nondeterministic interrupt-window artifacts) that are hardest to
 reproduce at will or to pin down by static analysis, and which do the
 most to create long-term problems in software.</para>
+
+<para>ยังมีเหตุผลเพิ่มเติม 
+ที่ทำให้การรายงานบั๊กในระดับซอร์สโค้ดมีแนวโน้มจะมีประสิทธิภาพมาก 
+เนื่องจากบ่อยครั้งที่ข้อผิดพลาดเดียวสามารถแสดงอาการได้หลายแบบ 
+โดยขึ้นอยู่กับรายละเอียดของรูปแบบและสภาพแวดล้อมการใช้งานของผู้ใช้ 
+ข้อผิดพลาดดังกล่าวมีแนวโน้มที่จะเป็นบั๊กชนิดที่ซับซ้อนและละเอียดอ่อน (เช่น 
+ข้อผิดพลาดในการจัดการหน่วยความจำแบบพลวัต 
+หรือมีช่วงว่างระหว่างการขัดจังหวะที่ไม่แน่นอน) 
+ที่ทำให้เกิดซ้ำตามต้องการหรือชี้ชัดด้วยการวิเคราะห์แบบตายตัวได้ยากที่สุด 
+และเป็นบั๊กที่สร้างปัญหาให้กับซอฟต์แวร์ในระยะยาวได้มากที่สุด</para>
 
 <para>A tester who sends in a tentative source-code&ndash;level
 characterization of such a multi-symptom bug (e.g. "It looks to me
@@ -1222,6 +1303,18 @@ their bug has been fixed or not. In many cases, source-level bug
 reports will cause misbehaviours to drop out without ever having been
 attributed to any specific fix.</para>
 
+<para>นักทดสอบที่ส่งรายงานสิ่งที่อาจเป็นบั๊กที่แสดงอาการหลายแบบดังกล่าว 
+โดยรายงานในระดับซอร์สโค้ด (เช่น 
+"ผมคิดว่ามันมีช่วงว่างระหว่างการจัดการสัญญาณแถวๆ บรรทัดที่ 1250" หรือ 
+"คุณเติมค่าศูนย์ในบัฟเฟอร์นั้นตรงไหนหรือ?") 
+อาจกำลังให้ข้อมูลที่สำคัญยิ่งยวดสำหรับแก้อาการหลายอาการต่อผู้พัฒนาซึ่งอาจอยู่ใกล้โค้ดเกินกว่าจะเห็นได้ 
+ซึ่งในกรณีเช่นนั้น อาจจะยากหรือเป็นไปไม่ได้เลย 
+ที่จะรู้ว่าอาการผิดปกติอันไหนเกิดจากบั๊กไหน แต่ด้วยการออกบ่อยๆ 
+ก็แทบไม่จำเป็นต้องรู้เลย คนอื่นๆ อาจจะพบอย่างรวดเร็ว 
+ว่าบั๊กของเขาได้รับการแก้ไขหรือยัง ในหลายๆ กรณี 
+รายงานบั๊กในระดับซอร์สโค้ดจะทำให้อาการผิดปกติหลายอย่างหายไป 
+โดยไม่ได้ชี้ชัดถึงวิธีที่แก้ไขเลย</para>
+
 <para>Complex multi-symptom errors also tend to have multiple trace
 paths from surface symptoms back to the actual bug.  Which of the
 trace paths a given developer or tester can chase may depend on
@@ -1232,6 +1325,15 @@ looking for the etiology of a symptom.  The more subtle and complex the
 bug, the less likely that skill will be able to guarantee the
 relevance of that sample.</para>
 
+<para>ข้อผิดพลาดที่ซับซ้อนและแสดงหลายอาการ 
+ยังมีแนวโน้มจะมีหลายทางที่จะไล่ไปสู่บั๊กที่แท้จริง 
+ทางไหนที่ผู้พัฒนาหรือผู้ทดสอบคนหนึ่งๆ จะสามารถไล่ไปได้ 
+ก็ขึ้นอยู่กับรายละเอียดปลีกย่อยของสภาพแวดล้อมของบุคคลนั้น 
+และอาจกลายเป็นทางที่แน่นอนชัดเจนได้ในภายหลัง ผลก็คือ 
+นักพัฒนาและผู้ทดสอบแต่ละคนจะช่วยสุ่มตัวอย่างสถานะของโปรแกรมแบบต่างๆ 
+ขณะหาสมุฏฐานของอาการ ยิ่งบั๊กละเอียดอ่อนและซับซ้อนเท่าใด 
+ความชำนาญโดยลำพังก็ช่วยเชื่อมโยงได้น้อยเท่านั้น</para>
+
 <para>For simple and easily reproducible bugs, then, the accent will
 be on the "semi" rather than the "random"; debugging skill and
 intimacy with the code and its architecture will matter a lot.  But
@@ -1239,6 +1341,12 @@ for complex bugs, the accent will be on the "random".  Under these
 circumstances many people running traces will be much more effective
 than a few people running traces sequentially&mdash;even if the few have
 a much higher average skill level.</para>
+
+<para>สำหรับบั๊กที่ง่ายและทำซ้ำได้ การสุ่มตัวอย่างก็ไม่จำเป็นนัก 
+ความชำนาญในการตรวจบั๊กและความคุ้นเคยกับโค้ดและโครงสร้างโปรแกรมจะช่วยได้มาก 
+แต่สำหรับบั๊กที่ซับซ้อนแล้ว ก็ต้องอาศัยการสุ่มตัวอย่างช่วย ในสภาวะดังกล่าว 
+การมีผู้แกะรอยจากหลายเส้นทางจะได้ผลกว่าการใช้ไม่กี่คนแกะรอยทีละทาง 
+แม้ว่าไม่กี่คนที่ว่านั้นจะมีความชำนาญโดยเฉลี่ยสูงกว่าก็ตาม</para>
 
 <para>This effect will be greatly amplified if the difficulty of
 following trace paths from different surface symptoms back to a bug
@@ -1252,6 +1360,16 @@ much shorter time.  The project maintainer will see that, ship a new
 release, and the other people running traces on the same bug will be
 able to stop before having spent too much time on their more difficult
 traces <link linkend="RJ">[RJ]</link>.</para>
+
+<para>ผลของเรื่องนี้จะใหญ่โตมาก ถ้าความยากของการแกะรอยแบบต่างๆ 
+จากอาการเพื่อหาบั๊กนั้น แตกต่างกันมากจนไม่สามารถทำนายได้จากอาการ 
+นักพัฒนาเพียงคนเดียวที่ทดลองแกะรอยทีละแบบจะมีโอกาสที่จะเลือกแบบที่ยากก่อนพอๆ 
+กับที่จะเลือกแบบที่ง่ายก่อน ในทางกลับกัน สมมุติว่ามีหลายคนลองแกะรอยพร้อมๆ 
+กันขณะที่จะออกรุ่นอย่างกระชั้นชิด ก็มีโอกาสที่จะมีบางคนพบทางที่ง่ายที่สุดทันที 
+และแก้บั๊กได้ในเวลาอันสั้น ผู้ดูแลโครงการจะเห็น แล้วก็ออกรุ่นใหม่ และคนอื่นๆ 
+ที่กำลังแกะรอยบั๊กเดียวกันก็สามารถจะหยุดได้ 
+ก่อนที่จะใช้เวลากับการแกะรอยแบบที่ยากนั้นนานเกินไป 
+<link linkend="RJ">[RJ]</link></para>
 
 </sect1>
 <sect1><title>When Is a Rose Not a Rose?</title>
