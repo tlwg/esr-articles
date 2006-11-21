@@ -20,7 +20,7 @@
     </address>
   </affiliation>
 </author>
-<pubdate role="cvs">$Date: 2006-11-20 15:23:47 $</pubdate>
+<pubdate role="cvs">$Date: 2006-11-21 08:44:52 $</pubdate>
 <releaseinfo>This is version 3.0</releaseinfo>
 <copyright>
   <year>2000</year>
@@ -509,11 +509,12 @@ and solid, but his program lacked several important and rather
 tricky-to-implement fetchpop features (including those I'd coded
 myself).</para>
 
-<para>ไม่กี่สัปดาห์ต่อมา ผมเข้าไปอ่านโค้ดของ popclient ซึ่งสร้างโดย Carl Harris 
-และพบปัญหา ถึงแม้ fetchpop จะมีแนวคิดดีๆ อย่างการทำงานในโหมดดีมอนเบื้องหลัง 
-แต่มันสามารถทำงานกับ POP3 เท่านั้น และโค้ดของมันก็ไม่ค่อยดีเท่าที่ควร เพราะ 
-Seung-Hong ตอนนั้นเป็นโปรแกรมเมอร์ที่เก่ง แต่ยังขาดประสบการณ์อยู่ 
-และความสามารถของเขาทั้งคู่ถูกแสดงออกในโค้ด ผมพบว่าโค้ดของ Carl ดีกว่า 
+<para>ไม่กี่สัปดาห์ต่อมา ผมเข้าไปอ่านโค้ดของ popclient ซึ่งสร้างโดย คาร์ล 
+แฮร์ริส และพบปัญหา ถึงแม้ fetchpop จะมีแนวคิดดีๆ 
+อย่างการทำงานในโหมดดีมอนเบื้องหลัง แต่มันสามารถทำงานกับ POP3 เท่านั้น 
+และโค้ดของมันก็ไม่ค่อยดีเท่าที่ควร เพราะ Seung-Hong 
+ตอนนั้นเป็นโปรแกรมเมอร์ที่เก่ง แต่ยังขาดประสบการณ์อยู่ 
+และความสามารถของเขาทั้งคู่ถูกแสดงออกในโค้ด ผมพบว่าโค้ดของคาร์ลดีกว่า 
 ค่อนข้างเป็นมืออาชีพและแน่นหนา แต่โปรแกรมของเขายังขาดความสามารถสำคัญ 
 และค่อนข้างทำยาก ซึ่งมีใน fetchpop รวมถึงสิ่งที่ผมเขียนเองด้วย</para>
 
@@ -577,7 +578,7 @@ popclient some time before.  The code was a bit dusty, with minor bugs
 hanging out.  I had many changes to make, and we quickly agreed that
 the logical thing for me to do was take over the program.</para>
 
-<para>หลังจากผมส่งแพตช์แรกไปให้กับ Carl Harris ในวันที่ 25 มิถุนายน 1996 
+<para>หลังจากผมส่งแพตช์แรกไปให้กับ คาร์ล แฮร์ริส ในวันที่ 25 มิถุนายน 1996 
 ผมพบว่าเขาเริ่มจะหมดความสนใจในตัวโปรแกรมก่อนหน้านั้นแล้ว 
 โค้ดนั้นไม่ค่อยเรียบร้อย และมีบั๊กประปราย ผมมีเรื่องที่อยากแก้หลายจุด 
 และเราก็ตกลงกันได้อย่างรวดเร็ว ว่าผมควรจะรับโปรแกรมนี้ไปดูแลต่อ</para>
@@ -608,7 +609,7 @@ way for a project to evolve.  I was acting out this principle:</para>
 <para>But Carl Harris's attitude was even more important.  He
 understood that</para>
 
-<para>แต่ทัศนคติของ Carl Harris นั้นสำคัญกว่า เขาเข้าใจดีว่า</para>
+<para>แต่ทัศนคติของ คาร์ล แฮร์ริส นั้นสำคัญกว่า เขาเข้าใจดีว่า</para>
 
 <blockquote><para>5. When you lose interest in a program, your last
        duty to it is to hand it off to a competent
@@ -624,8 +625,8 @@ either of us was whether I could establish that I was a safe pair of
 hands.  Once I did that, he acted with grace and dispatch.  I hope I
 will do as well when it comes my turn.</para>
 
-<para>และเราไม่ต้องถกเถียงกันเลย ผมและ Carl 
-รู้ว่าเรามีเป้าหมายร่วมกันที่จะหาคำตอบที่ดีที่สุดที่มีอยู่ 
+<para>และเราไม่ต้องถกเถียงกันเลย 
+ผมและคาร์ลรู้ว่าเรามีเป้าหมายร่วมกันที่จะหาคำตอบที่ดีที่สุดที่มีอยู่ 
 คำถามเดียวที่เกิดขึ้นกับแต่ละฝ่ายคือ ผมจะสามารถยืนยันได้ไหม 
 ว่าผมจะเป็นผู้ดูแลที่วางใจได้ เมื่อผมทำได้ เขาก็จากไปอย่างนุ่มนวล ผมหวังว่า
 ผมจะทำเช่นนั้นเหมือนกัน เมื่อถึงตาที่ผมต้องส่งต่อให้คนอื่น</para>
@@ -1372,11 +1373,16 @@ traces <link linkend="RJ">[RJ]</link>.</para>
 <link linkend="RJ">[RJ]</link></para>
 
 </sect1>
-<sect1><title>When Is a Rose Not a Rose?</title>
+<!-- When Is a Rose Not a Rose? -->
+<sect1><title>เมื่อใดที่กุหลาบจะไม่เป็นกุหลาบ?</title>
 
 <para>Having studied Linus's behavior and formed a theory about why it
 was successful, I made a conscious decision to test this theory on my
 new (admittedly much less complex and ambitious) project.</para>
+
+<para>เมื่อได้ศึกษาวิธีการของไลนัส และสร้างทฤษฎีว่ามันสำเร็จได้อย่างไรแล้ว 
+ผมได้ตัดสินใจที่จะทดสอบทฤษฎีนี้กับโครงการของผมเอง 
+(ที่ต้องยอมรับว่าซับซ้อนน้อยกว่าและทะเยอทะยานน้อยกว่ามาก)</para>
 
 <para>But the first thing I did was reorganize and simplify popclient
 a lot.  Carl Harris's implementation was very sound, but exhibited a
@@ -1386,10 +1392,22 @@ code.  As a result, the code was beautiful but the data structure
 design ad-hoc and rather ugly (at least by the high standards of this
 veteran LISP hacker).</para>
 
+<para>แต่สิ่งแรกที่ผมทำ คือการปรับ popclient ให้ลดความซับซ้อนลง งานของคาร์ล 
+แฮรริส นั้นดูดี แต่ก็ได้สร้างความซับซ้อนที่ไม่จำเป็น 
+ตามแบบที่โปรแกรมเมอร์ภาษาซีหลายคนชอบทำ เขามองตัวโค้ดเป็นศูนย์กลาง 
+และโครงสร้างข้อมูลเป็นส่วนสนับสนุนของโค้ด ผลก็คือ โค้ดนั้นสวยงามดี 
+แต่โครงสร้างข้อมูลออกแบบตามอำเภอใจและค่อนข้างแย่ 
+(อย่างน้อยก็แย่ตามมาตรฐานที่สูงอยู่แล้วของแฮ็กเกอร์ LISP มือฉมังคนนี้)</para>
+
 <para>I had another purpose for rewriting besides improving the code and the
 data structure design, however.  That was to evolve it into something
 I understood completely.  It's no fun to be responsible for fixing
 bugs in a program you don't understand.</para>
+
+<para>อย่างไรก็ดี ผมมีอีกจุดประสงค์หนึ่งในการเขียนใหม่ 
+นอกจากการปรับปรุงโค้ดและโครงสร้างข้อมูล 
+นั่นคือการปรับโปรแกรมให้กลายเป็นสิ่งที่ผมเข้าใจได้ทั้งหมด 
+มันไม่สนุกเลยในการรับผิดชอบแก้บั๊กของโปรแกรมที่คุณไม่เข้าใจ</para>
 
 <para>For the first month or so, then, I was simply following out the
 implications of Carl's basic design.  The first serious change I made
@@ -1399,8 +1417,19 @@ POP3, and IMAP).  This and the previous changes illustrate a general
 principle that's good for programmers to keep in mind, especially
 in languages like C that don't naturally do dynamic typing:</para>
 
+<para>ในราวเดือนแรก ผมทำตามแนวทางที่คาร์ลออกแบบไว้ 
+ความเปลี่ยนแปลงที่สำคัญอย่างแรกที่ผมทำ คือเพิ่มการสนับสนุน IMAP 
+ผมทำโดยการจัดระบบโพรโทคอลใหม่ให้เป็นไดรเวอร์ทั่วไปหนึ่งตัว 
+และตารางวิธีการสามอัน (สำหรับ POP2, POP3 และ IMAP) 
+การเปลี่ยนแปลงทั้งครั้งนี้และครั้งก่อน 
+แสดงให้เห็นหลักการทั่วไปที่โปรแกรมเมอร์ควรจำให้ขึ้นใจ โดยเฉพาะสำหรับภาษาอย่างซี 
+ซึ่งไม่ได้สนับสนุนชนิดข้อมูลแบบพลวัต นั่นคือ:</para>
+
 <blockquote><para>9. Smart data structures and dumb code works a lot
        better than the other way around.</para></blockquote>
+
+<blockquote><para>9. โครงสร้างข้อมูลที่ฉลาดกับโค้ดที่โง่ 
+       ทำงานได้ดีกว่าในทางกลับกัน</para></blockquote>
 
 <para>Brooks, Chapter 9: ``Show me your flowchart and conceal your
 tables, and I shall continue to be mystified.  Show me your tables,
@@ -1408,11 +1437,22 @@ and I won't usually need your flowchart; it'll be obvious.''  Allowing
 for thirty years of terminological/cultural shift, it's the same
 point.</para>
 
+<para>บรูกส์, บทที่ 9 : ``ให้ผมดูโฟลว์ชาร์ตของคุณ แล้วปิดตารางของคุณไว้ 
+ผมก็ยังจะงงต่อไป แต่ถ้าให้ผมดูตารางของคุณ ผมแทบไม่ต้อดูโฟลว์ชาร์ตของคุณเลย 
+ทุกอย่างชัดเจน'' 
+เมื่อพิจารณาเวลาสามสิบปีของการเปลี่ยนแปลงของคำศัพท์และยุคสมัยแล้ว 
+ประเด็นก็ยังเหมือนเดิม</para>
+
 <para>At this point (early September 1996, about six weeks from zero)
 I started thinking that a name change might be in order&mdash;after all,
 it wasn't just a POP client any more.  But I hesitated, because there
 was as yet nothing genuinely new in the design.  My version of
 popclient had yet to develop an identity of its own.</para>
+
+<para>ณ จุดนี้ (ต้นเดือนกันยา 1996 ทำมาแล้วประมาณ 6 อาทิตย์) 
+ผมเริ่มคิดจะเปลี่ยนชื่อโครงการแล้ว เพราะมันไม่ใช่แค่โปรแกรมสำหรับ POP 
+อีกต่อไป แต่ผมยังไม่แน่ใจ เพราะมันยังไม่มีอะไรใหม่จริงๆ ในด้านการออกแบบ 
+popclient รุ่นของผมยังไม่ได้พัฒนาเอกลักษณ์เป็นของตัวเองเลย</para>
 
 <para>That changed, radically, when popclient learned how to forward fetched
 mail to the SMTP port.  I'll get to that in a moment.  But first: I
@@ -1420,20 +1460,37 @@ said earlier that I'd decided to use this project to test my theory
 about what Linus Torvalds had done right.  How (you may well ask) did
 I do that?  In these ways:</para>
 
+<para>แต่เงื่อนไขนั้นก็ได้เปลี่ยนไปอย่างมาก เมื่อ popclient 
+เริ่มจะส่งเมลต่อไปยังพอร์ต SMTP ได้ ผมจะกลับมาพูดถึงเรื่องนี้อีกที แต่ก่อนอื่น 
+ผมพูดไว้ก่อนหน้านี้ว่า ผมตั้งใจจะใช้โครงการนี้พิสูจน์ทฤษฎีของผมเกี่ยวกับสิ่งที่ 
+ไลนัส ทอร์วัลด์ ทำ คุณอาจจะถามว่า ผมทำอย่างไรบ้าง? ผมทำอย่างนี้:</para>
+
 <itemizedlist>
 <listitem><para>I released early and often (almost never less often
       than every ten days; during periods of intense development, once
       a day).</para></listitem>
 
+<listitem><para>ผมออกเนิ่นๆ และถี่ๆ (แทบจะไม่เคยทิ้งช่วงเกินสิบวัน 
+      และถ้าเป็นช่วงที่มีการพัฒนาแบบเข้มข้น ผมออกทุกวัน)</para></listitem>
+
 <listitem><para>I grew my beta list by adding to it everyone who contacted me
       about fetchmail.</para></listitem>
+
+<listitem><para>ผมเพิ่มรายชื่อผู้ทดสอบโดยใส่ชื่อทุกคนที่คุยกับผมเรื่อง fetchmail
+      </para></listitem>
 
 <listitem><para>I sent chatty announcements to the beta list whenever I
       released, encouraging people to participate.</para></listitem>
 
+<listitem><para>ผมประกาศแบบเป็นกันเองไปยังผู้ทดสอบทุกคนเมื่อออก 
+      กระตุ้นให้ผู้คนมีส่วนร่วม</para></listitem>
+
 <listitem><para>And I listened to my beta-testers, polling them about design
       decisions and stroking them whenever they sent in patches
       and feedback.</para></listitem>
+
+<listitem><para>และผมฟังผู้ทดสอบเบต้า ขอความเห็นเกี่ยวกับการออกแบบ 
+      และขอบคุณเมื่อเขาส่งแพตช์ และความคิดเห็นมาให้</para></listitem>
 </itemizedlist>
 
 <para>The payoff from these simple measures was immediate.  From the
@@ -1442,14 +1499,28 @@ developers would kill for, often with good fixes attached.  I
 got thoughtful criticism, I got fan mail, I got intelligent
 feature suggestions.  Which leads to:</para>
 
+<para>ผลลัพธ์จากมาตรการง่ายๆ เหล่านี้เห็นได้รวดเร็ว ตั้งแต่เริ่มโครงการ 
+ผมได้รับการรายงานบั๊กที่มีคุณภาพระดับที่นักพัฒนาอยากได้ใจจะขาด 
+และบ่อยครั้งที่มีวิธีแก้มาให้ด้วย ผมได้รับคำวิจารณ์ที่ให้แนวคิดที่ดี 
+ได้รับเมลจากแฟนๆ ได้รับคำแนะนำคุณสมบัติใหม่ๆ ซึ่งนำไปสู่:</para>
+
 <blockquote><para>10. If you treat your beta-testers as if they're
         your most valuable resource, they will respond by becoming
         your most valuable resource.</para></blockquote>
+
+<blockquote><para>10. ถ้าคุณปฏิบัติกับผู้ทดสอบรุ่นเบต้า 
+        เหมือนกับเป็นแหล่งทรัพยากรชั้นเยี่ยมแล้ว 
+        เขาจะตอบแทนด้วยการเป็นทรัพยากรชั้นเยี่ยมให้</para></blockquote>
 
 <para>One interesting measure of fetchmail's success is the sheer size
 of the project beta list, fetchmail-friends.  At the time of latest
 revision of this paper (November 2000) it has 287 members and is
 adding two or three a week.</para>
+
+<para>ดัชนีชี้วัดความสำเร็จของ fetchmail ที่น่าสนใจอย่างหนึ่ง 
+คือขนาดของเมลลิงลิสต์ fetchmail-friends ของผู้ทดสอบเบต้าของโครงการ 
+ขณะที่แก้ไขปรับปรุงบทความนี้รุ่นล่าสุด (พฤศจิกายน 2000) มีสมาชิกถึง 287 คน 
+และเพิ่มขึ้น 2-3 คนทุกสัปดาห์</para>
 
 <para>Actually, when I revised in late May 1997 I found the list was
 beginning to lose members from its high of close to 300 for an
@@ -1457,6 +1528,12 @@ interesting reason.  Several people have asked me to unsubscribe them
 because fetchmail is working so well for them that they no longer need
 to see the list traffic!  Perhaps this is part of the normal
 life-cycle of a mature bazaar-style project.</para>
+
+<para>ความจริงแล้ว ตั้งแต่ผมเริ่มแก้ไขปรับปรุงบทความในปลายเดือนพฤษภาคม 1997 
+ผมพบว่าคนในรายชื่อเริ่มจะลดจำนวนลงจากเกือบ 300 คนในตอนแรก ด้วยเหตุผลที่น่าสนใจ 
+คือ หลายๆ คนได้ขอให้ผมเอาชื่อเขาออก เพราะ fetchmail ทำงานได้ดีแล้ว 
+จนพวกเขาไม่ต้องการมีส่วนร่วมในการสนทนาอีก บางที 
+นี่อาจจะเป็นส่วนหนึ่งในวงจรชีวิตของโครงการแบบตลาดสดที่โตเต็มที่แล้วก็ได้</para>
 
 </sect1>
 <sect1><title>Popclient becomes Fetchmail</title>
