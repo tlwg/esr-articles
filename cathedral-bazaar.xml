@@ -20,7 +20,7 @@
     </address>
   </affiliation>
 </author>
-<pubdate role="cvs">$Date: 2006-11-21 08:44:52 $</pubdate>
+<pubdate role="cvs">$Date: 2006-11-22 12:00:51 $</pubdate>
 <releaseinfo>This is version 3.0</releaseinfo>
 <copyright>
   <year>2000</year>
@@ -1536,13 +1536,19 @@ life-cycle of a mature bazaar-style project.</para>
 นี่อาจจะเป็นส่วนหนึ่งในวงจรชีวิตของโครงการแบบตลาดสดที่โตเต็มที่แล้วก็ได้</para>
 
 </sect1>
-<sect1><title>Popclient becomes Fetchmail</title>
+<!-- Popclient becomes Fetchmail -->
+<sect1><title>จาก Popclient สู่ Fetchmail</title>
 
 <para>The real turning point in the project was when Harry Hochheiser
 sent me his scratch code for forwarding mail to the client machine's
 SMTP port.  I realized almost immediately that a reliable
 implementation of this feature would make all the other mail delivery
 modes next to obsolete.</para>
+
+<para>จุดเปลี่ยนที่แท้จริงของโครงการ เกิดขึ้นเมื่อ Harry Hochheiser 
+ส่งร่างโค้ดของเขาสำหรับการส่งเมลต่อไปยังพอร์ต SMTP ของเครื่องลูกข่ายมาให้ผม 
+ผมรู้ทันทีว่าความสามารถนี้ถ้าทำงานได้จริงอย่างเชื่อถือได้แล้ว 
+จะทำให้วิธีกระจายเมลแบบอื่นๆ เตรียมม้วนเสื่อไปได้เลย</para>
 
 <para>For many weeks I had been tweaking fetchmail rather
 incrementally while feeling like the interface design was serviceable
@@ -1551,8 +1557,17 @@ all over.  The options to dump fetched mail to a mailbox file or
 standard output particularly bothered me, but I couldn't figure out
 why.</para>
 
+<para>เป็นเวลาหลายสัปดาห์ ที่ผมได้ปรับปรุงต่อเติม fetchmail 
+โดยรู้สึกว่าส่วนติดต่อนั้นทำงานได้ดี แต่ดูรกรุงรัง 
+ไม่สวยและมีตัวเลือกหยุมหยิมเต็มไปหมด 
+ผมรำคาญตัวเลือกที่ให้โยนเมลที่ดึงมาไปลงแฟ้ม mailbox หรือเอาต์พุตมาตรฐาน 
+แต่ก็ไม่รู้เหมือนกันว่าทำไม</para>
+
 <para>(If you don't care about the technicalia of Internet mail, the
 next two paragraphs can be safely skipped.)</para>
+
+<para>(ถ้าคุณไม่สนเรื่องทางเทคนิคของการส่งเมลในอินเทอร์เน็ต 
+ก็อ่านข้ามสองย่อหน้าถัดไปนี้ได้เลย)</para>
 
 <para>What I saw when I thought about SMTP forwarding was that popclient had
 been trying to do too many things.  It had been designed to be both a
@@ -1561,6 +1576,14 @@ SMTP forwarding, it could get out of the MDA business and be a pure
 MTA, handing off mail to other programs for local delivery just as
 sendmail does.</para>
 
+<para>สิ่งที่ผมเห็นเมื่อคิดถึงการส่งเมลต่อไปยัง SMTP ก็คือ popclient 
+นั้นพยายามทำงานหลายอย่างเกินไป มันถูกออกแบบให้เป็นทั้งโปรแกรมจัดส่งเมลภายนอก 
+(mail transport agent &ndash; MTA) และโปรแกรมกระจายเมลภายในเครื่อง (local 
+delivery agent &ndash; MDA) เมื่อมีความสามารถในการส่งเมลต่อไปยัง SMTP แล้ว 
+มันก็ควรจะเลิกทำตัวเป็น MDA และเป็นเพียง MTA เพียงอย่างเดียว 
+แล้วโอนหน้าที่ในการกระจายเมลในเครื่องไปให้โปรแกรมอื่น เหมือนกับที่ sendmail 
+ทำอยู่</para>
+
 <para>Why mess with all the complexity of configuring a mail delivery agent
 or setting up lock-and-append on a mailbox when port 25 is almost
 guaranteed to be there on any platform with TCP/IP support in the
@@ -1568,7 +1591,15 @@ first place?  Especially when this means retrieved mail is guaranteed
 to look like normal sender-initiated SMTP mail, which is really what
 we want anyway.</para>
 
+<para>ทำไมต้องไปยุ่งกับรายละเอียดในการตั้งค่าการกระจายเมล 
+หรือการล็อคกล่องเมลก่อนเขียนต่อท้าย ในเมื่อแทบจะแน่ใจได้ว่ามีพอร์ต 25 
+ให้ใช้ในทุกแพล็ตฟอร์มที่สนับสนุน TCP/IP อยู่แล้ว? โดยเฉพาะอย่างยิ่ง 
+เมื่อการใช้พอร์ตดังกล่าวยังรับประกันได้ว่าจะทำให้เมลที่ดึงมานั้น ดูเหมือนเมล 
+SMTP ปกติที่รับมาจากผู้ส่งโดยตรง ซึ่งเป็นสิ่งที่เราต้องการจริงๆ อยู่แล้ว</para>
+
 <para>(Back to a higher level....)</para>
+
+<para>(กลับสู่เรื่องเดิม...)</para>
 
 <para>Even if you didn't follow the preceding technical jargon, there are
 several important lessons here.  First, this SMTP-forwarding concept
@@ -1576,9 +1607,19 @@ was the biggest single payoff I got from consciously trying to emulate
 Linus's methods.  A user gave me this terrific idea&mdash;all I had to do
 was understand the implications.</para>
 
+<para>ถึงแม้คุณจะไม่ได้ติดตามศัพท์แสงทางเทคนิคในย่อหน้าก่อน 
+แต่ก็ยังมีบทเรียนที่สำคัญหลายบทสำหรับเรื่องนี้ สิ่งแรกก็คือ การส่งเมลต่อไปยัง 
+SMTP เป็นผลลัพธ์ที่ดีที่สุดที่ผมได้รับจากการเลียนแบบวิธีพัฒนาของไลนัสอย่างจงใจ 
+ผู้ใช้คนหนึ่งได้ให้แนวคิดสุดยอดอันนี้ 
+สิ่งที่ผมต้องทำคือเข้าใจความหมายและสิ่งที่จะตามมา</para>
+
 <blockquote><para>11. The next best thing to having good ideas is
         recognizing good ideas from your users.  Sometimes the latter
         is better.</para></blockquote>
+
+<blockquote><para>11. สิ่งที่ดีที่สุดรองจากการมีแนวคิดดีๆ 
+        ก็คือการตระหนักถึงแนวคิดที่ดีจากผู้ใช้ของคุณ บางครั้ง 
+        การตระหนักดังกล่าวก็ถือว่าสำคัญกว่า</para></blockquote>
 
 <para>Interestingly enough, you will quickly find that if you are completely
 and self-deprecatingly truthful about how much you owe other people,
@@ -1586,11 +1627,22 @@ the world at large will treat you as though you did every bit of the
 invention yourself and are just being becomingly modest about your
 innate genius.  We can all see how well this worked for Linus! </para>
 
+<para>สิ่งที่น่าสนใจตามมาคือ คุณจะค้นพบอย่างรวดเร็ว 
+ว่าถ้าคุณซื่อสัตย์กับการบอกว่าได้แนวคิดมาจากผู้ใช้มากเท่าไร 
+โลกภายนอกยิ่งจะมองว่าคุณเป็นคนสร้างสิ่งนั้นขึ้นมาเองทุกกระเบียดนิ้ว 
+และมองคุณว่าเป็นอัจฉริยะที่ถ่อมตัว ดูอย่างไลนัสสิ!</para>
+
 <para>(When I gave my talk at the first Perl Conference in August
 1997, hacker extraordinaire Larry Wall was in the front row.  As I got
 to the last line above he called out, religious-revival style, ``Tell
 it, tell it, brother!''.  The whole audience laughed, because they
 knew this had worked for the inventor of Perl, too.)</para>
+
+<para>(ตอนที่ผมพูดบนเวทีในงาน Perl Conference เดือนสิงหาคมปี 1997 ลาร์รี วอลล์ 
+แฮ็กเกอร์ผู้ยิ่งยงนั่งอยู่แถวหน้า เมื่อผมพูดถึงเรื่องในย่อหน้าที่ผ่านมา 
+เขาตะโกนขึ้นราวกับเสียงปลุกเร้าของนักบุญ ว่า "บอกเขาไป บอกเขาไปให้หมด เพื่อน!" 
+ผู้ฟังทั้งหมดหัวเราะครืน เพราะรู้ว่าเรื่องนี้เกิดกับเขาซึ่งเป็นผู้สร้างภาษา 
+Perl ด้วย)</para>
 
 <para>After a very few weeks of running the project in the same spirit,
 I began to get similar praise not just from my users but from other
@@ -1598,12 +1650,24 @@ people to whom the word leaked out.  I stashed away some of that
 email; I'll look at it again sometime if I ever start wondering
 whether my life has been worthwhile :-).</para>
 
+<para>สองสามสัปดาห์จากการทำงานโครงการนี้ด้วยแนวคิดเดียวกัน 
+ผมเริ่มได้รับการยกย่องคล้ายๆ กันนี้ ไม่ใช่แค่จากผู้ใช้ของผม แต่ยังมาจากคนอื่นๆ 
+ที่ได้ยินเรื่องของโครงการด้วย ผมซุกเมลเหล่านั้นบางฉบับออกไป 
+ผมอาจจะหยิบกลับมาอ่านในบางครั้ง 
+ถ้าเกิดสงสัยขึ้นมาว่าชีวิตผมมีค่าหรือเปล่า :-)</para>
+
 <para>But there are two more fundamental, non-political lessons here that
 are general to all kinds of design.</para>
+
+<para>แต่ยังมีบทเรียนพื้นฐานที่ไม่เกี่ยวกับการเมืองอีกสองข้อ 
+ที่เกี่ยวกับการออกแบบทุกชนิดโดยทั่วไป</para>
 
 <blockquote><para>12. Often, the most striking and innovative
         solutions come from realizing that your concept of the problem
         was wrong.</para></blockquote>
+
+<blockquote><para>12. บ่อยครั้งที่วิธีการที่เฉียบแหลมและแปลกใหม่ 
+        จะมาจากการตระหนักว่า คุณมองปัญหานั้นผิดมาตลอด</para></blockquote>
 
 <para>I had been trying to solve the wrong problem by continuing to
 develop popclient as a combined MTA/MDA with all kinds of funky local
@@ -1611,16 +1675,31 @@ delivery modes.  Fetchmail's design needed to be rethought from the
 ground up as a pure MTA, a part of the normal SMTP-speaking Internet
 mail path.</para>
 
+<para>ผมเคยพยายามแก้ปัญหาผิดประเด็น โดยการพัฒนา popclient ให้เป็นทั้ง MTA/MDA 
+ในตัวเดียวกันต่อไป พร้อมกับโหมดการกระจายเมลแบบต่างๆ ภายในเครื่อง แต่การออกแบบ 
+fetchmail ต้องเริ่มคิดใหม่แต่ต้นให้เป็น MTA ล้วนๆ 
+โดยเป็นส่วนหนึ่งของเส้นทางเมลในอินเทอร์เน็ตผ่านโพรโทคอล SMTP</para>
+
 <para>When you hit a wall in development&mdash;when you find yourself hard put
 to think past the next patch&mdash;it's often time to ask not whether
 you've got the right answer, but whether you're asking the right
 question.  Perhaps the problem needs to be reframed.</para>
+
+<para>เมื่อคุณเจอทางตันในการพัฒนา เมื่อคุณพบว่าตัวเองต้องคิดหนักกับแพตช์ถัดไป 
+ก็มักจะเป็นเวลาที่จะเลิกถามตัวเองว่า ``ได้คำตอบที่ถูกต้องหรือยัง'' 
+แต่ควรจะถามใหม่ว่า ``ตั้งคำถามถูกหรือเปล่า'' บางทีก็อาจต้องนิยามปัญหาใหม่</para>
 
 <para>Well, I had reframed my problem.  Clearly, the right thing to do was
 (1) hack SMTP forwarding support into the generic driver, (2) make it
 the default mode, and (3) eventually throw out all the other delivery
 modes, especially the deliver-to-file and deliver-to-standard-output
 options.</para>
+
+<para>เอาล่ะ ผมได้มองปัญหาของผมใหม่ ชัดเจนว่าสิ่งที่ควรทำคือ (1) 
+เพิ่มการส่งเมลต่อไปยัง SMTP เข้าไปในไดรเวอร์ทั่วไป (2) ทำให้มันเป็นโหมดปริยาย 
+และ (3) เอาโหมดอื่นๆ ออกไปในที่สุด โดยเฉพาะ โหมดกระจายไปยังแฟ้ม 
+(deliver-to-file) และโหมดกระจายไปยังเอาต์พุตมาตรฐาน 
+(deliver-to-standard-output)</para>
 
 <para>I hesitated over step 3 for some time, fearing to upset
 long-time popclient users dependent on the alternate delivery
@@ -1629,10 +1708,22 @@ mechanisms.  In theory, they could immediately switch to
 to get the same effects.  In practice the transition might have been
 messy.</para>
 
+<para>ผมลังเลที่จะทำขั้นที่ 3 อยู่ระยะหนึ่ง เพราะกลัวว่าจะทำให้ผู้ที่ใช้ 
+popclient มานานที่อาจจะใช้วิธีกระจายเมลแบบอื่นอยู่ไม่พอใจ ตามทฤษฎีแล้ว 
+เขาสามารถเปลี่ยนไปแก้แฟ้ม <filename>.forward</filename> (หรือแฟ้มอื่นๆ 
+ที่เทียบเท่าถ้าไม่ใช้ sendmail) ได้ทันที โดยได้ผลเหมือนเดิม 
+แต่ในทางปฏิบัติ การเปลี่ยนดังกล่าวอาจจะยุ่งยาก</para>
+
 <para>But when I did it, the benefits proved huge.  The cruftiest parts of
 the driver code vanished.  Configuration got radically simpler&mdash;no
 more grovelling around for the system MDA and user's mailbox, no more
 worries about whether the underlying OS supports file locking.</para>
+
+<para>แต่เมื่อผมได้ทำจริงๆ ผลที่ได้นั้นดีมาก 
+ส่วนที่ยุ่งที่สุดของไดรเวอร์ถูกตัดออกไป 
+การปรับแต่งค่าทำได้ง่ายขึ้นอย่างเห็นได้ชัด ไม่จำเป็นต้องไปยุ่งกับทั้ง MDA 
+และกล่องเมลของผู้ใช้อีกต่อไป ไม่ต้องกังวลว่า OS 
+ที่ใช้อยู่สนับสนุนการล็อคแฟ้มหรือเปล่า</para>
 
 <para>Also, the only way to lose mail vanished.  If you specified delivery
 to a file and the disk got full, your mail got lost.  This can't
@@ -1640,32 +1731,63 @@ happen with SMTP forwarding because your SMTP listener won't return OK
 unless the message can be delivered or at least spooled for later
 delivery.</para>
 
+<para>นอกจากนั้น โอกาสเดียวที่จะทำเมลหายก็หมดไปอีกด้วย เดิมที 
+ถ้าคุณระบุให้กระจายไปยังแฟ้ม (delivery-to-file) และเนื้อที่ดิสก์เกิดเต็มขึ้นมา 
+เมลนั้นจะหายไป แต่สิ่งนี้จะไม่เกิดขึ้นกับการส่งต่อไปยัง SMTP 
+เพราะว่าโปรแกรมรับเมลแบบ SMTP จะไม่ยอมตกลงจนกว่าเมลจะถูกกระจายไปเรียบร้อย 
+หรืออย่างน้อยก็ส่งเข้าที่พักไว้ รอการกระจายต่อในภายหลัง</para>
+
 <para>Also, performance improved (though not so you'd notice it in a single
 run).  Another not insignificant benefit of this change was that the
 manual page got a lot simpler.</para>
 
+<para>เรื่องประสิทธิภาพก็ยังสูงขึ้นอีกด้วย (แม้จะไม่รู้สึกในการทำงานครั้งเดียว) 
+ผลดีอีกอย่างที่ไม่สำคัญเท่าไร คือคู่มือวิธีใช้ (man page) ดูง่ายลงมาก</para>
+
 <para>Later, I had to bring delivery via a user-specified local MDA
 back in order to allow handling of some obscure situations involving
 dynamic SLIP.  But I found a much simpler way to do it.</para>
+
+<para>ต่อมาภายหลัง ผมต้องนำส่วนกระจายเมลผ่าน MDA ที่ผู้ใช้กำหนดกลับมาอีก 
+เพื่อจัดการกับบางสถานการณ์ที่เกี่ยวกับ SLIP 
+แต่ผมพบวิธีที่ง่ายกว่าเดิมมากในการเพิ่มมันเข้าไป</para>
 
 <para>The moral?  Don't hesitate to throw away superannuated features
 when you can do it without loss of effectiveness.  Antoine de
 Saint-Exup&eacute;ry (who was an aviator and aircraft designer when he
 wasn't authoring classic children's books) said:</para>
 
+<para>คติของเรื่องนี้น่ะหรือ? อย่าลังเลที่จะทิ้งความสามารถที่หมดอายุแล้ว 
+เมื่อคุณพบว่าคุณสามารถทำได้โดยผลลัพธ์ยังเท่าเดิม อังตวน เดอ แซง-เตกซูเปรี 
+(ผู้เป็นนักบินและนักออกแบบเครื่องบิน 
+ในช่วงที่ไม่ได้เขียนหนังสือคลาสสิกสำหรับเด็ก) กล่าวไว้ว่า:</para>
+
 <blockquote><para>13. ``Perfection (in design) is achieved not when
      there is nothing more to add, but rather when there is nothing
      more to take away.''</para></blockquote>
+
+<blockquote><para>13. ``ความสมบูรณ์แบบ (ในการออกแบบ) 
+     จะได้มาไม่ใช่เมื่อไม่มีอะไรจะเพิ่ม 
+     แต่จะได้มาเมื่อไม่มีอะไรจะเอาออกต่างหาก''</para></blockquote>
 
 <para>When your code is getting both better and simpler, that is when you
 <emphasis>know</emphasis> it's right.  And in the process, the fetchmail
 design acquired an identity of its own, different from the ancestral
 popclient.</para>
 
+<para>เมื่อโค้ดขของคุณดีขึ้นและเรียบง่ายขึ้น เมื่อนั้นแหละที่คุณจะรู้สึกว่ามัน 
+<emphasis>ใช่</emphasis> และในกระบวนการนี้ การออกแบบของ fetchmail 
+ได้สร้างเอกลักษณ์ของตัวเอง ซึ่งแตกต่างไปจาก popclient เดิม</para>
+
 <para>It was time for the name change.  The new design looked much more like
 a dual of sendmail than the old popclient had; both are MTAs, but
 where sendmail pushes then delivers, the new popclient pulls then
 delivers.  So, two months off the blocks, I renamed it fetchmail.</para>
+
+<para>มันถึงเวลาที่จะเปลี่ยนชื่อซะที การออกแบบแบบใหม่ดูเหมือนกับเป็นคู่ของ 
+sendmail มากกว่าที่ popclient เดิมเคยเป็น โปรแกรมทั้งคู่เป็น MTA แต่ในขณะที่ 
+sendmail จะผลักออกไปแล้วกระจาย แต่ popclient ตัวใหม่จะดึงเข้ามาแล้วกระจาย 
+สองเดือนถัดมา ผมเปลี่ยนชื่อมันเป็น fetchmail</para>
 
 <para>There is a more general lesson in this story about how SMTP
 delivery came to fetchmail.  It is not only debugging that is
@@ -1675,6 +1797,13 @@ rapidly iterative, development and enhancement may become special
 cases of debugging&mdash;fixing `bugs of omission' in the original
 capabilities or concept of the software.</para>
 
+<para>มีบทเรียนทั่วๆ ไปอีกข้อจากเรื่องเกี่ยวกับวิธีที่การกระจายเมลแบบ SMTP 
+กลายมาเป็น fetchmail นี้ คือบทเรียนที่ว่า ไม่ใช่แค่การตรวจบั๊กเท่านั้น 
+ที่ทำขนานกันได้ แต่การพัฒนาและการสำรวจความเป็นไปได้ของการออกแบบก็ทำขนานได้ 
+(ในระดับที่น่าประหลาดใจ) เช่นกัน เมื่อการพัฒนาของคุณมีรูปแบบวนรอบอย่างรวดเร็ว 
+การพัฒนาและเพิ่มความสามารถจะกลายเป็นการแก้บั๊กกรณีพิเศษ นั่นคือ 
+`บั๊กเนื่องจากสิ่งที่ขาดไป' ในคุณสมบัติหรือแนวคิดเริ่มแรกของตัวซอฟต์แวร์</para>
+
 <para>Even at a higher level of design, it can be very valuable to
 have lots of co-developers random-walking through the design space
 near your product. Consider the way a puddle of water finds a drain,
@@ -1683,6 +1812,14 @@ diffusion, followed by exploitation mediated by a scalable
 communication mechanism. This works very well; as with Harry
 Hochheiser and me, one of your outriders may well find a huge win
 nearby that you were just a little too close-focused to see.</para>
+
+<para>แม้กับการออกแบบระดับบน 
+การมีผู้ร่วมพัฒนาจำนวนมากเดินผ่านการออกแบบของคุณในทิศทางต่างๆ 
+ก็ยังมีประโยชน์มากๆ ลองคิดถึงการที่ก้อนน้ำหาทางไหลจนลงท่อ หรือมดที่หาอาหาร 
+ต่างเป็นการสำรวจโดยใช้การแพร่กระจาย 
+ตามด้วยการช่วงใช้ที่จัดการผ่านกลไกการสื่อสาร วิธีนี้ใช้การได้ดีมาก 
+เหมือนกับที่ผมและ Harry Hochheiser ทำ ใครบางคนจากภายนอก 
+อาจพบสิ่งสุดยอดที่อยู่ใกล้ๆ ตัวคุณ ที่คุณอยู่ใกล้เกินกว่าจะมองเห็นก็ได้</para>
 
 </sect1>
 <sect1><title>Fetchmail Grows Up</title>
