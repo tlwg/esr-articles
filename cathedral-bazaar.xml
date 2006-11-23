@@ -20,7 +20,7 @@
     </address>
   </affiliation>
 </author>
-<pubdate role="cvs">$Date: 2006-11-22 12:00:51 $</pubdate>
+<pubdate role="cvs">$Date: 2006-11-23 06:18:10 $</pubdate>
 <releaseinfo>This is version 3.0</releaseinfo>
 <copyright>
   <year>2000</year>
@@ -1822,7 +1822,8 @@ nearby that you were just a little too close-focused to see.</para>
 อาจพบสิ่งสุดยอดที่อยู่ใกล้ๆ ตัวคุณ ที่คุณอยู่ใกล้เกินกว่าจะมองเห็นก็ได้</para>
 
 </sect1>
-<sect1><title>Fetchmail Grows Up</title>
+<!-- Fetchmail Grows Up -->
+<sect1><title>Fetchmail เติบโต</title>
 
 <para>There I was with a neat and innovative design, code that I knew
 worked well because I used it every day, and a burgeoning beta list.
@@ -1831,10 +1832,23 @@ personal hack that might happen to be useful to few other people.  I
 had my hands on a program that every hacker with a Unix box and a
 SLIP/PPP mail connection really needs.</para>
 
+<para>แล้วผมก็อยู่กับการออกแบบที่เนี้ยบและมีนวัตกรรม 
+อยู่กับโค้ดที่ผมรู้ว่าทำงานได้ดี เพราะผมใช้อยู่ทุกวัน 
+และอยู่กับผู้ทดสอบเบต้าที่เพิ่มขยายขึ้นเรื่อยๆ ผมเริ่มรู้สึกทีละนิด 
+ว่าผมไม่ได้ผูกพันกับการแฮ็กเล็กๆ น้อยๆ 
+ของตัวเองที่อาจจะบังเอิญมีประโยชน์กับคนอื่นบางคนอีกต่อไป 
+แต่ผมกำลังเขียนโปรแกรมที่แฮ็กเกอร์ที่ใช้ยูนิกซ์และอ่านเมลผ่าน SLIP/PPP 
+ทุกคนต้องมี</para>
+
 <para>With the SMTP forwarding feature, it pulled far enough in front of the
 competition to potentially become a ``category killer'', one of those
 classic programs that fills its niche so competently that the
 alternatives are not just discarded but almost forgotten.</para>
+
+<para>ด้วยความสามารถส่งเมลต่อไปยัง SMTP ทำให้ fetchmail 
+นำหน้าคู่แข่งไปไกลจนถึงขั้นสามารถเป็น ``killer'' 
+หรือโปรแกรมคลาสสิกที่เติมช่องว่างได้อย่างเฉียบขาด 
+จนทำให้ตัวเลือกอื่นไม่ใช่แค่ถูกทิ้งไป แต่แทบจะถูกลืมไปเลย</para>
 
 <para>I think you can't really aim or plan for a result like this.  You have
 to get pulled into it by design ideas so powerful that afterward the
@@ -1842,6 +1856,14 @@ results just seem inevitable, natural, even foreordained.  The only
 way to try for ideas like that is by having lots of ideas&mdash;or by
 having the engineering judgment to take other peoples' good ideas
 beyond where the originators thought they could go.</para>
+
+<para>ผมคิดว่าคุณไม่อาจจะตั้งเป้าหรือวางแผนเพื่อให้โปรแกรมมาถึงจุดนี้ได้เลย 
+คุณต้องเป็นไปเอง 
+ด้วยแนวคิดการออกแบบที่ทรงพลังพอที่ผลลัพธ์ที่ออกมาจะกลายเป็นสิ่งที่เลี่ยงไม่ได้ 
+เป็นธรรมชาติ หรือแม้แต่เหมือนถูกลิขิตไว้ 
+วิธีเดียวที่จะได้สุดยอดแนวคิดอย่างนั้นมา คือต้องมีความคิดจำนวนมาก 
+หรือไม่ก็มีวิจารณญาณทางวิศวกรรมที่นำความคิดของผู้อื่นมาใช้ 
+โดยที่เจ้าของไม่นึกว่าจะนำมาใช้ได้ขนาดนี้</para>
 
 <para>Andy Tanenbaum had the original idea to build a simple native Unix for
 IBM PCs, for use as a teaching tool (he called it Minix).  Linus
@@ -1853,6 +1875,16 @@ in the romantic way people think is genius.  But then, most science
 and engineering and software development isn't done by original
 genius, hacker mythology to the contrary.</para>
 
+<para>แอนดี้ ทาเนนบอม มีความคิดเริ่มแรกคือสร้างยูนิกซ์ง่ายๆ สำหรับ IBM PC 
+โดยเฉพาะ เพื่อใช้เป็นตัวอย่างในการสอนหนังสือ (เขาเรียกมันว่ามินิกซ์) ไลนัส 
+ทอร์วัลด์ ผลักดันแนวคิดของมินิกซ์ต่อไปจนไกลเกินกว่าที่แอนดี้จะเคยนึกถึง 
+และมันก็กลายเป็นสิ่งมหัศจรรย์ ในทำนองเดียวกัน (แต่ขนาดเล็กกว่า) 
+ผมนำแนวคิดบางอย่างของ คาร์ล แฮร์ริส และ Harry Hochheiser มาใช้ 
+แล้วผลักดันต่ออย่างจริงจัง ในบรรดาพวกเรา ไม่มีใครสักคนที่เป็น `ต้นตำรับ' 
+ในแบบที่ผู้คนนึกฝันว่าเป็นอัจฉริยะเลย แต่จริงๆ แล้วผลงานทางวิทยาศาสตร์ วิศวกรรม 
+และการพัฒนาซอฟต์แวร์นั้น ส่วนมากไม่ได้เกิดจากอัจฉริยะที่เป็นต้นตำรับเลย 
+เรื่องพวกนั้นเป็นตำนานปรัมปราของแฮ็กเกอร์เสียมากกว่า</para>
+
 <para>The results were pretty heady stuff all the same&mdash;in fact, just the
 kind of success every hacker lives for!  And they meant I would have
 to set my standards even higher.  To make fetchmail as good as I now
@@ -1860,10 +1892,23 @@ saw it could be, I'd have to write not just for my own needs, but also
 include and support features necessary to others but outside my orbit.
 And do that while keeping the program simple and robust.</para>
 
+<para>ผลลัพธ์ที่ออกมาร้อนแรงพอๆ กัน จะว่าไปแล้ว 
+ก็เป็นความสำเร็จชนิดที่แฮ็กเกอร์ทุกคนฝันถึงเลย และนั่นหมายความว่า 
+ผมต้องตั้งมาตรฐานของตัวเองให้สูงขึ้น และในการทำให้ fetchmail 
+ดีได้อย่างที่ผมมองเห็นความเป็นไปได้นี้ 
+นอกจากผมจะต้องเขียนเพื่อสนองความต้องการของตัวเองแล้ว 
+ยังต้องเพิ่มความสามารถที่คนอื่นที่อยู่นอกแวดวงของผมต้องการอีกด้วย 
+ในขณะเดียวกัน ก็ต้องรักษาตัวโปรแกรมให้เรียบง่ายและแน่นหนาดังเดิมด้วย</para>
+
 <para>The first and overwhelmingly most important feature I wrote after
 realizing this was multidrop support&mdash;the ability to fetch mail from
 mailboxes that had accumulated all mail for a group of users, and then
 route each piece of mail to its individual recipients.</para>
+
+<para>ความสามารถสำคัญอันแรกที่ผมเพิ่มเข้ามาหลังจากตระหนักถึงความจริงข้างต้น 
+คือการสนับสนุน multidrop 
+หรือความสามารถที่จะดึงเมลจากกล่องเมลรวมที่รวมเมลของผู้ใช้กลุ่มหนึ่ง 
+ไปกระจายให้กับผู้ใช้แต่ละคนตามที่จ่าหน้าในเมล</para>
 
 <para>I decided to add the multidrop support partly because some users
 were clamoring for it, but mostly because I thought it would shake
@@ -1874,12 +1919,28 @@ url="http://info.internet.isi.edu:80/in-notes/rfc/files/rfc822.txt">RFC
 because any individual piece of it is hard but because it involved a
 pile of interdependent and fussy details.</para>
 
+<para>ผมตัดสินใจที่จะเพิ่มการสนับสนุน multidrop 
+ส่วนหนึ่งเพราะมีผู้ใช้จำนวนหนึ่งเรียกร้อง แต่สาเหตุสำคัญคือ 
+ผมคาดว่ามันจะช่วยแก้บั๊กต่างๆ ในโค้ดส่วน single drop ออกไปด้วย 
+เพราะจะเป็นการบังคับให้ผมมาสนใจกับการจัดการเรื่องที่อยู่เมลในรูปทั่วไปจริงๆ 
+เสียที และมันก็เป็นอย่างที่ผมคิด การแจงที่อยู่เมลแบบ <ulink 
+url="http://info.internet.isi.edu:80/in-notes/rfc/files/rfc822.txt">RFC 
+822</ulink> ให้ถูกต้อง กินเวลาของผมไปมาก ไม่ใช่เพราะว่าโค้ดของมันยาก 
+แต่มันมีรายละเอียดที่เกี่ยวพันกันค่อนข้างเยอะ</para>
+
 <para>But multidrop addressing turned out to be an excellent design decision
 as well.  Here's how I knew:</para>
+
+<para>แต่การเพิ่มการจัดการที่อยู่เมลแบบ multidrop เข้ามานั้น 
+กลายเป็นการตัดสินใจที่ยอดเยี่ยมเกี่ยวกับการออกแบบ ตอนนี้ผมรู้ว่า:</para>
 
 <blockquote><para>14. Any tool should be useful in the expected way,
         but a truly great tool lends itself to uses you never
         expected.</para></blockquote>
+
+<blockquote><para>14. เครื่องมือทั่วไปจะใช้ประโยชน์ได้ตามที่ตั้งใจไว้ 
+        แต่เครื่องมือที่ยอดเยี่ยมจริงๆ 
+        จะสามารถใช้ไปในทางที่ไม่ได้ตั้งใจไว้ได้ด้วย</para></blockquote>
 
 <para>The unexpected use for multidrop fetchmail is to run mailing
 lists with the list kept, and alias expansion done, on the
@@ -1887,6 +1948,13 @@ lists with the list kept, and alias expansion done, on the
 means someone running a personal machine through an ISP account can
 manage a mailing list without continuing access to the ISP's alias
 files.</para>
+
+<para>การใช้ fetchmail แบบ multidrop ที่คาดไม่ถึง 
+คือใช้ทำเมลลิ่งลิสต์ โดยเก็บรายชื่อสมาชิกและกระจายเมลในฝั่ง 
+<emphasis>เครื่องลูกข่าย</emphasis> ของการเชื่อมต่ออินเทอร์เน็ต 
+ซึ่งหมายความว่า ใครก็ตามที่มีเครื่องต่อกับอินเทอร์เน็ตผ่านบัญชีของ ISP 
+ก็สามารถจัดการกับเมลลิ่งลิสต์ได้ โดยไม่ต้องอาศัยแฟ้ม alias ในฝั่งของ ISP 
+เลย</para>
 
 <para>Another important change demanded by my beta-testers was support
 for 8-bit MIME (Multipurpose Internet Mail Extensions) operation.
@@ -1896,10 +1964,22 @@ ASCII character set, into service to carry information within the
 program).  Not because I anticipated the demand for this feature, but
 rather in obedience to another rule:</para>
 
+<para>การเปลี่ยนแปลงที่สำคัญอีกอย่างที่นักทดสอบของผมเรียกร้องคือ สนับสนุน MIME 
+(Multipurpose Internet Mail Extensions) แบบ 8 บิต ซึ่งอันนี้ทำค่อนข้างง่าย 
+เพราะผมได้ระวังให้โค้ดทำงานแบบ 8 บิตได้มาตั้งแต่ต้น (กล่าวคือ 
+โดยไม่พยายามใช้งานบิตที่ 8 ที่ไม่ได้ใช้ในรหัส ASCII มาเก็บข้อมูลในโปรแกรม) 
+ที่ผมทำเช่นนี้ไม่ใช่เป็นเพราะคาดไว้ก่อนว่าจะต้องเพิ่มความสามารถนี้ 
+แต่เป็นเพราะผมทำตามกฎอีกข้อหนึ่ง:</para>
+
 <blockquote><para>15. When writing gateway software of any kind, take
         pains to disturb the data stream as little as possible&mdash;and
         <emphasis>never</emphasis> throw away information unless the
         recipient forces you to!</para></blockquote>
+
+<blockquote><para>15. เมื่อจะเขียนโปรแกรมที่เกี่ยวกับทางผ่านของข้อมูล 
+        (gateway) ใดๆ พึงหลีกเลี่ยงการเปลี่ยนแปลงกระแสข้อมูลให้มากที่สุด และ 
+        <emphasis>ห้าม</emphasis> ทิ้งข้อมูลทุกชนิด 
+        ยกเว้นผู้รับจะบังคับให้ทำเช่นนั้น!</para></blockquote>
 
 <para>Had I not obeyed this rule, 8-bit MIME support would have been
 difficult and buggy.  As it was, all I had to do is read the MIME
@@ -1907,12 +1987,23 @@ standard (<ulink
 url="http://info.internet.isi.edu:80/in-notes/rfc/files/rfc1652.txt">RFC
 1652</ulink>) and add a trivial bit of header-generation logic.</para>
 
+<para>ถ้าผมไม่ปฏิบัติตามกฎนี้ การสนับสนุน MIME แบบ 8 บิตจะยากและเต็มไปด้วยบั๊ก 
+แต่สิ่งที่ผมต้องทำจริงๆ ก็แค่อ่านมาตรฐานของ MIME (<ulink 
+url="http://info.internet.isi.edu:80/in-notes/rfc/files/rfc1652.txt">RFC 
+1652</ulink>) และเพิ่มส่วนแก้ไขข้อมูลส่วนหัวนิดเดียว</para>
+
 <para>Some European users bugged me into adding an option to limit the
 number of messages retrieved per session (so they can control costs
 from their expensive phone networks).  I resisted this for a long
 time, and I'm still not entirely happy about it.  But if you're
 writing for the world, you have to listen to your customers&mdash;this
 doesn't change just because they're not paying you in money.</para>
+
+<para>ผู้ใช้บางคนจากยุโรปเรียกร้องให้ผมเพิ่มตัวเลือกในการจำกัดจำนวนเมลที่จะดึงในแต่ละครั้ง 
+(เพื่อที่พวกเขาจะได้สามารถควบคุมค่าโทรศัพท์ได้) ผมปฏิเสธเรื่องนี้เป็นเวลานาน 
+และผมก็ยังไม่ชอบความสามารถนี้เท่าไรนัก แต่ถ้าคุณเขียนโปรแกรมให้โลกใช้ 
+คุณต้องฟังเสียงของผู้ใช้ 
+เงื่อนไขนี้ไม่ได้เปลี่ยนแปลงเพียงเพราะเขาไม่ได้ได้จ่ายคุณเป็นตัวเงิน</para>
 
 </sect1>
 <sect1><title>A Few More Lessons from Fetchmail</title>
