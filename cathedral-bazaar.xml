@@ -20,7 +20,7 @@
     </address>
   </affiliation>
 </author>
-<pubdate role="cvs">$Date: 2006-11-23 06:18:10 $</pubdate>
+<pubdate role="cvs">$Date: 2006-11-23 08:34:19 $</pubdate>
 <releaseinfo>This is version 3.0</releaseinfo>
 <copyright>
   <year>2000</year>
@@ -2006,27 +2006,48 @@ doesn't change just because they're not paying you in money.</para>
 เงื่อนไขนี้ไม่ได้เปลี่ยนแปลงเพียงเพราะเขาไม่ได้ได้จ่ายคุณเป็นตัวเงิน</para>
 
 </sect1>
-<sect1><title>A Few More Lessons from Fetchmail</title>
+<!-- A Few More Lessons from Fetchmail -->
+<sect1><title>บทเรียนเพิ่มเติมจาก Fetchmail</title>
 
 <para>Before we go back to general software-engineering issues, there are
 a couple more specific lessons from the fetchmail experience to
 ponder.  Nontechnical readers can safely skip this section.</para>
+
+<para>ก่อนที่เราจะกลับไปสู่ประเด็นเกี่ยวกับวิศวกรรมซอฟต์แวร์ทั่วไป 
+ยังมีบทเรียนให้ตรึกตรองอีกนิดหน่อยจากประสบการณ์ของ fetchmail โดยเฉพาะ 
+ผู้อ่านที่ไม่มีพื้นฐานทางเทคนิคสามารถข้ามหัวข้อนี้ไปได้</para>
 
 <para>The rc (control) file syntax includes optional `noise' keywords that are
 entirely ignored by the parser.  The English-like syntax they allow is
 considerably more readable than the traditional terse keyword-value
 pairs you get when you strip them all out.</para>
 
+<para>ไวยากรณ์ของแฟ้ม rc (แฟ้มควบคุม) มีคำแทรกที่จะใส่หรือไม่ก็ได้ 
+ซึ่งตัวแจงจะไม่สนใจ ไวยากรณ์ที่คล้ายภาษาอังกฤษที่เกิดจากคำแทรกดังกล่าว 
+ทำให้อ่านง่ายกว่าการใช้คู่ คำหลัก-ค่า 
+ที่สั้นห้วนตามแบบฉบับที่คุณจะได้เมื่อตัดคำแทรกเหล่านั้นออกไป</para>
+
 <para>These started out as a late-night experiment when I noticed how
 much the rc file declarations were beginning to resemble an imperative
 minilanguage.  (This is also why I changed the original popclient
 ``server'' keyword to ``poll'').</para>
+
+<para>แนวคิดดังกล่าว เริ่มจากการทดลองอะไรเล่นๆ ตอนดึก 
+หลังจากที่ผมสังเกตว่ารูปแบบการประกาศในแฟ้ม rc ชักจะเริ่มคล้ายประโยคคำสั่งย่อยๆ 
+(นี่เป็นเหตุผลที่ผมเปลี่ยนคำหลัก ``server'' ของ popclient ไปเป็น 
+``poll'')</para>
 
 <para>It seemed to me that trying to make that imperative minilanguage more
 like English might make it easier to use.  Now, although I'm a
 convinced partisan of the ``make it a language'' school of design as
 exemplified by Emacs and HTML and many database engines, I am
 not normally a big fan of ``English-like'' syntaxes.</para>
+
+<para>ผมรู้สึกว่าการพยายามทำประโยคคำสั่งย่อยๆ 
+ให้คล้ายภาษามนุษย์อาจทำให้มันใช้ง่ายขึ้น ทุกวันนี้ 
+แม้ผมจะอยู่ฝ่ายสนับสนุนค่ายการออกแบบที่ ``ทำให้มันเป็นภาษา'' อย่างที่มี Emacs 
+และ HTML และโปรแกรมจัดการฐานข้อมูลหลายตัวเป็นตัวอย่าง แต่โดยปกติ 
+ผมก็ไม่ได้นิยมไวยากรณ์ที่ ``คล้ายภาษามนุษย์'' มากมายนัก</para>
 
 <para>Traditionally programmers have tended to favor control syntaxes
 that are very precise and compact and have no redundancy at all.  This
@@ -2035,11 +2056,25 @@ parsing stages had to be as cheap and simple as possible.  English,
 with about 50% redundancy, looked like a very inappropriate model
 then.</para>
 
+<para>โดยธรรมเนียมแล้ว 
+โปรแกรมเมอร์มีแนวโน้มที่จะชอบไวยากรณ์ควบคุมที่เที่ยงตรงและกระชับ 
+และไม่มีส่วนเกินอยู่เลย 
+นี่เป็นมรดกทางวัฒนธรรมจากยุคที่ทรัพยากรการคำนวณมีราคาแพง 
+ซึ่งทำให้ขั้นตอนการแจงต้องประหยัดและง่ายที่สุดเท่าที่จะทำได้ 
+ภาษามนุษย์ซึ่งมีส่วนเกินราว 50% จึงไม่ใช่รูปแบบที่เหมาะสมในขณะนั้น</para>
+
 <para>This is not my reason for normally avoiding English-like syntaxes; I
 mention it here only to demolish it.  With cheap cycles and core,
 terseness should not be an end in itself.  Nowadays it's more
 important for a language to be convenient for humans than to be cheap
 for the computer.</para>
+
+<para>นี่ไม่ใช่เหตุผลที่โดยปกติผมพยายามหลีกเลี่ยงไวยากรณ์ที่คล้ายภาษามนุษย์ 
+ผมยกเหตุผลดังกล่าวขึ้นมาในที่นี้เพียงเพื่อจะหักล้างเท่านั้น 
+ด้วยพลังคำนวณและหน่วยความจำที่ถูกลง 
+ความสั้นห้วนก็ไม่ควรจะเป็นคำตอบสุดท้ายอีกต่อไป ทุกวันนี้ 
+สิ่งที่สำคัญกว่าสำหรับภาษา ก็คือความสะดวกต่อมนุษย์ 
+ไม่ใช่ความง่ายสำหรับคอมพิวเตอร์</para>
 
 <para>There remain, however, good reasons to be wary.  One is the complexity
 cost of the parsing stage&mdash;you don't want to raise that to the point
@@ -2051,6 +2086,16 @@ confusing as a traditional syntax would have been.  (You see this bad
 effect in a lot of so-called ``fourth generation'' and commercial
 database-query languages.)</para>
 
+<para>อย่างไรก็ดี ยังมีเหตุผลที่ดีที่พึงระวัง 
+ข้อแรกคือความซับซ้อนของขั้นตอนการแจง 
+คุณคงไม่ต้องการจะให้ความสำคัญกับมันจนกลายมาเป็นแหล่งบั๊กแหล่งใหญ่ 
+หรือทำให้ผู้ใช้สับสน 
+อีกข้อหนึ่งคือการพยายามทำไวยากรณ์ของภาษาให้คล้ายภาษามนุษย์ มักจะติดข้อจำกัดว่า 
+``ภาษามนุษย์'' ที่ว่านั้น จะถูกดัดจนผิดรูปอย่างร้ายแรง 
+จนถึงขั้นที่ความคล้ายคลึงกับภาษาธรรมชาติอย่างผิวเผินจะน่าปวดหัวพอๆ 
+กับไวยากรณ์แบบเก่า (คุณจะพบผลร้ายดังกล่าวได้ในสิ่งที่เรียกว่า ภาษา 
+``รุ่นที่สี่'' และภาษาสืบค้นฐานข้อมูลเชิงพาณิชย์ต่างๆ)</para>
+
 <para>The fetchmail control syntax seems to avoid these problems
 because the language domain is extremely restricted.  It's nowhere
 near a general-purpose language; the things it says simply are not
@@ -2058,13 +2103,28 @@ very complicated, so there's little potential for confusion in moving
 mentally between a tiny subset of English and the actual control
 language.  I think there may be a broader lesson here:</para>
 
+<para>ไวยากรณ์ควบคุมของ fetchmail ดูจะหลีกเลี่ยงปัญหาดังกล่าว 
+เพราะกรอบของภาษาจะจำกัดอย่างมาก มันไม่มีอะไรคล้ายกับภาษาอเนกประสงค์เลย 
+สิ่งที่บรรยายเป็นเพียงสิ่งที่ไม่ซับซ้อน ดังนั้น 
+จึงมีแนวโน้มของความสับสนน้อยมากในการสลับไปมาระหว่างภาษามนุษย์ง่ายๆ 
+กับภาษาที่ใช้ควบคุมจริง ผมคิดว่า 
+เราน่าจะได้บทเรียนที่กว้างขึ้นสำหรับเรื่องนี้:</para>
+
 <blockquote><para>16. When your language is nowhere near
         Turing-complete, syntactic sugar can be your
         friend.</para></blockquote>
 
+<blockquote><para>16. ตราบใดที่ภาษาของคุณไม่ได้ซับซ้อนระดับภาษาทูริงสมบูรณ์ 
+        การเสริมแต่งไวยากรณ์ก็อาจช่วยคุณได้</para></blockquote>
+
 <para>Another lesson is about security by obscurity.  Some fetchmail users
 asked me to change the software to store passwords encrypted in the rc
 file, so snoopers wouldn't be able to casually see them.</para>
+
+<para>อีกบทเรียนหนึ่ง เป็นเรื่องเกี่ยวกับความนิรภัยโดยอาศัยความลึกลับ 
+(security by obscurity) ผู้ใช้ fetchmail 
+บางคนขอให้ผมแก้โปรแกรมให้เก็บรหัสผ่านในรูปที่เข้ารหัสลับในแฟ้ม rc 
+เพื่อไม่ให้ผู้บุกรุกอ่านรหัสผ่านได้ง่ายนัก</para>
 
 <para>I didn't do it, because this doesn't actually add protection.
 Anyone who's acquired permissions to read your rc file will
@@ -2072,12 +2132,25 @@ be able to run fetchmail as you anyway&mdash;and if it's your password
 they're after, they'd be able to rip the necessary decoder out of
 the fetchmail code itself to get it.</para>
 
+<para>ผมไม่ทำตามคำขอนั้น เพราะมันไม่ได้เพิ่มการปกป้องใดๆ เลย 
+ใครก็ตามที่ได้รับสิทธิ์อ่านแฟ้ม rc ของคุณ จะสามารถเรียกใช้ fetchmail 
+ในฐานะตัวคุณได้อยู่แล้ว และถ้าเขากำลังล่าหารหัสผ่านของคุณ 
+เขาก็สามารถถอดส่วนถอดรหัสออกจากโค้ดของ fetchmail เพื่ออ่านเอาก็ได้</para>
+
 <para>All <filename>.fetchmailrc</filename> password encryption would
 have done is give a false sense of security to people who don't think
 very hard.  The general rule here is:</para>
 
+<para>สิ่งที่จะได้จากการเข้ารหัสลับรหัสผ่านในแฟ้ม 
+<filename>.fetchmailrc</filename> 
+ก็คือการให้มายาภาพของความนิรภัยต่อผู้ที่ไม่ได้คิดอย่างถี่ถ้วน 
+กฎทั่วไปของเรื่องนี้ก็คือ:</para>
+
 <blockquote><para>17. A security system is only as secure as its
         secret.  Beware of pseudo-secrets.</para></blockquote>
+
+<blockquote><para>17. ระบบนิรภัยจะมีความนิรภัยเท่ากับความลับที่มันเก็บเท่านั้น 
+        พึงระวังความนิรภัยหลอกๆ</para></blockquote>
 
 </sect1>
 <sect1><title> Necessary Preconditions for the Bazaar Style</title>
