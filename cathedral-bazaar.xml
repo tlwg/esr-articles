@@ -20,7 +20,7 @@
     </address>
   </affiliation>
 </author>
-<pubdate role="cvs">$Date: 2006-11-23 13:19:11 $</pubdate>
+<pubdate role="cvs">$Date: 2006-11-24 14:50:28 $</pubdate>
 <releaseinfo>This is version 3.0</releaseinfo>
 <copyright>
   <year>2000</year>
@@ -30,6 +30,12 @@
   <year>2002</year>
   <holder role="markpeak@gmail.com">
     Isriya Paireepairit (Initial Thai translation)
+  </holder> 
+</copyright>
+<copyright>
+  <year>2002</year>
+  <holder role="arthit@gmail.com">
+    Arthit Suriyawongkul (Initial Thai translation)
   </holder> 
 </copyright>
 <copyright>
@@ -1046,7 +1052,7 @@ problematic.</para>
 (Debugging is parallelizable) 
 ถึงแม้การแก้บั๊กจะจำเป็นต้องให้ผู้ตรวจบั๊กสื่อสารกับนักพัฒนาที่เป็นผู้ประสานงาน 
 แต่บรรดาผู้ตรวจบั๊กด้วยกันเอง แทบไม่จำเป็นต้องประสานงานกันเลย ดังนั้น 
-จึงไม่เพิ่มความซับซ้อนและค่าใช้จ่ายในการจัดการเป็นทวีคูณเหมือนการเพิ่มนักพัฒนา
+จึงไม่เพิ่มความซับซ้อนและค่าโสหุ้ยในการจัดการเป็นอัตรากำลังสองเหมือนการเพิ่มนักพัฒนา
 </para>
 
 <para>In practice, the theoretical loss of efficiency due to duplication of
@@ -1245,7 +1251,7 @@ number of developers).</para>
 
 <para>กฎของบรูกส์สร้างขึ้นบนพื้นฐานของประสบการณ์ที่ว่า บั๊กต่างๆ 
 มีแนวโน้มที่จะหนีไม่พ้นเรื่องการเชื่อมต่อระหว่างโค้ดที่เขียนโดยคนกลุ่มต่างๆ 
-และค่าใช้จ่ายในการสื่อสาร/ประสานงานกันในโครงการ 
+และค่าโสหุ้ยในการสื่อสาร/ประสานงานกันในโครงการ 
 ก็มีแนวโน้มจะเพิ่มตามจำนวนการเชื่อมโยงระหว่างมนุษย์ ดังนั้น 
 ขนาดของปัญหาจึงโตตามจำนวนช่องทางสื่อสารระหว่างนักพัฒนา 
 ซึ่งแปรผันตรงกับกำลังสองของจำนวนนักพัฒนา (หรือพูดให้ละเอียดกว่านั้น 
@@ -1267,7 +1273,7 @@ Brooksian overhead. <link linkend="SU">[SU]</link> </para>
 กล่าวคือ ทุกคนจะพูดกับคนอื่นๆ ทุกคน แต่ในโครงการโอเพนซอร์ส 
 นักพัฒนารอบนอกต่างทำงานกับสิ่งที่กลายเป็นงานย่อยที่แบ่งทำขนานกันได้ 
 และมีปฏิสัมพันธ์กันเองน้อยมาก 
-การแก้ไขโค้ดและรายงานบั๊กต่างส่งเข้าสู่ทีมพัฒนาหลัก และค่าใช้จ่ายตามกฎของบรูกส์ 
+การแก้ไขโค้ดและรายงานบั๊กต่างส่งเข้าสู่ทีมพัฒนาหลัก และค่าโสหุ้ยตามกฎของบรูกส์ 
 ก็จะเกิดกับเฉพาะ <emphasis>ภายใน</emphasis> กลุ่มนักพัฒนาหลักกลุ่มเล็กๆ 
 นี้เท่านั้น <link linkend="SU">[SU]</link></para>
 
@@ -1760,7 +1766,7 @@ wasn't authoring classic children's books) said:</para>
 <para>คติของเรื่องนี้น่ะหรือ? อย่าลังเลที่จะทิ้งความสามารถที่หมดอายุแล้ว 
 เมื่อคุณพบว่าคุณสามารถทำได้โดยผลลัพธ์ยังเท่าเดิม อังตวน เดอ แซง-เตกซูเปรี 
 (ผู้เป็นนักบินและนักออกแบบเครื่องบิน 
-ในช่วงที่ไม่ได้เขียนหนังสือคลาสสิกสำหรับเด็ก) กล่าวไว้ว่า:</para>
+ในช่วงที่ไม่ได้เขียนหนังสืออมตะสำหรับเด็ก) กล่าวไว้ว่า:</para>
 
 <blockquote><para>13. ``Perfection (in design) is achieved not when
      there is nothing more to add, but rather when there is nothing
@@ -1847,7 +1853,7 @@ alternatives are not just discarded but almost forgotten.</para>
 
 <para>ด้วยความสามารถส่งเมลต่อไปยัง SMTP ทำให้ fetchmail 
 นำหน้าคู่แข่งไปไกลจนถึงขั้นสามารถเป็น ``killer'' 
-หรือโปรแกรมคลาสสิกที่เติมช่องว่างได้อย่างเฉียบขาด 
+หรือโปรแกรมอมตะที่เติมช่องว่างได้อย่างเฉียบขาด 
 จนทำให้ตัวเลือกอื่นไม่ใช่แค่ถูกทิ้งไป แต่แทบจะถูกลืมไปเลย</para>
 
 <para>I think you can't really aim or plan for a result like this.  You have
@@ -2332,20 +2338,30 @@ work, it helps enormously if you have at least a little skill at
 charming people.</para>
 
 <para>ไม่ใช่เรื่องบังเอิญที่ไลนัสเป็นคนนิสัยดีที่ทำให้คนที่คล้ายกับเขาต้องการช่วยเขา 
-ไม่ใช่เรื่องบังเอิญที่ผมเป็นคนเปิดเผยที่เปี่ยมพลังซึ่งชอบทำงานกับฝูงชน 
+ไม่ใช่เรื่องบังเอิญที่ผมเป็นคนเปิดเผยที่มีชีวิตชีวาซึ่งชอบทำงานกับฝูงชน 
 และมีสัญชาตญาณของอารมณ์ขัน ถ้าจะให้รูปแบบตลาดสดทำงานได้ 
 การมีความเชี่ยวชาญในการดึงดูดผู้คนจะช่วยได้มากทีเดียว</para>
 
 </sect1>
-<sect1><title> The Social Context of Open-Source Software</title>
+<!-- The Social Context of Open-Source Software -->
+<sect1><title>สภาพแวดล้อมทางสังคมของซอฟต์แวร์โอเพนซอร์ส</title>
 
 <para>It is truly written: the best hacks start out as personal solutions to
 the author's everyday problems, and spread because the problem turns
 out to be typical for a large class of users.  This takes us back to
 the matter of rule 1, restated in a perhaps more useful way:</para>
 
+<para>มีข้อเขียนเกี่ยวกับเรื่องนี้จริงๆ ว่าการแฮ็กที่ดีที่สุด 
+เริ่มจากวิธีส่วนตัวในการแก้ปัญหาที่ตัวผู้เขียนพบในชีวิตประจำวัน 
+และแพร่หลายออกไป เพราะปรากฏว่าเป็นปัญหาปกติที่ผู้ใช้จำนวนมากก็พบเช่นกัน 
+เรื่องนี้นำเรากลับไปสู่กฏข้อที่ 1 
+ซึ่งกล่าวใหม่ในแบบที่มีประโยชน์ขึ้นได้ว่า:</para>
+
 <blockquote><para>18. To solve an interesting problem, start by
         finding a problem that is interesting to you.</para></blockquote>
+
+<blockquote><para>18. การแก้ปัญหาที่น่าสนใจ เริ่มจากการค้นหาปัญหาที่คุณสนใจ
+        </para></blockquote>
 
 <para>So it was with Carl Harris and the ancestral popclient, and so with me
 and fetchmail.  But this has been understood for a long time.  The
@@ -2353,6 +2369,13 @@ interesting point, the point that the histories of Linux and fetchmail
 seem to demand we focus on, is the next stage&mdash;the evolution of
 software in the presence of a large and active community of users and
 co-developers.</para>
+
+<para>ซึ่งเหมือนที่เกิดกับ คาร์ล แฮร์ริส กับ popclient รุ่นแรกๆ และกับผมกับ 
+fetchmail อย่างไรก็ดี เรื่องนี้เป็นที่เข้าใจกันมานานแล้ว แต่จุดที่น่าสนใจจริงๆ 
+โดยเฉพาะในประวัติของลินุกซ์และ fetchmail ที่เราต้องศึกษา ก็คือขั้นต่อไปต่างหาก 
+กล่าวคือ 
+วิวัฒนาการของซอฟต์แวร์ในชุมชนผู้ใช้และผู้ร่วมพัฒนาที่มีขนาดใหญ่และตื่นตัวสูง
+</para>
 
 <para>In <citetitle>The Mythical Man-Month</citetitle>, Fred Brooks
 observed that programmer time is not fungible; adding developers to a
@@ -2365,6 +2388,19 @@ open-source development falsifies the assumptionms behind it&mdash;and,
 empirically, if Brooks's Law were the whole picture Linux would be
 impossible.</para>
 
+<para>ในหนังสือ <citetitle>The Mythical Man-Month</citetitle> เฟรด บรูกส์ 
+ตั้งข้อสังเกตว่า เวลาในการทำงานของโปรแกรมเมอร์นั้นทดแทนกันไม่ได้ 
+การเพิ่มนักพัฒนาให้กับโครงการซอฟต์แวร์ที่ล่าช้าอยู่ 
+จะทำให้มันยิ่งล่าช้ายิ่งขึ้น ดังที่เราได้กล่าวไปแล้ว 
+เขาอ้างว่าความซับซ้อนและค่าโสหุ้ยในการสื่อสารของโครงการ 
+จะเพิ่มขึ้นในอัตรากำลังสองของจำนวนนักพัฒนา ในขณะที่งานที่ได้ 
+จะเพิ่มขึ้นเป็นลักษณะเส้นตรงเท่านั้น 
+กฎของบรูกส์ได้รับการยอมรับโดยทั่วไปว่าเป็นความจริง 
+แต่เราได้วิเคราะห์มาแล้วในบทความนี้ ถึงวิธีต่างๆ 
+ที่กระบวนการพัฒนาแบบโอเพนซอร์สได้ทะลายข้อสมมุติต่างๆ ของกฎนี้ 
+และถ้าว่ากันที่ผลในทางปฏิบัติ หากกฎของบรูกส์ครอบคลุมทั้งหมดแล้ว 
+ลินุกซ์ก็คือสิ่งที่เป็นไปไม่ได้</para>
+
 <para>Gerald Weinberg's classic <citetitle>The Psychology of Computer
 Programming</citetitle> supplied what, in hindsight, we can see as a
 vital correction to Brooks.  In his discussion of ``egoless
@@ -2376,10 +2412,28 @@ programming' technique of deploying coders in pairs looking over one
 anothers' shoulders might be seen as an attempt to force this
 effect.)</para>
 
+<para>หนังสืออมตะของ เจอรัลด์ เวนเบิร์ก ชื่อ 
+<citetitle>จิตวิทยาของการเขียนโปรแกรมคอมพิวเตอร์ (The Psychology of Computer 
+Programming)</citetitle> 
+เสนอสิ่งที่เราเข้าใจเบื้องหลังได้ว่าเป็นการแก้ไขกฎของบรูกส์ครั้งสำคัญ 
+ในการอภิปรายเกี่ยวกับ ``การเขียนโปรแกรมแบบไร้อัตตา'' เวนเบิร์กตั้งข้อสังเกตว่า 
+ในหน่วยงานที่นักพัฒนาไม่มีการหวงห้ามโค้ด และยังเชิญชวนให้คนอื่นๆ 
+ให้มาช่วยกันหาข้อผิดพลาด และจุดที่อาจจะพัฒนาต่อได้ 
+จะมีการพัฒนาได้เร็วกว่าหน่วยงานอื่นๆ อย่างเห็นได้ชัด (เร็วๆ นี้ เทคนิค 
+`extreme programming' ของ เคนต์ เบ็ก 
+ที่ให้นักพัฒนาจับคู่กันดูโค้ดกันและกัน 
+อาจเป็นความพยายามหนึ่งที่จะบังคับให้เกิดผลดังกล่าว)</para>
+
 <para>Weinberg's choice of terminology has perhaps prevented his
 analysis from gaining the acceptance it deserved&mdash;one has to smile
 at the thought of describing Internet hackers as ``egoless''.  But I
 think his argument looks more compelling today than ever.</para>
+
+<para>บางที การเลือกใช้คำของเวนเบิร์ก 
+อาจทำให้การวิเคราะห์ของเขาไม่ได้รับการยอมรับเท่าที่ควรจะเป็น 
+บางคนอาจจะอมยิ้มเมื่อนึกถึงการบรรยายถึงแฮ็กเกอร์ในอินเทอร์เน็ตด้วยคำว่า 
+``ไร้อัตตา'' แต่ผมคิดว่าเหตุผลของเขานั้นดีเหลือเกิน 
+โดยเฉพาะอย่างยิ่งในปัจจุบัน</para>
 
 <para>The bazaar method, by harnessing the full power of the ``egoless
 programming'' effect, strongly mitigates the effect of Brooks's Law.
@@ -2390,6 +2444,16 @@ This resembles the relationship between Newtonian and Einsteinian
 physics&mdash;the older system is still valid at low energies, but if you
 push mass and velocity high enough you get surprises like nuclear
 explosions or Linux.</para>
+
+<para>ด้วยการใช้ประโยชน์จากผลของ ``การเขียนโปรแกรมแบบไร้อัตตา'' อย่างเต็มพิกัด  
+วิธีการแบบตลาดสดได้บรรเทาผลของกฎของบรูกส์ลงอย่างมาก 
+มันไม่ถึงกับทำลายหลักการเบื้องหลังของกฎของบรูกส์ลง 
+แต่ด้วยจำนวนนักพัฒนาที่มากพอ และด้วยการสื่อสารที่สะดวก 
+ผลของมันสามารถถูกกลบได้ด้วยปัจจัยตรงข้ามที่ไม่ได้มีลักษณะเป็นเชิงเส้น 
+ซึ่งจะมองไม่เห็นจนกว่าจะเกิดเงื่อนไขดังกล่าวขึ้น เรื่องนี้ 
+ก็คล้ายกับความสัมพันธ์ระหว่างฟิสิกส์แบบนิวตันและแบบไอน์สไตน์ กล่าวคือ 
+ระบบเก่าก็ยังใช้การได้ที่ระดับพลังงานต่ำ แต่ถ้าคุณเพิ่มมวลและความเร็วมากพอ 
+คุณก็จะพบเรื่องแปลกประหลาดอย่างการระเบิดแบบนิวเคลียร์ หรือลินุกซ์</para>
 
 <para>The history of Unix should have prepared us for what we're
 learning from Linux (and what I've verified experimentally on a
@@ -2403,11 +2467,27 @@ evolutionary context in which feedback exploring the design space,
 code contributions, bug-spotting, and other improvements come from
 from hundreds (perhaps thousands) of people.</para>
 
+<para>ประวัติของยูนิกซ์ควรจะช่วยปูพื้นให้กับสิ่งที่เราเรียนรู้จากลินุกซ์ได้ 
+(รวมทั้งสิ่งที่ผมได้ลงมือตรวจสอบผ่านการทดลองในขนาดที่เล็กลง 
+ด้วยการเลียนแบบวิธีของไลนัสอย่างเจตนา <link linkend="EGCS">[EGCS]</link>) 
+นั่นคือ ในขณะที่โดยเนื้อแท้แล้วการเขียนโค้ดยังคงเป็นกิจกรรมที่ต้องทำคนเดียวอยู่ 
+แต่การแฮ็กที่สุดยอดจริงๆ 
+กลับเกิดจากการควบคุมทิศทางความสนใจและพลังสมองของชุมชนทั้งหมด 
+นักพัฒนาที่ใช้แค่สมองของตนเองในโครงการปิด 
+กำลังจะถูกแซงโดยนักพัฒนาที่รู้วิธีสร้างสภาพแวดล้อมแบบเปิดเพื่อการวิวัฒน์ 
+ที่ซึ่งผลตอบรับที่ช่วยสำรวจวิธีออกแบบที่เป็นไปได้ การสมทบโค้ด การชี้ข้อผิดพลาด 
+และการปรับปรุงอื่นๆ จะมาจากคนเป็นร้อยๆ (หรืออาจเป็นพันๆ)</para>
+
 <para>But the traditional Unix world was prevented from pushing this
 approach to the ultimate by several factors.  One was the legal
 contraints of various licenses, trade secrets, and commercial
 interests.  Another (in hindsight) was that the Internet wasn't
 yet good enough.</para>
+
+<para>แต่โลกของยูนิกซ์สมัยก่อน กลับไม่สามารถใช้วิธีนี้ไปถึงจุดสูงสุดได้ 
+ด้วยปัจจัยหลายประการ ปัจจัยหนึ่งก็คือข้อจำกัดทางกฎหมายของสัญญาอนุญาตแบบต่างๆ 
+ความลับทางการค้า และความสนใจทางธุรกิจ นอกจากนี้ อีกปัจจัยหนึ่งที่เข้าใจได้ 
+คืออินเทอร์เน็ตยังใช้การได้ไม่ดีพอในตอนนั้น</para>
 
 <para>Before cheap Internet, there were some geographically compact
 communities where the culture encouraged Weinberg's ``egoless''
@@ -2415,6 +2495,14 @@ programming, and a developer could easily attract a lot of skilled
 kibitzers and co-developers.  Bell Labs, the MIT AI and LCS labs, UC
 Berkeley&mdash;these became the home of innovations that are legendary
 and still potent.</para>
+
+<para>ก่อนที่อินเทอร์เน็ตจะมีราคาถูกอย่างทุกวันนี้ 
+ได้มีชุมชนเล็กๆ ที่รวมตัวกันด้วยพื้นที่ทางภูมิศาสตร์บางกลุ่ม 
+ซึ่งมีวัฒนธรรมที่สนับสนุนให้เกิดการเขียนโปรแกรมแบบ ``ไร้อัตตา'' ของเวนเบิร์ก 
+และนักพัฒนาสามารถดึงดูดผู้อยากรู้อยากเห็นและผู้ร่วมพัฒนาที่มีทักษะจำนวนมากได้อย่างง่ายดาย 
+ชุมชนอย่าง เบลล์แล็บ, แล็บ AI และ LCS ของ MIT, UC Berkeley 
+เหล่านี้ได้กลายเป็นบ่อเกิดของนวัตกรรมระดับตำนานมากมาย 
+และทุกวันนี้ชุมชนเหล่านี้ก็ยังคงแสดงศักยภาพอยู่</para>
 
 <para>Linux was the first project for which a conscious and successful
 effort to use the entire <emphasis>world</emphasis> as its talent
@@ -2425,11 +2513,26 @@ takeoff of the ISP industry and the explosion of mainstream interest
 in the Internet.  Linus was the first person who learned how to play
 by the new rules that pervasive Internet access made possible.</para>
 
+<para>ลินุกซ์เป็นโครงการแรกที่สามารถใช้ <emphasis>โลกทั้งใบ</emphasis> 
+เป็นแหล่งของพรสวรรค์ได้อย่างจงใจและประสบความสำเร็จ 
+ผมไม่คิดว่ามันเป็นเรื่องบังเอิญ ที่ช่วงเวลาบ่มเพาะตัวของลินุกซ์ 
+พอดีกันกับการเกิดของเครือข่ายใยแมงมุม (World Wide Web) 
+และที่ลินุกซ์เริ่มเติบโตในระหว่างปี 1993&ndash;1994 
+ซึ่งตรงกับช่วงที่เกิดอุตสาหกรรมการให้บริการอินเทอร์เน็ต 
+และเกิดการบูมของอินเทอร์เน็ตในความสนใจกระแสหลักของผู้คน 
+ไลนัสเป็นคนแรกที่รู้วิธีเล่นกับกฎเกณฑ์ใหม่ๆ ที่อินเทอร์เน็ตได้สร้างขึ้น</para>
+
 <para>While cheap Internet was a necessary condition for the Linux model to
 evolve, I think it was not by itself a sufficient condition. Another
 vital factor was the development of a leadership style and set of
 cooperative customs that could allow developers to attract
 co-developers and get maximum leverage out of the medium.</para>
+
+<para>แม้อินเทอร์เน็ตราคาถูก จะเป็นเงื่อนไขที่จำเป็นในการพัฒนาในแบบลินุกซ์ 
+แต่ผมคิดว่าแค่สิ่งนี้อย่างเดียวยังไม่เพียงพอ ปัจจัยที่สำคัญอีกอย่างหนึ่งก็คือ 
+การพัฒนาของรูปแบบความเป็นผู้นำ และประเพณีแห่งความร่วมมือต่างๆ 
+ซึ่งทำให้ผู้พัฒนาสามารถดึงดูดผู้ร่วมพัฒนา 
+และใช้ประโยชน์สูงสุดจากสื่ออย่างอินเทอร์เน็ต</para>
 
 <para>But what is this leadership style and what are these customs?
 They cannot be based on power relationships&mdash;and even if they could
@@ -2437,6 +2540,15 @@ be, leadership by coercion would not produce the results we see.
 Weinberg quotes the autobiography of the 19th-century Russian
 anarchist Pyotr Alexeyvich Kropotkin's <citetitle>Memoirs of a
 Revolutionist</citetitle> to good effect on this subject:</para>
+
+<para>แต่เป็นรูปแบบความเป็นผู้นำแบบไหน? และอะไรคือประเพณีต่างๆ ที่ว่า? 
+สิ่งเหล่านี้ไม่สามารถได้มาจากการใช้อำนาจ หรือถึงแม้ว่ามันจะใช้ได้ 
+แต่การเป็นผู้นำที่ใช้การบังคับ 
+ก็ไม่สามารถสร้างผลลัพธ์อย่างที่เราเห็นอยู่ทุกวันนี้ได้ 
+เวนเบิร์กยกคำกล่าวจากอัตชีวประวัติของ ปโยต์ อเล็กเซวิช โครพอตกิน (Pyotr 
+Alexeyvich Kropotkin) อนาธิปัตย์ชาวรัสเซียในคริสต์ศตวรรษที่ 19 ในหนังสือ 
+<citetitle>ความทรงจำของนักปฏิวัติ (Memoirs of a Revolutionist)</citetitle> 
+ซึ่งเกี่ยวข้องกับเรื่องนี้อย่างมาก:</para>
 
 <blockquote>
 <para>Having been brought up in a serf-owner's family, I entered active
@@ -2452,6 +2564,21 @@ and the aim can be achieved only through the severe effort of many
 converging wills.</para>
 </blockquote>
 
+<blockquote>
+<para>ด้วยความที่เติบโตมาในครอบครัวที่มีทาส 
+ผมได้เข้าสู่ชีวิตที่กระฉับกระเฉงเหมือนๆ กับชายหนุ่มอื่นๆ ในยุคของผม 
+ซึ่งมีความมั่นใจในความจำเป็นของการบังคับบัญชา การออกคำสั่ง การตำหนิ การลงโทษ 
+และอะไรทำนองนี้ แต่เมื่อผมได้เริ่มบริหารบรรษัทอย่างจริงจัง 
+และต้องติดต่อจัดการกับผู้คนซึ่งไม่ใช่ทาส ทั้งความผิดพลาดแต่ละครั้ง 
+อาจจะนำไปสู่ความเสียหายอันใหญ่หลวง ผมก็ได้เริ่มตระหนักถึงความแตกต่างระหว่าง 
+หลักแห่งการบังคับบัญชาและระเบียบวินัย กับ 
+หลักแห่งการทำความเข้าใจขั้นพื้นฐานร่วมกัน 
+หลักอันแรกใช้การได้ดีกับการเดินสวนสนามของทหาร 
+แต่ไม่มีประโยชน์อะไรเลยในชีวิตจริง จุดหมายที่ตั้งไว้จะบรรลุได้ 
+ก็ด้วยความทุ่มเทอย่างแข็งขัน 
+จากเจตน์จำนงอันหลากหลายที่มีเป้าหมายร่วมกันเท่านั้น</para>
+</blockquote>
+
 <para>The ``severe effort of many converging wills'' is precisely what a
 project like Linux requires&mdash;and the ``principle of command'' is
 effectively impossible to apply among volunteers in the anarchist's
@@ -2460,6 +2587,16 @@ hackers who want to lead collaborative projects have to learn how to
 recruit and energize effective communities of interest in the mode
 vaguely suggested by Kropotkin's ``principle of understanding''.  They
 must learn to use Linus's Law.<link linkend="SP">[SP]</link></para>
+
+<para>``ความทุ่มเทอย่างแข็งขัน จากเจตน์จำนงอันหลากหลายที่มีเป้าหมายร่วมกัน'' 
+คือสิ่งที่โครงการอย่างลินุกซ์ต้องการอย่างไม่ต้องสงสัย และไม่มีทางที่ 
+``หลักแห่งการบังคับบัญชา'' 
+จะใช้ได้ผลกับเหล่าอาสาสมัครในสวรรค์ของอนาธิปัตย์ที่เราเรียกว่าอินเทอร์เน็ต 
+การที่จะดำเนินงานและแข่งขันอย่างได้ผล 
+เหล่าแฮ็กเกอร์ที่ต้องการจะเป็นผู้นำโครงการที่ต้องการความร่วมมือใดๆ 
+จะต้องเรียนรู้วิธีที่จะสรรหาและกระตุ้นชุมชนที่สนใจจริง 
+ในแบบที่กล่าวไว้อย่างหลวมๆ ใน ``หลักแห่งความเข้าใจกัน'' ของโครพอตกิน 
+พวกเขาต้องเรียนรู้ที่จะใช้กฏของไลนัส <link linkend="SP">[SP]</link></para>
 
 <para>Earlier I referred to the ``Delphi effect'' as a possible explanation
 for Linus's Law.  But more powerful analogies to adaptive systems in
@@ -2470,6 +2607,17 @@ the process produces a self-correcting spontaneous order more
 elaborate and efficient than any amount of central planning could have
 achieved.  Here, then, is the place to seek the ``principle of
 understanding''.</para>
+
+<para>ก่อนหน้านี้ ผมได้กล่าวถึง ``ปรากฏการณ์เดลไฟ'' 
+ในฐานะคำอธิบายที่พอจะใช้ได้สำหรับกฎของไลนัส 
+แต่ระบบที่ปรับตัวได้ในทางชีววิทยาและเศรษฐศาสตร์ 
+ก็น่าจะเป็นตัวเปรียบเทียบที่ดีเช่นกัน โลกของลินุกซ์มีลักษณะหลายๆ 
+อย่างคล้ายคลึงกับตลาดเสรีหรือระบบนิเวศน์ 
+ซึ่งประกอบด้วยกลุ่มของตัวกระทำที่เห็นแก่ตัว 
+ที่พยายามหาทางที่จะได้ประโยชน์สูงสุด โดยในกระบวนการนั้น 
+จะเกิดการจัดระเบียบที่มีการแก้ไขตัวเองแบบเป็นไปเอง 
+ซึ่งจะมีผลแทรกซึมและมีประสิทธิภาพเกินกว่าที่การวางแผนจากส่วนกลางใดๆ จะทำได้ 
+และที่นี่เองที่เราจะมองหา ``หลักแห่งความเข้าใจกัน''</para>
 
 <para>The ``utility function'' Linux hackers are maximizing is not
 classically economic, but is the intangible of their own ego
@@ -2482,12 +2630,33 @@ hackerdom has long explicitly recognized ``egoboo'' (ego-boosting, or
 the enhancement of one's reputation among other fans) as the basic
 drive behind volunteer activity.</para>
 
+<para>``ฟังก์ชันอรรถประโยชน์'' ที่แฮ็กเกอร์ลินุกซ์พยายามจะทำให้ได้มากที่สุด 
+ไม่ได้เกี่ยวกับเรื่องเศรษฐกิจ 
+แต่เกี่ยวกับความพึงพอใจส่วนตัวและชื่อเสียงในหมู่แฮ็กเกอร์ด้วยกัน 
+(บางคนอาจเรียกแรงจูงใจของพวกเขาเหล่านั้นว่า 
+``ความเห็นแก่ประโยชน์ส่วนรวม'' โดยมองข้ามความจริงที่ว่า 
+``ความเห็นแก่ประโยชน์ส่วนรวม'' ก็คืออีกรูปแบบหนึ่งของความพึงพอใจส่วนตัวของ 
+``ผู้ที่เห็นแก่ประโยชน์ส่วนรวม'') จะว่าไปแล้ว วัฒนธรรมอาสาสมัครในลักษณะนี้ 
+ก็ไม่ใช่เรื่องพิเศษอะไร มีอีกกลุ่มหนึ่งที่ผมได้เข้าร่วมมานานแล้ว 
+คือกลุ่มผู้รักนิยายวิทยาศาสตร์ 
+กลุ่มนี้ต่างจากกลุ่มแฮกเกอร์ตรงที่พวกเขาตระหนักใน ``อีโก้บู'' (egoboo มาจาก 
+ego-boosting หรือการเพิ่มชื่อเสียงของบุคคลในหมู่คนคลั่งไคล้สิ่งเดียวกัน) 
+อย่างชัดแจ้งมาเป็นเวลานานแล้ว 
+ในฐานะสิ่งจูงใจพื้นฐานในการเข้าร่วมกิจกรรมอาสาสมัคร</para>
+
 <para>Linus, by successfully positioning himself as the gatekeeper of a
 project in which the development is mostly done by others, and
 nurturing interest in the project until it became self-sustaining, has
 shown an acute grasp of Kropotkin's ``principle of shared
 understanding''.  This quasi-economic view of the Linux world enables
 us to see how that understanding is applied.</para>
+
+<para>ไลนัส ซึ่งประสบความสำเร็จในการวางตัวเองเป็นผู้ดูแลโครงการ 
+โดยที่การพัฒนาส่วนใหญ่ทำโดยคนอื่นๆ 
+และเฝ้าหล่อเลี้ยงความสนใจในตัวโครงการจนกระทั่งมันอยู่ได้ด้วยตัวเอง 
+ได้แสดงให้เห็นถึงความเข้าใจอันเฉียบแหลมใน ``หลักแห่งความเข้าใจร่วมกัน'' 
+ของโครพอตกิน มุมมองต่อโลกของลินุกซ์ในลักษณะกึ่งเศรษฐศาสตร์แบบนี้ 
+เปิดโอกาสให้เราได้เห็นว่า ความเข้าใจนั้นถูกนำไปใช้อย่างไร</para>
 
 <para>We may view Linus's method as a way to create an efficient market in
 ``egoboo''&mdash;to connect the selfishness of individual hackers as firmly
@@ -2496,6 +2665,14 @@ cooperation.  With the fetchmail project I have shown (albeit on a
 smaller scale) that his methods can be duplicated with good results.
 Perhaps I have even done it a bit more consciously and systematically
 than he.</para>
+
+<para>เราอาจจะมองวิธีของไลนัสเป็นเหมือนการสร้างตลาด ``อีโก้บู'' 
+ที่มีประสิทธิภาพ 
+โดยร้อยรัดความเห็นแก่ตัวของแฮ็กเกอร์แต่ละคนอย่างแน่นหนาที่สุดเท่าที่จะทำได้ 
+เข้ากับปลายทางอันยากลำบาก ซึ่งจะไปถึงได้ก็ด้วยความร่วมมืออย่างไม่ลดละเท่านั้น 
+อย่างในโครงการ fetchmail ผมก็ได้แสดงให้ดู (แม้จะในขนาดที่เล็กกว่า) 
+ว่าวิธีของเขาสามารถทำซ้ำได้ โดยให้ผลที่ดี บางที 
+ผมอาจจะทำแบบจงใจและมีแบบแผนกว่าเขานิดหน่อยด้วยซ้ำ</para>
 
 <para>Many people (especially those who politically distrust free
 markets) would expect a culture of self-directed egoists to be
@@ -2508,6 +2685,19 @@ Evidently Linux's free market in egoboo works better to produce
 virtuous, other-directed behavior than the massively-funded
 documentation shops of commercial software producers.</para>
 
+<para>หลายคน (โดยเฉพาะผู้ที่มีความเคลือบแคลงทางการเมืองกับตลาดเสรี) 
+อาจคาดไว้ว่า วัฒนธรรมของเหล่าคนอัตตาสูงที่เป็นตัวของตัวเอง คงจะแตกกระจาย 
+แบ่งแยก สิ้นเปลือง ลึกลับ และไม่เป็นมิตร 
+แต่สิ่งที่คาดไว้นั้นกลับถูกหักล้างอย่างชัดเจนโดยความหลากหลาย คุณภาพ 
+และความลึกของเนื้อหาของเอกสารลินุกซ์ (หากจะยกมาเพียงตัวอย่างเดียว) 
+เป็นคำสาปที่รู้กันดี ว่าโปรแกรมเมอร์นั้น <emphasis>เกลียด</emphasis> 
+การเขียนเอกสาร แล้วแฮ็กเกอร์ลินุกซ์สร้างเอกสารออกมาได้มากมายอย่างนี้ได้อย่างไร? 
+อย่างที่เราได้เห็น 
+ตลาดเสรีสำหรับอีโก้บูของลินุกซ์สามารถสร้างพฤติกรรมที่มีคุณค่า 
+และสนองความต้องการของผู้อื่น 
+ได้ดีกว่าหน่วยผลิตเอกสารของผู้ผลิตซอฟต์แวร์เชิงพาณิชย์ 
+ที่มีทุนสนับสนุนอย่างมหาศาลเสียอีก</para>
+
 <para>Both the fetchmail and Linux kernel projects show that by properly
 rewarding the egos of many other hackers, a strong
 developer/coordinator can use the Internet to capture the benefits of
@@ -2515,10 +2705,21 @@ having lots of co-developers without having a project collapse into a
 chaotic mess.  So to Brooks's Law I counter-propose the
 following:</para>
 
+<para>ทั้งโครงการ fetchmail และเคอร์เนลลินุกซ์ ได้แสดงให้เห็นว่า 
+ด้วยการตอบแทนอัตตาของแฮกเกอร์หลายๆ คน อย่างเหมาะสม 
+ผู้พัฒนาและผู้ประสานงานที่มีความสามารถ 
+สามารถใช้อินเทอร์เน็ตดึงเอาข้อดีของการมีผู้ร่วมพัฒนาเยอะๆ ออกมาได้ 
+โดยไม่ทำให้เกิดความสับสนอลหม่าน ดังนั้นเพื่อแย้งกับกฎของบรูกส์ 
+ผมขอเสนอกฎข้อต่อไปนี้:</para>
+
 <blockquote><para>19: Provided the development coordinator has a
     communications medium at least as good as the Internet, and knows
     how to lead without coercion, many heads are inevitably better
     than one.</para></blockquote>
+
+<blockquote><para>19. หากผู้ประสานงานมีสื่อที่ดีอย่างน้อยเท่ากับอินเทอร์เน็ต 
+    และรู้ว่าจะนำการพัฒนาโดยไม่ต้องบังคับได้อย่างไร 
+    หลายหัวย่อมดีกว่าหัวเดียวแน่นอน</para></blockquote>
 
 <para>I think the future of open-source software will increasingly
 belong to people who know how to play Linus's game, people who leave
@@ -2529,6 +2730,14 @@ people who start from individual vision and brilliance, then amplify
 it through the effective construction of voluntary communities of
 interest.</para>
 
+<para>ผมคิดว่า อนาคตของซอฟต์แวร์โอเพนซอร์ส 
+จะเป็นของผู้ที่รู้วิธีเล่นเกมของไลนัสมากขึ้นเรื่อยๆ คนซึ่งหันหลังให้กับวิหาร 
+และอ้าแขนรับตลาดสด นี่ไม่ได้หมายความว่า 
+วิสัยทัศน์และความหลักแหลมส่วนบุคคลจะไม่มีความหมายอีกต่อไป ถ้าจะพูดให้ถูก 
+ผมคิดว่า ความรุดหน้าของซอฟต์แวร์โอเพนซอร์ส 
+จะเป็นของผู้ที่เริ่มจากวิสัยทัศน์และความหลักแหลมเฉพาะบุคคล 
+และขยายมันออกไปด้วยการสร้างชุมชนอาสาสมัครที่สนใจเรื่องนั้นอย่างเกิดผล</para>
+
 <para>Perhaps this is not only the future of
 <emphasis>open-source</emphasis> software.  No closed-source developer
 can match the pool of talent the Linux community can bring to bear on
@@ -2536,12 +2745,25 @@ a problem.  Very few could afford even to hire the more than 200
 (1999: 600, 2000: 800) people who have contributed to
 fetchmail!</para>
 
+<para>บางที นี่อาจจะไม่ได้เป็นแค่อนาคตของซอฟต์แวร์ 
+<emphasis>โอเพนซอร์ส</emphasis> เท่านั้น ไม่มีผู้พัฒนาแบบซอร์สปิดรายไหน 
+ที่จะเทียบเคียงได้กับศูนย์รวมของผู้มีพรสวรรค์ซึ่งชุมชนลินุกซ์สามารถใช้รับมือกับปัญหา 
+และมีน้อยรายมาก ที่จะสามารถจ้างคนได้มากกว่า 200 คน 
+(600 ในปี 1999, 800 ในปี 2000) อย่างกลุ่มคนที่ช่วยพัฒนา fetchmail!</para>
+
 <para>Perhaps in the end the open-source culture will triumph not because
 cooperation is morally right or software ``hoarding'' is morally wrong
 (assuming you believe the latter, which neither Linus nor I do), but
 simply because the closed-source world cannot win an evolutionary arms
 race with open-source communities that can put orders of magnitude
 more skilled time into a problem.</para>
+
+<para>บางที ที่สุดแล้ว วัฒนธรรมโอเพนซอร์สจะประสบชัยชนะ 
+ไม่ใช่เพราะความร่วมมือเป็นสิ่งที่ชอบด้วยศีลธรรม หรือ การ ``ปิดบัง'' 
+ซอฟต์แวร์เป็นเรื่องผิดศีลธรรม (ในกรณีที่คุณเชื่อในอย่างหลัง 
+ซึ่งทั้งไลนัสและผมไม่เชื่อ) แต่เพียงเพราะว่า 
+โลกของการปิดซอร์สไม่สามารถเอาชนะการแข่งขันทางวิวัฒนาการกับชุมชนโอเพนซอร์ส 
+ซึ่งสามารถระดมเวลาอันเปี่ยมไปด้วยทักษะจำนวนมาก มาให้กับปัญหาหนึ่งๆ ได้</para>
 
 </sect1>
 <sect1><title>On Management and the Maginot Line</title>
