@@ -1,6 +1,12 @@
 2006-11-30  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* cathedral-bazaar.xml:
+	Merge Visanu Euarchukiati's revisions for section 1.
+	Adjust tranlations for `cathedral' accordingly.
+
+2006-11-30  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* cathedral-bazaar.xml:
 	Partially translate end notes (newly translated).
 
 2006-11-29  Theppitak Karoonboonyanan  <thep@linux.thai.net>
