@@ -20,7 +20,7 @@
     </address>
   </affiliation>
 </author>
-<pubdate role="cvs">$Date: 2006-11-29 09:52:29 $</pubdate>
+<pubdate role="cvs">$Date: 2006-11-30 10:53:04 $</pubdate>
 <releaseinfo>This is version 3.0</releaseinfo>
 <copyright>
   <year>2000</year>
@@ -313,7 +313,7 @@ more productive yourself.</para>
 มันไม่ใช่สิ่งที่ผมเพิ่งเรียนรู้เป็นครั้งแรกจากโลกของลินุกซ์ไปเสียทั้งหมด 
 แต่เราจะเห็นวิธีการที่โลกของลินุกซ์เน้นมันอย่างเจาะจง ถ้าทฤษฎีของผมถูกต้อง 
 มันจะช่วยให้คุณเข้าใจมากขึ้น 
-ว่าทำไมสังคมลินุกซ์จึงกลายเป็นบ่อเกิดของซอฟต์แวร์ดีๆ
+ว่าทำไมสังคมลินุกซ์จึงกลายเป็นบ่อเกิดของซอฟต์แวร์ดีๆ 
 และอาจช่วยทำให้คุณพัฒนาผลิตภาพของคุณเองให้มากขึ้นได้ด้วย</para>
 
 </sect1>
@@ -3444,9 +3444,10 @@ is continuing at an accelerating rate.</para>
 </sect1>
 
 <!-- %%BEGIN ENDNOTES -->
-<sect1><title>Notes</title>
+<!--Notes -->
+<sect1><title>เชิงอรรถ</title>
 
-<para><citetitle><anchor id="JB"/>[JB]</citetitle> In
+<para><citetitle><anchor id="_JB"/>[JB]</citetitle> In
 <citetitle>Programing Pearls</citetitle>, the noted computer-science
 aphorist Jon Bentley comments on Brooks's observation with ``If you
 plan to throw one away, you will throw away two.''.  He is almost
@@ -3455,7 +3456,16 @@ isn't merely that you should expect first attempt to be wrong, it's
 that starting over with the right idea is usually more effective than
 trying to salvage a mess.</para>
 
-<para><emphasis><anchor id="QR"/>[QR]</emphasis> Examples of successful
+<para><citetitle><anchor id="JB"/>[JB]</citetitle> ในหนังสือ 
+<citetitle>Programing Pearls</citetitle> จอน เบนทลีย์ 
+นักตั้งคติพจน์ทางวิทยาการคอมพิวเตอร์ ได้ให้ความเห็นต่อข้อสังเกตของบรูกส์ไว้ว่า 
+``ถ้าคุณเตรียมพร้อมที่จะทิ้งสิ่งหนึ่ง คุณจะได้ทิ้งไปสองสิ่ง'' 
+เขากล่าวได้ถูกต้องค่อนข้างแน่นอนทีเดียว ประเด็นของข้อสังเกตของบรูกส์และเบนทลีย์ 
+ไม่ใช่เพียงแค่ว่าคุณควรคาดได้ว่าความพยายามครั้งแรกจะผิดเท่านั้น แต่ยังย้ำว่า 
+การตั้งต้นใหม่ด้วยแนวคิดที่ถูกต้อง 
+มักจะเกิดผลมากกว่าการพยายามกู้ซากที่เละเทะ</para>
+
+<para><emphasis><anchor id="_QR"/>[QR]</emphasis> Examples of successful
 open-source, bazaar development predating the Internet explosion and
 unrelated to the Unix and Internet traditions have existed.  The
 development of the
@@ -3470,13 +3480,38 @@ some extent on Internet mail, the RBBS developer culture was actually
 able to base a substantial on-line community on RBBS that was
 completely independent of the TCP/IP infrastructure.</para>
 
-<para><emphasis><anchor id="CV"/>[CV]</emphasis> That transparency and
+<para><emphasis><anchor id="QR"/>[QR]</emphasis> 
+มีตัวอย่างของการพัฒนาแบบโอเพนซอร์สในตลาดสด 
+ที่ประสบความสำเร็จในยุคก่อนอินเทอร์เน็ตบูม 
+และไม่เกี่ยวกับธรรมเนียมของยูนิกซ์และอินเทอร์เน็ตด้วย 
+การพัฒนาของโปรแกรมบีบอัดซึ่งมุ่งใช้สำหรับดอส ชื่อ 
+<ulink url="http://www.cdrom.com/www/infozip/">info-Zip</ulink> 
+ระหว่างปี 1990&ndash;1992 คือตัวอย่างหนึ่งดังกล่าว 
+อีกตัวอย่างหนึ่งคือระบบกระดานข่าว RBBS (สำหรับดอสอีกเหมือนกัน) 
+ซึ่งเริ่มต้นในปี 1983 
+และได้สร้างชุมชนที่แข็งแกร่งพอที่จะมีการออกรุ่นสม่ำเสมอมาจนถึงปัจจุบัน (กลางปี 
+1999) 
+ถึงแม้เมลและการใช้แฟ้มร่วมกันในอินเทอร์เน็ตจะมีข้อได้เปรียบทางเทคนิคอย่างมากเหนือ 
+BBS ก็ตาม ในขณะที่ชุมชนของ info-Zip อาศัยเมลในอินเทอร์เน็ตในระดับหนึ่ง 
+แต่วัฒนธรรมของนักพัฒนา RBBS สามารถจะใช้ชุมชนออนไลน์ผ่าน RBBS 
+ซึ่งไม่ขึ้นกับโครงสร้างพื้นฐาน TCP/IP เลยได้</para>
+
+<para><emphasis><anchor id="_CV"/>[CV]</emphasis> That transparency and
 peer review are valuable for taming the complexity of OS development
 turns out, after all, not to be a new concept.  In 1965, very early
 in the history of time-sharing operating systems,
 Corbat&oacute; and Vyssotsky, co-designers of the Multics operating
 system, <ulink
 url="http://www.multicians.org/fjcc1.html">wrote</ulink></para>
+
+<para><emphasis><anchor id="CV"/>[CV]</emphasis> ปรากฏว่า แนวคิดที่ว่า 
+ความโปร่งใสและการตรวจทานโดยนักพัฒนาอื่น 
+มีประโยชน์ต่อการจัดการความซับซ้อนของการพัฒนาระบบปฏิบัติการ 
+ไม่ใช่เรื่องใหม่แต่อย่างใด ในปี 1965 ซึ่งเป็นช่วงแรกๆ 
+ของประวัติศาสตร์ของระบบปฏิบัติการแบบแบ่งเวลาทำงาน (time-sharing) นั้น 
+Corbat&oacute; และ Vyssotsky ซึ่งเป็นผู้ร่วมออกแบบระบบปฏิบัติการมัลทิกซ์ 
+(Multics) ได้ <ulink
+url="http://www.multicians.org/fjcc1.html">เขียน</ulink> ไว้ว่า</para>
 
 <blockquote><para>It is expected that the Multics system will be
 published when it is operating substantially... Such publication is
@@ -3486,19 +3521,36 @@ an age of increasing complexity, it is an obligation to present and
 future system designers to make the inner operating system as lucid as
 possible so as to reveal the basic system issues.</para></blockquote>
 
+<blockquote><para>เราคาดหวังว่าจะเปิดเผยระบบมัลทิกซ์ 
+เมื่อมันทำงานได้อย่างมีเสถียรภาพ.. การเปิดเผยดังกล่าวเป็นสิ่งที่ดี 
+ด้วยเหตุผลสองประการ: ข้อแรก ระบบจะถูกสังเกตและวิจารณ์ในสาธารณะ 
+จากการอาสาสมัครของผู้อ่านที่สนใจ ข้อสอง ในยุคที่ความซับซ้อนเพิ่มมากขึ้น 
+ก็เป็นความจำเป็นสำหรับนักออกแบบระบบในปัจจุบันและในอนาคต 
+ที่จะทำให้ระบบปฏิบัติการภายในชัดเจนที่สุดเท่าที่จะเป็นไปได้ 
+เพื่อจะได้เห็นประเด็นต่างๆ ของระบบพื้นฐาน</para></blockquote>
+
 <!--
         28. Corbat&oacute;, F. J., and V. A. Vyssotsky, Introduction and
             overview of the Multics system, AFIPS Conf Proc 27,
             185-196, 1965.
 -->
 
-<para><emphasis><anchor id="JH"/>[JH]</emphasis> John Hasler has suggested
+<para><emphasis><anchor id="_JH"/>[JH]</emphasis> John Hasler has suggested
 an interesting explanation for the fact that duplication of effort
 doesn't seem to be a net drag on open-source development. He proposes
 what I'll dub ``Hasler's Law'': the costs of duplicated work tend to
 scale sub-qadratically with team size&mdash;that is, more slowly than the
 planning and management overhead that would be needed to eliminate
 them.</para>
+
+<para><emphasis><anchor id="JH"/>[JH]</emphasis> จอห์น แฮสเลอร์ 
+ได้เสนอแนะคำอธิบายที่น่าสนใจสำหรับข้อเท็จจริงที่ว่า 
+การซ้ำซ้อนของแรงงานดูจะไม่กลายเป็นการหน่วงงานพัฒนาโอเพนซอร์ส 
+เขาได้เสนอสิ่งที่ผมจะตั้งชื่อให้ว่า ``กฎของแฮสเลอร์'' ซึ่งกล่าวว่า 
+ค่าโสหุ้ยของงานที่ซ้ำซ้อน 
+มีแนวโน้มจะโตตามขนาดของทีมงานในอัตราที่ต่ำกว่ากำลังสอง กล่าวคือ 
+ช้ากว่าค่าโสหุ้ยในการวางแผนและบริหารที่จำเป็นสำหรับการกำจัดความซ้ำซ้อนดังกล่าว
+</para>
 
 <para>This claim actually does not contradict Brooks's Law.  It may be
 the case that total complexity overhead and vulnerability to bugs
@@ -3511,6 +3563,16 @@ will prevent duplication of effort than it is to prevent the kinds of
 unplanned bad interactions across the whole system that underly most
 bugs.</para>
 
+<para>คำอ้างนี้ไม่ได้ขัดกับกฎของบรูกส์ อาจจะจริงที่ว่า 
+ค่าโสหุ้ยของความซับซ้อนทั้งหมด และความเสี่ยงต่อบั๊ก 
+จะโตในอัตรากำลังสองตามขนาดของทีม แต่ค่าโสหุ้ยจาก 
+<emphasis>งานที่ซ้ำซ้อน</emphasis> จะเป็นกรณีพิเศษที่โตช้ากว่านั้น 
+ไม่ยากเลยที่จะให้เหตุผลกับเรื่องนี้ เริ่มจากข้อเท็จจริงที่ไร้ข้อกังขาที่ว่า 
+เป็นการง่ายกว่าที่จะเห็นพ้องในขอบเขตหน้าที่ระหว่างโค้ดของนักพัฒนาต่างๆ 
+ซึ่งจะช่วยป้องกันการซ้ำซ้อนของงาน 
+ถ้าเทียบกับการป้องกันผลที่เกี่ยวเนื่องถึงกันอย่างไม่ตั้งใจในส่วนต่างๆ ของระบบ 
+ซึ่งทำให้เกิดบั๊กต่างๆ</para>
+
 <para>The combination of Linus's Law and Hasler's Law suggests that there
 are actually three critical size regimes in software projects.  On
 small projects (I would say one to at most three developers) no
@@ -3519,6 +3581,14 @@ needed.  And there is some intermediate range above that in which the
 cost of traditional management is relatively low, so its benefits from
 avoiding duplication of effort, bug-tracking, and pushing to see that
 details are not overlooked actually net out positive.</para>
+
+<para>เมื่อใช้กฎของไลนัสและกฎของแฮสเลอร์ร่วมกัน ก็จะได้ว่า 
+มีขนาดวิกฤติสามขนาดในโครงการซอฟต์แวร์ต่างๆ กล่าวคือ ในโครงการเล็กๆ 
+(ที่มีนักพัฒนาหนึ่งถึงสามคน) 
+ก็ไม่จำเป็นต้องมีโครงสร้างการบริหารอะไรมากไปกว่าการเลือกนักพัฒนาหลัก 
+และมีช่วงระหว่างกลางที่โตกว่านั้น ซึ่งค่าโสหุ้ยในการบริหารตามปกติจะต่ำ 
+ทำให้ข้อดีของการเลี่ยงความซ้ำซ้อนของแรงงาน การติดตามบั๊ก 
+และการตรวจสอบการหลุดรอดของรายละเอียด สามารถเอาชนะค่าโสหุ้ยได้</para>
 
 <para>Above that, however, the combination of Linus's Law and Hasler's Law
 suggests there is a large-project range in which the costs and
@@ -3530,7 +3600,15 @@ at making sure bugs and details are not overlooked.  Thus, in the
 large-project case, the combination of these laws effectively drives
 the net payoff of traditional management to zero.</para>
 
-<para><emphasis><anchor id="HBS"/>[HBS]</emphasis> The split between Linux's
+<para>แต่ในขนาดที่ใหญ่กว่านั้น การใช้กฎของไลนัสและกฎของแฮสเลอร์ร่วมกัน 
+จะให้ผลว่า มีช่วงของโครงการขนาดใหญ่ ที่ค่าโสหุ้ยและปัญหาของการบริหารแบบเดิม 
+จะโตเร็วกว่าค่าโสหุ้ยประมาณการของงานที่ซ้ำซ้อน โดยที่ค่าโสหุ้ยเหล่านี้ 
+ยังไม่รวมความไร้ประสิทธิภาพในการใช้ผลของลูกตาจำนวนมาก ซึ่งอย่างที่เราเห็น 
+ว่าสามารถทำงานได้ดีกว่าการบริหารแบบเดิมมาก ในการตรวจสอบบั๊กและรายละเอียดต่างๆ 
+ดังนั้น ในกรณีของโครงการขนาดใหญ่ ผลของกฎเหล่านี้เมื่อประกอบกัน 
+จึงทำให้ลดความสูญเสียจากการบริหารแบบเดิมลงจนเหลือศูนย์</para>
+
+<para><emphasis><anchor id="_HBS"/>[HBS]</emphasis> The split between Linux's
 experimental and stable versions has another function related to, but
 distinct from, hedging risk.  The split attacks another problem: the
 deadliness of deadlines.  When programmers are held both to an
@@ -3540,6 +3618,16 @@ indebted to Marco Iansiti and Alan MacCormack of the Harvard Business
 School for showing me me evidence that relaxing either one of these
 constraints can make scheduling workable.</para>
 
+<para><emphasis><anchor id="HBS"/>[HBS]</emphasis> การแยกรุ่นของลินุกซ์ 
+ระหว่างรุ่นทดลองและรุ่นเสถียร 
+ยังทำหน้าที่อีกอย่างที่เกี่ยวข้องกับการกีดกันความเสี่ยง (แต่ไม่ใช่) 
+การแยกรุ่นจะจัดการกับปัญหาอีกข้อหนึ่ง คือการไม่มีเส้นตายของเส้นตาย 
+เมื่อโปรแกรมเมอร์ต้องอยู่กับทั้งรายการคุณสมบัติโปรแกรมที่ไม่เปลี่ยนแปลง 
+และกำหนดการที่ตายตัว คุณภาพก็จะตก และอาจเกิดความยุ่งเหยิงอย่างใหญ่หลวงได้ 
+ขณะที่จะทำให้ได้ทั้งสองอย่าง ผมเป็นหนี้ต่อ มาร์โค เอียนซิติ และ อลัน 
+แม็คคอร์แม็ค จากโรงเรียนธุรกิจฮาร์วาร์ด ที่ได้แสดงหลักฐานให้ผมเห็นว่า 
+การผ่อนผันข้อกำหนดอย่างใดอย่างหนึ่ง จะทำให้กำหนดการสามารถบรรลุได้</para>
+
 <para>One way to do this is to fix the deadline but leave the feature
 list flexible, allowing features to drop off if not completed by
 deadline.  This is essentially the strategy of the "stable" kernel
@@ -3548,12 +3636,26 @@ fairly regular intervals, but makes no guarantees about when
 particular bugs will be fixed or what features will beback-ported from
 the experimental branch.</para>
 
+<para>ทางหนึ่งที่ทำได้ คือกำหนดเส้นตายตายตัว 
+แต่ให้รายการคุณสมบัติโปรแกรมยืดหยุ่นได้ โดยยอมทิ้งคุณสมบัติบางอย่างได้ 
+ถ้ายังทำไม่เสร็จตามกำหนด นี่คือนโยบายหลักของแขนงเคอร์เนลที่ "เสถียร" อลัน 
+ค็อกซ์ (ผู้ดูแลเคอร์เนลรุ่นเสถียร) ออกรุ่นเคอร์เนลเป็นระยะค่อนข้างสม่ำเสมอ 
+แต่ไม่รับประกันว่าบั๊กไหนจะแก้เมื่อไร 
+หรือความสามารถไหนจะถูกถ่ายกลับมาจากแขนงทดสอบ</para>
+
 <para>The other way to do this is to set a desired feature list and deliver
 only when it is done.  This is essentially the strategy of the
 "experimental" kernel branch.  De Marco and Lister cited research
 showing that this scheduling policy ("wake me up when it's done")
 produces not only the highest quality but, on average, shorter
 delivery times than either "realistic" or "aggressive" scheduling.</para>
+
+<para>หรืออีกทางหนึ่ง ก็คือกำหนดรายการคุณสมบัติที่ต้องการ 
+แล้วออกเมื่อทำเสร็จเท่านั้น นี่คือนโยบายหลักของแขนง "ทดสอบ" ของเคอร์เนล เดอ 
+มาร์โค และ ลิสเตอร์ ได้อ้างถึงงานวิจัยที่แสดงให้เห็นว่า นโยบายกำหนดการแบบนี้ 
+("ทำเสร็จแล้วปลุกด้วย") จะไม่ใช่แค่ให้คุณภาพสูงสุด แต่โดยเฉลี่ยแล้ว 
+ยังทำให้ออกได้เร็วกว่ากำหนดการที่ "ตามความเป็นจริง" หรือ "เคร่งครัด" 
+เสียอีก</para>
 
 <para>I have come to suspect (as of early 2000) that in earlier
 versions of this essay I severely underestimated the importance of the
@@ -3563,11 +3665,23 @@ rushed GNOME 1.0 release in 1999 suggests that pressure for a
 premature release can neutralize many of the quality benefits open
 source normally confers.</para>
 
+<para>ผมได้กลับมาสงสัย (ในช่วงต้นปี 2000) ว่าในบทความนี้รุ่นก่อนๆ 
+ผมได้ประเมินความสำคัญของนโยบายต่อต้านเส้นตายที่ว่า "ทำเสร็จแล้วปลุกด้วย" 
+ต่อผลิตภาพและคุณภาพของชุมชนโอเพนซอร์สต่ำเกินไปอย่างร้ายแรง ประสบการณ์ทั่วๆ 
+ไปของการออก GNOME 1.0 อย่างรีบเร่งในปี 1999 ทำให้เราเห็นว่า 
+ความกดดันในการออกรุ่นก่อนที่จะพร้อม 
+สามารถสลายข้อดีด้านคุณภาพหลายข้อที่โอเพนซอร์สเคยให้ตามปกติได้</para>
+
 <para>It may well turn out to be that the process transparency of open
 source is one of three co-equal drivers of its quality, along with
 "wake me up when it's done" scheduling and developer self-selection.</para>
 
-<para><emphasis><anchor id="SU"/>[SU]</emphasis> It's tempting, and not
+<para>อาจจะกลายเป็นว่า ความโปร่งใสของกระบวนการ 
+เป็นหนึ่งในแรงขับดันสามเรื่องที่สำคัญพอๆ กันต่อคุณภาพของโอเพนซอร์ส 
+อีกสองเรื่องก็คือกำหนดการแบบ "ทำเสร็จแล้วปลุกด้วย" 
+และการกลั่นกรองตัวเองของนักพัฒนา</para>
+
+<para><emphasis><anchor id="_SU"/>[SU]</emphasis> It's tempting, and not
 entirely inaccurate, to see the core-plus-halo organization
 characteristic of open-source projects as an Internet-enabled spin on
 Brooks's own recommendation for solving the N-squared complexity
@@ -3579,6 +3693,18 @@ toolsets quite a bit more powerful than those of Brooks's day.  Also, the
 open-source culture leans heavily on strong Unix traditions of
 modularity, APIs, and information hiding&mdash;none of which were
 elements of Brooks's prescription.</para>
+
+<para><emphasis><anchor id="SU"/>[SU]</emphasis> ไม่แปลก 
+และก็ไม่ผิดไปเสียทั้งหมด 
+ถ้าจะมองลักษณะการจัดโครงสร้างที่ประกอบด้วยนักพัฒนาแกนและที่รายล้อม 
+ว่าเป็นการใช้ข้อแนะนำของบรูกส์สำหรับแก้ปัญหาอัตราการเติบโตที่เป็นกำลังสอง 
+ที่เรียกว่าโครงสร้าง "ทีมผ่าตัด" ในรูปแบบที่ผ่านอินเทอร์เน็ต 
+แต่ก็มีความแตกต่างอย่างมาก กลุ่มของบทบาทผู้เชี่ยวชาญ เช่น "บรรณารักษ์โค้ด" 
+ที่บรูกส์วาดภาพไว้รอบๆ หัวหน้าทีม ไม่ได้มีอยู่จริง แต่บทบาทเหล่านั้น 
+กลับถูกดำเนินการโดยผู้ทำงานทั่วไป 
+ที่มีเครื่องมือช่วยที่ค่อนข้างมีประสิทธิภาพกว่าในยุคของบรูกส์ นอกจากนี้ 
+วัฒนธรรมโอเพนซอร์สยังอาศัยธรรมเนียมยูนิกซ์ที่เข้มแข็งเกี่ยวกับความเป็นสัดส่วน 
+API และการซ่อนรายละเอียด ซึ่งไม่มีข้อไหนอยู่ในองค์ประกอบที่บรูกส์กำหนดเลย</para>
 
 <para><emphasis><anchor id="RJ"/>[RJ]</emphasis> The respondent who
 pointed out to me the effect of widely varying trace path lengths on
