@@ -21,7 +21,7 @@
     </address>
   </affiliation>
 </author>
-<pubdate role="cvs">$Date: 2006-12-01 12:40:20 $</pubdate>
+<pubdate role="cvs">$Date: 2006-12-01 13:18:12 $</pubdate>
 <releaseinfo>This is version 3.0</releaseinfo>
 <copyright>
   <year>2000</year>
@@ -4213,7 +4213,8 @@ the Agora'' จริงๆ โดยคำว่า agora นี้ เป็นภาษากรีก ใช้เรียกตลาดเปิดโล่ง
 url="http://www.agorics.com/agorpapers.html">http://www.agorics.com/agorpapers.html</ulink></para>
 
 </sect1>
-<sect1><title>Acknowledgements</title>
+<!-- Acknowledgements -->
+<sect1><title>กิติกรรมประกาศ</title>
 
 <para>This essay was improved by conversations with a large number of
 people who helped debug it. Particular thanks to Jeff Dutky
@@ -4240,6 +4241,33 @@ that MATLAB makes an instructive parallel to Emacs.  Russell Johnston
 mechanisms discussed in ``How Many Eyeballs Tame Complexity.''
 Finally, Linus Torvalds's comments were helpful and his early
 endorsement very encouraging.</para>
+
+<para>บทความนี้ได้รับการปรับปรุงด้วยการสนทนากับผู้คนจำนวนมากที่ช่วยตรวจทาน 
+ขอขอบคุณ Jeff Dutky <email>dutky@wam.umd.edu</email> ซึ่งได้แนะนำคำสรุปที่ว่า 
+``การแก้บั๊กสามารถทำขนานกันได้'' และได้ช่วยวิเคราะห์ตามคำสรุปดังกล่าวด้วย 
+ขอบคุณ Nancy Lebovitz <email>nancyl@universe.digex.net</email> สำหรับคำแนะนำว่า 
+ผมได้เลียนแบบเวนเบิร์กด้วยการอ้างคำพูดของโครพอตกิน มีคำวิจารณ์ที่ลึกซึ้งจาก 
+Joan Eslinger <email>wombat@kilimanjaro.engr.sgi.com</email> และ Marty Franz
+<email>marty@net-link.net</email> จากเมลลิ่งลิสต์ General Technics 
+นอกจากนี้ Glen Vandenburg <email>glv@vanderburg.org</email> 
+ยังได้ชี้ให้เห็นถึงความสำคัญของการกลั่นกรองตัวเองของประชากรผู้สมทบ 
+และแนะนำแนวคิดที่ช่วยให้เกิดผลอย่างมาก ว่างานพัฒนาปริมาณมากถือว่าเป็นการแก้ 
+`บั๊กเนื่องจากสิ่งที่ขาดไป' Daniel Upper <email>upper@peak.org</email> 
+ได้แนะนำการเปรียบเทียบกับธรรมชาติของสิ่งนี้ ผมรู้สึกขอบคุณต่อสมาชิกของ PLUG 
+หรือ Philadelphia Linux User's Group 
+ที่ได้หาผู้ทดลองอ่านชุดแรกสำหรับบทความรุ่นแรก Paula Matuszek 
+<email>matusp00@mh.us.sbphrd.com</email>
+ได้ให้ความกระจ่างแก่ผมเกี่ยวกับวิธีการบริหารงานซอฟต์แวร์ 
+Phil Hudson <email>phil.hudson@iname.com</email> เตือนผมว่า 
+การจัดโครงสร้างของวัฒนธรรมแฮ็กเกอร์ จะสะท้อนโครงสร้างของซอฟต์แวร์ 
+และในทางกลับกันก็เป็นจริงด้วย John Buck 
+<email>johnbuck@sea.ece.umassd.edu</email> ชี้ว่า MATLAB 
+ก็ให้ตัวอย่างที่เหมือนกับ Emacs และ Russell Johnston 
+<email>russjj@mail.com</email> 
+ทำให้ผมได้สติเกี่ยวกับกลไกบางอย่างที่อภิปรายในหัวข้อ 
+``ลูกตาเยอะขนาดไปนที่จะจัดการกับความซับซ้อนได้'' และท้ายที่สุด ความเห็นของ 
+ไลนัส ทอร์วัลด์ เป็นประโยชน์มาก และการให้ความเห็นชอบของเขาตั้งแต่เนิ่นๆ นั้น 
+ช่วยเป็นกำลังใจได้มาก</para>
 
 </sect1>
 <!-- %%END ENDNOTES%% -->
