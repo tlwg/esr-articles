@@ -21,7 +21,7 @@
     </address>
   </affiliation>
 </author>
-<pubdate role="cvs">$Date: 2006-12-01 09:38:44 $</pubdate>
+<pubdate role="cvs">$Date: 2006-12-01 12:40:20 $</pubdate>
 <releaseinfo>This is version 3.0</releaseinfo>
 <copyright>
   <year>2000</year>
@@ -4095,13 +4095,20 @@ product, software is a disaster.</para>
 และลดปัญหาลง เมื่อกระบวนการนี้กลายมาเป็นผลิตภัณฑ์ 
 ซอฟต์แวร์ก็กลายเป็นหายนะ</para>
 </sect1>
-<sect1><title>Bibliography</title>
+<!-- Bibliography -->
+<sect1><title>บรรณานุกรม</title>
 
 <para>I quoted several bits from Frederick P. Brooks's classic
 <citetitle>The Mythical Man-Month</citetitle> because, in many
 respects, his insights have yet to be improved upon.  I heartily
 recommend the 25th Anniversary edition from Addison-Wesley (ISBN
 0-201-83595-9), which adds his 1986 ``No Silver Bullet'' paper.</para>
+
+<para>ผมยกคำพูดหลายแห่งมาจากหนังสืออมตะของ เฟรดเดอริก พี. บรูกส์ ชื่อ 
+<citetitle>The Mythical Man-Month</citetitle> 
+เพราะแนวคิดของเขายังต้องการการพิสูจน์ต่อไปในหลายๆ เรื่อง ผมขอแนะนำอย่างยิ่ง 
+ให้อ่านฉบับครบรอบ 25 ปีจาก Addison-Wesley (ISBN 0-201-83595-9) 
+ซึ่งเพิ่มบทความ ``No Silver Bullet'' (ไม่มียาครอบจักรวาล) ปี 1986 ของเขา</para>
 
 <para>The new edition is wrapped up by an invaluable 20-years-later
 retrospective in which Brooks forthrightly admits to the few
@@ -4116,6 +4123,18 @@ that Microsoft's internal developer community is heavily balkanized,
 with the kind of general source access needed to support a bazaar not
 even truly possible.)</para>
 
+<para>ฉบับปรับปรุงแก้ไขใหม่นี้ ยังปิดท้ายด้วยการหวนรำลึกเมื่อผ่านไป 20 ปี 
+อันเป็นบทที่ประเมินค่าไม่ได้ ในบทดังกล่าว 
+บรูกส์ยอมรับอย่างจริงใจเกี่ยวกับการตัดสินเล็กน้อยในเนื้อหาดั้งเดิมซึ่งไม่ผ่านการทดสอบของห้วงเวลา 
+ผมอ่านบทหวนรำลึกนี้ครั้งแรกหลังจากที่รุ่นแรกของบทความนี้เสร็จไปเยอะแล้ว 
+และต้องประหลาดใจที่ได้พบว่า 
+บรูกส์ได้ถือว่ากระบวนการที่คล้ายตลาดสดเป็นผลมาจากไมโครซอฟท์! (อย่างไรก็ตาม 
+ความจริงแล้ว การผูกโยงดังกล่าวกลายเป็นความผิดพลาด ในปี 1998 เราได้รู้จาก <ulink 
+url="http://www.opensource.org/halloween/">เอกสารวันฮัลโลวีน</ulink> 
+ว่าชุมชนนักพัฒนาภายในของไมโครซอฟท์นั้น แบ่งเป็นก๊กเป็นเหล่ามากมาย 
+ซึ่งการเข้าถึงซอร์สโดยทั่วไปที่จำเป็นสำหรับการทำงานแบบตลาดสดนั้น 
+ยังเป็นไปไม่ได้เลย)</para>
+
 <para>Gerald M. Weinberg's <citetitle>The Psychology Of Computer
 Programming</citetitle> (New York, Van Nostrand Reinhold 1971)
 introduced the rather unfortunately-labeled concept of ``egoless
@@ -4123,6 +4142,14 @@ programming''.  While he was nowhere near the first person to realize
 the futility of the ``principle of command'', he was probably the
 first to recognize and argue the point in particular connection with
 software development.</para>
+
+<para>หนังสือของ เจอรัลด์ เอ็ม. เวนเบิร์ก ชื่อ <citetitle>The Psychology Of 
+Computer Programming (จิตวิทยาของการเขียนโปรแกรมคอมพิวเตอร์)</citetitle> 
+(New York, Van Nostrand Reinhold 1971) 
+ได้เสนอแนวคิดที่ออกจะโชคร้ายที่ได้ชื่อว่า ``การเขียนโปรแกรมแบบไร้อัตตา'' 
+ถึงแม้เขาจะไม่มีวี่แววว่าจะเป็นคนแรกที่ตระหนักถึงความสูญเปล่าของ 
+``หลักแห่งการบังคับบัญชา'' แต่เขาก็อาจเป็นคนแรกที่มองเห็นและโต้ประเด็นนี้ 
+โดยเชื่อมโยงกับการพัฒนาซอฟต์แวร์โดยเฉพาะ</para>
 
 <para>Richard P. Gabriel, contemplating the Unix culture of the
 pre-Linux era, reluctantly argued for the superiority of a primitive
@@ -4134,6 +4161,16 @@ as an anticipation of Linux.  The paper is accessible on the World
 Wide Web at <ulink
 url="http://www.naggum.no/worse-is-better.html">http://www.naggum.no/worse-is-better.html</ulink>.</para>
 
+<para>ริชาร์ด พี. เกเบรียล 
+ซึ่งได้ตรึกตรองเกี่ยวกับวัฒนธรรมยูนิกซ์ก่อนยุคลินุกซ์ ได้โต้แย้งอย่างลังเล 
+ถึงข้อได้เปรียบของรูปแบบคล้ายตลาดสดในบทความปี 1989 ชื่อ ``LISP: Good News, Bad 
+News, and How To Win Big'' (LISP: ข่าวดี, ข่าวร้าย, และวิธีชนะอย่างยิ่งใหญ่'') 
+ของเขา แม้จะเก่าแล้วในบางเรื่อง แต่บทความนี้ก็ยังเป็นที่ยกย่องในหมู่แฟนๆ ภาษา 
+LISP (รวมถึงผมด้วย) ผู้ร่วมแสดงความเห็นท่านหนึ่งเตือนผมว่า ตอนที่ชื่อ ``Worse 
+Is Better'' (แย่กว่าดีกว่า) แทบจะเป็นการเก็งการเกิดของลินุกซ์ทีเดียว 
+บทความดังกล่าวสามารถอ่านในเว็บได้ที่ <ulink 
+url="http://www.naggum.no/worse-is-better.html">http://www.naggum.no/worse-is-better.html</ulink></para>
+
 <para>De Marco and Lister's <citetitle>Peopleware: Productive Projects
 and Teams</citetitle> (New York; Dorset House, 1987; ISBN
 0-932633-05-6) is an underappreciated gem which I was delighted to see
@@ -4142,6 +4179,18 @@ authors have to say is directly applicable to the Linux or open-source
 communities, the authors' insight into the conditions necessary for
 creative work is acute and worthwhile for anyone attempting to import
 some of the bazaar model's virtues into a commercial context.</para>
+
+<para>หนังสือของ เดอ มาร์โค และ ลิสเตอร์ ชื่อ <citetitle>Peopleware: 
+Productive Projects and Teams (พีเพิลแวร์: 
+โครงการและทีมงานอุดมผลงาน)</citetitle> 
+(New York; Dorset House, 1987; ISBN 0-932633-05-6) 
+เป็นอัญมณีมีค่าที่ได้รับความชื่นชมน้อยกว่าที่ควร ซึ่งผมยินดีที่ได้เห็น เฟรด 
+บรูกส์ อ้างถึงในบทหวนรำลึกของเขา 
+แม้สิ่งที่ผู้เขียนกล่าวถึงจะเกี่ยวข้องโดยตรงกับชุมชนลินุกซ์หรือโอเพนซอร์สน้อยมาก 
+แต่แนวคิดของผู้เขียนเกี่ยวกับเงื่อนไขที่จำเป็นสำหรับงานสร้างสรรค์ 
+ก็เป็นสิ่งที่เฉียบแหลม 
+และคุ้มค่าสำหรับใครก็ตามที่พยายามจะนำข้อดีของรูปแบบตลาดสดไปใช้ในบริบทเชิงพาณิชย์
+</para>
 
 <para>Finally, I must admit that I very nearly called this essay ``The
 Cathedral and the Agora'', the latter term being the Greek for an open
@@ -4152,6 +4201,16 @@ clearly about analogous phenomena in the open-source culture when
 Linux rubbed my nose in them five years later.  These papers are
 available on the Web at <ulink
 url="http://www.agorics.com/agorpapers.html">http://www.agorics.com/agorpapers.html</ulink>.</para>
+
+<para>ท้ายที่สุด ผมต้องยอมรับว่า ผมเกือบจะเรียกบทความนี้ว่า ``The Cathedral and 
+the Agora'' จริงๆ โดยคำว่า agora นี้ เป็นภาษากรีก ใช้เรียกตลาดเปิดโล่ง 
+หรือที่ประชุมสาธารณะ บทความสัมมนาชื่อ ``agoric systems'' ของ มาร์ค มิลเลอร์ และ 
+เอริก เดร็กซ์เลอร์ 
+ซึ่งได้บรรยายคุณสมบัติที่อุบัติขึ้นของระบบนิเวศน์คอมพิวเตอร์ที่คล้ายตลาด 
+ได้ช่วยให้ผมเตรียมพร้อมสำหรับการคิดอย่างชัดเจน 
+เกี่ยวกับปรากฏการณ์เทียบเคียงในวัฒนธรรมโอเพนซอร์ส 
+เมื่อลินุกซ์มากระตุ้นเตือนผมในห้าปีต่อมา บทความนี้อ่านได้บนเว็บที่ <ulink
+url="http://www.agorics.com/agorpapers.html">http://www.agorics.com/agorpapers.html</ulink></para>
 
 </sect1>
 <sect1><title>Acknowledgements</title>
