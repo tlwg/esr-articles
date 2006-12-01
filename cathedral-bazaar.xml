@@ -21,7 +21,7 @@
     </address>
   </affiliation>
 </author>
-<pubdate role="cvs">$Date: 2006-11-30 12:07:53 $</pubdate>
+<pubdate role="cvs">$Date: 2006-12-01 09:38:44 $</pubdate>
 <releaseinfo>This is version 3.0</releaseinfo>
 <copyright>
   <year>2000</year>
@@ -3468,7 +3468,7 @@ that starting over with the right idea is usually more effective than
 trying to salvage a mess.</para>
 
 <para><citetitle><anchor id="JB"/>[JB]</citetitle> ในหนังสือ 
-<citetitle>Programing Pearls</citetitle> จอน เบนทลีย์ 
+<citetitle>Programing Pearls (อัญมณีแห่งการเขียนโปรแกรม)</citetitle> จอน เบนทลีย์ 
 นักตั้งคติพจน์ทางวิทยาการคอมพิวเตอร์ ได้ให้ความเห็นต่อข้อสังเกตของบรูกส์ไว้ว่า 
 ``ถ้าคุณเตรียมพร้อมที่จะทิ้งสิ่งหนึ่ง คุณจะได้ทิ้งไปสองสิ่ง'' 
 เขากล่าวได้ถูกต้องค่อนข้างแน่นอนทีเดียว ประเด็นของข้อสังเกตของบรูกส์และเบนทลีย์ 
@@ -3503,7 +3503,7 @@ completely independent of the TCP/IP infrastructure.</para>
 และได้สร้างชุมชนที่แข็งแกร่งพอที่จะมีการออกรุ่นสม่ำเสมอมาจนถึงปัจจุบัน (กลางปี 
 1999) 
 ถึงแม้เมลและการใช้แฟ้มร่วมกันในอินเทอร์เน็ตจะมีข้อได้เปรียบทางเทคนิคอย่างมากเหนือ 
-BBS ก็ตาม ในขณะที่ชุมชนของ info-Zip อาศัยเมลในอินเทอร์เน็ตในระดับหนึ่ง 
+BBS แล้วก็ตาม ในขณะที่ชุมชนของ info-Zip อาศัยเมลในอินเทอร์เน็ตในระดับหนึ่ง 
 แต่วัฒนธรรมของนักพัฒนา RBBS สามารถจะใช้ชุมชนออนไลน์ผ่าน RBBS 
 ซึ่งไม่ขึ้นกับโครงสร้างพื้นฐาน TCP/IP เลยได้</para>
 
@@ -3515,10 +3515,10 @@ Corbat&oacute; and Vyssotsky, co-designers of the Multics operating
 system, <ulink
 url="http://www.multicians.org/fjcc1.html">wrote</ulink></para>
 
-<para><emphasis><anchor id="CV"/>[CV]</emphasis> ปรากฏว่า แนวคิดที่ว่า 
+<para><emphasis><anchor id="CV"/>[CV]</emphasis> แนวคิดที่ว่า 
 ความโปร่งใสและการตรวจทานโดยนักพัฒนาอื่น 
 มีประโยชน์ต่อการจัดการความซับซ้อนของการพัฒนาระบบปฏิบัติการ 
-ไม่ใช่เรื่องใหม่แต่อย่างใด ในปี 1965 ซึ่งเป็นช่วงแรกๆ 
+ปรากฏว่าไม่ใช่เรื่องใหม่แต่อย่างใด ในปี 1965 ซึ่งเป็นช่วงแรกๆ 
 ของประวัติศาสตร์ของระบบปฏิบัติการแบบแบ่งเวลาทำงาน (time-sharing) นั้น 
 Corbat&oacute; และ Vyssotsky ซึ่งเป็นผู้ร่วมออกแบบระบบปฏิบัติการมัลทิกซ์ 
 (Multics) ได้ <ulink
@@ -3597,7 +3597,7 @@ details are not overlooked actually net out positive.</para>
 มีขนาดวิกฤติสามขนาดในโครงการซอฟต์แวร์ต่างๆ กล่าวคือ ในโครงการเล็กๆ 
 (ที่มีนักพัฒนาหนึ่งถึงสามคน) 
 ก็ไม่จำเป็นต้องมีโครงสร้างการบริหารอะไรมากไปกว่าการเลือกนักพัฒนาหลัก 
-และมีช่วงระหว่างกลางที่โตกว่านั้น ซึ่งค่าโสหุ้ยในการบริหารตามปกติจะต่ำ 
+และมีช่วงของโครงการขนาดกลางที่โตกว่านั้น ซึ่งค่าโสหุ้ยในการบริหารตามปกติจะต่ำ 
 ทำให้ข้อดีของการเลี่ยงความซ้ำซ้อนของแรงงาน การติดตามบั๊ก 
 และการตรวจสอบการหลุดรอดของรายละเอียด สามารถเอาชนะค่าโสหุ้ยได้</para>
 
@@ -3615,9 +3615,9 @@ the net payoff of traditional management to zero.</para>
 จะให้ผลว่า มีช่วงของโครงการขนาดใหญ่ ที่ค่าโสหุ้ยและปัญหาของการบริหารแบบเดิม 
 จะโตเร็วกว่าค่าโสหุ้ยประมาณการของงานที่ซ้ำซ้อน โดยที่ค่าโสหุ้ยเหล่านี้ 
 ยังไม่รวมความไร้ประสิทธิภาพในการใช้ผลของลูกตาจำนวนมาก ซึ่งอย่างที่เราเห็น 
-ว่าสามารถทำงานได้ดีกว่าการบริหารแบบเดิมมาก ในการตรวจสอบบั๊กและรายละเอียดต่างๆ 
+ว่าสามารถทำงานได้ดีกว่าการบริหารแบบเดิมมากในการตรวจสอบบั๊กและรายละเอียดต่างๆ 
 ดังนั้น ในกรณีของโครงการขนาดใหญ่ ผลของกฎเหล่านี้เมื่อประกอบกัน 
-จึงทำให้ลดความสูญเสียจากการบริหารแบบเดิมลงจนเหลือศูนย์</para>
+จึงทำให้ลดข้อดีของการบริหารแบบเดิมลงจนเหลือศูนย์</para>
 
 <para><emphasis><anchor id="_HBS"/>[HBS]</emphasis> The split between Linux's
 experimental and stable versions has another function related to, but
@@ -3630,12 +3630,12 @@ School for showing me me evidence that relaxing either one of these
 constraints can make scheduling workable.</para>
 
 <para><emphasis><anchor id="HBS"/>[HBS]</emphasis> การแยกรุ่นของลินุกซ์ 
-ระหว่างรุ่นทดลองและรุ่นเสถียร 
+ระหว่างรุ่นทดสอบและรุ่นเสถียร 
 ยังทำหน้าที่อีกอย่างที่เกี่ยวข้องกับการกีดกันความเสี่ยง (แต่ไม่ใช่) 
 การแยกรุ่นจะจัดการกับปัญหาอีกข้อหนึ่ง คือการไม่มีเส้นตายของเส้นตาย 
 เมื่อโปรแกรมเมอร์ต้องอยู่กับทั้งรายการคุณสมบัติโปรแกรมที่ไม่เปลี่ยนแปลง 
 และกำหนดการที่ตายตัว คุณภาพก็จะตก และอาจเกิดความยุ่งเหยิงอย่างใหญ่หลวงได้ 
-ขณะที่จะทำให้ได้ทั้งสองอย่าง ผมเป็นหนี้ต่อ มาร์โค เอียนซิติ และ อลัน 
+ถ้าจะทำให้ได้ทั้งสองอย่าง ผมเป็นหนี้ต่อ มาร์โค เอียนซิติ และ อลัน 
 แม็คคอร์แม็ค จากโรงเรียนธุรกิจฮาร์วาร์ด ที่ได้แสดงหลักฐานให้ผมเห็นว่า 
 การผ่อนผันข้อกำหนดอย่างใดอย่างหนึ่ง จะทำให้กำหนดการสามารถบรรลุได้</para>
 
@@ -3714,10 +3714,10 @@ elements of Brooks's prescription.</para>
 ที่บรูกส์วาดภาพไว้รอบๆ หัวหน้าทีม ไม่ได้มีอยู่จริง แต่บทบาทเหล่านั้น 
 กลับถูกดำเนินการโดยผู้ทำงานทั่วไป 
 ที่มีเครื่องมือช่วยที่ค่อนข้างมีประสิทธิภาพกว่าในยุคของบรูกส์ นอกจากนี้ 
-วัฒนธรรมโอเพนซอร์สยังอาศัยธรรมเนียมยูนิกซ์ที่เข้มแข็งเกี่ยวกับความเป็นสัดส่วน 
+วัฒนธรรมโอเพนซอร์สยังอาศัยธรรมเนียมยูนิกซ์ที่เข้มแข็งเกี่ยวกับความเป็นสัดส่วน, 
 API และการซ่อนรายละเอียด ซึ่งไม่มีข้อไหนอยู่ในองค์ประกอบที่บรูกส์กำหนดเลย</para>
 
-<para><emphasis><anchor id="RJ"/>[RJ]</emphasis> The respondent who
+<para><emphasis><anchor id="_RJ"/>[RJ]</emphasis> The respondent who
 pointed out to me the effect of widely varying trace path lengths on
 the difficulty of characterizing a bug speculated that trace-path
 difficulty for multiple symptoms of the same bug varies
@@ -3730,7 +3730,20 @@ suggest that even solo developers should emulate the bazaar strategy
 by bounding the time they spend on tracing a given symptom before they
 switch to another.  Persistence may not always be a virtue...</para>
 
-<para><emphasis><anchor id="IN"/>[IN]</emphasis> An issue related to
+<para><emphasis><anchor id="RJ"/>[RJ]</emphasis> 
+ผู้แสดงความเห็นที่ได้ชี้ให้ผมเห็นเกี่ยวกับผลของความยาวที่ต่างกันมากๆ 
+ของเส้นทางการแกะรอย ที่มีต่อความยากในการบ่งชี้บั๊ก ได้สันนิษฐานว่า 
+ความยากของเส้นทางการแกะรอยอาการอันหลากหลายของบั๊กเดียวกัน 
+จะแปรปรวนในแบบเอ็กซ์โพเนนเชียล (ซึ่งผมเดาว่าหมายถึงการกระจายแบบเกาส์หรือปัวซอง 
+และเห็นด้วยว่าดูน่าจะเป็นไปได้) 
+ถ้าเป็นไปได้ที่จะทดลองเพื่อหารูปร่างของการกระจายดังกล่าว 
+ก็จะเป็นข้อมูลที่มีความหมายอย่างยิ่ง 
+การที่ความยากในการแกะรอยมีการกระจายที่หนีห่างมากๆ 
+จากแบบแบนราบซึ่งความน่าจะเป็นเท่าๆ กัน ก็จะหมายความว่า แม้นักพัฒนาที่ลุยเดี่ยว 
+ก็ควรจำลองกลยุทธ์แบบตลาดสด โดยจำกัดเวลาที่ใช้ในการแกะรอยอาการหนึ่งๆ 
+ก่อนที่จะเปลี่ยนไปดูอาการอื่น ความมุ่งมั่นอาจไม่ได้เป็นผลดีเสมอไป...</para>
+
+<para><emphasis><anchor id="_IN"/>[IN]</emphasis> An issue related to
 whether one can start projects from zero in the bazaar style is
 whether the bazaar style is capable of supporting truly innovative
 work.  Some claim that, lacking strong leadership, the bazaar can only
@@ -3745,11 +3758,31 @@ taillights'', and opined ``(once a project has achieved "parity" with
 the state-of-the-art), the level of management necessary to push
 towards new frontiers becomes massive.''</para>
 
+<para><emphasis><anchor id="IN"/>[IN]</emphasis> 
+ประเด็นที่เกี่ยวข้องกับเรื่องที่นักพัฒนาจะสามารถตั้งต้นโครงการจากศูนย์ในแบบตลาดสดได้หรือไม่ 
+ก็คือประเด็นว่า 
+รูปแบบตลาดสดสามารถสนับสนุนงานที่เป็นนวัตกรรมอย่างแท้จริงได้หรือไม่ บางคนอ้างว่า 
+หากปราศจากความเป็นผู้นำที่เข้มแข็งแล้ว 
+ตลาดสดก็สามารถทำได้เพียงจัดการการลอกเลียนและปรับปรุงแนวคิดเดิมที่มีอยู่ที่อยู่ในขั้นประดิษฐ์คิดค้นเท่านั้น 
+คำโต้แย้งที่เป็นที่รู้จักกันมากที่สุด คงเป็น <ulink 
+url="http://www.opensource.org/halloween/">เอกสารวันฮัลโลวีน</ulink> 
+ซึ่งเป็นบันทึกข้อความสองชิ้นที่น่ากระอักกระอ่วนของไมโครซอฟท์ 
+ที่เขียนเกี่ยวกับปรากฏการณ์โอเพนซอร์ส 
+ผู้เขียนเอกสารได้เปรียบเทียบการพัฒนาระบบปฏิบัติการที่คล้ายยูนิกซ์ของลินุกซ์กับการ 
+``ไล่กวดไฟท้าย'' และแสดงความเห็นว่า ``(เมื่อโครงการได้ประสบความสำเร็จ 
+"เทียบเคียง" กับแนวคิดใหม่ล่าสุดแล้ว) 
+ระดับของการบริหารที่ต้องใช้ในการผลักดันไปสู่แนวรุกใหม่จะมากมายมหาศาล''</para>
+
 <para>There are serious errors of fact implied in this argument.  One is
 exposed when the Halloween authors themseselves later observe that
 ``often [...] new research ideas are first implemented and available
 on Linux before they are available / incorporated into other
 platforms.''</para>
+
+<para>มีข้อผิดพลาดร้ายแรงหลายอย่างเกี่ยวกับข้อเท็จจริงที่ข้อโต้แย้งนี้พยายามจะบอก 
+ข้อแรกถูกเปิดเผยเมื่อผู้เขียนเอกสารฮัลโลวีนเองได้ตั้งข้อสังเกตในภายหลังว่า 
+``บ่อยครั้ง [...] ที่แนวคิดงานวิจัยใหม่ๆ ถูกทำให้เป็นจริง 
+และมีให้ใช้ในลินุกซ์ก่อนที่จะมีหรือถูกรวมเข้าในแพล็ตฟอร์มอื่น''</para>
 
 <para>If we read ``open source'' for ``Linux'', we see that this is far from
 a new phenomenon.  Historically, the open-source community did not
@@ -3763,6 +3796,20 @@ the Linux community.  Other examples are legion, as a visit to <ulink
 url="http://freshmeat.net/">Freshmeat</ulink> on any given day will
 quickly prove.</para>
 
+<para>ถ้าเราแทน ``ลินุกซ์'' ด้วย ``โอเพนซอร์ส'' 
+เราจะเห็นว่าเรื่องนี้ไม่ใช่เรื่องใหม่อะไรเลย ตามประวัติแล้ว 
+ชุมชนโอเพนซอร์สไม่ได้ประดิษฐ์ Emacs หรือ World Wide Web 
+หรือตัวอินเทอร์เน็ตเองด้วยการไล่กวดไฟท้าย 
+หรือต้องมีการบริหารอย่างมากมายมหาศาลเลย และในปัจจุบัน 
+ก็มีงานนวัตกรรมมากมายที่ยังดำเนินต่อไปในโลกโอเพนซอร์ส 
+จนถึงกับทำให้ผู้ใช้เคยตัวกับการมีทางเลือก โครงการ GNOME 
+(เพื่อเป็นตัวอย่างของอีกหลายโครงการ) ก็ยังคงผลักดัน GUI 
+ใหม่ล่าสุดและเทคโนโลยีออบเจ็กต์อย่างหนัก 
+มากพอที่จะดึงดูดความสนใจจากสื่อมวลชนสาขาคอมพิวเตอร์ที่อยู่นอกชุมชนลินุกซ์ 
+และยังมีตัวอย่างอื่นอีกเป็นกองทัพ ซึ่งการเข้าไปดู <ulink 
+url="http://freshmeat.net/">Freshmeat</ulink> สักวันหนึ่ง 
+ก็สามารถพิสูจน์ได้อย่างรวดเร็ว</para>
+
 <para>But there is a more fundamental error in the implicit assumption
 that the <emphasis>cathedral model</emphasis> (or the bazaar model, or
 any other kind of management structure) can somehow make innovation
@@ -3775,6 +3822,18 @@ surrounding social machinery can ever hope to do is to be
 <emphasis>responsive</emphasis> to breakthrough insights&mdash;to nourish
 and reward and rigorously test them instead of squashing them.</para>
 
+<para>แต่มีข้อผิดพลาดที่พื้นฐานกว่านั้นอีกเรื่องหนึ่ง คือการทึกทักกลายๆ ว่า 
+<emphasis>รูปแบบมหาวิหาร</emphasis> (หรือรูปแบบตลาดสด 
+หรือรูปแบบการบริหารชนิดอื่นใด) สามารถสร้างนวัตกรรมได้อย่างแน่นอน 
+นี่เป็นเรื่องไร้สาระ กลุ่มคนใดๆ ไม่สามารถมีแนวคิดที่พลิกโฉมได้ 
+แม้กลุ่มอาสาสมัครอนาธิปัตย์ในตลาดสด ก็มักไม่สามารถคิดค้นอะไรใหม่ได้อย่างแท้จริง 
+ไม่ต้องพูดถึงกลุ่มคณะกรรมการในบริษัท 
+ที่มีความเสี่ยงต่อการอยู่รอดโดยมีสถานะของบริษัทเป็นเดิมพันเลย แต่ 
+<emphasis>แนวคิดมาจากปัจเจกบุคคล</emphasis> ต่างหาก 
+สิ่งที่ดีที่สุดที่กลไกทางสังคมที่แวดล้อมเขาสามารถคาดหวังว่าจะทำได้ ก็คือการ 
+<emphasis>ตอบสนอง</emphasis> ต่อแนวคิดที่พลิกโฉมต่างๆ 
+โดยหล่อเลี้ยงและตอบแทนและทดสอบแนวคิดอย่างจริงจัง แทนที่จะขยี้ทิ้งเสีย</para>
+
 <para>Some will characterize this as a romantic view, a reversion to
 outmoded lone-inventor stereotypes.  Not so; I am not asserting that
 groups are incapable of <emphasis>developing</emphasis> breakthrough
@@ -3786,10 +3845,27 @@ good idea in one person's head.  Cathedrals and bazaars and other
 social structures can catch that lightning and refine it, but they
 cannot make it on demand.</para>
 
+<para>บางคนอาจจะมองว่านี่เป็นมุมมองเพ้อฝัน 
+ที่ย้อนกลับไปสู่เรื่องของบุคคลตัวอย่างที่เป็นผู้ประดิษฐ์โดยลำพังในแบบเก่า 
+ไม่ใช่อย่างนั้น ผมไม่ได้อ้างว่ากลุ่มคนจะไม่สามารถ <emphasis>พัฒนา</emphasis> 
+แนวคิดพลิกโฉมได้หลังจากที่ได้เกิดแนวคิดขึ้นแล้ว อันที่จริง 
+เราได้เรียนรู้จากกระบวนการตรวจทานโดยนักพัฒนาอื่นมาแล้ว 
+ว่ากลุ่มพัฒนาลักษณะนั้นมีความสำคัญต่อการสร้างผลลัพธ์คุณภาพสูง 
+แต่ผมกำลังชี้ให้เห็นว่า การพัฒนาในแต่ละกลุ่มดังกล่าว จะเริ่มจาก 
+(และต้องถูกจุดประกายโดย) แนวคิดที่ดีในหัวของคนคนหนึ่ง 
+มหาวิหารและตลาดสดและโครงสร้างทางสังคมแบบอื่นสามารถจับประกายนั้น 
+แล้วปรับปรุงต่อได้ แต่จะไม่สามารถสร้างขึ้นเองได้ตามต้องการ</para>
+
 <para>Therefore the root problem of innovation (in software, or anywhere
 else) is indeed how not to squash it&mdash;but, even more fundamentally,
 it is <emphasis>how to grow lots of people who can have insights in the 
 first place</emphasis>.</para>
+
+<para>ดังนั้น ต้นตอของปัญหาของนวัตกรรม (ในซอฟต์แวร์ หรือในสาขาอื่นๆ) 
+โดยเนื้อแท้ จึงอยู่ที่การทำอย่างไรไม่ให้นวัตกรรมต้องถูกทิ้งไป 
+แต่ที่อาจจะพื้นฐานกว่านั้น คือ 
+<emphasis>ทำอย่างไรจึงจะสร้างกลุ่มคนที่สามารถมีแนวคิดดีๆ 
+ได้ตั้งแต่ต้น</emphasis></para>
 
 <para>To suppose that cathedral-style development could manage this
 trick but the low entry barriers and process fluidity of the bazaar
@@ -3799,6 +3875,14 @@ cooperation of hundreds or thousands of others with that good idea is
 going inevitably to out-innovate any in which the person has to do a
 political sales job to a hierarchy before he can work on his idea
 without risk of getting fired.</para>
+
+<para>การทึกทักว่าการพัฒนาในแบบมหาวิหารจะสามารถจัดการเคล็ดลับนี้ได้ 
+แต่แนวกั้นต่อการเข้าร่วมที่ต่ำ และความคล่องตัวของกระบวนการของตลาดสดจะทำไม่ได้ 
+จึงเป็นเรื่องน่าขัน ถ้าสิ่งที่ต้องการมีแค่คนคนเดียวที่มีความคิดที่ดีแล้วล่ะก็ 
+สภาพแวดล้อมทางสังคมที่คนคนหนึ่งสามารถดึงดูดความร่วมมือของคนอื่นเป็นร้อยเป็นพันที่มีแนวคิดที่ดี 
+ก็เลี่ยงไม่ได้ที่จะสร้างนวัตกรรมแซงหน้ารูปแบบใดๆ 
+ที่บุคคลต้องพยายามเสนอขายทางการเมืองให้กับผู้บริหารในทำเนียบ 
+ก่อนที่จะสามารถทำตามแนวคิดได้ โดยไม่เสี่ยงต่อการถูกไล่ออกจากงาน</para>
 
 <para>And, indeed, if we look at the history of software innovation by
 organizations using the cathedral model, we quickly find it is rather
@@ -3810,8 +3894,23 @@ innovation native to the cathedral culture; indeed, many innovations
 so imported end up being quietly suffocated under the "massive level of
 management" the Halloween Documents' authors so extol.</para>
 
+<para>และอันที่จริงแล้ว 
+ถ้าเราดูประวัติของนวัตกรรมซอฟต์แวร์ที่เกิดจากองค์กรที่ใช้รูปแบบมหาวิหารแล้ว 
+เราจะเห็นได้อย่างรวดเร็วว่าเกิดขึ้นน้อยมาก บริษัทใหญ่ๆ จะอาศัยแนวคิดใหม่ๆ 
+จากงานวิจัยของมหาวิทยาลัย (ทำให้ผู้เขียนเอกสารวันฮัลโลวีนไม่สบายใจนัก 
+เกี่ยวกับเครื่องไม้เครื่องมือของลินุกซ์ 
+ที่เลือกหยิบใช้งานวิจัยเหล่านั้นได้รวดเร็วกว่า) หรือมิฉะนั้น 
+ก็ซื้อกิจการบริษัทเล็กๆ ที่สร้างขึ้นจากมันสมองของผู้สร้างนวัตกรรมบางคน 
+ไม่มีกรณีใดที่นวัตกรรมจะเกิดจากวัฒนธรรมมหาวิหารโดยแท้จริงเลย อันที่จริง 
+นวัตกรรมหลายชิ้นที่นำเข้ามาด้วยวิธีดังกล่าว กลับต้องขาดใจตายอย่างเงียบเชียบ 
+ภายใต้ "ระดับการบริหารที่มากมายมหาศาล" 
+ที่ผู้เขียนเอกสารวันฮัลโลวีนสรรเสริญยิ่งนัก</para>
+
 <para>That, however, is a negative point.  The reader would be better served
 by a positive one.  I suggest, as an experiment, the following:</para>
+
+<para>อย่างไรก็ดี นั่นเป็นประเด็นเชิงลบ ผู้อ่านควรได้รับประเด็นเชิงบวกบ้าง 
+ผมขอแนะนำให้ทดลองดังนี้:</para>
 
 <itemizedlist>
 <listitem><para> Pick a criterion for originality that you believe you
@@ -3819,9 +3918,17 @@ by a positive one.  I suggest, as an experiment, the following:</para>
        I see it'', that's not a problem for purposes of this
        test.</para></listitem>
 
+<listitem><para>
+       เลือกเกณฑ์สำหรับวัดจำนวนการคิดค้นที่คุณเชื่อว่าสามารถใช้ได้อย่างสม่ำเสมอ 
+       ถ้านิยามของคุณคือ ``ฉันรู้เมื่อได้เห็นก็แล้วกัน'' 
+       นั่นก็ไม่ใช่ปัญหาสำหรับการทดลองนี้</para></listitem>
+
 <listitem><para>Pick any closed-source operating system competing with Linux,
        and a best source for accounts of current development work on
        it.</para></listitem>
+
+<listitem><para>เลือกระบบปฏิบัติการซอร์สปิดตัวไหนก็ได้ที่แข่งกับลินุกซ์ 
+       พร้อมทั้งแหล่งสำหรับตรวจสอบงานพัฒนาปัจจุบัน</para></listitem>
 
 <listitem><para>Watch that source and Freshmeat for one month.  Every
        day, count the number of release announcements on Freshmeat
@@ -3829,7 +3936,14 @@ by a positive one.  I suggest, as an experiment, the following:</para>
        of `original' to announcements for that other OS and count
        them.</para></listitem>
 
+<listitem><para>เฝ้าดูแหล่งดังกล่าวและ Freshmeat ทุกวันเป็นเวลาหนึ่งเดือน 
+       นับจำนวนการประกาศออกรุ่นที่ Freshmeat ที่คุณถือว่าเป็นงาน `คิดค้น' 
+       และใช้เกณฑ์เดียวกันของงาน `คิดค้น' 
+       นี้กับการประกาศของระบบปฏิบัติการอีกตัวนั้น แล้วนับดู</para></listitem>
+
 <listitem><para>Thirty days later, total up both figures.</para></listitem>
+
+<listitem><para>สามสิบวันให้หลัง รวมคะแนนทั้งสองฝ่าย</para></listitem>
 </itemizedlist>
 
 <para>The day I wrote this, Freshmeat carried twenty-two release
@@ -3838,11 +3952,22 @@ in some respect, This was a slow day for Freshmeat, but I will be
 astonished if any reader reports as many as three likely innovations
 <emphasis>a month</emphasis> in any closed-source channel.</para>
 
-<para><emphasis><anchor id="EGCS"/>[EGCS]</emphasis> We now have
+<para>ในวันที่ผมเขียนตรงนี้ Freshmeat มีประกาศออกรุ่นยี่สิบสองรายการ 
+ซึ่งมีสามรายการที่อาจเป็นสิ่งใหม่ล่าสุดในระดับหนึ่ง 
+นี่ยังถือเป็นวันที่เชื่องช้าสำหรับ Freshmeat 
+แต่ผมจะตกใจมากถ้ามีผู้อ่านท่านใดรายงานว่า มีสิ่งที่อาจเป็นนวัตกรรมถึงสามรายการ 
+<emphasis>ต่อเดือน</emphasis> ในแหล่งซอร์สปิดแหล่งไหน</para>
+
+<para><emphasis><anchor id="_EGCS"/>[EGCS]</emphasis> We now have
 history on a project that, in several ways, may provide a more
 indicative test of the bazaar premise than fetchmail; <ulink
 url="http://egcs.cygnus.com/">EGCS</ulink>, the Experimental GNU
 Compiler System.</para>
+
+<para><emphasis><anchor id="EGCS"/>[EGCS]</emphasis> ขณะนี้ 
+เรามีประวัติศาสตร์ของโครงการที่อาจเป็นการทดสอบที่ชี้วัดศักยภาพของรูปแบบตลาดสดได้ดีกว่า 
+fetchmail ในหลายๆ ทาง คือ <ulink url="http://egcs.cygnus.com/">EGCS</ulink> 
+(Experimental GNU Compiler System)</para>
 
 <para>This project was announced in mid-August of 1997 as a conscious
 attempt to apply the ideas in the early public versions of
@@ -3857,6 +3982,17 @@ tried to apply the bazaar tactics I have previously described, while
 GCC retained a more cathedral-like organization with a closed
 developer group and infrequent releases.</para>
 
+<para>โครงการนี้ประกาศตัวเมื่อกลางเดือนสิงหาคม 1997 โดยเป็นความพยายามอย่างจงใจ 
+ที่จะใช้แนวคิดจากบทความ <citetitle>มหาวิหารกับตลาดสด</citetitle> 
+ที่เผยแพร่รุ่นแรก ผู้ก่อตั้งโครงการรู้สึกว่า การพัฒนาของ GCC หรือ GNU C 
+Compiler กำลังติดขัด เป็นเวลายี่สิบเดือนตั้งแต่นั้น ที่ GCC และ EGCS 
+กลายเป็นผลิตภัณฑ์ที่คู่ขนานกัน 
+โดยดึงแรงงานจากนักพัฒนาในอินเทอร์เน็ตกลุ่มเดียวกัน เริ่มต้นจากซอร์สของ GCC 
+เดียวกัน ใช้ชุดเครื่องมือและสภาพแวดล้อมการพัฒนาของยูนิกซ์เหมือนกัน 
+แต่ต่างกันตรงที่ EGCS พยายามใช้เทคนิคของตลาดสดที่ผมได้บรรยายไปแล้ว ในขณะที่ GCC 
+ยังคงใช้โครงสร้างการทำงานที่คล้ายมหาวิหารมากกว่า และทำโดยกลุ่มนักพัฒนาที่ปิด 
+และออกรุ่นไม่บ่อย</para>
+
 <para>This was about as close to a controlled experiment as one could ask
 for, and the results were dramatic.  Within months, the EGCS versions
 had pulled substantially ahead in features; better optimization,
@@ -3865,12 +4001,23 @@ development snapshots to be more reliable than the most recent
 stable version of GCC, and major Linux distributions began to
 switch to EGCS.</para>
 
+<para>นี่ถือว่าใกล้เคียงกับการทดลองที่ควบคุมตัวแปรมากที่สุดเท่าที่จะทำได้ 
+และผลลัพธ์ก็เห็นได้อย่างรวดเร็ว ภายในไม่กี่เดือน EGCS 
+ได้พัฒนาความสามารถไปไกลกว่าอย่างเห็นได้ชัด ทั้งออปติไมซ์ได้ดีกว่า 
+และสนับสนุนภาษาฟอร์แทรนและซีพลัสพลัสได้ดีกว่า หลายคนพบว่า EGCS 
+รุ่นระหว่างพัฒนายังเชื่อถือได้กว่ารุ่นเสถียรล่าสุดของ GCC เสียอีก 
+และดิสทริบิวชันลินุกซ์ต่างๆ ก็เริ่มจะเปลี่ยนมาใช้ EGCS แทน</para>
+
 <para>In April of 1999, the Free Software Foundation (the official
 sponsors of GCC) dissolved the original GCC development group and
 officially handed control of the project to the the EGCS steering
 team.</para>
 
-<para><emphasis><anchor id="SP"/>[SP]</emphasis> Of course,
+<para>ในเดือนเมษายน 1999 มูลนิธิซอฟต์แวร์เสรี (ผู้สนับสนุนอย่างเป็นทางการของ 
+GCC) ได้ยุบกลุ่มพัฒนา GCC เดิมเสีย แล้วโอนการควบคุมของโครงการไปให้ทีมหลักของ 
+EGCS แทน</para>
+
+<para><emphasis><anchor id="_SP"/>[SP]</emphasis> Of course,
 Kropotkin's critique and Linus's Law raise some wider issues about the
 cybernetics of social organizations.  Another folk theorem of software
 engineering suggests one of them; Conway's Law&mdash;commonly stated as
@@ -3881,6 +4028,17 @@ copies of the communication structures of these organizations.''  We
 might put it more succinctly as ``The means determine the ends'', or
 even ``Process becomes product''.</para>
 
+<para><emphasis><anchor id="SP"/>[SP]</emphasis> แน่นอน 
+คำวิจารณ์ของโครพอตกินและกฎของไลนัส ได้สร้างประเด็นกว้างๆ 
+เกี่ยวกับกลไกไซเบอร์สำหรับจัดโครงสร้างสังคม 
+ทฤษฎีชาวบ้านอีกทฤษฎีหนึ่งของวิศวกรรมซอฟต์แวร์ ก็ได้ชี้ให้เห็นอีกประเด็นหนึ่ง 
+คือกฎของคอนเวย์ ซึ่งกล่าวกันโดยทั่วไปว่า 
+``ถ้าคุณมีทีมงานสี่ทีมร่วมกันทำคอมไพเลอร์ คุณก็จะได้คอมไพเลอร์ที่ทำงานสี่ขั้น'' 
+ข้อความดั้งเดิมอยู่ในรูปทั่วไปกว่านั้น: ``องค์กรต่างๆ ที่ออกแบบระบบ 
+จะถูกบังคับให้สร้างระบบที่สะท้อนโครงสร้างการสื่อสารขององค์กรเหล่านั้น'' 
+เราอาจกล่าวอย่างย่นย่อกว่านั้นได้ว่า ``วิธีการจะกำหนดผลลัพธ์'' หรือแม้แต่ว่า 
+``กระบวนการจะกลายเป็นผลิตภัณฑ์''</para>
+
 <para>It is accordingly worth noting that in the open-source community
 organizational form and function match on many levels. The network is
 everything and everywhere: not just the Internet, but the people doing
@@ -3888,6 +4046,14 @@ the work form a distributed, loosely coupled, peer-to-peer network
 that provides multiple redundancy and degrades very gracefully.
 In both networks, each node is important only to the extent that other
 nodes want to cooperate with it.</para>
+
+<para>น่าสังเกตพอๆ กัน ว่าในชุมชนโอเพนซอร์สนั้น 
+รูปแบบโครงสร้างชุมชนก็ตรงกับหน้าที่ที่ทำในหลายระดับ 
+เครือข่ายนี้ครอบคลุมทุกอย่างและทุกที่ ไม่ใช่แค่อินเทอร์เน็ต 
+แต่ผู้คนที่ทำงานยังได้สร้างเครือข่ายแบบกระจาย ขึ้นต่อกันอย่างหลวมๆ 
+ในระดับเดียวกัน ที่มีส่วนที่ทดแทนกันได้เกิดขึ้นกลายส่วน 
+และไม่ล้มครืนลงแบบทันทีทันใด ในเครือข่ายทั้งสอง 
+แต่ละกลุ่มจะมีความสำคัญแค่ในระดับที่กลุ่มอื่นต้องการจะร่วมมือด้วยเท่านั้น</para>
 
 <para>The peer-to-peer part is essential to the community's astonishing
 productivity. The point Kropotkin was trying to make about power
@@ -3901,6 +4067,18 @@ of such power relationships, is teaching us by contrast how dreadfully
 much they cost in bugs, in lowered productivity, and in lost
 opportunities.</para>
 
+<para>ตรงส่วน ``ในระดับเดียวกัน'' นี้ สำคัญมากสำหรับผลิตภาพอันน่าทึ่งของชุมชน 
+ประเด็นที่โครพอตกินพยายามจะชี้เกี่ยวกับความสัมพันธ์เชิงอำนาจ 
+ได้ถูกพัฒนาต่อไปโดย `หลัก SNAFU' ที่ว่า ``การสื่อสารที่แท้จริง 
+จะเกิดได้ระหว่างคนที่เท่าเทียมกันเท่านั้น 
+เพราะผู้ที่ด้อยกว่าจะได้รับการตอบแทนอย่างสม่ำเสมอกว่า 
+ถ้าพูดโกหกให้ผู้ที่เหนือกว่าพอใจ เทียบกับการพูดความจริง'' 
+ทีมงานที่สร้างสรรค์จะขึ้นอยู่กับการสื่อสารอย่างแท้จริง 
+และจะถูกขัดขวางอย่างมากจากการมีความสัมพันธ์เชิงอำนาจ ชุมชนโอเพนซอร์ส 
+ซึ่งปราศจากความสัมพันธ์เชิงอำนาจดังกล่าว จึงได้สอนเราในทางตรงกันข้าม 
+ให้รู้ถึงข้อเสียของความสัมพันธ์ดังกล่าวในรูปของบั๊ก ผลิตภาพที่ถดถอย 
+และโอกาสที่สูญเสียไป</para>
+
 <para>Further, the SNAFU principle predicts in authoritarian organizations 
 a progressive disconnect between decision-makers and reality, as more
 and more of the input to those who decide tends to become pleasant
@@ -3909,6 +4087,13 @@ is easy to see; there are strong incentives for the inferiors to
 hide, ignore, and minimize problems.  When this process becomes
 product, software is a disaster.</para>
 
+<para>นอกจากนี้ หลัก SNAFU ยังได้ทำนายว่า ในองค์กรที่มีอำนาจหน้าที่นั้น 
+จะเกิดการตัดขาดระหว่างผู้มีอำนาจตัดสินใจ กับความเป็นจริง 
+เพราะข้อมูลที่ผู้มีอำนาจตัดสินใจจะได้รับ มักมีแนวโน้มจะเป็นการโกหกให้พอใจ 
+การเกิดเหตุการณ์เช่นนี้ในการพัฒนาซอฟต์แวร์แบบเดิม ก็เข้าใจได้ง่าย 
+เนื่องจากมีแรงจูงใจอย่างแรงกล้าสำหรับผู้ที่ด้อยกว่า ที่จะซ่อน เพิกเฉย 
+และลดปัญหาลง เมื่อกระบวนการนี้กลายมาเป็นผลิตภัณฑ์ 
+ซอฟต์แวร์ก็กลายเป็นหายนะ</para>
 </sect1>
 <sect1><title>Bibliography</title>
 
