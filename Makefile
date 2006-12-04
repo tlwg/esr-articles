@@ -22,5 +22,6 @@ clean:
 %/index.html: %.xml
 	rm -rf `dirname $@`
 	mkdir `dirname $@`
-	jw -f docbook -b html -o `dirname $@` $<
+	xsltproc -o `dirname $@`/ /usr/share/xml/docbook/stylesheet/nwalsh/xhtml/chunkfast.xsl $<
+	#jw -f docbook -b html -o `dirname $@` $<
 
