@@ -1,3 +1,17 @@
+2008-10-03  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Migrate to PO translation using xml2po from gnome-doc-utils.
+
+	* +cathedral-bazaar.th.po:
+	Added, generated and match Thai-English msgid's.
+
+	* cathedral-bazaar.xml:
+	Re-fetch ESR's original source. Add DocBook DTD declaration.
+
+	* Makefile:
+	Add rules for updating and generating PO, as well as generating
+	translated XML.
+
 2008-10-01  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* homesteading.xml:
