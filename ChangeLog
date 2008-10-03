@@ -1,5 +1,11 @@
 2008-10-03  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	* Makefile.am:
+	* +gen-report:
+	Parse msgfmt statistics and generate HTML stats page.
+
+2008-10-03  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	* afterword.xml:
 	* hacker-history.xml:
 	* hacker-revenge.xml:

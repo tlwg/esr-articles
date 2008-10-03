@@ -1,0 +1,40 @@
+#!/usr/bin/awk -f
+
+BEGIN {
+  print "<html>";
+  print "<head>";
+  print "  <title>CatB Translation Statistics</title>";
+  print "  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />";
+  print "</head>";
+  print "<body>";
+  print "<h2>สถิติการแปลบทความชุด The Cathedral and the Bazaar</h2>";
+  print "<table border="0">";
+}
+
+{
+  tr = $2;
+  fu = $3;
+  un = $4;
+  total = tr + fu + un;
+  un_pct = int((un * 100 + total - 1) / total);
+  fu_pct = int((fu * 100 + total - 1) / total);
+  tr_pct = 100 - un_pct - fu_pct;
+  print "<tr>";
+  printf "  <td><a href=\"%s\">%s</a></td><td align=\"right\">%s%%</td><td>(%s/%s/%s)</td>\n", $1, $1, tr_pct, tr, fu, un;
+  print "  <td>";
+  print "    <table cellpadding=\"0\" cellspacing=\"0\" border=\"0\">";
+  print "      <tr>";
+  printf "        <td bgcolor=\"#40b040\" width=\"%d\" height=\"10\"></td>\n", tr_pct;
+  printf "        <td bgcolor=\"#904090\" width=\"%d\" height=\"10\"></td>\n", fu_pct;
+  printf "        <td bgcolor=\"#d00000\" width=\"%d\" height=\"10\"></td>\n", un_pct;
+  print "      </tr>";
+  print "    </table>";
+  print "  </td>";
+  print "</tr>";
+}
+
+END {
+  print "</table>";
+  print "</body>";
+  print "</html>";
+}
