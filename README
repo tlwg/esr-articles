@@ -7,3 +7,26 @@ The series is considered the most influential one to Open Source world.
 Source:
 http://catb.org/~esr/writings/cathedral-bazaar/
 
+* Build Requirements:
+
+  - gnome-doc-utils
+  - xsltproc
+  - docbook-xml
+  - docbook-xsl
+
+* To generate a new PO or update existing PO for translation:
+
+    $ make {article}.th.po
+
+  For example, for cathedral-bazaar.xml:
+
+    $ make cathedral-bazaar.th.po
+
+* To generate translated HTML for a particular article:
+
+    $ make {article}.th/index.html
+
+* To generate all articles, translated or not:
+
+    $ make
+

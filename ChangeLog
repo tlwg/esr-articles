@@ -1,5 +1,10 @@
 2008-10-03  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	* README:
+	Document about the build requirements and some build instructions.
+
+2008-10-03  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	* homesteading.th.po:
 	Resolve fuzzy string due to the CVS id tag.
 
