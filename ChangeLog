@@ -1,5 +1,10 @@
 2008-10-03  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	* Makefile:
+	Add 'stats' target for a poorman's translation stats. Add .PHONY.
+
+2008-10-03  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	* README:
 	Document about the build requirements and some build instructions.
 

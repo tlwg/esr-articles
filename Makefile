@@ -14,10 +14,22 @@ PAGES = \
 	homesteading.th/index.html	\
 	magic-cauldron.th/index.html
 
+STATS_FILE = STATS
+
 all: $(PAGES)
 
 clean:
 	rm -rf $(ARTICLES)
+
+stats:
+	rm -f $(STATS_FILE)
+	for p in $(ARTICLES); do				\
+	  $(MAKE) $$p.po ;					\
+	  printf "$$p.po:\\t" >> $(STATS_FILE) ;		\
+	  msgfmt --statistics $$p.po 2>&1 			\
+	    | sed -e 's/ messages//g; s/ translations//g'	\
+	    >> $(STATS_FILE) ;					\
+	done
 
 %.th.po: %.xml
 	if [ -f $@ ]; then	\
@@ -35,3 +47,4 @@ clean:
 	xsltproc -o `dirname $@`/ /usr/share/xml/docbook/stylesheet/nwalsh/xhtml/chunkfast.xsl $<
 	#jw -f docbook -b html -o `dirname $@` $<
 
+.PHONY: all clean stats
