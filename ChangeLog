@@ -1,5 +1,13 @@
 2008-10-03  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	* afterword.xml:
+	* hacker-history.xml:
+	* hacker-revenge.xml:
+	* magic-cauldron.xml:
+	Remove TIS-620 encoding info in XML header.
+
+2008-10-03  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	* Makefile:
 	Add 'stats' target for a poorman's translation stats. Add .PHONY.
 
