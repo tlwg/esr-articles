@@ -1,5 +1,13 @@
 2008-10-03  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	* +homesteading.th.po:
+	Added, generated and match Thai-English msgid's.
+
+	* homesteading.xml:
+	Re-fetch ESR's original source. Add DocBook DTD declaration.
+
+2008-10-03  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	Migrate to PO translation using xml2po from gnome-doc-utils.
 
 	* +cathedral-bazaar.th.po:
