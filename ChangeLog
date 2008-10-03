@@ -1,5 +1,10 @@
 2008-10-03  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	* homesteading.th.po:
+	Resolve fuzzy string due to the CVS id tag.
+
+2008-10-03  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	* +homesteading.th.po:
 	Added, generated and match Thai-English msgid's.
 

@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: homesteading 1.22\n"
-"POT-Creation-Date: 2008-10-03 16:56+0700\n"
-"PO-Revision-Date: 2008-10-03 16:57+0700\n"
+"POT-Creation-Date: 2008-10-03 17:10+0700\n"
+"PO-Revision-Date: 2008-10-03 17:12+0700\n"
 "Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -40,8 +40,8 @@ msgid "esr@thyrsus.com"
 msgstr "esr@thyrsus.com"
 
 #: homesteading.xml:23(pubdate)
-msgid "$Date: 2008-10-03 10:04:12 $"
-msgstr "$Date: 2008-10-03 10:04:12 $"
+msgid "$Date: 2008-10-03 10:13:35 $"
+msgstr "$Date: 2008-10-03 10:13:35 $"
 
 #: homesteading.xml:24(releaseinfo)
 msgid "This is version 3.0"
