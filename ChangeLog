@@ -1,3 +1,8 @@
+2008-10-04  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* Makefile, +introduction.xml:
+	Add introduction for translation.  Add DocBook DTD declaration.
+
 2008-10-03  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* Makefile.am:

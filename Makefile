@@ -4,6 +4,7 @@ ARTICLES = \
 	hacker-history.th	\
 	hacker-revenge.th	\
 	homesteading.th		\
+	introduction.th		\
 	magic-cauldron.th
 
 PAGES = \
@@ -12,6 +13,7 @@ PAGES = \
 	hacker-history.th/index.html	\
 	hacker-revenge.th/index.html	\
 	homesteading.th/index.html	\
+	introduction.th/index.html	\
 	magic-cauldron.th/index.html
 
 STATS_FILE = STATS
