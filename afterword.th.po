@@ -1,0 +1,220 @@
+# Thai translation of afterword.xml
+# Copyright (C) 1999, Eric S. Raymond <esr@thyrsus.com>.
+# This file is distributed under the same license as afterword.xml.
+#
+# Copyright (C) 2009 Arthit Suriyawongkul <arthit@gmail.com>.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: afterword 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-10-03 17:15+0700\n"
+"PO-Revision-Date: 2009-02-17 11:37+0700\n"
+"Last-Translator: Arthit Suriyawongkul <arthit@gmail.com>\n"
+"Language-Team: Thai <thai-l10n@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit"
+
+#: afterword.xml:7(title)
+msgid "Afterword: Beyond Software?"
+msgstr "คำตาม : พ้นไปกว่าซอฟต์แวร์?"
+
+#: afterword.xml:12(firstname)
+msgid "Eric"
+msgstr "เอริก"
+
+#: afterword.xml:13(othername)
+msgid "Steven"
+msgstr "สตีเวน"
+
+#: afterword.xml:14(surname)
+msgid "Raymond"
+msgstr "เรย์มอนด์"
+
+#: afterword.xml:16(ulink)
+msgid "Thyrsus Enterprises"
+msgstr "Thyrsus Enterprises"
+
+#: afterword.xml:19(email)
+msgid "esr@thyrsus.com"
+msgstr "esr@thyrsus.com"
+
+#: afterword.xml:23(pubdate)
+msgid "$Date: 2004-06-21 05:19:15 $"
+msgstr "$Date: 2004-06-21 05:19:15 $"
+
+#: afterword.xml:24(releaseinfo)
+msgid "This is version 3.0"
+msgstr "นี่คือรุ่น 3.0"
+
+#: afterword.xml:26(year)
+msgid "2000"
+msgstr "2543"
+
+#: afterword.xml:27(holder)
+msgid "Eric S. Raymond"
+msgstr "เอริก เอส. เรย์มอนด์"
+
+#: afterword.xml:30(title)
+msgid "Copyright"
+msgstr "ลิขสิทธิ์"
+
+#: afterword.xml:31(para)
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the Open Publication License, version 2.0."
+msgstr ""
+"อนุญาตให้คัดลอก แจกจ่าย และ/หรือ แก้ไขเอกสารชิ้นนี้ ภายใต้เงื่อนไขของสัญญาอนุญาต Open "
+"Publication License รุ่น 2.0"
+
+#: afterword.xml:38(revnumber)
+msgid "1.1"
+msgstr "1.1"
+
+#: afterword.xml:39(date)
+msgid "16 August 1999"
+msgstr "16 สิงหาคม 2542"
+
+#: afterword.xml:40(authorinitials)
+msgid "esr"
+msgstr "esr"
+
+#: afterword.xml:41(revremark)
+msgid "This version was used in the first printed edition."
+msgstr "รุ่นนี้ถูกใช้ในฉบับพิมพ์ครั้งแรก"
+
+#. %%END STANDALONE%%
+#: afterword.xml:49(para)
+msgid ""
+"The essays in this book were a beginning, but they are not an end. There are "
+"many questions not yet resolved about open-source software. And there are "
+"many questions about other kinds of creative work and intellectual property "
+"that the open-source phenomenon raises, but does not really suggest a good "
+"answer for."
+msgstr ""
+"บรรดาความเรียงต่าง ๆ ในหนังสือเล่มนี้เป็นจุดเริ่มต้น แต่ไม่ใช่จุดสิ้นสุด "
+"ยังมีคำถามมากมายที่ยังไม่ได้รับคำตอบเกี่ยวกับซอฟต์แวร์โอเพนซอร์ส "
+"และยังมีคำถามอีกมากมายเกี่ยวกับงานสร้างสรรค์และทรัพย์สินทางปัญญาประเภทอื่น ๆ "
+"ที่ปรากฏการณ์โอเพนซอร์สได้จุดประเด็นขึ้น แต่ไม่ได้เสนอแนะถึงคำตอบที่ดีอย่างจริงจัง"
+
+#: afterword.xml:55(para)
+msgid ""
+"I am often asked if I believe the open-source model can be usefully applied "
+"to other kinds of goods than software. Most usually the question is asked "
+"about music, or the content of some kinds of books, or designs for computer "
+"and electronic hardware. Almost as frequently I am asked whether I think the "
+"open-source model has political implications."
+msgstr ""
+"ผมมักถูกถามว่า ผมเชื่อหรือไม่ว่าตัวแบบโอเพนซอร์สนั้นสามารถประยุกตใช้ให้เป็นประโยชน์กับผลิตภัณฑ์อื่น "
+"ๆ นอกเหนือจากซอฟต์แวร์ โดยส่วนใหญ่คำถามมักถามเกี่ยวกับดนตรี "
+"หรือเนื้อหาทำนองหนังสือหรือการออกแบบคอมพิวเตอร์หรือฮาร์ดแวร์อิเล็กทรอนิกส์ บ่อยเกือบพอ ๆ กัน "
+"ที่ผมถูกถามว่าผมคิดหรือไม่ว่าตัวแบบโอเพนซอร์สนั้นมีความหมายโดยนัยทางการเมือง"
+
+#: afterword.xml:62(para)
+msgid ""
+"I am not short of opinions about music, books, hardware, or politics. Some "
+"of those opinions do indeed touch on the ideas about peer review, "
+"decentralization, and openness explored in this book; the interested reader "
+"is welcome to visit <ulink url=\"http://www.tuxedo.org/~esr\">my home site</"
+"ulink> and make his or her own deductions. However, I have deliberately "
+"avoided such speculation in connection with my work as a theorist and "
+"ambassador of open source."
+msgstr ""
+"ผมไม่ได้ไม่มีความคิดเห็นเกี่ยวกับดนตรี หนังสือ ฮาร์ดแวร์ หรือการเมือง "
+"แม้ความคิดเห็นเหล่านั้นบางอันก็เกี่ยวข้องอย่างยิ่งกับแนวคิดเกี่ยวกับการตรวจสอบโดยผู้มีฐานะเสมอกัน "
+"การกระจายไม่รวมศูนย์ และความเปิดกว้างซึ่งถูกสำรวจในหนังสือเล่มนี้ "
+"ขอเชิญผู้อ่านที่สนใจเยี่ยมชม<ulink url=\"http://www.tuxedo.org/~esr\">หน้าเว็บของผม</"
+"ulink>และคิดต่อจากนั้นด้วยตัวเอง อย่างไรก็ตาม "
+"ผมหลีกเลี่ยงอย่างจงใจจากการคาดหมายซึ่งเชื่อมโยงจากงานของผมว่าผมเป็นนักทฤษฎีและทูตของโอเพนซอร์ส"
+
+#: afterword.xml:71(para)
+msgid ""
+"The principle is simple: <emphasis>one battle at a time</emphasis>. My tribe "
+"is waging a struggle to raise the quality and reliability expectations of "
+"software consumers and overturn the standard operating procedures of the "
+"software industry. We face entrenched opposition with a lot of money and "
+"mind-share and monopoly power. It's not an easy fight, but the logic and "
+"economics are clear; we can win and we will win. <emphasis>If</emphasis>, "
+"that is, we stay focused on that goal."
+msgstr ""
+"หลักการนั้นเรียบง่าย: <emphasis>รบทีละสนาม</emphasis>. พวกผมเข้าร่วมการต่อสู้อันยากลำบาก "
+"เพื่อจะยกระดับความคาดหวังต่อคุณภาพและความน่าเชื่อถือของผู้บริโภคซอฟต์แวร์ "
+"และเพื่อจะโค่นกระบวนการมาตรฐานที่เป็นอยู่ในอุตสาหกรรมซอฟต์แวร์ "
+"เราพบคู่ต่อสู้ที่ตั้งป้อมป้องกันอย่างแน่นหนา มีทั้งทุนมหาศาล ทั้งผู้คนที่เห็นพ้องกัน และทั้งอำนาจผูกขาด "
+"นี่ไม่ใช่การต่อสู้ที่ง่ายเลย แต่ทั้งทางตรรกะและเศรษฐศาสตร์นั้นชัดเจน เราชนะได้ และเราจะชนะ "
+"<emphasis>ถ้า</emphasis>เราไม่ละสายตาจากเป้าหมายนั้น"
+
+#: afterword.xml:80(para)
+msgid ""
+"Staying focused on the goal involves not wandering down a lot of beguiling "
+"byways. This is a point I often feel needs emphasizing when I address other "
+"hackers, because in the past our representatives have shown a strong "
+"tendency to ideologize when they would have been more effective sticking to "
+"relatively narrow, pragmatic arguments."
+msgstr ""
+"การมีสมาธิกับจุดมุ่งหมายดังกล่าวนั้น ต้องอาศัยความแน่วแน่ไม่ว่อกแว่กกับสิ่งไม่สำคัญเล็ก ๆ น้อย ๆ "
+"นี่เป็นประเด็นที่ผมมักต้องเน้นเสมอเวลาผมพูดกับแฮกเกอร์คนอื่น ๆ "
+"เพราะที่ผ่านมาตัวแทนของเราได้แสดงแนวโน้มที่จะทำอะไรแบบอุดมการณ์ "
+"ในขณะที่พวกเขาจะมีประสิทธิภาพกว่านี้มากถ้ายึดอยู่กับข้อถกเถียงที่ไปในแนวปฏิบัติมากกว่า "
+"ที่เฉพาะเจาะจงกว่า"
+
+#: afterword.xml:86(para)
+msgid ""
+"Yes, the success of open source does call into some question the utility of "
+"command-and-control systems, of secrecy, of centralization, and of certain "
+"kinds of intellectual property. It would be almost disingenuous not to admit "
+"that it suggests (or at least harmonizes well with) a broadly libertarian "
+"view of the proper relationship between individuals and institutions."
+msgstr ""
+"ใช่ ความสำเร็จของโอเพนซอร์สที่กล่าวมานั้น "
+"นำไปสู่คำถามต่อประโยชน์ใช้สอยของระบบสั่งการและควบคุม ของการเก็บเป็นความลับ ของการรวมศูนย์ "
+"และของทรัพย์สินทางปัญญาบางชนิด จะว่าเสแสร้งก็คงได้ หากจะไม่ยอมรับว่ามันแนะให้เห็นถึง "
+"(หรืออย่างน้อยก็ไปกันได้ดีกับ) มุมมองเสรีนิยมอย่างกว้าง ๆ "
+"ของความสัมพันธ์ระหว่างเหล่าปัจเจกและเหล่าสถาบัน"
+
+#: afterword.xml:93(para)
+msgid ""
+"These things having been said, however, it seems to me for the present more "
+"appropriate to try to avoid over-applying these ideas. A case in point; "
+"music and most books are not like software, because they don't generally "
+"need to be debugged or maintained. Without that requirement, the utility of "
+"peer review is much lower, and the rational incentives for some equivalent "
+"of open-sourcing therefore nearly vanish. I do not want to weaken the "
+"winning argument for open-sourcing software by tying it to a potential loser."
+msgstr ""
+"สิ่งเหล่านี้ได้ถูกพูดมาแล้ว อย่างไรก็ตาม สำหรับปัจจุบันนี้แล้ว "
+"ผมเห็นว่ามันเหมาะสมกว่าที่จะพยายามเลี่ยงการนำเอาความคิดเหล่านี้ไปใช้อย่างเกินพอดี  "
+"ตัวอย่างในกรณีนี้คือหนังสือส่วนใหญ่และดนตรีนั้นไม่เหมือนกับซอฟต์แวร์ "
+"เพราะโดยทั่วไปแล้วมันไม่จำเป็นต้องถูกดีบักหรือดูแลรักษา  ในเมื่อไม่ม่ีความต้องการดังกล่าว "
+"ประโยชน์ของการเพียร์รีวิวก็น้อยลงไปมากและแรงกระตุ้นที่สมเหตุผลสำหรับการโอเพนซอร์สก็แทบจะหมดไป  "
+"ผมไม่ต้องการจะทำให้ข้อโต้แย้งที่มีแววชนะจะต้องอ่อนลงโดยการนำเอามันไปใช้ในที่ที่มีทางจะแพ้"
+
+#: afterword.xml:102(para)
+msgid ""
+"I expect the open-source movement to have essentially won its point about "
+"software within three to five years (that is, by 2003&ndash;2005). Once that "
+"is accomplished, and the results have been manifest for a while, they will "
+"become part of the background culture of non-programmers. At <emphasis>that</"
+"emphasis> point it will become more appropriate to try to leverage open-"
+"source insights in wider domains."
+msgstr ""
+"ผมคาดหวังให้ขบวนการโอเพนซอร์สชนะเป้าประสงค์ของพวกเขาเกี่ยวกับซอฟต์แวร์ภายในสามถึงห้าปี "
+"(นั่นคือ ภายในปี 2003&ndash;2005) เมื่อเป้าดังกล่าวสำเร็จ "
+"และผลลัพธ์ของมันได้แสดงให้เห็นอย่างชัดเจนเป็นระยะเวลาหนึ่ง "
+"พวกเขาจะกลายเป็นส่วนหนึ่งของวัฒนธรรมเบื้องหลังของกลุ่มที่ไม่ใช่โปรแกรมเมอร์ ณ "
+"<emphasis>จุดนั้น</emphasis>นั่นเอง "
+"ที่มันจะเหมาะสมกว่าที่จะทดลองประสบการณ์จากโอเพนซอร์สกับงานด้านอื่น ๆ"
+
+#: afterword.xml:110(para)
+msgid ""
+"In the meantime, even if we hackers are not making an ideological noise "
+"about it, we will still be changing the world."
+msgstr ""
+"ในเวลาระหว่างนั้น แม้พวกเราแฮกเกอร์จะไม่ได้พร่ำบ่นอุดมการณ์เกี่ยวกับมันเลย "
+"พวกเราก็ยังจะเปลี่ยนแปลงโลกอยู่ดี"
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+#: afterword.xml:0(None)
+msgid "translator-credits"
+msgstr ""
